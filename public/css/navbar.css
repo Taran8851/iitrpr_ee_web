@@ -1,0 +1,195 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.sticky1 {
+    position: sticky !important;
+    top: 0% !important;
+}
+
+
+/* #navbarCustom {
+    transition: 0.4s ease-in-out all !important;
+    position: fixed;
+} */
+
+.textColor {
+    color: var(--dark);
+}
+
+.navbarBgDark {
+    background: var(--dark);
+    padding: 20px 0;
+}
+
+.navbar-nav .nav-item .active {
+    color: var(--shade2) !important;
+}
+
+.nav-link:hover {
+    color: var(--shade2);
+}
+
+.nav-link {
+    color: var(--light);
+    padding-inline: 12px !important;
+}
+
+.nav-link:visited,
+.nav-link:focus {
+    color: var(--light) !important;
+}
+
+.getBtn {
+    color: var(--light) !important;
+}
+
+.sideLine {
+    border-right: 1px solid var(--dark);
+}
+
+.iconHeight {
+    height: 24px;
+    width: 24px;
+}
+
+@media screen and (max-width: 992px) {
+    .sideLine {
+        border-right: none;
+    }
+    .iconHeight {
+        height: 46px;
+        width: 46px;
+    }
+    .navbarBgDark {
+        padding: 0px 0;
+    }
+    .mobile_center {
+        -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+        align-items: start !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+.bg-nav {
+    background: var(--light) !important;
+}
+
+.lang {
+    background-color: var(--dark);
+    outline: none !important;
+    border: none !important;
+    /* border-radius: 5px; */
+    color: var(--light) !important;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.hover-btn {
+    border: none;
+    -webkit-transition: 0.1s linear all;
+    -o-transition: 0.1s linear all;
+    transition: 0.1s linear all;
+    color: var(--light) !important;
+}
+
+.hover-btn:hover {
+    background-color: var(--light) !important;
+    color: var(--dark)!important;
+}
+
+.logo_img {
+    height: 5rem !important;
+}
+
+@media screen and (max-width:799px) {
+    .logo_img {
+        height: auto;
+        width: 100% !important;
+        margin-top: 2%;
+    }
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 200, 'opsz' 48;
+    margin-right: 10px;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.noti {
+    opacity: 0.5;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    margin: 0;
+    padding: 0;
+    color: var(--light) !important;
+}
+
+.getBtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: var(--dark) !important;
+}
+
+.getBtn:hover {
+    color: var(--shade2) !important;
+    background-color: var(--light) !important;
+}
+
+
+/* For scrolling */
+
+.navbar_links {
+    position: fixed;
+    top: 0%;
+    z-index: 998 !important;
+    left: 0%;
+    width: 100% !important;
+    /* border-radius: 10px; */
+    -webkit-transition: 0.1s ease-in-out all !important;
+    -o-transition: 0.1s ease-in-out all !important;
+    transition: 0.1s ease-in-out all !important;
+    -webkit-animation: navbar_links_animation 0.5s linear 1 both !important;
+    animation: navbar_links_animation 0.5s linear 1 both !important;
+    backdrop-filter: blur(8px) saturate(0%);
+    -webkit-backdrop-filter: blur(8px) saturate(0%);
+    background-color: rgb(0, 0, 0);
+    /* border: 1px solid rgba(255, 255, 255, 0.125); */
+}
+
+@-webkit-keyframes navbar_links_animation {
+    from {
+        -webkit-transform: translateY(-105%);
+        transform: translateY(-105%);
+    }
+    to {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+}
+
+@keyframes navbar_links_animation {
+    from {
+        -webkit-transform: translateY(-105%);
+        transform: translateY(-105%);
+    }
+    to {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+}

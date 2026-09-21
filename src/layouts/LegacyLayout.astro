@@ -1,0 +1,31 @@
+---
+/**
+ * Renders a not-yet-rebuilt page from the legacy clone, byte-for-byte.
+ * Bootstrap + legacy CSS/JS come from each page's own head.html; Tailwind is
+ * intentionally NOT loaded here so its preflight can't restyle legacy markup.
+ */
+import header from "../legacy/partials/header.html?raw";
+import footer from "../legacy/partials/footer.html?raw";
+
+interface Props {
+  head: string;
+  body: string;
+  tail: string;
+}
+
+const { head, body, tail } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <Fragment set:html={head} />
+  </head>
+  <body>
+    <Fragment set:html={header} />
+    <Fragment set:html={body} />
+    <Fragment set:html={footer} />
+    <Fragment set:html={tail} />
+  </body>
+</html>

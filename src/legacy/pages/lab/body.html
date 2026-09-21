@@ -1,0 +1,271 @@
+<!-- Started  -->
+    <div class="w-100 d-flex justify-content-center px-3 align-items-center flex-column py-5">
+        <h1 class="text-center main_head mb-5">
+            Research <span> Laboratories</span>
+        </h1>
+        <div class="bg-dark p-3 rounded-4 position-sticky top-0">
+            <ul class="nav nav-pills nav-fill" id="tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" id="first-tab" data-bs-toggle="pill" href="#first" role="tab" aria-controls="first" aria-selected="true">Power Engineering</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="second-tab" data-bs-toggle="pill" href="#second" role="tab" aria-controls="second" aria-selected="false">Signal Processing &
+                        Communication</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="third-tab" data-bs-toggle="pill" href="#third" role="tab" aria-controls="third" aria-selected="false">Microelectronics and
+                        VLSI Design</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="tab-content mb-5" id="myTabContent">
+        <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
+            <div class="container">
+                <h4 class="fw-bold mb-0">
+                    <h2 class="fw-bold h3 fade-in-custom" id="labName">Power Engineering</h2>
+                </h4>
+                <div class="my-3 fade-in-custom">
+                    <input type="text" name="search" id="search_student" class="w-100 rounded-2 form-control p-3" style="box-shadow: none" placeholder="Search for Lab" />
+                    <div id="notFoundMessage" class="alert alert-danger mt-4 fade-in-custom" role="alert" style="display: none">
+                        Not items matched with
+                        <span id="searchValue" class="text-red fw-bold mx-2"></span>
+                    </div>
+                </div>
+                <div class="container overflow-auto p-0 fade-in-custom">
+                    <table class="table table-bordered table-hover table-responsive table-striped mb-4" id="student_table1">
+                        <thead>
+                            <tr class="table-dark">
+                                <td>Sr. No.</td>
+                                <td>Lab Name</td>
+                                <td>Location</td>
+                                <td>Lab Incharge</td>
+                            </tr>
+                        </thead>
+                        <tbody id="labsBody">
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">1</td>
+                                        <td class="labs-cell">RENEWABLE POWER MODULATION (RPM) LAB </td>
+                                        <td class="labs-cell">Room No. 211(Research Lab)</td>
+                                        <td class="labs-cell"> Dr. K. Ramachandra Sekhar</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">2</td>
+                                        <td class="labs-cell">ELECTRIC DRIVES</td>
+                                        <td class="labs-cell">Room No. 109(Research)</td>
+                                        <td class="labs-cell"> Dr. A. V. Ravi Teja</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">3</td>
+                                        <td class="labs-cell">SYNCHROPHASOR MEASUREMENT & RESEARCH</td>
+                                        <td class="labs-cell">Room No. 209(Research)</td>
+                                        <td class="labs-cell"> Dr. Ranjana Sodhi</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">4</td>
+                                        <td class="labs-cell">MACHINE DESIGN & ELECTRICS DRIVES</td>
+                                        <td class="labs-cell">Room No. 308(Research)</td>
+                                        <td class="labs-cell">Dr. Saifullah Payami</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">5</td>
+                                        <td class="labs-cell">SMART GRID</td>
+                                        <td class="labs-cell">Room No. 406(Research)</td>
+                                        <td class="labs-cell">Dr. J. Kalaiselvi</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">6</td>
+                                        <td class="labs-cell">DIELECTRIC MEASUREMENT</td>
+                                        <td class="labs-cell">Room No. 409(Research)</td>
+                                        <td class="labs-cell">Prof. C. C. Reddy</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">7</td>
+                                        <td class="labs-cell">HIGH VOLTAGE</td>
+                                        <td class="labs-cell">Room No.101(PG)</td>
+                                        <td class="labs-cell">Prof. C. C. Reddy</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">8</td>
+                                        <td class="labs-cell">ELECTROMECHANICS</td>
+                                        <td class="labs-cell">Room No.102(UG)</td>
+                                        <td class="labs-cell">Dr. Saifullah Payami,Dr.A.V.Ravi Teja</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">9</td>
+                                        <td class="labs-cell">POWER ELECTRONICS</td>
+                                        <td class="labs-cell">Room no.104(UG/PG)</td>
+                                        <td class="labs-cell">Dr. K. Ramachandra Sekhar</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">10</td>
+                                        <td class="labs-cell">CONTROL ENGG</td>
+                                        <td class="labs-cell">Room No.202(UG)</td>
+                                        <td class="labs-cell">Prof. S. Roy</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">11</td>
+                                        <td class="labs-cell">POWER SYSTEM</td>
+                                        <td class="labs-cell">Room No.203(UG)</td>
+                                        <td class="labs-cell">Dr. Ranjana Sodhi,Dr.Bibhu Prasad Padhy</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">12</td>
+                                        <td class="labs-cell">Basic Electrical Engineering</td>
+                                        <td class="labs-cell">Room no.412&413(UG)</td>
+                                        <td class="labs-cell">Dr. Saifullah Payami</td>
+                                    </tr>
+                                                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+            <div class="container">
+                <h4 class="fw-bold mb-4">
+                    <h2 class="fw-bold h3 fade-in-custom" id="labName">Signal Processing & Communication</h2>
+                </h4>
+                <div class="my-3 fade-in-custom">
+                    <input type="text" name="search" id="search_student1" class="w-100 rounded-2 form-control p-3" style="box-shadow: none" placeholder="Search for Lab" />
+                    <div id="notFoundMessage1" class="alert alert-danger mt-4 fade-in-custom" role="alert" style="display: none">
+                        Not items matched with
+                        <span id="searchValue" class="text-red fw-bold mx-2"></span>
+                    </div>
+                </div>
+                <div class="container overflow-auto p-0 fade-in-custom">
+                    <table class="table table-bordered table-hover table-responsive table-striped mb-4" id="student_table2">
+                        <thead>
+                            <tr class="table-dark">
+                                <td>Sr. No.</td>
+                                <td>Lab Name</td>
+                                <td>Location</td>
+                                <td>Lab Incharge</td>
+                            </tr>
+                        </thead>
+                        <tbody id="labsBody">
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">1</td>
+                                        <td class="labs-cell">EMBEDDED SYSTEM LABORATORY</td>
+                                        <td class="labs-cell">Room No. 207(Research/PG/UG</td>
+                                        <td class="labs-cell"> Prof. J.S. Sahambi</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">2</td>
+                                        <td class="labs-cell">ANTENNA & MICROWAVE</td>
+                                        <td class="labs-cell">Room No. 304(Research)</td>
+                                        <td class="labs-cell">Dr. Ashwani Sharma</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">3</td>
+                                        <td class="labs-cell">ADVANCE RESEARCH IN COMMUNICATION</td>
+                                        <td class="labs-cell">Room No. 323(Research/PG)</td>
+                                        <td class="labs-cell"> Dr. Suman Kumar, Dr. Satyam Agarwal</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">4</td>
+                                        <td class="labs-cell">COMPUTER VISION & PATTERN RECOGNITION</td>
+                                        <td class="labs-cell">Room No. 405(Research)</td>
+                                        <td class="labs-cell">Dr. Subrahmanyam Murala</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">5</td>
+                                        <td class="labs-cell">COMMUNICATION RESEARCH LAB</td>
+                                        <td class="labs-cell">Room No. 411(Research/PG)</td>
+                                        <td class="labs-cell"> Dr. Sam Darshi, Dr. Brijesh Kumbhani</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">6</td>
+                                        <td class="labs-cell">COMMUNICATION ENGG</td>
+                                        <td class="labs-cell">Room No.301(UG)</td>
+                                        <td class="labs-cell">Dr. Suman Kumar</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">7</td>
+                                        <td class="labs-cell">ELECTROMEGNATICS</td>
+                                        <td class="labs-cell">Room 303(UG)</td>
+                                        <td class="labs-cell">Dr. Ashwani Sharma</td>
+                                    </tr>
+                                                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
+            <div class="container">
+                <h4 class="fw-bold mb-4">
+                    <h2 class="fw-bold h3 fade-in-custom" id="labName">Microelectronics and VLSI Design</h2>
+                </h4>
+                <div class="my-3 fade-in-custom">
+                    <input type="text" name="search" id="search_student2" class="w-100 rounded-2 form-control p-3" style="box-shadow: none" placeholder="Search for Lab" />
+                    <div id="notFoundMessage2" class="alert alert-danger mt-4 fade-in-custom" role="alert" style="display: none">
+                        Not items matched with
+                        <span id="searchValue" class="text-red fw-bold mx-2"></span>
+                    </div>
+                </div>
+                <div class="container overflow-auto p-0 fade-in-custom">
+                    <table class="table table-bordered table-hover table-responsive table-striped mb-4" id="student_table3">
+                        <thead>
+                            <tr class="table-dark">
+                                <td>Sr. No.</td>
+                                <td>Lab Name</td>
+                                <td>Location</td>
+                                <td>Lab Incharge</td>
+                            </tr>
+                        </thead>
+                        <tbody id="labsBody">
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">1</td>
+                                        <td class="labs-cell">VLSI Design lab</td>
+                                        <td class="labs-cell">Room No. 302(Research)</td>
+                                        <td class="labs-cell">Dr. Devarshi Mrinal Das, Dr. Mahendra Sakare</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">2</td>
+                                        <td class="labs-cell">Nanoelectronic Devices & Sensor Lab</td>
+                                        <td class="labs-cell">Room No. 401(Research/PG)</td>
+                                        <td class="labs-cell"> Dr. Brajesh Rawat</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">3</td>
+                                        <td class="labs-cell">NANOELECTRONICS RESEARCH</td>
+                                        <td class="labs-cell">Room No. 402(Research)</td>
+                                        <td class="labs-cell">Prof. Rohit Sharma</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">4</td>
+                                        <td class="labs-cell">Computational Nanoelectronics Lab</td>
+                                        <td class="labs-cell">Room No. 312(Research/PG)</td>
+                                        <td class="labs-cell">Dr. Abhishek Sharma</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">5</td>
+                                        <td class="labs-cell">Nanoelectronic Devices Lab</td>
+                                        <td class="labs-cell">Room No. 403(Research)</td>
+                                        <td class="labs-cell">Dr. Pardeep Duhan</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">6</td>
+                                        <td class="labs-cell">ANALOG & DIGITAL ELECTRONICS</td>
+                                        <td class="labs-cell">Room No.201</td>
+                                        <td class="labs-cell"> Dr.Devarshi Mrinal Das, Dr. Pradeep Duhan</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">7</td>
+                                        <td class="labs-cell">Basic Electronics </td>
+                                        <td class="labs-cell">Room No.313(UG)</td>
+                                        <td class="labs-cell">Dr. Mahendra Sakare</td>
+                                    </tr>
+                                                                <tr>
+                                        <td class="labs-cell text_align_center">8</td>
+                                        <td class="labs-cell">Devices and Circuits Simulation Lab</td>
+                                        <td class="labs-cell">Room No.311(PG)</td>
+                                        <td class="labs-cell">Dr. Devarshi Mrinal Das, Dr.Brajesh Rawat</td>
+                                    </tr>
+                                                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Ended -->

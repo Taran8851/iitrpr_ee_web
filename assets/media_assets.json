@@ -1,0 +1,20 @@
+{
+  "assets": {
+    "e5ec51e0": {
+      "id": "e5ec51e0",
+      "type": "image",
+      "src": "docs/homepage_mockup.png",
+      "duration_s": null,
+      "resolution": null,
+      "provider": "nano-banana-pro",
+      "generation": {
+        "prompt": "A clean, high-fidelity website homepage mockup for a university Electrical Engineering department, displayed in a browser window frame. Minimal institutional design, sharp 4px border-radius throughout (not rounded pills). Color palette: off-white paper background (#f7f9fb), deep ink-navy text (#0b1220), copper/burnt-orange accent color (#b5622a) for buttons and links, thin light-gray hairline borders (#dde3e8), small teal tag accents (#1c6e6e). Inter sans-serif typography, left-aligned headings, bold display headline.\n\nLayout top to bottom:\n1. Sticky white top navigation bar with a small geometric logo mark on the left, center nav links 'Home About People Research Seminars Companies Contact', thin bottom hairline border.\n2. Hero section: left side has small uppercase copper eyebrow label 'DEPARTMENT OF ELECTRICAL ENGINEERING', large bold navy headline 'Engineering the Future of Power, Circuits & Intelligence', a gray subheading sentence below, a filled copper rectangular button 'Explore Research' and an outlined ghost button 'Meet the Faculty' side by side. Right side of hero has an abstract low-poly 3D wireframe illustration of a rotating microchip/circuit board mesh in copper and teal line strokes, floating on the paper background with a soft shadow beneath it suggesting gentle 3D depth.\n3. Below hero: a 'Latest News' section with a copper eyebrow label, bold heading, and three flat white rectangular cards in a row, each with a small date tag, bold title, two lines of gray description text, and a small teal category tag pill, all cards separated by thin hairline borders with no drop shadow.\n4. A two-column 'From the Head of Department' section: left a circular portrait placeholder, right a short welcome paragraph and a copper text link 'Read Full Message with an arrow'.\n5. A 'Research Areas' section showing three side-by-side flat panels labeled 'Power Engineering', 'VLSI & Microelectronics', 'Signal Processing & Communication', each with a simple abstract line icon.\n6. Footer: full-width dark ink-navy band with white text, three columns of links, and small social icons row.\n\nOverall mood: professional, academic, minimal, engineering-blueprint feel, generous whitespace, sharp corners, no gradients except the subtle 3D hero illustration.",
+        "model": "nano-banana-pro",
+        "n": 1,
+        "google_search_grounding": false
+      },
+      "created_at": "2026-09-21T19:24:01Z",
+      "tags": null
+    }
+  }
+}

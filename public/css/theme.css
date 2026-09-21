@@ -1,0 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root {
+    --shade1: #F29727;
+    --shade3: #F24C3D;
+    --shade2: #ffab23;
+    --shade4: #F94C10;
+    --dark: #141414;
+    --light: #ffffff;
+}

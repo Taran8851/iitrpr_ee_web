@@ -1,0 +1,46 @@
+/*
+ * Global stylesheet for rebuilt (non-legacy) pages only.
+ * LegacyLayout does NOT import this, so Tailwind preflight never touches legacy markup.
+ */
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: false;
+}
+
+/* Working palette: "Voltage" (see AGENTS.md → Palette). Swap colors here only. */
+@plugin "daisyui/theme" {
+  name: "voltage";
+  default: true;
+  color-scheme: light;
+  --color-base-100: #f8fafc;
+  --color-base-200: #f1f5f9;
+  --color-base-300: #e2e8f0;
+  --color-base-content: #0b1629;
+  --color-primary: #f59e0b;
+  --color-primary-content: #0b1629;
+  --color-secondary: #06b6d4;
+  --color-secondary-content: #0b1629;
+  --color-accent: #0b1629;
+  --color-accent-content: #f8fafc;
+  --color-neutral: #0b1629;
+  --color-neutral-content: #f8fafc;
+}
+
+@plugin "daisyui/theme" {
+  name: "voltage-dark";
+  prefersdark: true;
+  color-scheme: dark;
+  --color-base-100: #020617;
+  --color-base-200: #0b1629;
+  --color-base-300: #1e293b;
+  --color-base-content: #e2e8f0;
+  --color-primary: #fbbf24;
+  --color-primary-content: #020617;
+  --color-secondary: #22d3ee;
+  --color-secondary-content: #020617;
+  --color-accent: #f8fafc;
+  --color-accent-content: #020617;
+  --color-neutral: #1e293b;
+  --color-neutral-content: #e2e8f0;
+}

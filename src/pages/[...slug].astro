@@ -1,0 +1,31 @@
+---
+/**
+ * Fallback route for every page that hasn't been rebuilt yet.
+ * A real page (e.g. src/pages/about.astro) automatically takes priority
+ * over this rest route — once it exists, delete src/legacy/pages/about/.
+ */
+import LegacyLayout from "../layouts/LegacyLayout.astro";
+
+export function getStaticPaths() {
+  const files = import.meta.glob("../legacy/pages/**/*.html", {
+    query: "?raw",
+    import: "default",
+    eager: true,
+  }) as Record<string, string>;
+
+  const pages: Record<string, Record<string, string>> = {};
+  for (const [path, html] of Object.entries(files)) {
+    const [, slug, part] = path.match(/legacy\/pages\/(.+)\/(head|body|tail)\.html$/)!;
+    (pages[slug] ??= {})[part] = html;
+  }
+
+  return Object.entries(pages).map(([slug, { head, body, tail }]) => ({
+    params: { slug: slug === "index" ? undefined : slug },
+    props: { head, body, tail },
+  }));
+}
+
+const { head, body, tail } = Astro.props;
+---
+
+<LegacyLayout head={head} body={body} tail={tail} />

@@ -1,0 +1,140 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.media.media-news {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    padding-bottom: 210px;
+}
+
+@media (min-width: 768px) {
+    .media.media-news {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .media.media-news {
+        padding-bottom: 25px;
+        margin-bottom: 0;
+    }
+}
+
+.media.media-news .media-body {
+    padding: 20px;
+    -webkit-box-shadow: 0 22px 28px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 22px 28px 0 rgba(0, 0, 0, 0.06);
+    background: var(--light);
+    position: absolute;
+    width: 85%;
+    right: 0;
+    bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .media.media-news .media-body {
+        position: relative;
+        padding: 46.5px 35px;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .media.media-news {
+        height: auto;
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .media {
+        padding: 50px;
+    }
+    .media.media-news .media-body {
+        right: 40px;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .media.media-news .media-body {
+        position: absolute;
+        right: 35px;
+        width: 60%;
+        padding: 20px;
+    }
+}
+
+.media.media-news .media-body .media-date {
+    font-family: "Open Sans", sans-serif;
+    color: var(--shade1);
+    margin-bottom: 10px;
+}
+
+.media.media-news .media-body h5 {
+    font-size: 22px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.media.media-news .media-body p {
+    color: var(--dark);
+}
+
+.media.media-news .media-body .common-btn {
+    margin-top: 10px;
+}
+
+.media-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+/* Swiper */
+
+.swiper1 {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide1 {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.media-img {
+    overflow: hidden !important;
+}
+
+.media-img img {
+    height: 400px !important;
+    width: 100% !important;
+    -o-object-fit: cover;
+    object-fit: cover;
+}

@@ -1,0 +1,599 @@
+<!-- Profile Faculty Started  -->
+    <div class="container mt-3">
+        <div class="row my-4">
+            <a class="btn btn-danger btn-sm mx-0" style="width: fit-content;" href="/faculty">
+                <i class="fa-solid fa-arrow-left"></i> Go Back</a>
+        </div>
+        <!-- Latest News -->
+        <div class="row">
+            <div class="col-md-12 h-auto d-flex justify-content-between align-items-center  flex-row p-0 gap-0" id="__notification_panel">
+                <div class="col-sm-1 fw-bold text-center  m-0 h-100 d-flex justify-content-center align-items-center">
+                    <h5 class="fw-bold"><i class="fa-solid fa-bullhorn"></i> </h5>
+                </div>
+                <div class="col-sm-11 overflow-auto d-flex flex-nowrap flex-row align-items-center justify-content-center">
+                    <marquee behavior="smooth" scrollamount="14" onmouseover="stopMarquee()" onmouseout="startMarquee()">
+                        <ul class="d-flex d-row gap-3">
+                                                    </ul>
+                    </marquee>
+                </div>
+                <!-- <div class="col-sm-1 fw-bold text-center  m-0 h-100 d-flex justify-content-center align-items-center"
+                    style="background-color: var(--dark);color:white">
+                    <a href="./news.php" target="_blank" class="text-white">More</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="pt-2 mb-3 container">
+
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <div class="row shadow rounded p-3" style="border-left: 5px solid var(--shade2)">
+                    <div class="col-md-2 col-lg-2">
+                                                        <div class="d-flex justify-content-center mt-2">
+                                    <img src="/images/legacy/523697136b5c.jpg" alt="Profile Image" class="rounded img-fluid" style="width: auto; border-radius: 12px" />                                </div>
+
+                    </div>
+                    <div class="col-md-8 col-lg-8 profileDetails mt-3">
+                        <h4 class="fw-bold"> Rohit Sharma</h4>
+                        <div class="table-responsive text-secondary">
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-user fa-fw"></i>
+                                Professor </span><br />
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-address-card fa-fw"></i>
+                                Room 321, Department of Electrical Engineering, IIT Ropar, Rupnagar, 140001, Punjab, India</span><br />
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-envelope fa-fw"></i>rohit@iitrpr.ac.in</span><br />
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-square-phone fa-fw"></i>+911881232219</span><br />
+                        </div>
+                        <div class="dropdown mb-0 mt-2">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle mb-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-share-from-square"></i>
+                                Share Profile
+                            </button>
+                            <ul class="dropdown-menu mb-0" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#" onclick="shareOnWhatsApp()">Share on <i class="fa-brands fa-whatsapp"></i></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="shareCurrentUrl()">Share Anywhare</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <script>
+                            function shareCurrentUrl() {
+                                if (navigator.share) {
+                                    navigator.share({
+                                            title: document.title,
+                                            url: window.location.href
+                                        })
+                                        .then(() => console.log('URL shared successfully'))
+                                        .catch((error) => console.error('Error sharing URL', error));
+                                } else {
+                                    alert('Web Share API not supported in this browser');
+                                }
+                            }
+
+                            function shareOnWhatsApp() {
+                                var encodedText = encodeURIComponent(window.location.href);
+                                var whatsappUrl = 'whatsapp://send?text=' + encodedText;
+                                window.location.href = whatsappUrl;
+                            }
+                        </script>
+                    </div>
+                    <div class="col-md-2 profileView">
+
+                        <span class="text-muted"><a href="https://scholar.google.com/citations?user=6QT6IE4AAAAJ&hl=en" target="_blank"><i class="fa-brands fa-google mnit-primary"></i> Google
+                                Scholar Profile
+                            </a></span><br />
+                        <span class="text-muted">
+                            <div class="dropdown mb-0 mt-2 mx-0">
+                                <button class="btn btn-link dropdown-toggle mb-0 mx-0 underline-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none; transform: translateX(-13px);">
+                                    <i class="fa-solid fa-globe"></i>
+                                    Personal Website
+                                </button>
+                                <ul class="dropdown-menu mb-0" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item text-primary" href="https://sites.google.com/site/rysharma/home" target="_blank">https://sites.google.com/site/rysharma/home  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a></li>                                </ul>
+                            </div>
+
+                        </span><br />
+                        <span class="text-muted">
+                            <div class="dropdown mb-0 mt-0 mx-0">
+                                <button class="btn btn-link dropdown-toggle mb-0 mx-0 underline-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none; transform: translateX(-13px);">
+                                    <i class="fa-solid fa-globe"></i>
+                                    Other Links
+                                </button>
+                                <ul class="dropdown-menu mb-0" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item text-primary" href="https://www.linkedin.com/in/rohit-sharma-9509b5197/" target="_blank">https://www.linkedin.com/in/rohit-sharma-9509b5197/  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a></li>                                </ul>
+                            </div>
+
+                        </span><br />
+                    </div>
+                        
+                    <div class="row py-2 mt-4 d-flex justify-content-start">
+                        <h4 class="fw-bold  w-auto">
+                            Introduction
+                        </h4>
+                        <p>Prof. Rohit Sharma joined the Electrical Engineering department in 2012, where he is currently a Professor.  
+
+
+Before joining IIT Ropar, Prof. Sharma was a post-doctoral fellow at the Interconnect Focus Center, Georgia Tech., Atlanta. He was working under the supervision of Prof. Paul A. Kohl. Prior to this, he worked as a post-doctoral fellow at the Design Automation Lab, Seoul National University, Seoul. He worked under supervision of Prof. Kiyoung Choi. 
+
+
+He received the Ph. D. degree from Jaypee University of Information Technology in 2009 in Electronics and Communication Engineering. His Ph. D. supervisor was Prof. A. B. Bhattacharyya - from whom he learned the rudiments of high-speed interconnect design. His current research interests include design of high-speed chip-chip and on-chip interconnects, Graphene based nanoelectronic devices and interconnects, Signal and Thermal integrity in high-speed interconnects and application of Machine Learning in advance packaging and systems. 
+
+
+He has been a Visiting Professor at the Small Scale Systems Integration and Packaging Center, Binghamton University (May - Jul 2027), and the Packaging Research Center, Georgia Institute of Technology (Sep 2023 - Feb 2023). He was a Research Professor in the Department of Electrical Engineering at The Pennsylvania State University, USA (Mar 2023 - Apr 2024).
+
+
+He is a Distinguished Lecturer of the IEEE Electronics Packaging Society and an Associate Editor to the IEEE Transactions on Components, Packaging and Manufacturing Technology and a referee for several leading IEEE journals. He is a Program Committee member in all major IEEE EPS conferences including ECTC, EDAPS, EPEPS and SPI. He has been the chair of the IEEE CPMT Technical Committee on Electrical Design, Modeling and Simulation. He is a Fellow of the Institution of Engineering and Technology (IET), UK and the Institution of Electronics and Telecommunication Engineers (IETE), India and a Senior Member of the IEEE.
+
+Visit our research group website for more details.</p>
+                    </div>
+            
+
+            <script>
+                let marqueeElement = document.querySelector('marquee');
+
+                function stopMarquee() {
+                    marqueeElement.stop();
+                }
+
+                function startMarquee() {
+                    marqueeElement.start();
+                }
+            </script>
+            <!-- News Ended -->
+                            </div>
+
+
+
+                <div class="col-md-12 col-lg-12 my-3">
+                    <div class="row shadow rounded p-3" style="border-left: 5px solid var(--shade2)">
+                        <h1>Research Highlights</h1>
+                        <div class="row py-2 mx-1 mt-0 d-flex justify-content-between">
+                            <div onclick="handleClickPublicationCount(`Journal`)" role="button" class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-primary border-primary mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">0</h1>
+                                <p style="font-size: 0.8rem">Journal Publications</p>
+                            </div>
+                            <div role="button" onclick="handleClickPublicationCount(`Conference`)" class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-warning border-warning mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">0</h1>
+                                <p style="font-size: 0.8rem">Conference Publications</p>
+                            </div>
+                            <div onclick="handleClickPublicationCount(`RP`)" class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-secondary border-secondary mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">1</h1>
+                                <p style="font-size: 0.8rem" class="text-center">
+                                    Research Projects
+                                </p>
+                            </div>
+                            <div class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-info border-info mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">0</h1>
+                                <p style="font-size: 0.8rem">Patents</p>
+                            </div>
+                            <div class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-danger alert-danger mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                
+                                <h1 style="font-size: 1.5rem">0</h1>
+                                <p style="font-size: 0.8rem" class="text-center">
+                                    Awards &amp; Honours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4 bg-dark p-3 rounded-4 position-sticky top-0">
+                    <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#first" type="button" role="tab" aria-controls="first" aria-selected="true">
+                                Qualifications
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#second" type="button" role="tab" aria-controls="second" aria-selected="false">
+                                Research Interests
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#third" type="button" role="tab" aria-controls="third" aria-selected="false">
+                                Brief Research Profile
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research" id="research_work_tab">
+                            <span class="nav-link" data-bs-toggle="tab" data-bs-target="#fourth" type="button" role="tab" aria-controls="fourth" aria-selected="false">
+                                Research Work
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link" data-bs-toggle="tab" data-bs-target="#fifth" type="button" role="tab" aria-controls="fifth" aria-selected="false">
+                                Academics
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane content_research fade show active fade-in-custom" id="first" role="tabpanel" aria-labelledby="first-tab">
+                                                <div class="row shadow rounded p-3 mt-2">
+                            <div class="col-md-12 col-lg-12">
+                                <h5>
+                                    <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                                    Qualifications
+                                </h5>
+                                <div class="subtitle-border-bottom"></div>
+                            </div>
+                             <ol class="m-3">
+                                <li></li></ol>                        </div>
+
+                    </div>
+                                        
+                    <div class="tab-pane content_research fade fade-in-custom" id="second" role="tabpanel" aria-labelledby="second-tab">
+                        <div class="row shadow rounded p-3 mt-4">
+                            <div class="col-md-12 col-lg-12">
+                                <h5>
+                                    <i class="fa-solid fa-search fa-fw"></i> Research Interests
+                                </h5>
+                                <div class="subtitle-border-bottom"></div>
+                            </div>
+                             <ul class="m-2">
+                                <li></li></ul>
+                        </div>
+                    </div>
+
+                                        <div class="tab-pane content_research fade fade-in-custom" id="third" role="tabpanel" aria-labelledby="third-tab">
+                        <div class="row shadow rounded p-3 mt-4">
+                            <div class="col-md-12 col-lg-12">
+                                <h5>
+                                    <i class="fa-solid fa-user fa-fw"></i> Brief Research Profile
+                                </h5>
+                                <div class="subtitle-border-bottom"></div>
+                            </div>
+                            <p class="mt-2">
+                                                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane content_research fade fade-in-custom" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
+                        <div class="row shadow rounded p-3 mt-4">
+                            <div class="accordion" id="accordionProfile">
+                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Journal" aria-expanded="false" aria-controls="collapseOne" id="journal_pub">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Journal
+                                                Publications (0)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                                                    </div>
+
+                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Conference" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Conference
+                                                Publications (0)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                                                    </div>
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#BooksC" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Book and Book-Chapter
+                                                Publications (0)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="BooksC" class="accordion-collapse collapse" aria-labelledby="BooksC">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <ul class="list-group">
+                                                                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Patent" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Patent Publications
+                                                (0)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="Patent" class="accordion-collapse collapse" aria-labelledby="Patent">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <ul class="list-group">
+                                                                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#PA" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-brands fa-connectdevelop fa-fw"></i>
+                                                Professional Affiliations (0)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="PA" class="accordion-collapse collapse" aria-labelledby="PA">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                
+                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#RP" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                                Research Projects (1)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="RP" class="accordion-collapse collapse" aria-labelledby="RP">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <table class="table table-bordered" style="font-size: 00.8rem">
+                                                <thead>
+                                                    <tr class="text-center mnit-primary">
+                                                        <th scope="col">S. No.</th>
+                                                        <th scope="col">Title</th>
+                                                        <th scope="col">Funding Agency</th>
+                                                        <th scope="col">Role</th>
+                                                        <th scope="col">Start Year - End Year</th>
+                                                        <th scope="col">Amount (In Lacs)</th>
+                                                        <th scope="col">Details</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                                <td>1</td>
+                                                                    <td>ASIC and Package Design of Ultra Small Atomic Clock</td>
+                                                                    <td>Ministry of Electronics and Information Technology (MeitY) - C2S program</td>
+                                                                    <td>PI</td>
+                                                                    <td>2023 - 2028</td>
+                                                                    <td>285.000</td>
+                                                                    <td><button type="button" class="btn btn-sm btn-secondary" data-bs-toggle="modal"
+                                                                    data-bs-target="#exampleModal_1">
+                                                    View
+                                                    </button></td>
+                                                    </tr><div class="modal fade " id="exampleModal_1"
+                                                        tabindex="-1" aria-labelledby="exampleModalLabel_1"
+                                                        aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5"
+                                                                        id="exampleModalLabel_<?php echo $serialNumber; ?>">
+                                                    ASIC and Package Design of Ultra Small Atomic Clock</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">[To Be Updated]<div class="swiper-container swiper mySwiper"
+                                                style="height:fit-content">
+                                                <div class="swiper-wrapper" style="height:fit-content"></div>
+                   
+                                          <div class="swiper-pagination"></div>
+                                     
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#CP" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                                Consultancy Projects
+                                                (0)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="CP" class="accordion-collapse collapse" aria-labelledby="CP">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <table class="table table-bordered" style="font-size: 00.8rem">
+                                                <thead>
+                                                    <tr class="text-center mnit-primary">
+                                                        <th scope="col">S. No.</th>
+                                                        <th scope="col">Title</th>
+                                                        <th scope="col">Funding Agency</th>
+                                                        <th scope="col">Start Year - End Year</th>
+                                                        <th scope="col">Amount (In Lacs)</th>
+                                                        <th scope="col">Details</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                                                    </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane content_research fade show fade-in-custom" id="fifth" role="tabpanel" aria-labelledby="fifth-tab">
+                        <div class="row p-3 rounded shadow-lg">
+
+                            <div class="accordion-item px-0 mx-0 border mt-2">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Event" aria-expanded="false" aria-controls="collapseOne">
+                                        <h5>
+                                            <i class="fa-solid fa-calendar-check fa-fw"></i>
+                                            Courses Taught
+                                        </h5>
+                                    </button>
+                                </h2>
+                                <div id="Event" class="accordion-collapse collapse" aria-labelledby="Event">
+                                    <div class="accordion-body">
+                                        <div class="w-100 overflow-auto mx-0 px-0">
+                                            <table class="table table-bordered table-hover mt-0" id="courses_table1">
+                                                <thead>
+                                                    <tr class="bg-dark text-white fw-bold" style="border: 1px solid rgb(0, 0, 0)">
+                                                        <th>Code</th>
+                                                        <th>Title</th>
+                                                        <th>L-T-P-S-C</th>
+                                                        <th>Type</th>
+                                                        <th>Degree</th>
+                                                        <th>Year</th>
+                                                        <th>Semester</th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                                                    </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item  px-0 border mt-2">
+                                <h2 class="accordion-header " id="headingTwo1">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#PHD" aria-expanded="false" aria-controls="collapseTwo1">
+                                        <h5>
+                                            <i class="fa-solid fa-user fa-fw"></i>
+                                            PhD Research Supervised
+                                        </h5>
+                                    </button>
+                                </h2>
+                                <div id="PHD" class="accordion-collapse collapse" aria-labelledby="PHD">
+                                    <div class="accordion-body">
+                                        <div class="w-100 overflow-auto">
+                                            
+                                            <ul class="list-group fw-bold">
+                                                
+                                                                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border px-0 mt-2">
+                                <h2 class="accordion-header" id="headingThree1">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Position" aria-expanded="false" aria-controls="collapseThree1">
+                                        <h5>
+                                            <i class="fa-solid fa-key fa-fw"></i>
+                                            Administrative Responsibilities
+                                        </h5>
+                                    </button>
+                                </h2>
+                                <div id="Position" class="accordion-collapse collapse" aria-labelledby="Position">
+                                    <div class="accordion-body">
+                                        <div class="w-100 overflow-auto">
+                                            
+                                            <ul class="list-group fw-bold">
+                                                
+                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="container my-4 p-0">
+
+        <div class="row my-4 bg-dark mx-1 p-3 rounded-4 position-sticky top-0">
+            <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#awards" type="button" role="tab" aria-controls="profile" aria-selected="false">
+
+                        Awards And Honours
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#events" type="button" role="tab" aria-controls="contact" aria-selected="false">
+
+                        Events Organized
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="visit-tab" data-bs-toggle="tab" data-bs-target="#visits" type="button" role="tab" aria-controls="contact" aria-selected="false">
+
+                        Academic Visits
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="outreach-tab" data-bs-toggle="tab" data-bs-target="#outreach" type="button" role="tab" aria-controls="contact" aria-selected="false">
+
+                        Outreach Activities
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#miscellaneous" type="button" role="tab" aria-controls="home" aria-selected="true">
+
+                        Miscellaneous
+                        </h4>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade" id="miscellaneous" role="tabpanel" aria-labelledby="home-tab">
+                <!--tab 1 start -->
+                </div>                <!--tab 1 end -->
+            </div>
+            <div class="tab-pane active" id="awards" role="tabpanel" aria-labelledby="profile-tab">
+                <!--tab 2 start -->
+                </div>                <!--tab 2 end -->
+            </div>
+            <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="contact-tab">
+                <!--tab 3 start -->
+                </div>                <!--tab 3 end -->
+            </div>
+            <div class="tab-pane fade" id="visits" role="tabpanel" aria-labelledby="contact-tab">
+                <!--tab 4 start -->
+                </div>                <!--tab 4 end -->
+            </div>
+            <div class="tab-pane fade" id="outreach" role="tabpanel" aria-labelledby="contact-tab">
+
+                <!--tab 5 start -->
+                </div>                <!--tab 5 end -->
+            </div>
+        </div>
+    </div>
+    <!-- Profile Faculty Ended -->

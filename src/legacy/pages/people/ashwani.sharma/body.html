@@ -1,0 +1,1354 @@
+<!-- Profile Faculty Started  -->
+    <div class="container mt-3">
+        <div class="row my-4">
+            <a class="btn btn-danger btn-sm mx-0" style="width: fit-content;" href="/faculty">
+                <i class="fa-solid fa-arrow-left"></i> Go Back</a>
+        </div>
+        <!-- Latest News -->
+        <div class="row">
+            <div class="col-md-12 h-auto d-flex justify-content-between align-items-center  flex-row p-0 gap-0" id="__notification_panel">
+                <div class="col-sm-1 fw-bold text-center  m-0 h-100 d-flex justify-content-center align-items-center">
+                    <h5 class="fw-bold"><i class="fa-solid fa-bullhorn"></i> </h5>
+                </div>
+                <div class="col-sm-11 overflow-auto d-flex flex-nowrap flex-row align-items-center justify-content-center">
+                    <marquee behavior="smooth" scrollamount="14" onmouseover="stopMarquee()" onmouseout="startMarquee()">
+                        <ul class="d-flex d-row gap-3">
+                                                                <li>
+                                        Sundeep Kumar under supervisor Dr.Ashwani Sharma completed PhD                                    </li>
+                                                                <li>
+                                        Shivam Bansal PhD scholar under supervisor Dr.Ashwani Sharma won the Best paper award in IEEE MAC 2025                                    </li>
+                                                                <li>
+                                        Best Paper Award won by Ajay Kumar Rajak,Aditya Gupta,Sundeep Kumar and Dr.Ashwani Sharma : Title; Joint sensing and communication for V2V Localization using Chirp-QPSK Waveform in 6G Networks                                    </li>
+                                                    </ul>
+                    </marquee>
+                </div>
+                <!-- <div class="col-sm-1 fw-bold text-center  m-0 h-100 d-flex justify-content-center align-items-center"
+                    style="background-color: var(--dark);color:white">
+                    <a href="./news.php" target="_blank" class="text-white">More</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="pt-2 mb-3 container">
+
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <div class="row shadow rounded p-3" style="border-left: 5px solid var(--shade2)">
+                    <div class="col-md-2 col-lg-2">
+                                                        <div class="d-flex justify-content-center mt-2">
+                                    <img src="/images/legacy/9f950da019c7.jpg" alt="Profile Image" class="rounded img-fluid" style="width: auto; border-radius: 12px" />                                </div>
+
+                    </div>
+                    <div class="col-md-8 col-lg-8 profileDetails mt-3">
+                        <h4 class="fw-bold"> Ashwani Sharma</h4>
+                        <div class="table-responsive text-secondary">
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-user fa-fw"></i>
+                                Associate Professor </span><br />
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-address-card fa-fw"></i>
+                                316, JCB Block, IIT Ropar, Main Campus</span><br />
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-envelope fa-fw"></i>ashwani.sharma@iitrpr.ac.in</span><br />
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-square-phone fa-fw"></i>91-1881-232206</span><br />
+                        </div>
+                        <div class="dropdown mb-0 mt-2">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle mb-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-share-from-square"></i>
+                                Share Profile
+                            </button>
+                            <ul class="dropdown-menu mb-0" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#" onclick="shareOnWhatsApp()">Share on <i class="fa-brands fa-whatsapp"></i></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="shareCurrentUrl()">Share Anywhare</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <script>
+                            function shareCurrentUrl() {
+                                if (navigator.share) {
+                                    navigator.share({
+                                            title: document.title,
+                                            url: window.location.href
+                                        })
+                                        .then(() => console.log('URL shared successfully'))
+                                        .catch((error) => console.error('Error sharing URL', error));
+                                } else {
+                                    alert('Web Share API not supported in this browser');
+                                }
+                            }
+
+                            function shareOnWhatsApp() {
+                                var encodedText = encodeURIComponent(window.location.href);
+                                var whatsappUrl = 'whatsapp://send?text=' + encodedText;
+                                window.location.href = whatsappUrl;
+                            }
+                        </script>
+                    </div>
+                    <div class="col-md-2 profileView">
+
+                        <span class="text-muted"><a href="https://scholar.google.com/citations?user=lWIvByAAAAAJ&hl=en" target="_blank"><i class="fa-brands fa-google mnit-primary"></i> Google
+                                Scholar Profile
+                            </a></span><br />
+                        <span class="text-muted">
+                            <div class="dropdown mb-0 mt-2 mx-0">
+                                <button class="btn btn-link dropdown-toggle mb-0 mx-0 underline-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none; transform: translateX(-13px);">
+                                    <i class="fa-solid fa-globe"></i>
+                                    Personal Website
+                                </button>
+                                <ul class="dropdown-menu mb-0" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item text-primary" href="https://sites.google.com/iitrpr.ac.in/ashwani-sharma/" target="_blank">https://sites.google.com/iitrpr.ac.in/ashwani-sharma/  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a></li>                                </ul>
+                            </div>
+
+                        </span><br />
+                        <span class="text-muted">
+                            <div class="dropdown mb-0 mt-0 mx-0">
+                                <button class="btn btn-link dropdown-toggle mb-0 mx-0 underline-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none; transform: translateX(-13px);">
+                                    <i class="fa-solid fa-globe"></i>
+                                    Other Links
+                                </button>
+                                <ul class="dropdown-menu mb-0" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item text-dark" href="#">[To Be Updated]</a></li>                                </ul>
+                            </div>
+
+                        </span><br />
+                    </div>
+                        
+                    <div class="row py-2 mt-4 d-flex justify-content-start">
+                        <h4 class="fw-bold  w-auto">
+                            Introduction
+                        </h4>
+                        <p>Ashwani Sharma (Member, IEEE) received the master’s degree in technology and communication systems from ETSIT, Technical University of Madrid (UPM), Madrid, Spain, in 2013, and a Ph.D. degree from the University of Deusto, Bilbao, Spain, in 2015.
+He has been working as an Assistant Professor at the Indian Institute of Technology Ropar, Rupnagar, India, since July 2018. He was a Visiting Training Fellow at the University of Kent, Canterbury, U.K., from May 2014 to August 2014, and a Junior Research Fellow at the Indian Institute of Technology, New Delhi, India, from 2010 to 2011. His research works have been published in various international journals and conferences such as IEEE TRANSACTIONS AND LETTERS, IET journals, and Wiley letters. His current research interests include exploiting field-forming techniques in antenna design for wireless power transmission, the IoT, and 5G/6G, and Drone antennas and communications, and AI/ML Assisted communications systems.</p>
+                    </div>
+            
+
+            <script>
+                let marqueeElement = document.querySelector('marquee');
+
+                function stopMarquee() {
+                    marqueeElement.stop();
+                }
+
+                function startMarquee() {
+                    marqueeElement.start();
+                }
+            </script>
+            <!-- News Ended -->
+                            </div>
+
+
+
+                <div class="col-md-12 col-lg-12 my-3">
+                    <div class="row shadow rounded p-3" style="border-left: 5px solid var(--shade2)">
+                        <h1>Research Highlights</h1>
+                        <div class="row py-2 mx-1 mt-0 d-flex justify-content-between">
+                            <div onclick="handleClickPublicationCount(`Journal`)" role="button" class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-primary border-primary mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">44</h1>
+                                <p style="font-size: 0.8rem">Journal Publications</p>
+                            </div>
+                            <div role="button" onclick="handleClickPublicationCount(`Conference`)" class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-warning border-warning mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">19</h1>
+                                <p style="font-size: 0.8rem">Conference Publications</p>
+                            </div>
+                            <div onclick="handleClickPublicationCount(`RP`)" class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-secondary border-secondary mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">7</h1>
+                                <p style="font-size: 0.8rem" class="text-center">
+                                    Research Projects
+                                </p>
+                            </div>
+                            <div class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-info border-info mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">1</h1>
+                                <p style="font-size: 0.8rem">Patents</p>
+                            </div>
+                            <div class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-danger alert-danger mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                
+                                <h1 style="font-size: 1.5rem">0</h1>
+                                <p style="font-size: 0.8rem" class="text-center">
+                                    Awards &amp; Honours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4 bg-dark p-3 rounded-4 position-sticky top-0">
+                    <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#first" type="button" role="tab" aria-controls="first" aria-selected="true">
+                                Qualifications
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#second" type="button" role="tab" aria-controls="second" aria-selected="false">
+                                Research Interests
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#third" type="button" role="tab" aria-controls="third" aria-selected="false">
+                                Brief Research Profile
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research" id="research_work_tab">
+                            <span class="nav-link" data-bs-toggle="tab" data-bs-target="#fourth" type="button" role="tab" aria-controls="fourth" aria-selected="false">
+                                Research Work
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link" data-bs-toggle="tab" data-bs-target="#fifth" type="button" role="tab" aria-controls="fifth" aria-selected="false">
+                                Academics
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane content_research fade show active fade-in-custom" id="first" role="tabpanel" aria-labelledby="first-tab">
+                                                <div class="row shadow rounded p-3 mt-2">
+                            <div class="col-md-12 col-lg-12">
+                                <h5>
+                                    <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                                    Qualifications
+                                </h5>
+                                <div class="subtitle-border-bottom"></div>
+                            </div>
+                             <ol class="m-3">
+                                <li>PhD University of Desuto Bilbao Spain 2015</li><li> Masters ETSIT Technical University of Madrid UPM Spain 2013</li><li> BTech The LNM Institute of Information Technology Jaipur India 2010</li></ol>                        </div>
+
+                    </div>
+                                        
+                    <div class="tab-pane content_research fade fade-in-custom" id="second" role="tabpanel" aria-labelledby="second-tab">
+                        <div class="row shadow rounded p-3 mt-4">
+                            <div class="col-md-12 col-lg-12">
+                                <h5>
+                                    <i class="fa-solid fa-search fa-fw"></i> Research Interests
+                                </h5>
+                                <div class="subtitle-border-bottom"></div>
+                            </div>
+                             <ul class="m-2">
+                                <li>Antenna Engineering and Communication Systems</li><li> Wireless power and data transfer</li><li> RF Energy Harvesting</li><li>  Antenna design for IoT and 5G/B5G</li><li> Near-field forming and its applications</li><li> Static and Dynamic Wireless Charging Solutions for Drones/Electric Vehicles</li></ul>
+                        </div>
+                    </div>
+
+                                        <div class="tab-pane content_research fade fade-in-custom" id="third" role="tabpanel" aria-labelledby="third-tab">
+                        <div class="row shadow rounded p-3 mt-4">
+                            <div class="col-md-12 col-lg-12">
+                                <h5>
+                                    <i class="fa-solid fa-user fa-fw"></i> Brief Research Profile
+                                </h5>
+                                <div class="subtitle-border-bottom"></div>
+                            </div>
+                            <p class="mt-2">
+                                Dr. Ashwani Sharma specializes primarily in Antenna and Microwave Engineering with a focus on Wireless power and data transfer, RF Energy Harvesting,  Antenna design for IoT and 5G/B5G, Near-field forming and its applications, Static and Dynamic Wireless Charging Solutions for Drones/Electric Vehicles. Additionally, he has supervised several PhD, Master's, and undergraduate students.                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane content_research fade fade-in-custom" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
+                        <div class="row shadow rounded p-3 mt-4">
+                            <div class="accordion" id="accordionProfile">
+                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Journal" aria-expanded="false" aria-controls="collapseOne" id="journal_pub">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Journal
+                                                Publications (44)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                                                            <div id="Journal" class="accordion-collapse collapse" aria-labelledby="Journal">
+                                            <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                                <ol class="list-group">
+                                                                                                            <li class="list-group-item">
+                                                            1.                                                             <span class="author text-success" style="display: inline;">S. Kumar, M. Kumar, A. Sharma and I. J. Garcia Zuazola,</span>
+                                                            <a href="https://doi.org/10.1109/ACCESS.2024.3382821" target="_blank"><strong class="title text-danger" style="display: inline;">"Energizing an IoT Sensor Using Regenerative Opposite Fringing Fields From an Embedded Communicating Patch Antenna",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Energizing an IoT Sensor Using Regenerative Opposite Fringing Fields From an Embedded Communicating Patch Antenna",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Access</i>,</span>
+                                                            <span class="volume" style="display: inline;">12, </span>
+                                                            <span class="pages" style="display: inline;">47951-47960,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            2.                                                             <span class="author text-success" style="display: inline;">Vikas Kumar Malav; Ashwani Sharma,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TMTT.2024.3357255" target="_blank"><strong class="title text-danger" style="display: inline;">"Analytical Formulation of Rectenna System Performance and Fully Integrated Design for Polarization Insensitive Wireless Power Transmission",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Analytical Formulation of Rectenna System Performance and Fully Integrated Design for Polarization Insensitive Wireless Power Transmission",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Microwave Theory and Techniques</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1 - 13,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            3.                                                             <span class="author text-success" style="display: inline;">Manoj Kumar; Sundeep Kumar; Ashwani Sharma; Vikas Kumar Malav; Parul Rattanpal,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TCPMT.2024.3360304" target="_blank"><strong class="title text-danger" style="display: inline;">"An Orthogonally Polarized Multibeam Rectenna System to Imitate Isotropic DC Pattern for Orientation-Insensitive Microwave Power Delivery",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"An Orthogonally Polarized Multibeam Rectenna System to Imitate Isotropic DC Pattern for Orientation-Insensitive Microwave Power Delivery",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Components, Packaging and Manufacturing Technology</i>,</span>
+                                                            <span class="volume" style="display: inline;">14, </span>
+                                                            <span class="pages" style="display: inline;">659 - 668,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            4.                                                             <span class="author text-success" style="display: inline;">S. Jain,  A. Bharadwaj, and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2024.3352234" target="_blank"><strong class="title text-danger" style="display: inline;">"Spatially Arranged Relay Coils to Improve the Misalignment Tolerance at an Enhanced Transfer Distance",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Spatially Arranged Relay Coils to Improve the Misalignment Tolerance at an Enhanced Transfer Distance",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">72, </span>
+                                                            <span class="pages" style="display: inline;">2171 - 2180,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            5.                                                             <span class="author text-success" style="display: inline;">V. K. Srivastava and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/JERM.2024.3351751" target="_blank"><strong class="title text-danger" style="display: inline;">"A Coil Rectenna Array Design to Harvest All H-field Components for Lateral Misalignment Tolerant Wireless Powering of Bio-medical Implant Devices",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Coil Rectenna Array Design to Harvest All H-field Components for Lateral Misalignment Tolerant Wireless Powering of Bio-medical Implant Devices",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Journal of Electromagnetics, RF, and Microwaves in Medicine and Biology</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">59 - 67,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            6.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, A. Sharma and C. C. Reddy,</span>
+                                                            <a href="https://doi.org/10.1109/TIM.2023.3240224" target="_blank"><strong class="title text-danger" style="display: inline;">"Analytical Framework of S-Parameter-Based Efficiency for Secondary-Parallel Compensation WPT System to Authenticate Data Using VNA   .",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Analytical Framework of S-Parameter-Based Efficiency for Secondary-Parallel Compensation WPT System to Authenticate Data Using VNA   .",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Instrumentation and Measurement</i>,</span>
+                                                            <span class="volume" style="display: inline;">72, </span>
+                                                            <span class="pages" style="display: inline;">1-10,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            7.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, A. Sharma and C. C. Reddy,,</span>
+                                                            <a href="https://doi.org/10.1109/TITS.2022.3220793" target="_blank"><strong class="title text-danger" style="display: inline;">" A Switched Modular Multi-Coil Array Transmitter Pad With Coil Rectenna Sensors to Improve Lateral Misalignment Tolerance in Wireless Power Charging of Drone Systems  ",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">" A Switched Modular Multi-Coil Array Transmitter Pad With Coil Rectenna Sensors to Improve Lateral Misalignment Tolerance in Wireless Power Charging of Drone Systems  ",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Intelligent Transportation Systems</i>,</span>
+                                                            <span class="volume" style="display: inline;">24, </span>
+                                                            <span class="pages" style="display: inline;">2010-2023,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            8.                                                             <span class="author text-success" style="display: inline;">M. Kumar, S. Kumar and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/TMTT.2022.3222195" target="_blank"><strong class="title text-danger" style="display: inline;">"An Analytical Framework of Multisector Rectenna Array Design for Angular Misalignment Tolerant RF Power Transfer Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"An Analytical Framework of Multisector Rectenna Array Design for Angular Misalignment Tolerant RF Power Transfer Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Microwave Theory and Techniques</i>,</span>
+                                                            <span class="volume" style="display: inline;">71, </span>
+                                                            <span class="pages" style="display: inline;">1835-1847,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            9.                                                             <span class="author text-success" style="display: inline;">M. Kumar, S. Kumar and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/TMTT.2022.3217073" target="_blank"><strong class="title text-danger" style="display: inline;">"A Planar Orbicular Rectenna Array System With 3-D Uniform Coverage for Wireless Powering of IoT Nodes",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Planar Orbicular Rectenna Array System With 3-D Uniform Coverage for Wireless Powering of IoT Nodes",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Microwave Theory and Techniques</i>,</span>
+                                                            <span class="volume" style="display: inline;">71, </span>
+                                                            <span class="pages" style="display: inline;">1366-1373,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            10.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, A. Sharma , C. C. Reddy,</span>
+                                                            <a href="https://doi.org/ 10.1109/TIM.2023.3240224" target="_blank"><strong class="title text-danger" style="display: inline;">"Analytical Framework of S-Parameter-Based Efficiency for Secondary-Parallel Compensation WPT System to Authenticate Data Using VNA",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Analytical Framework of S-Parameter-Based Efficiency for Secondary-Parallel Compensation WPT System to Authenticate Data Using VNA",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Instrumentation and Measurement</i>,</span>
+                                                            <span class="volume" style="display: inline;">72, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            11.                                                             <span class="author text-success" style="display: inline;">M. Kumar, S. Kumar, A. S. Bhadauria and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2022.3228708" target="_blank"><strong class="title text-danger" style="display: inline;">"A Planar Integrated Rectenna Array With 3-D-Spherical DC Coverage for Orientation-Tolerant Wireless-Power-Transfer-Enabled IoT Sensor Nodes",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Planar Integrated Rectenna Array With 3-D-Spherical DC Coverage for Orientation-Tolerant Wireless-Power-Transfer-Enabled IoT Sensor Nodes",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">71, </span>
+                                                            <span class="pages" style="display: inline;">1285-1294,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            12.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, A. Sharma and C. R. Chandupatla,</span>
+                                                            <a href="https://doi.org/10.1109/TITS.2022.3220793." target="_blank"><strong class="title text-danger" style="display: inline;">"A Switched Modular Multi-Coil Array Transmitter Pad With Coil Rectenna Sensors to Improve Lateral Misalignment Tolerance in Wireless Power Charging of Drone Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Switched Modular Multi-Coil Array Transmitter Pad With Coil Rectenna Sensors to Improve Lateral Misalignment Tolerance in Wireless Power Charging of Drone Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Intelligent Transportation Systems</i>,</span>
+                                                            <span class="volume" style="display: inline;">24, </span>
+                                                            <span class="pages" style="display: inline;">2010-2023,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            13.                                                             <span class="author text-success" style="display: inline;">S. Agarwal, A. Sharma, IJ. Garcia Zuazola, and M. Kumar,,</span>
+                                                            <a href="https://doi.org/10.1017/S1759078722000435" target="_blank"><strong class="title text-danger" style="display: inline;">"A compact SWB MIMO antenna with 45° clock-wise square patch inclusions for polarization diversity applications",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A compact SWB MIMO antenna with 45° clock-wise square patch inclusions for polarization diversity applications",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Journal of Microwave and Wireless Technologies</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1-13,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            14.                                                             <span class="author text-success" style="display: inline;">S. Agarwal, A. Sharma, IJ. Garcia Zuazola, and Whittow WG,</span>
+                                                            <a href="https://doi.org/10.1002/mmce.23200" target="_blank"><strong class="title text-danger" style="display: inline;">"Three dimensional miniaturized super wideband antenna with filtering capabilities",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Three dimensional miniaturized super wideband antenna with filtering capabilities",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Int J RF Microw Comput Aided Eng</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            15.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, A. Sharma and C. C. Reddy,,</span>
+                                                            <a href="https://doi.org/10.1109/TIM.2022.3181291" target="_blank"><strong class="title text-danger" style="display: inline;">" An Unconventional Measurement Technique to Estimate Power Transfer Efficiency in Series–Series Resonant WPT System Using S-Parameters",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">" An Unconventional Measurement Technique to Estimate Power Transfer Efficiency in Series–Series Resonant WPT System Using S-Parameters",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Instrumentation and Measurement</i>,</span>
+                                                            <span class="volume" style="display: inline;">71, </span>
+                                                            <span class="pages" style="display: inline;">1-9,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            16.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, A. Sharma and C. C. Reddy,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2022.3146433." target="_blank"><strong class="title text-danger" style="display: inline;">"A Multi-Turn Coil Antenna With Nonuniform Clustered Turns Optimized Using Q-Assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems doi: ",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Multi-Turn Coil Antenna With Nonuniform Clustered Turns Optimized Using Q-Assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems doi: ",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">5302-5311,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            17.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, V. K. Srivastava, A. Sharma and C. C. Reddy,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2021.3137379" target="_blank"><strong class="title text-danger" style="display: inline;">"A Switchable Multicoil Antenna With Booster Coil to Improve Coverage in WPT Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Switchable Multicoil Antenna With Booster Coil to Improve Coverage in WPT Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">2490-2498,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            18.                                                             <span class="author text-success" style="display: inline;">S. Kumar and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2022.3209744" target="_blank"><strong class="title text-danger" style="display: inline;">"Switched Beam Array Antenna Optimized for Microwave Powering of 3-D Distributed Nodes in Clustered Wireless Sensor Network",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Switched Beam Array Antenna Optimized for Microwave Powering of 3-D Distributed Nodes in Clustered Wireless Sensor Network",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">11734-11742,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            19.                                                             <span class="author text-success" style="display: inline;">S. Kumar, S. Jain and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/JSEN.2022.3142137" target="_blank"><strong class="title text-danger" style="display: inline;">"A BER-Conscious Synthesis of Switched-Beam Antenna to Maximize Reliable Coverage in WSN Applications",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A BER-Conscious Synthesis of Switched-Beam Antenna to Maximize Reliable Coverage in WSN Applications",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Sensors Journal</i>,</span>
+                                                            <span class="volume" style="display: inline;">22, </span>
+                                                            <span class="pages" style="display: inline;">3785-3795,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            20.                                                             <span class="author text-success" style="display: inline;">S. Kumar, A. Sharma, S. Kalra and M. Kumar,</span>
+                                                            <a href="https://doi.org/10.1109/TVT.2021.3132304" target="_blank"><strong class="title text-danger" style="display: inline;">"Communication Quality-Conscious Synthesis of 3-D Coverage Using Switched Multibeam Multi-Sector Array Antenna for V2I Application",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Communication Quality-Conscious Synthesis of 3-D Coverage Using Switched Multibeam Multi-Sector Array Antenna for V2I Application",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Vehicular Technology</i>,</span>
+                                                            <span class="volume" style="display: inline;">71, </span>
+                                                            <span class="pages" style="display: inline;">1631-1642,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            21.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, V. K. Srivastava, A. Sharma , C. C. Reddy,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2022.3209207" target="_blank"><strong class="title text-danger" style="display: inline;">"A Tilted-Orthogonal Receiver Coil Antenna to Improve Misalignment Tolerance in WPT Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Tilted-Orthogonal Receiver Coil Antenna to Improve Misalignment Tolerance in WPT Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            22.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, A. Sharma , C. C. Reddy,</span>
+                                                            <a href="https://doi.org/10.1109/TIM.2022.3181291" target="_blank"><strong class="title text-danger" style="display: inline;">"An Unconventional Measurement Technique to Estimate Power Transfer Efficiency in Series?Series Resonant WPT System Using S-Parameters",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"An Unconventional Measurement Technique to Estimate Power Transfer Efficiency in Series?Series Resonant WPT System Using S-Parameters",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Instrumentation and Measurement</i>,</span>
+                                                            <span class="volume" style="display: inline;">71, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            23.                                                             <span class="author text-success" style="display: inline;">Bharadwaj, A. Sharma , C. C. Reddy,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2022.3146433" target="_blank"><strong class="title text-danger" style="display: inline;">"\"A Multi-Turn Coil Antenna With Nonuniform Clustered Turns Optimized Using Q-Assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"\"A Multi-Turn Coil Antenna With Nonuniform Clustered Turns Optimized Using Q-Assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            24.                                                             <span class="author text-success" style="display: inline;">	A. Bharadwaj, V. K. Srivastava, A. Sharma , C. C. Reddy,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2021.31379" target="_blank"><strong class="title text-danger" style="display: inline;">"A Switchable Multicoil Antenna With Booster Coil to Improve Coverage in WPT Systems,",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Switchable Multicoil Antenna With Booster Coil to Improve Coverage in WPT Systems,",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation,</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            25.                                                             <span class="author text-success" style="display: inline;">P. Kumar, S. Bhattacharyya, S. Darshi, A. Sharma, A. A. Almohammedi, V. Shepelev, S. Samar,</span>
+                                                            <a href="https://doi.org/10.1109/ACCESS.2022.3166516" target="_blank"><strong class="title text-danger" style="display: inline;">"Drone Assisted Network Coded Cooperation With Energy Harvesting: Strengthening the Lifespan of the Wireless Networks",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Drone Assisted Network Coded Cooperation With Energy Harvesting: Strengthening the Lifespan of the Wireless Networks",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Access</i>,</span>
+                                                            <span class="volume" style="display: inline;">10, </span>
+                                                            <span class="pages" style="display: inline;">43055-43070,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            26.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, A. Sharma and C. C. Reddy,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2022.3146433" target="_blank"><strong class="title text-danger" style="display: inline;">"A Multi-turn Coil Antenna with Non-uniform Clustered Turns Optimized using Q-assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Multi-turn Coil Antenna with Non-uniform Clustered Turns Optimized using Q-assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">5302-5311,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            27.                                                             <span class="author text-success" style="display: inline;">V. K. Srivastava and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2022.3195554" target="_blank"><strong class="title text-danger" style="display: inline;">"A Planar Switching Integrated Quadrant Coil Antenna to Form Widespread Switched Polarized H-Field for Misalignment Resilient WPT System",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Planar Switching Integrated Quadrant Coil Antenna to Form Widespread Switched Polarized H-Field for Misalignment Resilient WPT System",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">10294-10303,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            28.                                                             <span class="author text-success" style="display: inline;">V. K. Srivastava and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2022.3177534" target="_blank"><strong class="title text-danger" style="display: inline;">"A Multicoil Array Transceiver Antenna Design for Touchless Hygienic Artificial Human Interfacing",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Multicoil Array Transceiver Antenna Design for Touchless Hygienic Artificial Human Interfacing",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">8911-8921,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            29.                                                             <span class="author text-success" style="display: inline;">V. K. Srivastava and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2022.3140499" target="_blank"><strong class="title text-danger" style="display: inline;">"Switched Polarized H-Field Forming Using a Planar Switchable Double-Dumbbell Coil Antenna for Orientation-Oblivion Wireless Power Transfer",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Switched Polarized H-Field Forming Using a Planar Switchable Double-Dumbbell Coil Antenna for Orientation-Oblivion Wireless Power Transfer",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">4234-4242,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            30.                                                             <span class="author text-success" style="display: inline;">V. K. Srivastava and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2021.3137477" target="_blank"><strong class="title text-danger" style="display: inline;">"A Planar Distributed Multicoil Antenna to Generate 3-D Ellipsoidally Polarized HField for Angular Misalignment Tolerant WPT System",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Planar Distributed Multicoil Antenna to Generate 3-D Ellipsoidally Polarized HField for Angular Misalignment Tolerant WPT System",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">2969-2978,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            31.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, V. K. Srivastava, A. Sharma, and C. C. Reddy,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2021.3137379" target="_blank"><strong class="title text-danger" style="display: inline;">"A Switchable Multi-Coil Antenna With Booster Coil to Improve Coverage in WPT Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Switchable Multi-Coil Antenna With Booster Coil to Improve Coverage in WPT Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">70, </span>
+                                                            <span class="pages" style="display: inline;">2490-2498,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            32.                                                             <span class="author text-success" style="display: inline;">S. K. Gupta, S. Kumar and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/LSENS.2022.3218503" target="_blank"><strong class="title text-danger" style="display: inline;">"A Miniaturized Dual-Resonator-Based High-Capacity Chipless Radio Frequency Identification Tag Sensor",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Miniaturized Dual-Resonator-Based High-Capacity Chipless Radio Frequency Identification Tag Sensor",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Sensors Letters</i>,</span>
+                                                            <span class="volume" style="display: inline;">6, </span>
+                                                            <span class="pages" style="display: inline;">1-4,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            33.                                                             <span class="author text-success" style="display: inline;">Ignacio J. Garcia Zuazola, Ashwani Sharma, Misha Filip, and William G. Whittow,</span>
+                                                            <a href="https://doi.org/10.2528/PIERC21010303" target="_blank"><strong class="title text-danger" style="display: inline;">"Antenna Using a Magnetic-Slab Located in the Principal Magnetic-Field Region Beneath the Patch",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Antenna Using a Magnetic-Slab Located in the Principal Magnetic-Field Region Beneath the Patch",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Progress In Electromagnetics Research C</i>,</span>
+                                                            <span class="volume" style="display: inline;">110, </span>
+                                                            <span class="pages" style="display: inline;">229-241,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            34.                                                             <span class="author text-success" style="display: inline;">M. Kumar, A. Sharma, IJ, Garcia Zuazola,</span>
+                                                            <a href="https://doi.org/doi.org/10.1002/eng2.12420" target="_blank"><strong class="title text-danger" style="display: inline;">"Bendable ultra-high frequency radio-frequency identification tag antenna for retail garments using nonuniform meandered lines",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Bendable ultra-high frequency radio-frequency identification tag antenna for retail garments using nonuniform meandered lines",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Wiley Engineering Reports</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1-11,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            35.                                                             <span class="author text-success" style="display: inline;">V. K. Srivastava and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2021.3060140" target="_blank"><strong class="title text-danger" style="display: inline;">"Optimized 3-D Polarized H-Field Forming for Orientation-Insensitive Wireless Power Transfer Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Optimized 3-D Polarized H-Field Forming for Orientation-Insensitive Wireless Power Transfer Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">69, </span>
+                                                            <span class="pages" style="display: inline;">4999-5007,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            36.                                                             <span class="author text-success" style="display: inline;">N. K. Chourasia, A. K. Singh, S. Rai, A. Sharma, A. Srivastava, P. Chakrabarti,</span>
+                                                            <strong class="title text-danger" style="display: inline;">"Low operating voltage large channel length graphene FET for ambient atmosphere low concentration ammonia gas sensor",</strong>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Low operating voltage large channel length graphene FET for ambient atmosphere low concentration ammonia gas sensor",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Electron Devices</i>,</span>
+                                                            <span class="volume" style="display: inline;">67(10), </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            37.                                                             <span class="author text-success" style="display: inline;">A. Sharma, I. G. Zuazola, R. Martínez, A. Perallos, and J. C. Batchelor,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1049/iet-map.2018.5735" target="_blank"><strong class="title text-danger" style="display: inline;">"Channel-based Antenna Synthesis for Improved In-vehicle UWB MB-OFDM Communications",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Channel-based Antenna Synthesis for Improved In-vehicle UWB MB-OFDM Communications",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IET Microwaves, Antennas & Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">13, </span>
+                                                            <span class="pages" style="display: inline;">1358-1367,</span>
+                                                            <span class="date" style="display: inline;">2019</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            38.                                                             <span class="author text-success" style="display: inline;">A. Sharma, G. Singh, D. Bhatnagar, I.J. Garcia Zuazola, and A. Perallos,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2017.2695009" target="_blank"><strong class="title text-danger" style="display: inline;">"Magnetic- field forming using planar multi-coil antenna to generate orthogonal H-field components",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Magnetic- field forming using planar multi-coil antenna to generate orthogonal H-field components",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transaction on Antennas Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">2906 - 2915,</span>
+                                                            <span class="date" style="display: inline;">2017</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            39.                                                             <span class="author text-success" style="display: inline;">I.J. Garcia Zuazola, L. Azpilicueta, A. Sharma, H.Landaluce, F.Falcone, I. Angulo, A.Perallos, J.M.H. Elmirghani, and J.C. Batchelor,,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1049/iet-com.2014.0057" target="_blank"><strong class="title text-danger" style="display: inline;">"Band-pass filter-like antenna validation in an ultra-wideband in-car wireless channel",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Band-pass filter-like antenna validation in an ultra-wideband in-car wireless channel",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IET Communications</i>,</span>
+                                                            <span class="volume" style="display: inline;">9, </span>
+                                                            <span class="pages" style="display: inline;">532–540,</span>
+                                                            <span class="date" style="display: inline;">2015</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            40.                                                             <span class="author text-success" style="display: inline;">A. Sharma, S. De, H. M. Gupta, and R. Gangopadhyay,</span>
+                                                            <a href="https://doi.org/doi.org/10.1016/j.phycom.2014.05.001" target="_blank"><strong class="title text-danger" style="display: inline;">"Multiple description transform coded transmission over OFDM broadcast channels",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Multiple description transform coded transmission over OFDM broadcast channels",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Physical Communication</i>,</span>
+                                                            <span class="volume" style="display: inline;">12, </span>
+                                                            <span class="pages" style="display: inline;">79-92,</span>
+                                                            <span class="date" style="display: inline;">2014</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            41.                                                             <span class="author text-success" style="display: inline;">A. Sharma, I.J. Garcia Zuazola, A. Gupta, A. Perallos, and J.C. Batchelor,</span>
+                                                            <a href="https://doi.org/10.1109/TAP.2013.2275244" target="_blank"><strong class="title text-danger" style="display: inline;">"Non- uniformly distributed-turns coil antenna for enhanced H-field in HF RFID",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Non- uniformly distributed-turns coil antenna for enhanced H-field in HF RFID",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transaction on Antennas Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">61, </span>
+                                                            <span class="pages" style="display: inline;">4900–4907,</span>
+                                                            <span class="date" style="display: inline;">2013</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            42.                                                             <span class="author text-success" style="display: inline;">I.J. Garcia Zuazola, A. Sharma, J.C. Batchelor, I. Angulo, A. Perallos, and J.M.H. Elmirghani,</span>
+                                                            <a href="https://doi.org/10.1049/iet-map.2012.0307" target="_blank"><strong class="title text-danger" style="display: inline;">"Radio Frequency IDentification miniature interrogator antenna sprayed over an in-vehicle chassis",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Radio Frequency IDentification miniature interrogator antenna sprayed over an in-vehicle chassis",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IET Microwave, Antennas & Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">6, </span>
+                                                            <span class="pages" style="display: inline;">1674–1680,</span>
+                                                            <span class="date" style="display: inline;">2012</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            43.                                                             <span class="author text-success" style="display: inline;">S. De, A. Sharma, R. Jantti, and H. D. Cavdar,</span>
+                                                            <a href="https://doi.org/10.1049/iet-com.2011.0795" target="_blank"><strong class="title text-danger" style="display: inline;">"Channel Adaptive Stop-and-Wait ARQ Protocols for Short-Range Wireless Links",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Channel Adaptive Stop-and-Wait ARQ Protocols for Short-Range Wireless Links",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IET Communications</i>,</span>
+                                                            <span class="volume" style="display: inline;">6, </span>
+                                                            <span class="pages" style="display: inline;">2128 – 2137,</span>
+                                                            <span class="date" style="display: inline;">2012</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            44.                                                             <span class="author text-success" style="display: inline;">A. Sharma and S. De,</span>
+                                                            <a href="https://doi.org/10.1109/LCOMM.2011.090911.111472" target="_blank"><strong class="title text-danger" style="display: inline;">"Exploiting fading dynamics along with AMC for energy-efficient transmission over fading channels",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Exploiting fading dynamics along with AMC for energy-efficient transmission over fading channels",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Communication Letters</i>,</span>
+                                                            <span class="volume" style="display: inline;">15, </span>
+                                                            <span class="pages" style="display: inline;">1218-1220,</span>
+                                                            <span class="date" style="display: inline;">2011</span>
+                                                        </li>
+                                                                                                    </ol>
+                                            </div>
+                                        </div>
+                                                                    </div>
+
+                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Conference" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Conference
+                                                Publications (19)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                                                            <div id="Conference" class="accordion-collapse collapse" aria-labelledby="Conference">
+                                            <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                                <ul class="list-group">
+                                                                                                                                                                <li class="list-group-item">
+                                                            1.                                                             <span class="author text-success" style="display: inline;">A. Bharadwaj, V. K. Srivastava, C. C. Reddy, and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.23919/EuCAP57121.2023.10133726" target="_blank"><strong class="title text-danger" style="display: inline;">"Design Methodology of Near-Field Transmitter Coil Antenna for Maximizing Efficiency of the WPT System",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Design Methodology of Near-Field Transmitter Coil Antenna for Maximizing Efficiency of the WPT System",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>2023 17th European Conference on Antennas and Propagation (EuCAP)</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1-5,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            2.                                                             <span class="author text-success" style="display: inline;">S. Kumar and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.23919/EuCAP57121.2023.1013315" target="_blank"><strong class="title text-danger" style="display: inline;">"A Polarization Insensitive Circular Rectenna Array System for Microwave Power Transfer and Energy Harvesting Applications",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Polarization Insensitive Circular Rectenna Array System for Microwave Power Transfer and Energy Harvesting Applications",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>European Conference on Antennas and Propagation (EuCAP), Florence, Italy, 2023</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1-4,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            3.                                                             <span class="author text-success" style="display: inline;">V. K. Srivastava, A. Bharadwaj and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.23919/EuCAP57121.2023.10133370" target="_blank"><strong class="title text-danger" style="display: inline;">"A Planar Distributed Receiver Coil Antenna Array to Encapsulate Vertical and Lateral H-Fields for Drone Wireless Charging",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Planar Distributed Receiver Coil Antenna Array to Encapsulate Vertical and Lateral H-Fields for Drone Wireless Charging",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>European Conference on Antennas and Propagation (EuCAP), Florence, Italy, 2023</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1-5,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            4.                                                             <span class="author text-success" style="display: inline;">S. Jain, M. Kumar and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/InCAP52216.2021.9726189" target="_blank"><strong class="title text-danger" style="display: inline;">"A Highly Efficient Compact High Gain RFID Tag Antenna for Millimeter Wave Applications",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Highly Efficient Compact High Gain RFID Tag Antenna for Millimeter Wave Applications",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>InCAP</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">402-404,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            5.                                                             <span class="author text-success" style="display: inline;">V. K. Srivastava, S. Kumar and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/ANTEM51107.2021.9518942" target="_blank"><strong class="title text-danger" style="display: inline;">"3D Polarized Field-Forming for Mitigation of Angular Misalignment Problem in Microwave Power Transfer Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"3D Polarized Field-Forming for Mitigation of Angular Misalignment Problem in Microwave Power Transfer Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Symposium on Antenna Technology and Applied Electromagnetics (ANTEM)</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1-2,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            6.                                                             <span class="author text-success" style="display: inline;">S. Agarwal and A. Sharma,</span>
+                                                            <a href="https://doi.org/10.1109/ICRAMET51080.2020.9298666" target="_blank"><strong class="title text-danger" style="display: inline;">"A Miniaturized Wideband Antenna for Vehicular Communication, WiMAX, and WLAN Applications",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Miniaturized Wideband Antenna for Vehicular Communication, WiMAX, and WLAN Applications",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Conference on Radar, Antenna, Microwave, Electronics, and Telecommunications (ICRAMET)</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            7.                                                             <span class="author text-success" style="display: inline;">V. K. Srivastava, A. Sharma and A. Bharadwaj,</span>
+                                                            <a href="https://doi.org/10.1109/ICIIS51140.2020.9342687" target="_blank"><strong class="title text-danger" style="display: inline;">"A Magnetic Resonance Coupling Based Touchless Pad for Human-Computer Interfacing",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Magnetic Resonance Coupling Based Touchless Pad for Human-Computer Interfacing",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>A Magnetic Resonance Coupling Based Touchless Pad for Human-Computer Interfacing</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">601-605,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            8.                                                             <span class="author text-success" style="display: inline;">A. Sharma, H. Tandan and P. Goel,</span>
+                                                            <a href="https://doi.org/10.1109/ICIIP.2017.8313689" target="_blank"><strong class="title text-danger" style="display: inline;">"Energy efficient handling of DWT-image transmission over wireless sensor network",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Energy efficient handling of DWT-image transmission over wireless sensor network",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>2017 Fourth International Conference on Image Information Processing (ICIIP)</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1-5,</span>
+                                                            <span class="date" style="display: inline;">2017</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            9.                                                             <span class="author text-success" style="display: inline;">A. Sharma, I. J. Garcia Zuazola, John C. Batchelor, Asier Perallos,</span>
+                                                            <a href="https://doi.org/------------------------------------------------" target="_blank"><strong class="title text-danger" style="display: inline;">"Switched Non- uniformly Distributed-Turns Coil Antenna for Dual-band operation",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Switched Non- uniformly Distributed-Turns Coil Antenna for Dual-band operation",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>9th European Conference on Antennas and Propagation</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2015</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            10.                                                             <span class="author text-success" style="display: inline;">A. Sharma, I. J. Garcia Zuazola, John C. Batchelor, Asier Perallos,</span>
+                                                            <a href="https://doi.org/10.1109/NCC.2015.7084872" target="_blank"><strong class="title text-danger" style="display: inline;">"Widespread Near- Field with Robust H-field Using NDTC Antennas in Multipurpose Applications‟",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Widespread Near- Field with Robust H-field Using NDTC Antennas in Multipurpose Applications‟",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>21st National Conference on Communication</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1-5,</span>
+                                                            <span class="date" style="display: inline;">2015</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            11.                                                             <span class="author text-success" style="display: inline;">A. Sharma, I. J. Garcia Zuazola, John C. Batchelor, Asier Perallos,</span>
+                                                            <a href="https://doi.org/10.1109/LAPC.2014.6996417" target="_blank"><strong class="title text-danger" style="display: inline;">"Influence of substrate types and reflector proximities over a NDTC antenna",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Influence of substrate types and reflector proximities over a NDTC antenna",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Loughborough Antennas and Propagation Conference</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2014</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            12.                                                             <span class="author text-success" style="display: inline;">A. Sharma, I. J. Garcia Zuazola, Asier Perallos, John C. Batchelor, and Anshu Gupta,</span>
+                                                            <a href="https://doi.org/ 10.1109/APS.2014.6905094" target="_blank"><strong class="title text-danger" style="display: inline;">"Fabricated Non-uniformly Distributed-Turns Coil",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Fabricated Non-uniformly Distributed-Turns Coil",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Antennas and Propagation Society International Symposium</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1536-1537,</span>
+                                                            <span class="date" style="display: inline;">2014</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            13.                                                             <span class="author text-success" style="display: inline;">A. Mammu, A. Sharma, Unai Hernandez-Jayo, and Nekane Sainz,</span>
+                                                            <a href="https://doi.org/10.1109/AINA.2013.106" target="_blank"><strong class="title text-danger" style="display: inline;">"A Novel Cluster- based Energy Efficient Routing in Wireless Sensor Networks",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Novel Cluster- based Energy Efficient Routing in Wireless Sensor Networks",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Proc. 27th IEEE AINA, Barcelona, Spain</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">41-47,</span>
+                                                            <span class="date" style="display: inline;">2013</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            14.                                                             <span class="author text-success" style="display: inline;">A. Sharma, A. K. Tiwari,</span>
+                                                            <a href="https://doi.org/------------------------------------------------" target="_blank"><strong class="title text-danger" style="display: inline;">"Lossless video coding using grid-gradient classification",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Lossless video coding using grid-gradient classification",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Proc. 18th IEEE Int. Conf. on Image Processing</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">2041-2044,</span>
+                                                            <span class="date" style="display: inline;">2011</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            15.                                                             <span class="author text-success" style="display: inline;">M. Vaishnav, A. Sharma, A. K. Tiwari,</span>
+                                                            <a href="https://doi.org/10.1109/DCC.2011.83" target="_blank"><strong class="title text-danger" style="display: inline;">"A novel computationally efficient motion compensation method based on pixel by pixel prediction",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A novel computationally efficient motion compensation method based on pixel by pixel prediction",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Proc. 21st IEEE Data compression Conf. (DCC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">480,</span>
+                                                            <span class="date" style="display: inline;">2011</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            16.                                                             <span class="author text-success" style="display: inline;">D. K. Chobey, A. Sharma, A. K. Tiwari,</span>
+                                                            <a href="https://doi.org/10.1109/DCC.2011.56" target="_blank"><strong class="title text-danger" style="display: inline;">"A Novel Prediction Model for Lossless Video Compression",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Novel Prediction Model for Lossless Video Compression",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Proc. 21st IEEE Data Compression Conf. (DCC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">452,</span>
+                                                            <span class="date" style="display: inline;">2011</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            17.                                                             <span class="author text-success" style="display: inline;">A. Sharma, B. Panigrahi, and S. De,</span>
+                                                            <a href="https://doi.org/10.1109/NCC.2011.5734752" target="_blank"><strong class="title text-danger" style="display: inline;">"Impact of interference on nodal communication range in wireless ad hoc networks",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Impact of interference on nodal communication range in wireless ad hoc networks",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Proc. 17th Nat. Conf. Communication (NCC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1-5,</span>
+                                                            <span class="date" style="display: inline;">2011</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            18.                                                             <span class="author text-success" style="display: inline;">A. Sharma, S. De, and H. M. Gupta,</span>
+                                                            <a href="https://doi.org/10.1109/COMSNETS.2011.5716514" target="_blank"><strong class="title text-danger" style="display: inline;">"Energy-efficient transmission of DWT image over OFDM channels",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Energy-efficient transmission of DWT image over OFDM channels",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Proc. 3rd Int. Conf. on Communication Systems and Networks</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">1-7,</span>
+                                                            <span class="date" style="display: inline;">2011</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            19.                                                             <span class="author text-success" style="display: inline;">A. Sharma, S. De, and H. M. Gupta,</span>
+                                                            <a href="https://doi.org/10.2316/P.2011.730-031" target="_blank"><strong class="title text-danger" style="display: inline;">"Optimizing MDTC over Feedback-less OFDM Channels",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Optimizing MDTC over Feedback-less OFDM Channels",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IASTED Wireless Communication</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2011</span>
+                                                        </li>
+                                                                                                    </ul>
+                                            </div>
+                                        </div>
+                                                                    </div>
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#BooksC" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Book and Book-Chapter
+                                                Publications (0)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="BooksC" class="accordion-collapse collapse" aria-labelledby="BooksC">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <ul class="list-group">
+                                                                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Patent" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Patent Publications
+                                                (1)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="Patent" class="accordion-collapse collapse" aria-labelledby="Patent">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <ul class="list-group">
+                                                                                                                                                    <li class="list-group-item">
+                                                        1.                                                         Patent,
+                                                        "Dual-mode Antenna With Non-uniform Coil Array For Wireless Power Transmission And Method Thereof "
+                                                        ISBN: published by -
+                                                         Year:
+                                                        2021 authors-
+                                                        M. Ananth Bharadwaj, Vivek Kumar Srivastava, Ashwani Sharma, C. C. Reddy                                                    </li>
+                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#PA" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-brands fa-connectdevelop fa-fw"></i>
+                                                Professional Affiliations (1)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="PA" class="accordion-collapse collapse" aria-labelledby="PA">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                
+                                                                                                    <li class="list-group-item">
+                                                        1. IEEE Senior Member                                                    </li>
+                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#RP" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                                Research Projects (7)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="RP" class="accordion-collapse collapse" aria-labelledby="RP">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <table class="table table-bordered" style="font-size: 00.8rem">
+                                                <thead>
+                                                    <tr class="text-center mnit-primary">
+                                                        <th scope="col">S. No.</th>
+                                                        <th scope="col">Title</th>
+                                                        <th scope="col">Funding Agency</th>
+                                                        <th scope="col">Role</th>
+                                                        <th scope="col">Start Year - End Year</th>
+                                                        <th scope="col">Amount (In Lacs)</th>
+                                                        <th scope="col">Details</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                                <td>1</td>
+                                                                    <td>Development of Switched Multi-beam Antennas for Drone and Drone pad for High Communication Range with 3D Coverage Enhancement and Interference Avoidance</td>
+                                                                    <td>ARDB, DRDO</td>
+                                                                    <td>PI</td>
+                                                                    <td>2024 - 2026</td>
+                                                                    <td>26.700</td>
+                                                                    <td><button type="button" class="btn btn-sm btn-secondary" data-bs-toggle="modal"
+                                                                    data-bs-target="#exampleModal_1">
+                                                    View
+                                                    </button></td>
+                                                    </tr><div class="modal fade " id="exampleModal_1"
+                                                        tabindex="-1" aria-labelledby="exampleModalLabel_1"
+                                                        aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5"
+                                                                        id="exampleModalLabel_<?php echo $serialNumber; ?>">
+                                                    Development of Switched Multi-beam Antennas for Drone and Drone pad for High Communication Range with 3D Coverage Enhancement and Interference Avoidance</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">[To Be Updated]<div class="swiper-container swiper mySwiper"
+                                                style="height:fit-content">
+                                                <div class="swiper-wrapper" style="height:fit-content"></div>
+                   
+                                          <div class="swiper-pagination"></div>
+                                     
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>    </div>
+
+                                                </div>
+                                            </div>
+                                        </div><tr>
+                                                                <td>2</td>
+                                                                    <td>A Triple-purpose Drone-pad System with Integrated Wireless charging and Localization along with High-Range Communication System for Completely Autonomous Drone Operations</td>
+                                                                    <td>NMICPS TiHAN Foundation</td>
+                                                                    <td>PI</td>
+                                                                    <td>2023 - 2025</td>
+                                                                    <td>16.000</td>
+                                                                    <td><button type="button" class="btn btn-sm btn-secondary" data-bs-toggle="modal"
+                                                                    data-bs-target="#exampleModal_2">
+                                                    View
+                                                    </button></td>
+                                                    </tr><div class="modal fade " id="exampleModal_2"
+                                                        tabindex="-1" aria-labelledby="exampleModalLabel_2"
+                                                        aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5"
+                                                                        id="exampleModalLabel_<?php echo $serialNumber; ?>">
+                                                    A Triple-purpose Drone-pad System with Integrated Wireless charging and Localization along with High-Range Communication System for Completely Autonomous Drone Operations</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">[To Be Updated]<div class="swiper-container swiper mySwiper"
+                                                style="height:fit-content">
+                                                <div class="swiper-wrapper" style="height:fit-content"></div>
+                   
+                                          <div class="swiper-pagination"></div>
+                                     
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>    </div>
+
+                                                </div>
+                                            </div>
+                                        </div><tr>
+                                                                <td>3</td>
+                                                                    <td>Switched multibeam antenna design and Quality-aware synthesis process for wireless coverage enhancement in drone-assisted smart mobility application</td>
+                                                                    <td>CRG, SERB-DST</td>
+                                                                    <td>PI</td>
+                                                                    <td>2022 - 2025</td>
+                                                                    <td>32.000</td>
+                                                                    <td><button type="button" class="btn btn-sm btn-secondary" data-bs-toggle="modal"
+                                                                    data-bs-target="#exampleModal_3">
+                                                    View
+                                                    </button></td>
+                                                    </tr><div class="modal fade " id="exampleModal_3"
+                                                        tabindex="-1" aria-labelledby="exampleModalLabel_3"
+                                                        aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5"
+                                                                        id="exampleModalLabel_<?php echo $serialNumber; ?>">
+                                                    Switched multibeam antenna design and Quality-aware synthesis process for wireless coverage enhancement in drone-assisted smart mobility application</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">[To Be Updated]<div class="swiper-container swiper mySwiper"
+                                                style="height:fit-content">
+                                                <div class="swiper-wrapper" style="height:fit-content"></div>
+                   
+                                          <div class="swiper-pagination"></div>
+                                     
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>    </div>
+
+                                                </div>
+                                            </div>
+                                        </div><tr>
+                                                                <td>4</td>
+                                                                    <td>Design and development of miniaturized cost-effective antennas for Internet of Things and 5G technology</td>
+                                                                    <td>ECR, SERB-DST</td>
+                                                                    <td>PI</td>
+                                                                    <td>2019 - 2022</td>
+                                                                    <td>50.000</td>
+                                                                    <td><button type="button" class="btn btn-sm btn-secondary" data-bs-toggle="modal"
+                                                                    data-bs-target="#exampleModal_4">
+                                                    View
+                                                    </button></td>
+                                                    </tr><div class="modal fade " id="exampleModal_4"
+                                                        tabindex="-1" aria-labelledby="exampleModalLabel_4"
+                                                        aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5"
+                                                                        id="exampleModalLabel_<?php echo $serialNumber; ?>">
+                                                    Design and development of miniaturized cost-effective antennas for Internet of Things and 5G technology</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">[To Be Updated]<div class="swiper-container swiper mySwiper"
+                                                style="height:fit-content">
+                                                <div class="swiper-wrapper" style="height:fit-content"></div>
+                   
+                                          <div class="swiper-pagination"></div>
+                                     
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>    </div>
+
+                                                </div>
+                                            </div>
+                                        </div><tr>
+                                                                <td>5</td>
+                                                                    <td>IoT Enabled Mobility for Intelligent Transportation Based on 5G Technology</td>
+                                                                    <td>ISIRD-I, IIT Ropar</td>
+                                                                    <td>PI</td>
+                                                                    <td>2019 - 2022</td>
+                                                                    <td>100.000</td>
+                                                                    <td><button type="button" class="btn btn-sm btn-secondary" data-bs-toggle="modal"
+                                                                    data-bs-target="#exampleModal_5">
+                                                    View
+                                                    </button></td>
+                                                    </tr><div class="modal fade " id="exampleModal_5"
+                                                        tabindex="-1" aria-labelledby="exampleModalLabel_5"
+                                                        aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5"
+                                                                        id="exampleModalLabel_<?php echo $serialNumber; ?>">
+                                                    IoT Enabled Mobility for Intelligent Transportation Based on 5G Technology</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">[To Be Updated]<div class="swiper-container swiper mySwiper"
+                                                style="height:fit-content">
+                                                <div class="swiper-wrapper" style="height:fit-content"></div>
+                   
+                                          <div class="swiper-pagination"></div>
+                                     
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>    </div>
+
+                                                </div>
+                                            </div>
+                                        </div><tr>
+                                                                <td>6</td>
+                                                                    <td>Smart wireless charging platforms for mobile devices</td>
+                                                                    <td>ISIRD-I, IIT Ropar</td>
+                                                                    <td>PI</td>
+                                                                    <td>2018 - 2019</td>
+                                                                    <td>10.000</td>
+                                                                    <td><button type="button" class="btn btn-sm btn-secondary" data-bs-toggle="modal"
+                                                                    data-bs-target="#exampleModal_6">
+                                                    View
+                                                    </button></td>
+                                                    </tr><div class="modal fade " id="exampleModal_6"
+                                                        tabindex="-1" aria-labelledby="exampleModalLabel_6"
+                                                        aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5"
+                                                                        id="exampleModalLabel_<?php echo $serialNumber; ?>">
+                                                    Smart wireless charging platforms for mobile devices</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">[To Be Updated]<div class="swiper-container swiper mySwiper"
+                                                style="height:fit-content">
+                                                <div class="swiper-wrapper" style="height:fit-content"></div>
+                   
+                                          <div class="swiper-pagination"></div>
+                                     
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>    </div>
+
+                                                </div>
+                                            </div>
+                                        </div><tr>
+                                                                <td>7</td>
+                                                                    <td>Title</td>
+                                                                    <td>IIT ROPAR</td>
+                                                                    <td>PI</td>
+                                                                    <td>2023 - 2024</td>
+                                                                    <td>51.000</td>
+                                                                    <td><button type="button" class="btn btn-sm btn-secondary" data-bs-toggle="modal"
+                                                                    data-bs-target="#exampleModal_7">
+                                                    View
+                                                    </button></td>
+                                                    </tr><div class="modal fade " id="exampleModal_7"
+                                                        tabindex="-1" aria-labelledby="exampleModalLabel_7"
+                                                        aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5"
+                                                                        id="exampleModalLabel_<?php echo $serialNumber; ?>">
+                                                    Title</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">[To Be Updated]<div class="swiper-container swiper mySwiper"
+                                                style="height:fit-content">
+                                                <div class="swiper-wrapper" style="height:fit-content"></div>
+                   
+                                          <div class="swiper-pagination"></div>
+                                     
+                                          <div class="swiper-button-next"></div>
+                                          <div class="swiper-button-prev"></div>
+                                      </div>    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#CP" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                                Consultancy Projects
+                                                (0)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="CP" class="accordion-collapse collapse" aria-labelledby="CP">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <table class="table table-bordered" style="font-size: 00.8rem">
+                                                <thead>
+                                                    <tr class="text-center mnit-primary">
+                                                        <th scope="col">S. No.</th>
+                                                        <th scope="col">Title</th>
+                                                        <th scope="col">Funding Agency</th>
+                                                        <th scope="col">Start Year - End Year</th>
+                                                        <th scope="col">Amount (In Lacs)</th>
+                                                        <th scope="col">Details</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                                                    </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane content_research fade show fade-in-custom" id="fifth" role="tabpanel" aria-labelledby="fifth-tab">
+                        <div class="row p-3 rounded shadow-lg">
+
+                            <div class="accordion-item px-0 mx-0 border mt-2">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Event" aria-expanded="false" aria-controls="collapseOne">
+                                        <h5>
+                                            <i class="fa-solid fa-calendar-check fa-fw"></i>
+                                            Courses Taught
+                                        </h5>
+                                    </button>
+                                </h2>
+                                <div id="Event" class="accordion-collapse collapse" aria-labelledby="Event">
+                                    <div class="accordion-body">
+                                        <div class="w-100 overflow-auto mx-0 px-0">
+                                            <table class="table table-bordered table-hover mt-0" id="courses_table1">
+                                                <thead>
+                                                    <tr class="bg-dark text-white fw-bold" style="border: 1px solid rgb(0, 0, 0)">
+                                                        <th>Code</th>
+                                                        <th>Title</th>
+                                                        <th>L-T-P-S-C</th>
+                                                        <th>Type</th>
+                                                        <th>Degree</th>
+                                                        <th>Year</th>
+                                                        <th>Semester</th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                                                    </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item  px-0 border mt-2">
+                                <h2 class="accordion-header " id="headingTwo1">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#PHD" aria-expanded="false" aria-controls="collapseTwo1">
+                                        <h5>
+                                            <i class="fa-solid fa-user fa-fw"></i>
+                                            PhD Research Supervised
+                                        </h5>
+                                    </button>
+                                </h2>
+                                <div id="PHD" class="accordion-collapse collapse" aria-labelledby="PHD">
+                                    <div class="accordion-body">
+                                        <div class="w-100 overflow-auto">
+                                            
+                                            <ul class="list-group fw-bold">
+                                                
+                                                                                                    <li class="list-group-item">
+                                                        1. Manoj Kumar                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        2. Ananth Bharadwaj                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        3. Vivek Kumar Srivastava                                                    </li>
+                                                                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border px-0 mt-2">
+                                <h2 class="accordion-header" id="headingThree1">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Position" aria-expanded="false" aria-controls="collapseThree1">
+                                        <h5>
+                                            <i class="fa-solid fa-key fa-fw"></i>
+                                            Administrative Responsibilities
+                                        </h5>
+                                    </button>
+                                </h2>
+                                <div id="Position" class="accordion-collapse collapse" aria-labelledby="Position">
+                                    <div class="accordion-body">
+                                        <div class="w-100 overflow-auto">
+                                            
+                                            <ul class="list-group fw-bold">
+                                                
+                                                                                                    <li class="list-group-item">
+                                                        1. Faculty Coordinator for M.Tech in SPCOM                                                    </li>
+                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="container my-4 p-0">
+
+        <div class="row my-4 bg-dark mx-1 p-3 rounded-4 position-sticky top-0">
+            <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#awards" type="button" role="tab" aria-controls="profile" aria-selected="false">
+
+                        Awards And Honours
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#events" type="button" role="tab" aria-controls="contact" aria-selected="false">
+
+                        Events Organized
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="visit-tab" data-bs-toggle="tab" data-bs-target="#visits" type="button" role="tab" aria-controls="contact" aria-selected="false">
+
+                        Academic Visits
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="outreach-tab" data-bs-toggle="tab" data-bs-target="#outreach" type="button" role="tab" aria-controls="contact" aria-selected="false">
+
+                        Outreach Activities
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#miscellaneous" type="button" role="tab" aria-controls="home" aria-selected="true">
+
+                        Miscellaneous
+                        </h4>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade" id="miscellaneous" role="tabpanel" aria-labelledby="home-tab">
+                <!--tab 1 start -->
+                </div>                <!--tab 1 end -->
+            </div>
+            <div class="tab-pane active" id="awards" role="tabpanel" aria-labelledby="profile-tab">
+                <!--tab 2 start -->
+                </div>                <!--tab 2 end -->
+            </div>
+            <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="contact-tab">
+                <!--tab 3 start -->
+                </div>                <!--tab 3 end -->
+            </div>
+            <div class="tab-pane fade" id="visits" role="tabpanel" aria-labelledby="contact-tab">
+                <!--tab 4 start -->
+                </div>                <!--tab 4 end -->
+            </div>
+            <div class="tab-pane fade" id="outreach" role="tabpanel" aria-labelledby="contact-tab">
+
+                <!--tab 5 start -->
+                </div>                <!--tab 5 end -->
+            </div>
+        </div>
+    </div>
+    <!-- Profile Faculty Ended -->

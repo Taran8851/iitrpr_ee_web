@@ -1,0 +1,70 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+#dashboard_sidebar {
+    background-color: var(--dark);
+    width: 350px;
+    color: var(--light);
+    height: max(100vh, -webkit-fit-content);
+    height: max(100vh, -moz-fit-content);
+    height: max(100vh, fit-content);
+    position: relative;
+    -webkit-transition: 0.3s linear all;
+    -o-transition: 0.3s linear all;
+    transition: 0.3s linear all;
+}
+
+#dashboard_sidebar>h4 {
+    color: var(--shade2);
+}
+
+#dashboard_sidebar>img {
+    height: 100px;
+    width: 100px;
+    margin: 10px 0;
+    border-radius: 50%;
+    border: 2px solid var(--shade2);
+}
+
+#dashboard_sidebar i {
+    margin-right: 5px;
+}
+
+.btn-toggle-dashboard {
+    background-color: var(--shade2);
+    position: absolute;
+    left: 100%;
+    top: 0;
+    border-radius: 0;
+}
+
+.sidebar_toggle {
+    -webkit-transform: translateX(-100%) !important;
+    -ms-transform: translateX(-100%) !important;
+    transform: translateX(-100%) !important;
+}
+
+.show_in_mobile {
+    display: none !important;
+}
+
+@media screen and (max-width: 1000px) {
+    #dashboard_sidebar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        overflow: auto;
+        height: 100vh !important;
+    }
+    .hide_in_mobile {
+        display: none;
+    }
+    .show_in_mobile {
+        display: block !important;
+    }
+}

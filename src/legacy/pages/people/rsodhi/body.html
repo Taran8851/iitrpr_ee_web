@@ -1,0 +1,1211 @@
+<!-- Profile Faculty Started  -->
+    <div class="container mt-3">
+        <div class="row my-4">
+            <a class="btn btn-danger btn-sm mx-0" style="width: fit-content;" href="/faculty">
+                <i class="fa-solid fa-arrow-left"></i> Go Back</a>
+        </div>
+        <!-- Latest News -->
+        <div class="row">
+            <div class="col-md-12 h-auto d-flex justify-content-between align-items-center  flex-row p-0 gap-0" id="__notification_panel">
+                <div class="col-sm-1 fw-bold text-center  m-0 h-100 d-flex justify-content-center align-items-center">
+                    <h5 class="fw-bold"><i class="fa-solid fa-bullhorn"></i> </h5>
+                </div>
+                <div class="col-sm-11 overflow-auto d-flex flex-nowrap flex-row align-items-center justify-content-center">
+                    <marquee behavior="smooth" scrollamount="14" onmouseover="stopMarquee()" onmouseout="startMarquee()">
+                        <ul class="d-flex d-row gap-3">
+                                                                <li>
+                                        Sourav De PhD scholar under supervisor Dr.Ranjana Sodhi completed PhD defense                                    </li>
+                                                    </ul>
+                    </marquee>
+                </div>
+                <!-- <div class="col-sm-1 fw-bold text-center  m-0 h-100 d-flex justify-content-center align-items-center"
+                    style="background-color: var(--dark);color:white">
+                    <a href="./news.php" target="_blank" class="text-white">More</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="pt-2 mb-3 container">
+
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <div class="row shadow rounded p-3" style="border-left: 5px solid var(--shade2)">
+                    <div class="col-md-2 col-lg-2">
+                                                        <div class="d-flex justify-content-center mt-2">
+                                    <img src="/images/legacy/493826066def.jpg" alt="Profile Image" class="rounded img-fluid" style="width: auto; border-radius: 12px" />                                </div>
+
+                    </div>
+                    <div class="col-md-8 col-lg-8 profileDetails mt-3">
+                        <h4 class="fw-bold"> Ranjana Sodhi</h4>
+                        <div class="table-responsive text-secondary">
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-user fa-fw"></i>
+                                Associate Professor </span><br />
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-address-card fa-fw"></i>
+                                </span><br />
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-envelope fa-fw"></i>rsodhi@iitrpr.ac.in</span><br />
+                            <span class="d-inline-block mt-1 fw-bold"><i class="fa-solid fa-square-phone fa-fw"></i>1881232217</span><br />
+                        </div>
+                        <div class="dropdown mb-0 mt-2">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle mb-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-share-from-square"></i>
+                                Share Profile
+                            </button>
+                            <ul class="dropdown-menu mb-0" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#" onclick="shareOnWhatsApp()">Share on <i class="fa-brands fa-whatsapp"></i></a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="shareCurrentUrl()">Share Anywhare</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <script>
+                            function shareCurrentUrl() {
+                                if (navigator.share) {
+                                    navigator.share({
+                                            title: document.title,
+                                            url: window.location.href
+                                        })
+                                        .then(() => console.log('URL shared successfully'))
+                                        .catch((error) => console.error('Error sharing URL', error));
+                                } else {
+                                    alert('Web Share API not supported in this browser');
+                                }
+                            }
+
+                            function shareOnWhatsApp() {
+                                var encodedText = encodeURIComponent(window.location.href);
+                                var whatsappUrl = 'whatsapp://send?text=' + encodedText;
+                                window.location.href = whatsappUrl;
+                            }
+                        </script>
+                    </div>
+                    <div class="col-md-2 profileView">
+
+                        <span class="text-muted"><a href="https://scholar.google.co.in/citations?user=QGjIzxEAAAAJ&hl=en" target="_blank"><i class="fa-brands fa-google mnit-primary"></i> Google
+                                Scholar Profile
+                            </a></span><br />
+                        <span class="text-muted">
+                            <div class="dropdown mb-0 mt-2 mx-0">
+                                <button class="btn btn-link dropdown-toggle mb-0 mx-0 underline-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none; transform: translateX(-13px);">
+                                    <i class="fa-solid fa-globe"></i>
+                                    Personal Website
+                                </button>
+                                <ul class="dropdown-menu mb-0" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item text-primary" href="https://sites.google.com/iitrpr.ac.in/symarlab/symar-lab" target="_blank">https://sites.google.com/iitrpr.ac.in/symarlab/symar-lab  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a></li>                                </ul>
+                            </div>
+
+                        </span><br />
+                        <span class="text-muted">
+                            <div class="dropdown mb-0 mt-0 mx-0">
+                                <button class="btn btn-link dropdown-toggle mb-0 mx-0 underline-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none; transform: translateX(-13px);">
+                                    <i class="fa-solid fa-globe"></i>
+                                    Other Links
+                                </button>
+                                <ul class="dropdown-menu mb-0" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item text-dark" href="#">[To Be Updated]</a></li>                                </ul>
+                            </div>
+
+                        </span><br />
+                    </div>
+                        
+                    <div class="row py-2 mt-4 d-flex justify-content-start">
+                        <h4 class="fw-bold  w-auto">
+                            Introduction
+                        </h4>
+                        <p>Dr. Ranjana Sodhi earned her B.Tech degree in Electrical Engineering from NIT Hamirpur, in 2005. She has been active in the field of electrical engineering since 2005. In the past she had a brief stint as a Project Engineer (in voice and next generation networks group) at Wipro Technologies, Bangalore; and also got appointment as Additional Director in Central Electricity Authority (CEA), New Delhi, (IES batch 2005). She came back to academia to pursue research in the area of power systems and completed her Ph.D. from IIT Kanpur in May 2011. Dr. Sodhi is currently an Associate Professor in the Department of EE at IIT Ropar. Dr. Sodhi's doctoral research work is around the Synchrophasor technology and its applications towards power system state estimation and voltage stability assessment, Power Quality Assessment and Control, Smart Home Automation and Cyber Security of Smart Grids.</p>
+                    </div>
+            
+
+            <script>
+                let marqueeElement = document.querySelector('marquee');
+
+                function stopMarquee() {
+                    marqueeElement.stop();
+                }
+
+                function startMarquee() {
+                    marqueeElement.start();
+                }
+            </script>
+            <!-- News Ended -->
+                            </div>
+
+
+
+                <div class="col-md-12 col-lg-12 my-3">
+                    <div class="row shadow rounded p-3" style="border-left: 5px solid var(--shade2)">
+                        <h1>Research Highlights</h1>
+                        <div class="row py-2 mx-1 mt-0 d-flex justify-content-between">
+                            <div onclick="handleClickPublicationCount(`Journal`)" role="button" class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-primary border-primary mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">27</h1>
+                                <p style="font-size: 0.8rem">Journal Publications</p>
+                            </div>
+                            <div role="button" onclick="handleClickPublicationCount(`Conference`)" class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-warning border-warning mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">44</h1>
+                                <p style="font-size: 0.8rem">Conference Publications</p>
+                            </div>
+                            <div onclick="handleClickPublicationCount(`RP`)" class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-secondary border-secondary mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">0</h1>
+                                <p style="font-size: 0.8rem" class="text-center">
+                                    Research Projects
+                                </p>
+                            </div>
+                            <div class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-info border-info mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                <h1 style="font-size: 1.5rem">0</h1>
+                                <p style="font-size: 0.8rem">Patents</p>
+                            </div>
+                            <div class="hover-scale-up col-md-2 col-lg-2 shadow rounded alert alert-danger alert-danger mx-1 d-flex flex-column align-items-center justify-content-center" style="
+                  height: 150px;
+                  border-bottom-width: 5px;
+                  border-bottom-style: solid;
+                ">
+                                
+                                <h1 style="font-size: 1.5rem">0</h1>
+                                <p style="font-size: 0.8rem" class="text-center">
+                                    Awards &amp; Honours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4 bg-dark p-3 rounded-4 position-sticky top-0">
+                    <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#first" type="button" role="tab" aria-controls="first" aria-selected="true">
+                                Qualifications
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#second" type="button" role="tab" aria-controls="second" aria-selected="false">
+                                Research Interests
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#third" type="button" role="tab" aria-controls="third" aria-selected="false">
+                                Brief Research Profile
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research" id="research_work_tab">
+                            <span class="nav-link" data-bs-toggle="tab" data-bs-target="#fourth" type="button" role="tab" aria-controls="fourth" aria-selected="false">
+                                Research Work
+                            </span>
+                        </li>
+                        <li class="nav-item tablist_research">
+                            <span class="nav-link" data-bs-toggle="tab" data-bs-target="#fifth" type="button" role="tab" aria-controls="fifth" aria-selected="false">
+                                Academics
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane content_research fade show active fade-in-custom" id="first" role="tabpanel" aria-labelledby="first-tab">
+                                                <div class="row shadow rounded p-3 mt-2">
+                            <div class="col-md-12 col-lg-12">
+                                <h5>
+                                    <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                                    Qualifications
+                                </h5>
+                                <div class="subtitle-border-bottom"></div>
+                            </div>
+                             <ol class="m-3">
+                                <li>B.Tech.</li><li> PhD</li></ol>                        </div>
+
+                    </div>
+                                        
+                    <div class="tab-pane content_research fade fade-in-custom" id="second" role="tabpanel" aria-labelledby="second-tab">
+                        <div class="row shadow rounded p-3 mt-4">
+                            <div class="col-md-12 col-lg-12">
+                                <h5>
+                                    <i class="fa-solid fa-search fa-fw"></i> Research Interests
+                                </h5>
+                                <div class="subtitle-border-bottom"></div>
+                            </div>
+                             <ul class="m-2">
+                                <li>Power Systems</li><li> Smart Grid</li><li> Synchrophasor Technology</li><li> Wide Area Monitoring Systems</li><li> Power Quality</li><li> State Estimation</li><li> Smart Home</li><li> Cyber Security</li><li> Power Markets</li><li> Electric Vehicles</li></ul>
+                        </div>
+                    </div>
+
+                                        <div class="tab-pane content_research fade fade-in-custom" id="third" role="tabpanel" aria-labelledby="third-tab">
+                        <div class="row shadow rounded p-3 mt-4">
+                            <div class="col-md-12 col-lg-12">
+                                <h5>
+                                    <i class="fa-solid fa-user fa-fw"></i> Brief Research Profile
+                                </h5>
+                                <div class="subtitle-border-bottom"></div>
+                            </div>
+                            <p class="mt-2">
+                                                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane content_research fade fade-in-custom" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
+                        <div class="row shadow rounded p-3 mt-4">
+                            <div class="accordion" id="accordionProfile">
+                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Journal" aria-expanded="false" aria-controls="collapseOne" id="journal_pub">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Journal
+                                                Publications (27)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                                                            <div id="Journal" class="accordion-collapse collapse" aria-labelledby="Journal">
+                                            <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                                <ol class="list-group">
+                                                                                                            <li class="list-group-item">
+                                                            1.                                                             <span class="author text-success" style="display: inline;">Manish Pandit and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/http://dx.doi.org/10.1016/j.epsr.2024.110310" target="_blank"><strong class="title text-danger" style="display: inline;">"Randomized Singular Value Decomposition based Real-time Wide Area Voltage Stability Assessment (WAVS)",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Randomized Singular Value Decomposition based Real-time Wide Area Voltage Stability Assessment (WAVS)",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Electric Power System Research</i>,</span>
+                                                            <span class="volume" style="display: inline;">231, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            2.                                                             <span class="author text-success" style="display: inline;">Sourav De and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TSMC.2024.3403749" target="_blank"><strong class="title text-danger" style="display: inline;">"A Unified Cyber Attack Detection and Mitigation Framework for an Islanded AC Microgrid",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Unified Cyber Attack Detection and Mitigation Framework for an Islanded AC Microgrid",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Systems, Man and Cybernetics: Systems</i>,</span>
+                                                            <span class="volume" style="display: inline;">54, </span>
+                                                            <span class="pages" style="display: inline;">5270-5282,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            3.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal, Ranjana Sodhi, Saikat Chakrabarti, and Ankush Sharma,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TPWRD.2023.3298470" target="_blank"><strong class="title text-danger" style="display: inline;">"A Novel Two-Stage Partitioning Based Reconfiguration Method for Active Distribution Networks",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Novel Two-Stage Partitioning Based Reconfiguration Method for Active Distribution Networks",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Power Delivery</i>,</span>
+                                                            <span class="volume" style="display: inline;">38, </span>
+                                                            <span class="pages" style="display: inline;">4004-4016,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            4.                                                             <span class="author text-success" style="display: inline;">Sourav De, M Venkateswara Reddy and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TIA.2023.3348425" target="_blank"><strong class="title text-danger" style="display: inline;">"A Data-Driven Passive Islanding Scheme",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Data-Driven Passive Islanding Scheme",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Industry Applications</i>,</span>
+                                                            <span class="volume" style="display: inline;">60, </span>
+                                                            <span class="pages" style="display: inline;">3698-3709,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            5.                                                             <span class="author text-success" style="display: inline;">Manish Pandit and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/JSEN.2024.3349595" target="_blank"><strong class="title text-danger" style="display: inline;">"Phasor Measurement Sensor-Assisted Time to Collapse Estimation under Long Term Voltage Instability of Smart Grids",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Phasor Measurement Sensor-Assisted Time to Collapse Estimation under Long Term Voltage Instability of Smart Grids",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Sensors Journal</i>,</span>
+                                                            <span class="volume" style="display: inline;">24, </span>
+                                                            <span class="pages" style="display: inline;">6523-6531,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            6.                                                             <span class="author text-success" style="display: inline;">Sourav De and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1016/j.epsr.2022.107805" target="_blank"><strong class="title text-danger" style="display: inline;">"A PMU Assisted Cyber Security Resilient Framework Against Power System Structural Vulnerabilities",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A PMU Assisted Cyber Security Resilient Framework Against Power System Structural Vulnerabilities",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Electric Power System Research</i>,</span>
+                                                            <span class="volume" style="display: inline;">206, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            7.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TIA.2022.3164019" target="_blank"><strong class="title text-danger" style="display: inline;">"A Novel Frequency Estimator for Protection Applications in Active Distribution Networks",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Novel Frequency Estimator for Protection Applications in Active Distribution Networks",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Industrial Applications</i>,</span>
+                                                            <span class="volume" style="display: inline;">58, </span>
+                                                            <span class="pages" style="display: inline;">4319 - 4327,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            8.                                                             <span class="author text-success" style="display: inline;">Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TSG.2022.3206147" target="_blank"><strong class="title text-danger" style="display: inline;">"Community Pool Model for Active-Hour Appliance Management: A Multi-Round ADMM Approach",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Community Pool Model for Active-Hour Appliance Management: A Multi-Round ADMM Approach",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Smart Grid</i>,</span>
+                                                            <span class="volume" style="display: inline;">14, </span>
+                                                            <span class="pages" style="display: inline;">1070-1082,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            9.                                                             <span class="author text-success" style="display: inline;">Kapil Chauhan and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1007/s40031-021-00615-4" target="_blank"><strong class="title text-danger" style="display: inline;">"A signal Parameter Measurement Technique for Adversely Distorted Multi-Frequency Grid Signals",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A signal Parameter Measurement Technique for Adversely Distorted Multi-Frequency Grid Signals",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>journal of the Institutions of Engineers India - Series B</i>,</span>
+                                                            <span class="volume" style="display: inline;">102, </span>
+                                                            <span class="pages" style="display: inline;">927-938,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            10.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1016/j.epsr.2021.107578" target="_blank"><strong class="title text-danger" style="display: inline;">"A Novel µPMUs Assisted Loss-of-Mains Detection Technique for Active Distribution Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Novel µPMUs Assisted Loss-of-Mains Detection Technique for Active Distribution Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Electric Power System Research</i>,</span>
+                                                            <span class="volume" style="display: inline;">202, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            11.                                                             <span class="author text-success" style="display: inline;">Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TII.2021.3114361" target="_blank"><strong class="title text-danger" style="display: inline;">"A Bi-Layer Clustered Priority Driven Energy Management Model for Inclining Block Rate Tariff Environment",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Bi-Layer Clustered Priority Driven Energy Management Model for Inclining Block Rate Tariff Environment",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i> IEEE Transactions on Industrial Informatics</i>,</span>
+                                                            <span class="volume" style="display: inline;">18, </span>
+                                                            <span class="pages" style="display: inline;">3936-3946,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            12.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/http://dx.doi.org/10.1109/TPWRD.2021.3124986" target="_blank"><strong class="title text-danger" style="display: inline;">"A Statistical Features based generic Passive Islanding Detection scheme for IIDGs",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Statistical Features based generic Passive Islanding Detection scheme for IIDGs",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Power Delivery</i>,</span>
+                                                            <span class="volume" style="display: inline;">37, </span>
+                                                            <span class="pages" style="display: inline;">3176-3188,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            13.                                                             <span class="author text-success" style="display: inline;">Kapil Chauhan and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TIM.2019.2939951" target="_blank"><strong class="title text-danger" style="display: inline;">"Placement of Distribution-level Phasor Measurements for Topological Observability and Monitoring of Active Distribution Networks",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Placement of Distribution-level Phasor Measurements for Topological Observability and Monitoring of Active Distribution Networks",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Instrumentation and Measurement </i>,</span>
+                                                            <span class="volume" style="display: inline;">69, </span>
+                                                            <span class="pages" style="display: inline;">3451-3460,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            14.                                                             <span class="author text-success" style="display: inline;">M Venkateswara Reddy and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TII.2019.2950404" target="_blank"><strong class="title text-danger" style="display: inline;">"An Open Loop Fundamental and Harmonic Phasor Estimator for Single-Phase Voltage Signals",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"An Open Loop Fundamental and Harmonic Phasor Estimator for Single-Phase Voltage Signals",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Industrial Informatics</i>,</span>
+                                                            <span class="volume" style="display: inline;">16, </span>
+                                                            <span class="pages" style="display: inline;">4535-4546,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            15.                                                             <span class="author text-success" style="display: inline;">Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TII.2020.2975810" target="_blank"><strong class="title text-danger" style="display: inline;">"An Appliance Load Disaggregation Scheme Using Automatic State Detection Enabled Enhanced Integer-Programming",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"An Appliance Load Disaggregation Scheme Using Automatic State Detection Enabled Enhanced Integer-Programming",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Industrial Informatics</i>,</span>
+                                                            <span class="volume" style="display: inline;">17, </span>
+                                                            <span class="pages" style="display: inline;">1176-1185,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            16.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/JSYST.2020.2976736" target="_blank"><strong class="title text-danger" style="display: inline;">"PMUs Enabled Tellegen’s Theorem based Fault Identification Method for Unbalanced Active Distribution Network using RTDS",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"PMUs Enabled Tellegen’s Theorem based Fault Identification Method for Unbalanced Active Distribution Network using RTDS",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE systems journal</i>,</span>
+                                                            <span class="volume" style="display: inline;">14, </span>
+                                                            <span class="pages" style="display: inline;">4567-4578,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            17.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TIM.2020.2980339" target="_blank"><strong class="title text-danger" style="display: inline;">"A Half-Cycle Fast Discrete Orthonormal S Transform based Protection-class µPMU",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Half-Cycle Fast Discrete Orthonormal S Transform based Protection-class µPMU",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Instrumentation and Measurement</i>,</span>
+                                                            <span class="volume" style="display: inline;">69, </span>
+                                                            <span class="pages" style="display: inline;">6934-6945,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            18.                                                             <span class="author text-success" style="display: inline;">Kapil Chauhan and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1016/j.epsr.2020.106964" target="_blank"><strong class="title text-danger" style="display: inline;">"A Distribution-Level PM enabled Teager-Kaiser Energy based Islanding Detector",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Distribution-Level PM enabled Teager-Kaiser Energy based Islanding Detector",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Electric Power System Research</i>,</span>
+                                                            <span class="volume" style="display: inline;">192, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            19.                                                             <span class="author text-success" style="display: inline;">Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TPWRD.2019.2917585" target="_blank"><strong class="title text-danger" style="display: inline;">"A Novel Instrumentation Approach for Clustered Appliance Load Monitoring",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Novel Instrumentation Approach for Clustered Appliance Load Monitoring",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Power Delivery</i>,</span>
+                                                            <span class="volume" style="display: inline;">34, </span>
+                                                            <span class="pages" style="display: inline;">2257-2259,</span>
+                                                            <span class="date" style="display: inline;">2019</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            20.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal, M Venkateswara Reddy and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1080/15325008.2019.1660737" target="_blank"><strong class="title text-danger" style="display: inline;">"An Open Loop Frequency Estimator for Adversely Distorted Signals Encompassing Interharmonics",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"An Open Loop Frequency Estimator for Adversely Distorted Signals Encompassing Interharmonics",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Electric Power Components and Systems</i>,</span>
+                                                            <span class="volume" style="display: inline;">47, </span>
+                                                            <span class="pages" style="display: inline;">1218-1229,</span>
+                                                            <span class="date" style="display: inline;">2019</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            21.                                                             <span class="author text-success" style="display: inline;">M Venkateswara Reddy and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TIM.2017.2761239" target="_blank"><strong class="title text-danger" style="display: inline;">"A Modified S-Transform and Random Forests based Power Quality Assessment Framework",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Modified S-Transform and Random Forests based Power Quality Assessment Framework",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Instrumentation and Measurement </i>,</span>
+                                                            <span class="volume" style="display: inline;">67, </span>
+                                                            <span class="pages" style="display: inline;">78-89,</span>
+                                                            <span class="date" style="display: inline;">2018</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            22.                                                             <span class="author text-success" style="display: inline;">Kapil Chauhan, M Venkateswara Reddy and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/http://dx.doi.org/10.1109/TIE.2018.2801837" target="_blank"><strong class="title text-danger" style="display: inline;">"A Novel Distribution-Level Phasor Estimation Algorithm Using Empirical Wavelet Transform",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Novel Distribution-Level Phasor Estimation Algorithm Using Empirical Wavelet Transform",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Industrial Electronics</i>,</span>
+                                                            <span class="volume" style="display: inline;">65, </span>
+                                                            <span class="pages" style="display: inline;">7984-7995,</span>
+                                                            <span class="date" style="display: inline;">2018</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            23.                                                             <span class="author text-success" style="display: inline;">M. Venkateswara Reddy and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1016/j.epsr.2016.01.003" target="_blank"><strong class="title text-danger" style="display: inline;">"A Rule-based S-Transform and AdaBoost based Approach for Power Quality Assessment",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Rule-based S-Transform and AdaBoost based Approach for Power Quality Assessment",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Electric Power System Research</i>,</span>
+                                                            <span class="volume" style="display: inline;">134, </span>
+                                                            <span class="pages" style="display: inline;">66-79,</span>
+                                                            <span class="date" style="display: inline;">2016</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            24.                                                             <span class="author text-success" style="display: inline;">Imran Sharieff and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/https://cprijournal.in/index.php/pr/article/view/293" target="_blank"><strong class="title text-danger" style="display: inline;">"Synchrophasor-Assisted Detection and Control of Emergency Voltage Instability Conditions",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Synchrophasor-Assisted Detection and Control of Emergency Voltage Instability Conditions",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Power research </i>,</span>
+                                                            <span class="volume" style="display: inline;">12, </span>
+                                                            <span class="pages" style="display: inline;">433-444,</span>
+                                                            <span class="date" style="display: inline;">2016</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            25.                                                             <span class="author text-success" style="display: inline;">Ranjana Sodhi, S.C. Srivastava, S.N. Singh,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1109/TSG.2011.2180936" target="_blank"><strong class="title text-danger" style="display: inline;">"A Simple Scheme for Wide Area Detection of Impending Voltage Instability",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Simple Scheme for Wide Area Detection of Impending Voltage Instability",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Transactions on Smart Grid</i>,</span>
+                                                            <span class="volume" style="display: inline;">2, </span>
+                                                            <span class="pages" style="display: inline;">818-827,</span>
+                                                            <span class="date" style="display: inline;">2012</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            26.                                                             <span class="author text-success" style="display: inline;">Ranjana Sodhi, S.C. Srivastava, S.N. Singh,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1049/iet-gtd.2009.0709" target="_blank"><strong class="title text-danger" style="display: inline;">"Multi-criteria decision-making approach for multi-stage optimal placement of phasor measurement units",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Multi-criteria decision-making approach for multi-stage optimal placement of phasor measurement units",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i> IET Generation, Transmission & Distribution</i>,</span>
+                                                            <span class="volume" style="display: inline;">5, </span>
+                                                            <span class="pages" style="display: inline;">181-190,</span>
+                                                            <span class="date" style="display: inline;">2011</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            27.                                                             <span class="author text-success" style="display: inline;">Ranjana Sodhi, S.C. Srivastava, S.N. Singh,</span>
+                                                            <a href="https://doi.org/https://doi.org/10.1016/j.epsr.2010.03.005" target="_blank"><strong class="title text-danger" style="display: inline;">"Optimal PMU placement method for complete topological and numerical observability of power system",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>                                                            <!-- <strong class="title text-danger" style="display: inline;">"Optimal PMU placement method for complete topological and numerical observability of power system",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Electric Power Systems Research</i>,</span>
+                                                            <span class="volume" style="display: inline;">80, </span>
+                                                            <span class="pages" style="display: inline;">1154-1159,</span>
+                                                            <span class="date" style="display: inline;">2010</span>
+                                                        </li>
+                                                                                                    </ol>
+                                            </div>
+                                        </div>
+                                                                    </div>
+
+                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Conference" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Conference
+                                                Publications (44)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                                                            <div id="Conference" class="accordion-collapse collapse" aria-labelledby="Conference">
+                                            <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                                <ul class="list-group">
+                                                                                                                                                                <li class="list-group-item">
+                                                            1.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal, R Sodhi, S Chakrabarti, A Sharma and K Chauhan,</span>
+                                                            <strong class="title text-danger" style="display: inline;">"A Modified Loadflow Method for Enhancing Resiliency of Islanded Distribution Systems",</strong>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Modified Loadflow Method for Enhancing Resiliency of Islanded Distribution Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE PES General Meeting</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            2.                                                             <span class="author text-success" style="display: inline;">Swati Agarwal and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/979-8-3503-8399-7" target="_blank"><strong class="title text-danger" style="display: inline;">"A Multilevel Vulnerability Assessment Strategy of N−k−{j} Contingencies for Ensuring the Cybersecurity of Power Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Multilevel Vulnerability Assessment Strategy of N−k−{j} Contingencies for Ensuring the Cybersecurity of Power Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Conference on Sustainable Energy and Future Electric Transportation (SEFET)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/SEFET61574.2024.10718172, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            3.                                                             <span class="author text-success" style="display: inline;">Swati Agarwal and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/979-8-3503-8399-7" target="_blank"><strong class="title text-danger" style="display: inline;">"A Fast Multilevel Vulnerability Assessment Strategy for Power Systems Cyber Security",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Fast Multilevel Vulnerability Assessment Strategy for Power Systems Cyber Security",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Sustainable Energy and Future Electric Transportation (SEFET), International Conference on</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/SEFET61574.2024.10717925, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            4.                                                             <span class="author text-success" style="display: inline;">Shitikantha Dash, Ranjana Sodhi and S N Singh,</span>
+                                                            <a href="https://doi.org/979-8-3503-8399-7" target="_blank"><strong class="title text-danger" style="display: inline;">"Cluster-Wise Response Aggregation-Based Differentially Private Pool Energy Market Model",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Cluster-Wise Response Aggregation-Based Differentially Private Pool Energy Market Model",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Sustainable Energy and Future Electric Transportation (SEFET), International Conference on</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/SEFET61574.2024.10717938, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            5.                                                             <span class="author text-success" style="display: inline;">Ranjana Sodhi,</span>
+                                                            <strong class="title text-danger" style="display: inline;">"Planning Study for Wide Area Monitoring System (WAMS) Installation in SAR Countries",</strong>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Planning Study for Wide Area Monitoring System (WAMS) Installation in SAR Countries",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Conference on Electrical Power and Energy Systems (ICEPES)</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2024</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            6.                                                             <span class="author text-success" style="display: inline;">Nitish Kumar, Sourav De and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/979-8-3503-0473-2" target="_blank"><strong class="title text-danger" style="display: inline;">"A Comparative Assessment of Machine Learning Techniques for False Data Injection Attack Classification",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Comparative Assessment of Machine Learning Techniques for False Data Injection Attack Classification",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Smart Technologies for Power, Energy and Control (STPEC), IEEE International Conference on</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/STPEC59253.2023.10430663, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            7.                                                             <span class="author text-success" style="display: inline;">Ayush Srivastava, Swati Agarwal, Ranjana Sodhi, and T Soni,</span>
+                                                            <a href="https://doi.org/979-8-3503-0473-2" target="_blank"><strong class="title text-danger" style="display: inline;">"A Comparative Assessment of Data Exploratory Techniques for Power Theft Detection in Residential Distribution Grids",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Comparative Assessment of Data Exploratory Techniques for Power Theft Detection in Residential Distribution Grids",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Smart Technologies for Power, Energy and Control (STPEC), IEEE International Conference on</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/STPEC59253.2023.10430551, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            8.                                                             <span class="author text-success" style="display: inline;">Ayush Srivastava, Swati Agarwal, and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/979-8-3503-1873-9" target="_blank"><strong class="title text-danger" style="display: inline;">"Power Theft Detection in Residential Distribution Grids using Dirichlet Process Mixture Modelling",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Power Theft Detection in Residential Distribution Grids using Dirichlet Process Mixture Modelling",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Conference on Power Systems (ICPS)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/ICPS60393.2023.10428841, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2023</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            9.                                                             <span class="author text-success" style="display: inline;">Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi,</span>
+                                                            <strong class="title text-danger" style="display: inline;">"Community Pool-Based Active Appliance Management Model",</strong>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Community Pool-Based Active Appliance Management Model",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i></i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            10.                                                             <span class="author text-success" style="display: inline;">Manish Pandit and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-6654-1775-4" target="_blank"><strong class="title text-danger" style="display: inline;">"Synchrophasor Estimation: Review, Limitations and Future Trends",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Synchrophasor Estimation: Review, Limitations and Future Trends",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Conference on Power System Technology (POWERCON)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/POWERCON53406.2022.9929993, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            11.                                                             <span class="author text-success" style="display: inline;">Kapil Chauhan, Manish Pandit, Ranjana Sodhi and Hung Dinh Nguyen,</span>
+                                                            <a href="https://doi.org/978-1-6654-5930-3" target="_blank"><strong class="title text-danger" style="display: inline;">"Synchrophasor Measurement Assisted Control Framework for Voltage Rise Mitigation in Active Distribution Networks",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Synchrophasor Measurement Assisted Control Framework for Voltage Rise Mitigation in Active Distribution Networks",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Power India International Conference (PIICON)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/PIICON56320.2022.10045255, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            12.                                                             <span class="author text-success" style="display: inline;">Sourav De, M Venkateswara Reddy and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-6654-5930-3" target="_blank"><strong class="title text-danger" style="display: inline;">"A Data Driven Passive Islanding Detection Scheme",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Data Driven Passive Islanding Detection Scheme",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>Power India International Conference (PIICON)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/PIICON56320.2022.10045174, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2022</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            13.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-8552-1" target="_blank"><strong class="title text-danger" style="display: inline;">"Adapting Tellegen\'s Theorem for Synchrophasor-Assisted Fault Identification in Active Distribution Networks - An Illustration",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Adapting Tellegen\'s Theorem for Synchrophasor-Assisted Fault Identification in Active Distribution Networks - An Illustration",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>National Power Systems Conference (NPSC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/NPSC49263.2020.9331882, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            14.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-8552-1" target="_blank"><strong class="title text-danger" style="display: inline;">"A Novel Frequency Estimator for Protection Applications in Active Distribution Systems",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Novel Frequency Estimator for Protection Applications in Active Distribution Systems",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>National Power Systems Conference (NPSC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/NPSC49263.2020.9331839, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            15.                                                             <span class="author text-success" style="display: inline;">Kapil Chauhan and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-8552-1" target="_blank"><strong class="title text-danger" style="display: inline;">"Advancements in Microgrid Voltage Control Schemes",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Advancements in Microgrid Voltage Control Schemes",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>National Power Systems Conference (NPSC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/NPSC49263.2020.9331907, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            16.                                                             <span class="author text-success" style="display: inline;">Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-8552-1" target="_blank"><strong class="title text-danger" style="display: inline;">"A Serverless Cloud Computing Framework for Realtime Appliance Usage Recommendation",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Serverless Cloud Computing Framework for Realtime Appliance Usage Recommendation",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>National Power Systems Conference (NPSC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/NPSC49263.2020.9331847, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            17.                                                             <span class="author text-success" style="display: inline;">Sourav De and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-8552-1" target="_blank"><strong class="title text-danger" style="display: inline;">"A Simple Cyber Attack Detection Scheme for Smart Grid Cyber Security Enhancement ",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Simple Cyber Attack Detection Scheme for Smart Grid Cyber Security Enhancement ",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>National Power Systems Conference (NPSC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/NPSC49263.2020.9331837, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            18.                                                             <span class="author text-success" style="display: inline;">Poojith Rao, Balwinder Sodhi and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-8552-1" target="_blank"><strong class="title text-danger" style="display: inline;">"Cyber Security Enhancement of Smart Grids via Machine Learning - A Review",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Cyber Security Enhancement of Smart Grids via Machine Learning - A Review",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>National Power Systems Conference (NPSC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/NPSC49263.2020.9331859, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            19.                                                             <span class="author text-success" style="display: inline;">Kapil Chauhan and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-6344-4" target="_blank"><strong class="title text-danger" style="display: inline;">"A novel Centralized Islanding Scheme using Teager-Kaiser Energy of Distribution-level Synchrophasors",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A novel Centralized Islanding Scheme using Teager-Kaiser Energy of Distribution-level Synchrophasors",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Conference on Power Electronics (ICPE)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/ECCE-Asia49820.2021.9479403, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2021</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            20.                                                             <span class="author text-success" style="display: inline;">Shitikantha Dash, Kandarp Gandhi, Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-2327-1" target="_blank"><strong class="title text-danger" style="display: inline;">" An Automatic State Detection Algorithm for Non-Intrusive Load Monitoring",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">" An Automatic State Detection Algorithm for Non-Intrusive Load Monitoring",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE India Conference (INDICON)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/INDICON47234.2019.9030372, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            21.                                                             <span class="author text-success" style="display: inline;">Tukesh Soni and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-3169-6" target="_blank"><strong class="title text-danger" style="display: inline;">"Impact of Harmonic Road Disturbances on Active Magnetic Bearing Supported Flywheel Energy Storage System in Electric Vehicles",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Impact of Harmonic Road Disturbances on Active Magnetic Bearing Supported Flywheel Energy Storage System in Electric Vehicles",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE International Transportation Electrification Conference (ITEC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/ITEC-India48457.2019.ITECINDIA2019-268, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            22.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-4103-9" target="_blank"><strong class="title text-danger" style="display: inline;">"An Adaptive IIR Notch Filter based Half-Cycle P-Class Phasor Measurement Estimation Scheme",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"An Adaptive IIR Notch Filter based Half-Cycle P-Class Phasor Measurement Estimation Scheme",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Conference on Power Systems (ICPS)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/ICPS48983.2019.9067648, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            23.                                                             <span class="author text-success" style="display: inline;">Kapil Chauhan and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-4103-9" target="_blank"><strong class="title text-danger" style="display: inline;">"A Comparative Analysis of uPMU Placement for Active Distribution Networks\' Observability",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Comparative Analysis of uPMU Placement for Active Distribution Networks\' Observability",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Conference on Power Systems (ICPS)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/ICPS48983.2019.9067640, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            24.                                                             <span class="author text-success" style="display: inline;">Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-4103-9" target="_blank"><strong class="title text-danger" style="display: inline;">"A Semi-Intrusive Load Monitoring Approach for Demand Response Applications",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Semi-Intrusive Load Monitoring Approach for Demand Response Applications",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Conference on Power Systems (ICPS)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/ICPS48983.2019.9067320, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            25.                                                             <span class="author text-success" style="display: inline;">M Venkateswara Reddy and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-5508-1" target="_blank"><strong class="title text-danger" style="display: inline;">"A Novel Power Quality Enhancement Strategy for Single Phase Islanded Microgrid",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Novel Power Quality Enhancement Strategy for Single Phase Islanded Microgrid",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE General Meeting Power& Energy Society</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/PESGM41954.2020.9281630, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            26.                                                             <span class="author text-success" style="display: inline;">Kapil Chauhan and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-7281-5508-1" target="_blank"><strong class="title text-danger" style="display: inline;">"A Robust State Estimation Framework for Active Distribution Network with Distribution-Level PMUs",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Robust State Estimation Framework for Active Distribution Network with Distribution-Level PMUs",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE General Meeting Power& Energy Society</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/PESGM41954.2020.9281743, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2020</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            27.                                                             <span class="author text-success" style="display: inline;">Kapil Chauhan, M Venkateswara Reddy and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-5386-2353-4" target="_blank"><strong class="title text-danger" style="display: inline;">"A Novel Frequency Estimator for Adversely Distorted Grid Signals",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Novel Frequency Estimator for Adversely Distorted Grid Signals",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>International Symposium on Industrial Electronics (INDEL)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/INDEL.2018.8637622, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2019</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            28.                                                             <span class="author text-success" style="display: inline;">Imran Sharieff and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-5386-6159-8" target="_blank"><strong class="title text-danger" style="display: inline;">"A simple strategic SVC placement scheme for enhanced voltage stability margins",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A simple strategic SVC placement scheme for enhanced voltage stability margins",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>National Power Systems Conference (NPSC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/NPSC.2018.8771759, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2019</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            29.                                                             <span class="author text-success" style="display: inline;">Kapil Chauhan and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-5386-6159-8" target="_blank"><strong class="title text-danger" style="display: inline;">"Distribution-level Synchrophasor Estimation",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Distribution-level Synchrophasor Estimation",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>National Power Systems Conference (NPSC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/NPSC.2018.8771750, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2019</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            30.                                                             <span class="author text-success" style="display: inline;">Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-5386-6159-8" target="_blank"><strong class="title text-danger" style="display: inline;">"A smart Demand Response Management Scheme for Direct Load Control in Residential Grid",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A smart Demand Response Management Scheme for Direct Load Control in Residential Grid",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>National Power Systems Conference (NPSC)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/NPSC.2018.8771746, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2019</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            31.                                                             <span class="author text-success" style="display: inline;">M Venkateswara Reddy and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-5386-2212-4" target="_blank"><strong class="title text-danger" style="display: inline;">"A Robust Frequency Estimator for Single-phase MicroGrid Applications",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Robust Frequency Estimator for Single-phase MicroGrid Applications",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE General Meeting Power& Energy Society</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/PESGM.2017.8273941, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2018</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            32.                                                             <span class="author text-success" style="display: inline;">Yashasvi Bansal and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-5386-4291-7" target="_blank"><strong class="title text-danger" style="display: inline;">"Microgrid Fault Detection Methods: Reviews, Issues And Future Trends",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Microgrid Fault Detection Methods: Reviews, Issues And Future Trends",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/ISGT-Asia.2018.8467938, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2018</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            33.                                                             <span class="author text-success" style="display: inline;">Jatin Verma, Imran Sharieff and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-4673-8962-4" target="_blank"><strong class="title text-danger" style="display: inline;">"A Meticulous Approach towards Contingency Clustering in Power System",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Meticulous Approach towards Contingency Clustering in Power System",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Power India Conference</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/POWERI.2016.8077280, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2017</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            34.                                                             <span class="author text-success" style="display: inline;">Md. Imran Sharieff, M Prasad, K Satish and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-4799-5141-3" target="_blank"><strong class="title text-danger" style="display: inline;">"Implementation and Evaluation of a Labscale Synchrophasor Model and Applications",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Implementation and Evaluation of a Labscale Synchrophasor Model and Applications",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>National Power Systems Conference (NPSC</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/NPSC.2014.7103840, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2015</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            35.                                                             <span class="author text-success" style="display: inline;">Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-4799-1347-3" target="_blank"><strong class="title text-danger" style="display: inline;">"Evaluating PMU Site Performance using MultiAttribute Utility Theory",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Evaluating PMU Site Performance using MultiAttribute Utility Theory",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/ISGT-Asia.2013.6698757, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2014</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            36.                                                             <span class="author text-success" style="display: inline;">M Prasad, K Satish, K Meena and Ranjana Sodhi,</span>
+                                                            <a href="https://doi.org/978-1-4799-1300-8" target="_blank"><strong class="title text-danger" style="display: inline;">"A Synchrophasor Measurement based Adaptive Underfrequency Load Shedding Scheme",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Synchrophasor Measurement based Adaptive Underfrequency Load Shedding Scheme",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/ISGT-Asia.2014.6873829, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2014</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            37.                                                             <span class="author text-success" style="display: inline;">Imran Sharieff and Ranjana Sodhi,</span>
+                                                            <strong class="title text-danger" style="display: inline;">"A Synchrophasor-Assisted Voltage Stability Index",</strong>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Synchrophasor-Assisted Voltage Stability Index",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2014</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            38.                                                             <span class="author text-success" style="display: inline;">Ranjana Sodhi, S C Srivastava and S N Singh,</span>
+                                                            <a href="https://doi.org/978-1-4673-2270-6" target="_blank"><strong class="title text-danger" style="display: inline;">"Teager Energy based Dynamic Phasor Estimation",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Teager Energy based Dynamic Phasor Estimation",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE India Conference (INDICON)</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/INDCON.2012.6420792, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2013</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            39.                                                             <span class="author text-success" style="display: inline;">Ranjana Sodhi, S C Srivastava and S N Singh,</span>
+                                                            <a href="https://doi.org/978-1-4244-6551-4" target="_blank"><strong class="title text-danger" style="display: inline;">"A Transient Monitor to Reflect the Quality of Synchrophasors",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"A Transient Monitor to Reflect the Quality of Synchrophasors",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE General Meeting Power& Energy Society</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/PES.2010.5588199, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2010</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            40.                                                             <span class="author text-success" style="display: inline;">Ranjana Sodhi, S C Srivastava and S N Singh,</span>
+                                                            <a href="https://doi.org/978-1-4244-4241-6" target="_blank"><strong class="title text-danger" style="display: inline;">"Optimal PMU Placement to Ensure System Observability Under Contingencies",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Optimal PMU Placement to Ensure System Observability Under Contingencies",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE General Meeting Power& Energy Society</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/PES.2009.5275618, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2009</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            41.                                                             <span class="author text-success" style="display: inline;">Ranjana Sodhi, S C Srivastava and S N Singh,</span>
+                                                            <a href="https://doi.org/978-1-4244-4241-6" target="_blank"><strong class="title text-danger" style="display: inline;">"An Improved Phasor Assisted State Estimation",</strong> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"An Improved Phasor Assisted State Estimation",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE General Meeting Power& Energy Society</i>,</span>
+                                                            <span class="volume" style="display: inline;">https://doi.org/10.1109/PES.2009.5275652, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2009</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            42.                                                             <span class="author text-success" style="display: inline;">Ranjana Sodhi and S C Srivastava,</span>
+                                                            <strong class="title text-danger" style="display: inline;">"Optimal PMU Placement to Ensure Observability of Power System",</strong>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Optimal PMU Placement to Ensure Observability of Power System",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i>IEEE General Meeting Power& Energy Society</i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;">2008</span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            43.                                                             <span class="author text-success" style="display: inline;">S C Srivastava and Ranjana Sodhi,</span>
+                                                            <strong class="title text-danger" style="display: inline;">"Synchrophasors based Wide Area Monitoring System and its Application to Voltage Stability Assessment",</strong>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"Synchrophasors based Wide Area Monitoring System and its Application to Voltage Stability Assessment",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i></i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;"></span>
+                                                        </li>
+                                                                                                            <li class="list-group-item">
+                                                            44.                                                             <span class="author text-success" style="display: inline;">Md. Imran Sharieff and Ranjana Sodhi,</span>
+                                                            <strong class="title text-danger" style="display: inline;">"PMU Measurements based Voltage Stability Assessment",</strong>
+                                                            <!-- <strong class="title text-danger" style="display: inline;">"PMU Measurements based Voltage Stability Assessment",</strong> -->
+                                                            <span class="journal" style="display: inline;"><i></i>,</span>
+                                                            <span class="volume" style="display: inline;">, </span>
+                                                            <span class="pages" style="display: inline;">,</span>
+                                                            <span class="date" style="display: inline;"></span>
+                                                        </li>
+                                                                                                    </ul>
+                                            </div>
+                                        </div>
+                                                                    </div>
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#BooksC" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Book and Book-Chapter
+                                                Publications (1)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="BooksC" class="accordion-collapse collapse" aria-labelledby="BooksC">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <ul class="list-group">
+                                                                                                                                                    <li class="list-group-item">
+                                                        1.                                                         Book,
+                                                        "Simulation and Analysis of Modern Power Systems"
+                                                        ISBN:978-1260464504 published by -
+                                                        McGraw Hill Year:
+                                                        2021 authors-
+                                                        Ranjana Sodhi                                                    </li>
+                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Patent" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-book fa-fw"></i> Patent Publications
+                                                (0)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="Patent" class="accordion-collapse collapse" aria-labelledby="Patent">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <ul class="list-group">
+                                                                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#PA" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-brands fa-connectdevelop fa-fw"></i>
+                                                Professional Affiliations (2)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="PA" class="accordion-collapse collapse" aria-labelledby="PA">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                
+                                                                                                    <li class="list-group-item">
+                                                        1. Senior Member                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        2. IEEE                                                    </li>
+                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#RP" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                                Research Projects (0)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="RP" class="accordion-collapse collapse" aria-labelledby="RP">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <table class="table table-bordered" style="font-size: 00.8rem">
+                                                <thead>
+                                                    <tr class="text-center mnit-primary">
+                                                        <th scope="col">S. No.</th>
+                                                        <th scope="col">Title</th>
+                                                        <th scope="col">Funding Agency</th>
+                                                        <th scope="col">Role</th>
+                                                        <th scope="col">Start Year - End Year</th>
+                                                        <th scope="col">Amount (In Lacs)</th>
+                                                        <th scope="col">Details</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                                                    </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                                                <div class="accordion-item border mt-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#CP" aria-expanded="false" aria-controls="collapseOne">
+                                            <h5>
+                                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                                Consultancy Projects
+                                                (0)
+                                            </h5>
+                                        </button>
+                                    </h2>
+                                    <div id="CP" class="accordion-collapse collapse" aria-labelledby="CP">
+                                        <div class="accordion-body" style="overflow-y:scroll ; height:40vh;">
+                                            <table class="table table-bordered" style="font-size: 00.8rem">
+                                                <thead>
+                                                    <tr class="text-center mnit-primary">
+                                                        <th scope="col">S. No.</th>
+                                                        <th scope="col">Title</th>
+                                                        <th scope="col">Funding Agency</th>
+                                                        <th scope="col">Start Year - End Year</th>
+                                                        <th scope="col">Amount (In Lacs)</th>
+                                                        <th scope="col">Details</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                                                    </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane content_research fade show fade-in-custom" id="fifth" role="tabpanel" aria-labelledby="fifth-tab">
+                        <div class="row p-3 rounded shadow-lg">
+
+                            <div class="accordion-item px-0 mx-0 border mt-2">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Event" aria-expanded="false" aria-controls="collapseOne">
+                                        <h5>
+                                            <i class="fa-solid fa-calendar-check fa-fw"></i>
+                                            Courses Taught
+                                        </h5>
+                                    </button>
+                                </h2>
+                                <div id="Event" class="accordion-collapse collapse" aria-labelledby="Event">
+                                    <div class="accordion-body">
+                                        <div class="w-100 overflow-auto mx-0 px-0">
+                                            <table class="table table-bordered table-hover mt-0" id="courses_table1">
+                                                <thead>
+                                                    <tr class="bg-dark text-white fw-bold" style="border: 1px solid rgb(0, 0, 0)">
+                                                        <th>Code</th>
+                                                        <th>Title</th>
+                                                        <th>L-T-P-S-C</th>
+                                                        <th>Type</th>
+                                                        <th>Degree</th>
+                                                        <th>Year</th>
+                                                        <th>Semester</th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                                                    </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item  px-0 border mt-2">
+                                <h2 class="accordion-header " id="headingTwo1">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#PHD" aria-expanded="false" aria-controls="collapseTwo1">
+                                        <h5>
+                                            <i class="fa-solid fa-user fa-fw"></i>
+                                            PhD Research Supervised
+                                        </h5>
+                                    </button>
+                                </h2>
+                                <div id="PHD" class="accordion-collapse collapse" aria-labelledby="PHD">
+                                    <div class="accordion-body">
+                                        <div class="w-100 overflow-auto">
+                                            
+                                            <ul class="list-group fw-bold">
+                                                
+                                                                                                    <li class="list-group-item">
+                                                        1. Dr. Md. Imran Sharieff                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        2. Dr. M Venkateswara Reddy                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        3. Dr. Yashasvi Bansal                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        4. Dr. Kapil Chauhan                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        5. Dr. Shitikantha Dash                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        6. Dr. Sourav De                                                    </li>
+                                                                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border px-0 mt-2">
+                                <h2 class="accordion-header" id="headingThree1">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#Position" aria-expanded="false" aria-controls="collapseThree1">
+                                        <h5>
+                                            <i class="fa-solid fa-key fa-fw"></i>
+                                            Administrative Responsibilities
+                                        </h5>
+                                    </button>
+                                </h2>
+                                <div id="Position" class="accordion-collapse collapse" aria-labelledby="Position">
+                                    <div class="accordion-body">
+                                        <div class="w-100 overflow-auto">
+                                            
+                                            <ul class="list-group fw-bold">
+                                                
+                                                                                                    <li class="list-group-item">
+                                                        1. Faculty Advisor, EE Batch 2024                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        2. Faculty Incharge, SYMAR Lab                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        3. Faculty Incharge, Power Systems Lab                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        4. Ex- Chairperson, Career Development and Placement Cell                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        5. Ex- Senate Member, IIT Ropar                                                    </li>
+                                                                                                    <li class="list-group-item">
+                                                        6. Ex- TA Coordinator, EED                                                    </li>
+                                                                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="container my-4 p-0">
+
+        <div class="row my-4 bg-dark mx-1 p-3 rounded-4 position-sticky top-0">
+            <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#awards" type="button" role="tab" aria-controls="profile" aria-selected="false">
+
+                        Awards And Honours
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#events" type="button" role="tab" aria-controls="contact" aria-selected="false">
+
+                        Events Organized
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="visit-tab" data-bs-toggle="tab" data-bs-target="#visits" type="button" role="tab" aria-controls="contact" aria-selected="false">
+
+                        Academic Visits
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="outreach-tab" data-bs-toggle="tab" data-bs-target="#outreach" type="button" role="tab" aria-controls="contact" aria-selected="false">
+
+                        Outreach Activities
+
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#miscellaneous" type="button" role="tab" aria-controls="home" aria-selected="true">
+
+                        Miscellaneous
+                        </h4>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade" id="miscellaneous" role="tabpanel" aria-labelledby="home-tab">
+                <!--tab 1 start -->
+                </div>                <!--tab 1 end -->
+            </div>
+            <div class="tab-pane active" id="awards" role="tabpanel" aria-labelledby="profile-tab">
+                <!--tab 2 start -->
+                </div>                <!--tab 2 end -->
+            </div>
+            <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="contact-tab">
+                <!--tab 3 start -->
+                </div>                <!--tab 3 end -->
+            </div>
+            <div class="tab-pane fade" id="visits" role="tabpanel" aria-labelledby="contact-tab">
+                <!--tab 4 start -->
+                </div>                <!--tab 4 end -->
+            </div>
+            <div class="tab-pane fade" id="outreach" role="tabpanel" aria-labelledby="contact-tab">
+
+                <!--tab 5 start -->
+                </div>                <!--tab 5 end -->
+            </div>
+        </div>
+    </div>
+    <!-- Profile Faculty Ended -->

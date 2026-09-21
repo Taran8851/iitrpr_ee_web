@@ -1,0 +1,282 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.swiper {
+    width: 100%;
+    /* height: 100vh !important; */
+    cursor: pointer;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* height: 100vh !important; */
+}
+
+.overlay_black {
+    position: relative !important;
+}
+
+.overlay_black::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    background-color: #0000007e !important;
+    height: 100%;
+    width: 100%;
+    -webkit-backdrop-filter: blur(0.5px);
+    backdrop-filter: blur(0.5px);
+    -webkit-transition: 0.3s linear all;
+    -o-transition: 0.3s linear all;
+    transition: 0.3s linear all;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--shade2) !important;
+    opacity: 0.5;
+    -webkit-transition: 0.1s linear opacity;
+    -o-transition: 0.1s linear opacity;
+    transition: 0.1s linear opacity;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    opacity: 1;
+}
+
+.swiper-pagination-bullet {
+    padding: 10px !important;
+    -webkit-transition: 0.1s linear all !important;
+    -o-transition: 0.1s linear all !important;
+    transition: 0.1s linear all !important;
+    background-color: var(--light) !important;
+    background-blend-mode: difference;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--shade2) !important;
+    width: 70px !important;
+    border-radius: 10px !important;
+    opacity: 1 !important;
+}
+
+.banner_container {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.banner_container .content {
+    margin: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    /* border-radius: 4px; */
+    padding: 50px 50px;
+}
+
+.banner_container .content .heading {
+    font-size: 4.4rem;
+    color: var(--dark);
+    position: relative;
+    z-index: 1 !important;
+    font-weight: 900;
+    background-color: var(--shade2);
+    padding: 0 20px;
+    /* border: 2px solid var(--shade2) */
+}
+
+.banner_container .content .subhead {
+    font-size: 3rem;
+    color: var(--light);
+    position: relative;
+    z-index: 1 !important;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.action_btn {
+    margin: 30px 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:799px) {
+    .banner_container .content .heading {
+        font-size: 2rem !important;
+        padding: 20px;
+    }
+    .banner_container .content .subhead {
+        font-size: 2rem !important;
+    }
+    .banner_container .content .heading::before {
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        padding: 10px;
+    }
+    .banner_container .content .subhead::before {
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        padding: 10px;
+    }
+    .action_btn {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+
+/* Home */
+
+.about_us {
+    min-height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--light);
+    border-top: 5px solid var(--shade2);
+    padding: 50px 0;
+}
+
+.about_us .main_head {
+    text-align: right;
+    padding: 0 10px;
+}
+
+.about_us .main_head span {
+    color: var(--shade2);
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.about_us .full {
+    height: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.about_us .full p::first-letter {
+    font-weight: 800;
+}
+
+@media screen and (max-width:799px) {
+    .about_us {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-height: 100vh;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-size: contain;
+    }
+    .about_us .main_head {
+        text-align: center;
+        padding: 0 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 5rem;
+    }
+    .about_us .main_head span {
+        color: var(--shade2);
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    .about_us .full {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: start;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .about_us .full p::first-letter {
+        font-size: 2rem;
+    }
+}
