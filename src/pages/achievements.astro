@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import SearchInput from "../components/ui/SearchInput.astro";
+import EmptyState from "../components/ui/EmptyState.astro";
+import GlowBlobs from "../components/ui/GlowBlobs.astro";
+import AchievementCard from "../components/news/AchievementCard.astro";
+import FilterBar from "../components/news/FilterBar.astro";
+import { category } from "../components/news/categories";
+import achievements from "../data/news/achievements.json";
+
+const keys = [...new Set(achievements.map((a) => a.category))];
+const groups = keys.map((k) => ({
+  value: k,
+  label: category(k).label,
+  count: achievements.filter((a) => a.category === k).length,
+}));
+---
+<BaseLayout title="Achievements" description="Awards, competition wins and travel grants earned by research scholars of the Department of Electrical Engineering, IIT Ropar.">
+  <div data-filter-root data-active-class="btn-primary">
+    <PageHero
+      title="Achievements"
+      eyebrow="Student excellence"
+      lead="Awards, competition wins and travel grants earned by our research scholars."
+      crumbs={[{ label: "News & Events", href: "/news" }]}
+    >
+      <div class="mt-8 max-w-md text-base-content">
+        <SearchInput placeholder="Search by name, supervisor or award…" class="md:max-w-md" />
+      </div>
+    </PageHero>
+
+    <Section tint>
+      <GlowBlobs />
+      <FilterBar groups={groups} total={achievements.length} noun="achievements" label="Filter by category" />
+      <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {achievements.map((a) => <AchievementCard {...a} />)}
+      </div>
+      <div class="mt-4"><EmptyState filter message="No achievements match your search." /></div>
+    </Section>
+  </div>
+</BaseLayout>
