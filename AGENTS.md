@@ -78,14 +78,15 @@ state), Bootstrap (legacy only — removed as pages are rebuilt), Three.js.
 ## Repo layout
 
 ```
-legacy-site/        Static wget mirror of the live site (reference + migration source). Do not edit.
+legacy-site/        Static wget mirror of the live site (git-ignored reference). Do not edit.
 docs/               Design docs (design.md + style references DESIGN(1..3).md, mockup)
 assets/             media_assets.json (generated-image metadata)
 AGENTS.md           This file (the plan)
 package.json        Astro + deps
-astro.config.mjs    Astro config (Tailwind vite plugin not wired yet)
-src/                (to be created) Astro source
-public/             (to be created) static files served as-is
+astro.config.mjs    Astro config (Tailwind vite plugin + astro-icon)
+src/                Astro source: pages, components, layouts, data (JSON), scripts, styles
+public/             static files: assets/, images/legacy/, favicon.png
+scripts/            check-links.mjs + one-off extract/ scripts (read legacy HTML from git history)
 ```
 
 A backup of the removed Next.js app + Prisma backend (faculty seed data with
@@ -138,25 +139,24 @@ Goal: `npm run dev` shows the exact same site, but served by Astro.
 - [x] Removed: theme switcher, auto-logout banner, dead loader markup (header partial, hand-edited),
       Faculty/Admin login forms (faculty page)
 
-How legacy pages work now: `LegacyLayout` = page head → header partial → body → footer partial → tail (page scripts).
-To rebuild a page: create `src/pages/<route>.astro` (it overrides the catch-all), then delete `src/legacy/pages/<route>/`.
-**Do not re-run `migrate_legacy.py`** — it would overwrite the hand edits above.
+(Phase 1 scaffolding — catch-all route, `LegacyLayout`, `src/legacy/`, legacy `public/css|scripts`, `migrate_legacy.py` —
+was removed on 2026-09-23 once every page was rebuilt. Recover from commit e3b7200 if ever needed.)
 
-### Phase 2 — New shell (applies to every page)
-- [ ] Header: glass sticky navbar (sAIDE-style), dropdowns for Research / People / Academics, mobile drawer, light/dark toggle
-- [ ] Footer: multi-column (brand · academics · quick links · contact), real social links, map link
-- [ ] Base layout: fonts, SEO meta, favicon, AOS init, glow-blob + circuit-trace background utilities
-- [ ] Three candidate daisyUI themes (Voltage / Copper Circuit / Electric Blue) — user picks after preview
-- [ ] Keep accessibility features from legacy: skip-to-content, screen-reader page, Google Translate
-- [ ] Remove theme switcher + auto-logout banner
+### Phase 2 — New shell (applies to every page) ✅
+- [x] Header: glass sticky navbar (sAIDE-style), dropdowns for Research / People / Academics, mobile drawer, light/dark toggle
+- [x] Footer: multi-column (brand · academics · quick links · contact), real social links, map link
+- [x] Base layout: fonts, SEO meta, favicon, AOS init, glow-blob + circuit-trace background utilities
+- [x] Three candidate daisyUI themes (Voltage / Copper Circuit / Electric Blue) — user picks after preview
+- [x] Keep accessibility features from legacy: skip-to-content, screen-reader page, Google Translate
+- [x] Remove theme switcher + auto-logout banner
 
-### Phase 3 — Content collections
-- [ ] `faculty` (from legacy profiles + old seed data: name, designation, email, room, areas, scholar link, photo)
-- [ ] `news`, `achievements`, `events` (seminars / workshops / visiting speakers)
-- [ ] `labs`, `projects`, `courses`, `staff`, `students`
+### Phase 3 — Content as data ✅ (plain JSON in `src/data/<area>/`, not Astro collections)
+- [x] `faculty` (from legacy profiles + old seed data: name, designation, email, room, areas, scholar link, photo)
+- [x] `news`, `achievements`, `events` (seminars / workshops / visiting speakers)
+- [x] `labs`, `projects`, `courses`, `staff`, `students`
 
-### Phase 4 — Rebuild pages (priority order)
-1. [ ] Home — the "EE version of sAIDE", in this order:
+### Phase 4 — Rebuild pages ✅ (10 parallel units, merged 2026-09-23)
+1. [x] Home — the "EE version of sAIDE", in this order:
    1. Hero: full-bleed campus/lab photo + dark gradient, headline, glass panel with CTAs, circuit-trace motif
    2. Stat cards (glass): faculty · students · publications · projects · patents — animated counters
    3. Announcements + upcoming events (calendar-style date blocks) side by side
@@ -166,12 +166,12 @@ To rebuild a page: create `src/pages/<route>.astro` (it overrides the catch-all)
    7. News & achievements cards
    8. Recruiters / collaborators logo grid (grayscale → color on hover)
    9. Gallery (GLightbox) — labs, events, campus
-2. [ ] People — faculty grid with search/filter by area; profile pages at `/people/<user>`
-3. [ ] News & Events — filterable archive, calendar-style event list
-4. [ ] Research — areas → labs → projects → publications
-5. [ ] Academics — programs, courses, admissions
-6. [ ] About, Placements, Facilities, Committees, Contact, Alumni, Team
-7. [ ] Remove legacy catch-all route + Bootstrap once nothing uses them
+2. [x] People — faculty grid with search/filter by area; profile pages at `/people/<user>`
+3. [x] News & Events — filterable archive, calendar-style event list
+4. [x] Research — areas → labs → projects → publications
+5. [x] Academics — programs, courses, admissions
+6. [x] About, Placements, Facilities, Committees, Contact, Alumni, Team
+7. [x] Remove legacy catch-all route + Bootstrap once nothing uses them
 
 ### Phase 5 — Polish & ship
 - [ ] Pagefind site search in the header
@@ -185,7 +185,16 @@ To rebuild a page: create `src/pages/<route>.astro` (it overrides the catch-all)
 - 2026-09-22: Blur/glassmorphism is a must-have (see Blur usage rules).
 - 2026-09-22: Drop legacy theme switcher and auto-logout banner.
 - 2026-09-22: Hosting = localhost for now.
+- 2026-09-23: Full redesign landed; legacy clone code removed. Light theme darkens text-primary to amber-700 for AA contrast.
 - 2026-09-22: Palette = Voltage (navy + electric amber + cyan) as the working choice; revisit later.
+
+## Known content gaps (need department input)
+- Placement charts use the legacy site's dummy data (labelled "Illustrative").
+- Publications list = 623 items aggregated from faculty profiles; live DB claimed 743.
+- M.Sc./Ph.D. course lists and M.Tech/M.S./Ph.D. admission details were empty/placeholder in legacy.
+- No recruiter logos; alumni affiliations were all "To Be Updated".
+- Hand-written copy to review: home hero subline, programme blurbs, research-area summaries.
+- SECURITY: the live site's publications DB contains a defacement entry (`<script src=…jso.defacer.id…>`); report to the site admins.
 
 ## Open decisions (ask the user)
 - Color palette: Voltage for now; Copper Circuit / Electric Blue can still be previewed later

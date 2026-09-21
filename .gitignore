@@ -46,3 +46,6 @@ dist/
 
 # raw wget mirror (fully migrated into src/legacy + public)
 legacy-site/
+
+# Claude Code agent worktrees
+.claude/worktrees/

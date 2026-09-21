@@ -94,3 +94,12 @@
     html { scroll-behavior: auto; }
   }
 }
+
+/* Light theme: bright amber fails WCAG AA as small text on white, so darken
+   text-primary to amber-700 — except on the dark navy bands, footer and glass-dark panels. */
+[data-theme="voltage"]
+  :is(.text-primary, .link-primary):not(
+    :where(footer, .glass-dark, [class*="bg-[#0b1629]"], [class*="bg-[#020617]"], [class*="bg-slate-9"]) *
+  ) {
+  color: #b45309;
+}
