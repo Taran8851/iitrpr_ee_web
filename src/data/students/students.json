@@ -1,0 +1,1046 @@
+{
+ "programs": [
+  {
+   "key": "btech",
+   "label": "B.Tech.",
+   "title": "Bachelor of Technology",
+   "records": []
+  },
+  {
+   "key": "mtech",
+   "label": "M.Tech.",
+   "title": "Master of Technology",
+   "records": [
+    {
+     "name": "AJAY KUMAR RAJAK",
+     "batch": "2023",
+     "email": "2023eem1001@iitrpr.ac.in"
+    },
+    {
+     "name": "AMRITANSHU KASHYAP",
+     "batch": "2023",
+     "email": "2023eem1003@iitrpr.ac.in"
+    },
+    {
+     "name": "ANKIT TIWARI",
+     "batch": "2023",
+     "email": "2023eem1004@iitrpr.ac.in"
+    },
+    {
+     "name": "ARPITA SHARMA",
+     "batch": "2023",
+     "email": "2023eem1005@iitrpr.ac.in"
+    },
+    {
+     "name": "MERIGA.SAI LAHARI",
+     "batch": "2023",
+     "email": "2023eem1006@iitrpr.ac.in"
+    },
+    {
+     "name": "MUKUL GUPTA",
+     "batch": "2023",
+     "email": "2023eem1007@iitrpr.ac.in"
+    },
+    {
+     "name": "NISHTHA SAXENA",
+     "batch": "2023",
+     "email": "2023eem1008@iitrpr.ac.in"
+    },
+    {
+     "name": "OMNATH SAH",
+     "batch": "2023",
+     "email": "2023eem1009@iitrpr.ac.in"
+    },
+    {
+     "name": "RASHI MAHAJAN",
+     "batch": "2023",
+     "email": "2023eem1010@iitrpr.ac.in"
+    },
+    {
+     "name": "RINKI KUMARI",
+     "batch": "2023",
+     "email": "2023eem1011@iitrpr.ac.in"
+    },
+    {
+     "name": "SAUMYA SINGH",
+     "batch": "2023",
+     "email": "2023eem1012@iitrpr.ac.in"
+    },
+    {
+     "name": "ANSHUL THAKUR",
+     "batch": "2023",
+     "email": "2023eem1016@iitrpr.ac.in"
+    },
+    {
+     "name": "AYANMANI DAS",
+     "batch": "2023",
+     "email": "2023eem1017@iitrpr.ac.in"
+    },
+    {
+     "name": "MAYANK KESARWANI",
+     "batch": "2023",
+     "email": "2023eem1018@iitrpr.ac.in"
+    },
+    {
+     "name": "PANKAJ KUMAR YADAV",
+     "batch": "2023",
+     "email": "2023eem1019@iitrpr.ac.in"
+    },
+    {
+     "name": "PEACE PANMEI",
+     "batch": "2023",
+     "email": "2023eem1020@iitrpr.ac.in"
+    },
+    {
+     "name": "POOJA CHOUDHARY",
+     "batch": "2023",
+     "email": "2023eem1021@iitrpr.ac.in"
+    },
+    {
+     "name": "PRAKHAR GUPTA",
+     "batch": "2023",
+     "email": "2023eem1022@iitrpr.ac.in"
+    },
+    {
+     "name": "PRIKSHAT SHARMA",
+     "batch": "2023",
+     "email": "2023eem1023@iitrpr.ac.in"
+    },
+    {
+     "name": "RISHABH SAXENA",
+     "batch": "2023",
+     "email": "2023eem1024@iitrpr.ac.in"
+    },
+    {
+     "name": "RISHIKESH ANAND",
+     "batch": "2023",
+     "email": "2023eem1025@iitrpr.ac.in"
+    },
+    {
+     "name": "SATYAM SINGH",
+     "batch": "2023",
+     "email": "2023eem1026@iitrpr.ac.in"
+    },
+    {
+     "name": "SAURABH SUMAN",
+     "batch": "2023",
+     "email": "2023eem1028@iitrpr.ac.in"
+    },
+    {
+     "name": "SHAMINI P R",
+     "batch": "2023",
+     "email": "2023eem1029@iitrpr.ac.in"
+    },
+    {
+     "name": "SOUMYA KASHYAP",
+     "batch": "2023",
+     "email": "2023eem1031@iitrpr.ac.in"
+    },
+    {
+     "name": "CHINTU BHASKARA RAO",
+     "batch": "2023",
+     "email": "2023eem1035@iitrpr.ac.in"
+    },
+    {
+     "name": "Rohit Gautam",
+     "batch": "2023",
+     "email": "2023eem1036@iitrpr.ac.in"
+    },
+    {
+     "name": "GANGADHAR GUPTA",
+     "batch": "2023",
+     "email": "2023eem1037@iitrpr.ac.in"
+    },
+    {
+     "name": "AMIT KUMAR",
+     "batch": "2023",
+     "email": "2023eem1039@iitrpr.ac.in"
+    },
+    {
+     "name": "AMIT RAJ",
+     "batch": "2023",
+     "email": "2023eem1040@iitrpr.ac.in"
+    },
+    {
+     "name": "ANSHUL RAWAT",
+     "batch": "2023",
+     "email": "2023eem1041@iitrpr.ac.in"
+    },
+    {
+     "name": "ANURAG PATEL",
+     "batch": "2023",
+     "email": "2023eem1042@iitrpr.ac.in"
+    },
+    {
+     "name": "ARSHIT DHIMAN",
+     "batch": "2023",
+     "email": "2023eem1043@iitrpr.ac.in"
+    },
+    {
+     "name": "CHANDAN KUMAR",
+     "batch": "2023",
+     "email": "2023eem1044@iitrpr.ac.in"
+    },
+    {
+     "name": "MANISH PANT",
+     "batch": "2023",
+     "email": "2023eem1045@iitrpr.ac.in"
+    },
+    {
+     "name": "MOHD ANAS KHAN",
+     "batch": "2023",
+     "email": "2023eem1046@iitrpr.ac.in"
+    },
+    {
+     "name": "PRASAD KURUHURU",
+     "batch": "2023",
+     "email": "2023eem1047@iitrpr.ac.in"
+    },
+    {
+     "name": "RACHNA",
+     "batch": "2023",
+     "email": "2023eem1048@iitrpr.ac.in"
+    },
+    {
+     "name": "SATYAM SINGH",
+     "batch": "2023",
+     "email": "2023eem1049@iitrpr.ac.in"
+    },
+    {
+     "name": "SHIVAM SAINI",
+     "batch": "2023",
+     "email": "2023eem1050@iitrpr.ac.in"
+    },
+    {
+     "name": "SHUBHAM FAUJDAR",
+     "batch": "2023",
+     "email": "2023eem1051@iitrpr.ac.in"
+    },
+    {
+     "name": "SHUBHAM RAJ",
+     "batch": "2023",
+     "email": "2023eem1052@iitrpr.ac.in"
+    },
+    {
+     "name": "SUBHAM MONDAL",
+     "batch": "2023",
+     "email": "2023eem1053@iitrpr.ac.in"
+    },
+    {
+     "name": "Netsanet Debebe",
+     "batch": "2023",
+     "email": "2023eem1054@iitrpr.ac.in"
+    },
+    {
+     "name": "ABHRATANU KARMAKAR",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "ADITEE LALL",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "AKARSH SHARMA",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "ANJISNU CHANDA",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "ASIYA SHANAVAS",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "MASHIR NIZAMI",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "PRATYUSH SRIVASTAVA",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "SHAHID REHMAN SHEIKH",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "SHIVAM KUMAR GAUTAM",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "SUSHMA TILAKA P",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "TANPURE HRUTIKA MADHAV",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "VINEET KUMAR MAURYA",
+     "batch": "2024",
+     "email": "",
+     "specialization": "SPCOM"
+    },
+    {
+     "name": "Shashi Bhushan Jha",
+     "batch": "2024",
+     "email": "",
+     "specialization": "M&VLSI"
+    },
+    {
+     "name": "Bappy Saha Utsob",
+     "batch": "2024",
+     "email": "",
+     "specialization": "M&VLSI"
+    },
+    {
+     "name": "AHMAD RAZA ANSARI",
+     "batch": "2024",
+     "email": "",
+     "specialization": "M&VLSI"
+    },
+    {
+     "name": "AJAYVIR SINGH SANDHU",
+     "batch": "2024",
+     "email": "",
+     "specialization": "M&VLSI"
+    },
+    {
+     "name": "AMEER FAISAL",
+     "batch": "2024",
+     "email": "",
+     "specialization": "M&VLSI"
+    },
+    {
+     "name": "ANAINA P",
+     "batch": "2024",
+     "email": "",
+     "specialization": "M&VLSI"
+    },
+    {
+     "name": "ANURAG",
+     "batch": "2024",
+     "email": "",
+     "specialization": "M&VLSI"
+    },
+    {
+     "name": "ATHUL BABU",
+     "batch": "2024",
+     "email": "",
+     "specialization": "M&VLSI"
+    },
+    {
+     "name": "B AISHWARYA",
+     "batch": "2024",
+     "email": "",
+     "specialization": "M&VLSI"
+    },
+    {
+     "name": "BHANU PRATAP SINGH RATHORE",
+     "batch": "2024",
+     "email": "2024eem1024@iitrpr.ac.in"
+    },
+    {
+     "name": "DINESH NATH GOSWAMI",
+     "batch": "2024",
+     "email": "2024eem1025@iitrpr.ac.in"
+    },
+    {
+     "name": "JYOTIRMAY AWASTHI",
+     "batch": "2024",
+     "email": "2024eem1026@iitrpr.ac.in"
+    },
+    {
+     "name": "KEMMASARAM SHIVA SAI",
+     "batch": "2024",
+     "email": "2024eem1027@iitrpr.ac.in"
+    },
+    {
+     "name": "NAMAN GUPTA",
+     "batch": "2024",
+     "email": "2024eem1029@iitrpr.ac.in"
+    },
+    {
+     "name": "NAOREM EDISON SINGH",
+     "batch": "2024",
+     "email": "2024eem1030@iitrpr.ac.in"
+    },
+    {
+     "name": "NARESH B",
+     "batch": "2024",
+     "email": "2024eem1031@iitrpr.ac.in"
+    },
+    {
+     "name": "PARTHA SARATHI SARKAR",
+     "batch": "2024",
+     "email": "2024eem1032@iitrpr.ac.in"
+    },
+    {
+     "name": "POKALA CHARAN TEJA",
+     "batch": "2024",
+     "email": "2024eem1033@iitrpr.ac.in"
+    },
+    {
+     "name": "RITUVIKA KATIYAR",
+     "batch": "2024",
+     "email": "2024eem1034@iitrpr.ac.in"
+    },
+    {
+     "name": "SANJIB DEY",
+     "batch": "2024",
+     "email": "2024eem1035@iitrpr.ac.in"
+    },
+    {
+     "name": "TRISHLA GURJAR",
+     "batch": "2024",
+     "email": "2024eem1036@iitrpr.ac.in"
+    },
+    {
+     "name": "TWINKEL MANNA",
+     "batch": "2024",
+     "email": "2024eem1037@iitrpr.ac.in"
+    },
+    {
+     "name": "VAIBHAV SRIVASTAVA",
+     "batch": "2024",
+     "email": "2024eem1038@iitrpr.ac.in"
+    },
+    {
+     "name": "ABHINOV GOGOI",
+     "batch": "2024",
+     "email": "2024eem1041@iitrpr.ac.in"
+    },
+    {
+     "name": "ANUJ PRATAP SINGH",
+     "batch": "2024",
+     "email": "2024eem1042@iitrpr.ac.in"
+    },
+    {
+     "name": "DHRUV SHUKLA",
+     "batch": "2024",
+     "email": "2024eem1044@iitrpr.ac.in"
+    },
+    {
+     "name": "Ekanta Saha",
+     "batch": "2024",
+     "email": "2024eem1045@iitrpr.ac.in"
+    },
+    {
+     "name": "HIMANSHU",
+     "batch": "2024",
+     "email": "2024eem1046@iitrpr.ac.in"
+    },
+    {
+     "name": "MANISH KUMAR MEENA",
+     "batch": "2024",
+     "email": "2024eem1047@iitrpr.ac.in"
+    },
+    {
+     "name": "MANOJ RAY",
+     "batch": "2024",
+     "email": "2024eem1048@iitrpr.ac.in"
+    },
+    {
+     "name": "MAYANK KUMAR PRAJAPAT",
+     "batch": "2024",
+     "email": "2024eem1049@iitrpr.ac.in"
+    },
+    {
+     "name": "Sumit Kumar Thakur",
+     "batch": "2024",
+     "email": "2024eem1050@iitrpr.ac.in"
+    },
+    {
+     "name": "MAUSAM KUMARI",
+     "batch": "2024",
+     "email": "2024eem1051@iitrpr.ac.in"
+    },
+    {
+     "name": "SANDEEP SINGH TAGORE",
+     "batch": "2024",
+     "email": "2024eem1053@iitrpr.ac.in"
+    },
+    {
+     "name": "SAURABH VERMA",
+     "batch": "2024",
+     "email": "2024eem1054@iitrpr.ac.in"
+    },
+    {
+     "name": "SHUBHAM KUMAR",
+     "batch": "2024",
+     "email": "2024eem1055@iitrpr.ac.in"
+    },
+    {
+     "name": "SUJAL THAKUR",
+     "batch": "2024",
+     "email": "2024eem1056@iitrpr.ac.in"
+    },
+    {
+     "name": "SURYA PRAKASH YADAV",
+     "batch": "2024",
+     "email": "2024eem1057@iitrpr.ac.in"
+    },
+    {
+     "name": "YASH RASTOGI",
+     "batch": "2024",
+     "email": "2024eem1058@iitrpr.ac.in"
+    }
+   ]
+  },
+  {
+   "key": "ms",
+   "label": "M.S.",
+   "title": "Master of Science (Research)",
+   "records": []
+  },
+  {
+   "key": "phd",
+   "label": "Ph.D.",
+   "title": "Doctor of Philosophy",
+   "records": [
+    {
+     "name": "Muppala Purnabhishek",
+     "batch": "2018",
+     "email": "2018eez0021@iitrpr.ac.in"
+    },
+    {
+     "name": "Ajeet Thakur",
+     "batch": "2019",
+     "email": "ajeet@iitrpr.ac.in"
+    },
+    {
+     "name": "Ishita Sharma",
+     "batch": "2019",
+     "email": "ishita@iitrpr.ac.in"
+    },
+    {
+     "name": "Mohd Asim Saeed",
+     "batch": "2019",
+     "email": ""
+    },
+    {
+     "name": "Sherin A Thomas",
+     "batch": "2019",
+     "email": "sherin@iitrpr.ac.in"
+    },
+    {
+     "name": "Puneet Singh",
+     "batch": "2019",
+     "email": "puneet@iitrpr.ac.in"
+    },
+    {
+     "name": "Arhum Ahmad",
+     "batch": "2019",
+     "email": "arhum@iitrpr.ac.in"
+    },
+    {
+     "name": "Mayank Kumar Singh",
+     "batch": "2019",
+     "email": "mayank@iitrpr.ac.in"
+    },
+    {
+     "name": "Abdul Azeem",
+     "batch": "2019",
+     "email": "abdul@iitrpr.ac.in"
+    },
+    {
+     "name": "Pranav Johri",
+     "batch": "2019",
+     "email": "pranav@iitrpr.ac.in"
+    },
+    {
+     "name": "Zeeshan Rayeen",
+     "batch": "2019",
+     "email": "zeeshan@iitrpr.ac.in"
+    },
+    {
+     "name": "Nidhi (Direct)",
+     "batch": "2019",
+     "email": "nidhi@iitrpr.ac.in"
+    },
+    {
+     "name": "Sukriti Gautam (Direct)",
+     "batch": "2019",
+     "email": "sukriti@iitrpr.ac.in"
+    },
+    {
+     "name": "Jitesh Kumar Prajapat",
+     "batch": "2019",
+     "email": "jitesh@iitrpr.ac.in"
+    },
+    {
+     "name": "Milanpreet Kaur",
+     "batch": "2019",
+     "email": "milanpreet@iitrpr.ac.in"
+    },
+    {
+     "name": "Mani Shankar Yadav",
+     "batch": "2019",
+     "email": "mani@iitrpr.ac.in"
+    },
+    {
+     "name": "Subal Beura",
+     "batch": "2019",
+     "email": "subal@iitrpr.ac.in"
+    },
+    {
+     "name": "Swati Agarwal",
+     "batch": "2020",
+     "email": "2020eez0001@iitrpr.ac.in"
+    },
+    {
+     "name": "Annima Gupta",
+     "batch": "2020",
+     "email": "2020eez0002@iitrpr.ac.in"
+    },
+    {
+     "name": "Aashish Kumar",
+     "batch": "2020",
+     "email": "2020eez0003@iitrpr.ac.in"
+    },
+    {
+     "name": "Shivdeep",
+     "batch": "2020",
+     "email": "2020eez0006@iitrpr.ac.in"
+    },
+    {
+     "name": "Kanupriya Varshney",
+     "batch": "2020",
+     "email": "2020eez0007@iitrpr.ac.in"
+    },
+    {
+     "name": "Priyanka Mishra",
+     "batch": "2020",
+     "email": "2020eez0010@iitrpr.ac.in"
+    },
+    {
+     "name": "Ridhima",
+     "batch": "2020",
+     "email": "2020eez0011@iitrpr.ac.in"
+    },
+    {
+     "name": "AKANKSHA GUPTA",
+     "batch": "2020",
+     "email": "2020eez0012@iitrpr.ac.in"
+    },
+    {
+     "name": "SAGAR JAIN",
+     "batch": "2020",
+     "email": "2020eez0013@iitrpr.ac.in"
+    },
+    {
+     "name": "Suyash Kushwaha",
+     "batch": "2020",
+     "email": "2020eez0016@iitrpr.ac.in"
+    },
+    {
+     "name": "Rajesh Kumar Srivastava",
+     "batch": "2020",
+     "email": "2020eez0017@iitrpr.ac.in"
+    },
+    {
+     "name": "Amit Kumar Singh",
+     "batch": "2020",
+     "email": "2020eez0018@iitrpr.ac.in"
+    },
+    {
+     "name": "Sahil Sharma",
+     "batch": "2020",
+     "email": "2020eez0019@iitrpr.ac.in"
+    },
+    {
+     "name": "Sameer Kumar Singh",
+     "batch": "2020",
+     "email": "2020eez0020@iitrpr.ac.in"
+    },
+    {
+     "name": "Radhika Raina",
+     "batch": "2020",
+     "email": "2020eez0022@iitrpr.ac.in"
+    },
+    {
+     "name": "Vikas Kumar Malav",
+     "batch": "2020",
+     "email": "2020eez0023@iitrpr.ac.in"
+    },
+    {
+     "name": "Sabarna Chakraborti",
+     "batch": "2020",
+     "email": "2020eez0025@iitrpr.ac.in"
+    },
+    {
+     "name": "Prabhat Durgeshwar Khedgarkar",
+     "batch": "2020",
+     "email": "2020eez0026@iitrpr.ac.in"
+    },
+    {
+     "name": "Inderjeet",
+     "batch": "2020",
+     "email": "2020eez0028@iitrpr.ac.in"
+    },
+    {
+     "name": "Aaqib Ahmad",
+     "batch": "2020",
+     "email": "2020eez0029@iitrpr.ac.in"
+    },
+    {
+     "name": "Rahul Gond",
+     "batch": "2021",
+     "email": "2021eez0001@iitrpr.ac.in"
+    },
+    {
+     "name": "Manish Sanjeev Pandit",
+     "batch": "2021",
+     "email": "2021eez0002@iitrpr.ac.in"
+    },
+    {
+     "name": "Nikhil Kumar",
+     "batch": "2021",
+     "email": "2021eez0003@iitrpr.ac.in"
+    },
+    {
+     "name": "Tushar Janaro Nistane",
+     "batch": "2021",
+     "email": "2021eez0004@iitrpr.ac.in"
+    },
+    {
+     "name": "Azmeera Harshith Kumar",
+     "batch": "2021",
+     "email": "2021eez0005@iitrpr.ac.in"
+    },
+    {
+     "name": "Sagnik Bhattacharyya",
+     "batch": "2021",
+     "email": "2021eez0006@iitrpr.ac.in"
+    },
+    {
+     "name": "Suraj Kumar Gupta",
+     "batch": "2021",
+     "email": "2021eez0007@iitrpr.ac.in"
+    },
+    {
+     "name": "Dhawal Salwan",
+     "batch": "2021",
+     "email": "2021eez0008@iitrpr.ac.in"
+    },
+    {
+     "name": "Gautam Kumawat",
+     "batch": "2021",
+     "email": "2021eez0011@iitrpr.ac.in"
+    },
+    {
+     "name": "Sunil Kumar Bansal",
+     "batch": "2021",
+     "email": "2021eez0013@iitrpr.ac.in"
+    },
+    {
+     "name": "Addaguduru Surya Kiran",
+     "batch": "2021",
+     "email": "2021eez0014@iitrpr.ac.in"
+    },
+    {
+     "name": "Upendra Chichhula",
+     "batch": "2021",
+     "email": "2021eez0015@iitrpr.ac.in"
+    },
+    {
+     "name": "Aditya Bharadwaj",
+     "batch": "2021",
+     "email": "2021eez0016@iitrpr.ac.in"
+    },
+    {
+     "name": "Kishor Kumar Verma",
+     "batch": "2021",
+     "email": "2021eez0017@iitrpr.ac.in"
+    },
+    {
+     "name": "Karminder Singh",
+     "batch": "2021",
+     "email": "2021eez0018@iitrpr.ac.in"
+    },
+    {
+     "name": "Ajay Kumar",
+     "batch": "2021",
+     "email": "2021eez0020@iitrpr.ac.in"
+    },
+    {
+     "name": "Prabhat",
+     "batch": "2021",
+     "email": "2021eez0021@iitrpr.ac.in"
+    },
+    {
+     "name": "Hirensh Mehra",
+     "batch": "2021",
+     "email": "2021eez0023@iitrpr.ac.in"
+    },
+    {
+     "name": "Parimal Sharma",
+     "batch": "2022",
+     "email": "2022eez0001@iitrpr.ac.in"
+    },
+    {
+     "name": "Prajjwal Shukla",
+     "batch": "2022",
+     "email": "2022eez0002@iitrpr.ac.in"
+    },
+    {
+     "name": "Shiv Kumar",
+     "batch": "2022",
+     "email": "2022eez0003@iitrpr.ac.in"
+    },
+    {
+     "name": "Sanket Laxman Waghmare",
+     "batch": "2022",
+     "email": "2022eez0004@iitrpr.ac.in"
+    },
+    {
+     "name": "Parul Rattanpal",
+     "batch": "2022",
+     "email": "2022eez0006@iitrpr.ac.in"
+    },
+    {
+     "name": "SIMRANDEEP KAUR",
+     "batch": "2022",
+     "email": "2022eez0007@iitrpr.ac.in"
+    },
+    {
+     "name": "Sania Bano",
+     "batch": "2022",
+     "email": "2022eez0012@iitrpr.ac.in"
+    },
+    {
+     "name": "Arnav Hari",
+     "batch": "2022",
+     "email": "2022eez0013@iitrpr.ac.in"
+    },
+    {
+     "name": "Kamal Jeet Singh",
+     "batch": "2022",
+     "email": "2022eez0014@iitrpr.ac.in"
+    },
+    {
+     "name": "SYED MOHAMMAD ANAS",
+     "batch": "2022",
+     "email": "2022eez0015@iitrpr.ac.in"
+    },
+    {
+     "name": "Balram",
+     "batch": "2022",
+     "email": "2022eez0016@iitrpr.ac.in"
+    },
+    {
+     "name": "Krishan Mehra",
+     "batch": "2022",
+     "email": "2022eez0018@iitrpr.ac.in"
+    },
+    {
+     "name": "Irtizah",
+     "batch": "2022",
+     "email": "2022eez0019@iitrpr.ac.in"
+    },
+    {
+     "name": "Priti Mishra",
+     "batch": "2022",
+     "email": "2022eez0020@iitrpr.ac.in"
+    },
+    {
+     "name": "SHIVAM BANSAL",
+     "batch": "2023",
+     "email": "2023eez0001@iitrpr.ac.in"
+    },
+    {
+     "name": "KATTA RANJITH",
+     "batch": "2023",
+     "email": "2023eez0003@iitrpr.ac.in"
+    },
+    {
+     "name": "RAHUL WALIA",
+     "batch": "2023",
+     "email": "2023eez0004@iitrpr.ac.in"
+    },
+    {
+     "name": "Wajahat Ibni Rashid",
+     "batch": "2023",
+     "email": "2023eez0005@iitrpr.ac.in"
+    },
+    {
+     "name": "NIKITA CHAUDHARY",
+     "batch": "2023",
+     "email": "2023eez0007@iitrpr.ac.in"
+    },
+    {
+     "name": "PRAVEEN KUMAR",
+     "batch": "2023",
+     "email": "2023eez0009@iitrpr.ac.in"
+    },
+    {
+     "name": "Azhar Yaseen N. J",
+     "batch": "2023",
+     "email": "2023eez0010@iitrpr.ac.in"
+    },
+    {
+     "name": "Jay Verdhan Tiwari",
+     "batch": "2023",
+     "email": "2023eez0013@iitrpr.ac.in"
+    },
+    {
+     "name": "Rahul Kumar Neiwal",
+     "batch": "2023",
+     "email": "2023eez0014@iitrpr.ac.in"
+    },
+    {
+     "name": "Prakash Kumar",
+     "batch": "2023",
+     "email": "2023eez0015@iitrpr.ac.in"
+    },
+    {
+     "name": "Saurav Kumar",
+     "batch": "2023",
+     "email": "23eez0017@iitrpr.ac.in"
+    },
+    {
+     "name": "Taranveer Kaur",
+     "batch": "2023",
+     "email": "23eez0018@iitrpr.ac.in"
+    },
+    {
+     "name": "Saurabh",
+     "batch": "2023",
+     "email": "23eez0019@iitrpr.ac.in"
+    },
+    {
+     "name": "Ankan Bhunia",
+     "batch": "2023",
+     "email": "23eez0020@iitrpr.ac.in"
+    },
+    {
+     "name": "Sayantika Mukherji",
+     "batch": "2023",
+     "email": "23eez0021@iitrpr.ac.in"
+    },
+    {
+     "name": "Mohd Shahrukh",
+     "batch": "2023",
+     "email": "23eez0022@iitrpr.ac.in"
+    },
+    {
+     "name": "Jay Kumar Parmar",
+     "batch": "2023",
+     "email": "23eez0023@iitrpr.ac.in"
+    },
+    {
+     "name": "Akshay Dhiman",
+     "batch": "2023",
+     "email": "23eez0024@iitrpr.ac.in"
+    },
+    {
+     "name": "Amitabh Tripathi",
+     "batch": "2023",
+     "email": "23eez0025@iitrpr.ac.in"
+    },
+    {
+     "name": "Pranjal Sharma",
+     "batch": "2023",
+     "email": "23eez0026@iitrpr.ac.in"
+    },
+    {
+     "name": "Kunvar Ravi Pratap Singh",
+     "batch": "2023",
+     "email": "23eez0027@iitrpr.ac.in"
+    },
+    {
+     "name": "Amit Kumar",
+     "batch": "2024",
+     "email": "2024eez0001@iitrpr.ac.in"
+    },
+    {
+     "name": "Artesh Sekhar Singh",
+     "batch": "2024",
+     "email": "2024eez0002@iitrpr.ac.in"
+    },
+    {
+     "name": "Bhuvanesh. M",
+     "batch": "2024",
+     "email": "2024eez0003@iitrpr.ac.in"
+    },
+    {
+     "name": "Asif Rais",
+     "batch": "2024",
+     "email": "2024eez0004@iitrpr.ac.in"
+    },
+    {
+     "name": "Nilohit Singh Kanwar",
+     "batch": "2024",
+     "email": "2024eez0006@iitrpr.ac.in"
+    },
+    {
+     "name": "Shyam Patil",
+     "batch": "2024",
+     "email": "2024eez0008@iitrpr.ac.in"
+    },
+    {
+     "name": "Gagandeep rathi",
+     "batch": "2024",
+     "email": "2024eez0009@iitrpr.ac.in"
+    },
+    {
+     "name": "Tapas Santra",
+     "batch": "2024",
+     "email": "2024eez0010@iitrpr.ac.in"
+    },
+    {
+     "name": "Abu kasim",
+     "batch": "2024",
+     "email": "2024eez0011@iitrpr.ac.in"
+    },
+    {
+     "name": "Aditya",
+     "batch": "2024",
+     "email": "2024eez0012@iitrpr.ac.in"
+    },
+    {
+     "name": "Komal",
+     "batch": "2024",
+     "email": "2024eez0013@iitrpr.ac.in"
+    },
+    {
+     "name": "Naman",
+     "batch": "2024",
+     "email": "2024eez0015@iitrpr.ac.in"
+    },
+    {
+     "name": "Keshav Suthar",
+     "batch": "2024",
+     "email": "2024eez0016@iitrpr.ac.in"
+    },
+    {
+     "name": "Vikas Dev Pandey",
+     "batch": "2024",
+     "email": "vikas.24eez0014@iitrpr.ac.in"
+    }
+   ]
+  }
+ ]
+}

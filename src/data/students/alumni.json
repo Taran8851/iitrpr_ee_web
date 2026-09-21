@@ -1,0 +1,383 @@
+{
+ "programs": [
+  {
+   "key": "btech",
+   "label": "B.Tech.",
+   "title": "Bachelor of Technology",
+   "records": []
+  },
+  {
+   "key": "mtech",
+   "label": "M.Tech.",
+   "title": "Master of Technology",
+   "records": []
+  },
+  {
+   "key": "ms",
+   "label": "M.S.",
+   "title": "Master of Science (Research)",
+   "records": []
+  },
+  {
+   "key": "phd",
+   "label": "Ph.D.",
+   "title": "Doctor of Philosophy",
+   "records": [
+    {
+     "name": "Sarabpreet Kaur",
+     "batch": "2009",
+     "affiliation": "",
+     "entry": "2009EEZ0001"
+    },
+    {
+     "name": "Ms. Harpreet Kaur",
+     "batch": "2011",
+     "affiliation": "",
+     "entry": "2011EEZ0001"
+    },
+    {
+     "name": "Alampratap Singh",
+     "batch": "2011",
+     "affiliation": "",
+     "entry": "2011EEZ0005"
+    },
+    {
+     "name": "Ashish Gupta",
+     "batch": "2012",
+     "affiliation": "",
+     "entry": "2012EEZ0001"
+    },
+    {
+     "name": "Atul Kumar Nishad",
+     "batch": "2012",
+     "affiliation": "",
+     "entry": "2012EEZ0002"
+    },
+    {
+     "name": "Somesh Kumar",
+     "batch": "2013",
+     "affiliation": "",
+     "entry": "2013EEZ0001"
+    },
+    {
+     "name": "Avnish Kumar Upadhyay",
+     "batch": "2014",
+     "affiliation": "",
+     "entry": "2014EEZ0001"
+    },
+    {
+     "name": "M. VENKATESWARA REDDY",
+     "batch": "2014",
+     "affiliation": "",
+     "entry": "2014EEZ0002"
+    },
+    {
+     "name": "Priyesh Kumar Pandey",
+     "batch": "2015",
+     "affiliation": "",
+     "entry": "2015EEZ0004"
+    },
+    {
+     "name": "Vipul Kumar Nishad",
+     "batch": "2015",
+     "affiliation": "",
+     "entry": "2015EEZ0003"
+    },
+    {
+     "name": "Manoj Yadav",
+     "batch": "2015",
+     "affiliation": "",
+     "entry": "2015EEZ0002"
+    },
+    {
+     "name": "Birender Singh",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0002"
+    },
+    {
+     "name": "Kapil Chauhan",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0003"
+    },
+    {
+     "name": "RAHUL KUMAR",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0005"
+    },
+    {
+     "name": "Ajith John Thomas",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0007"
+    },
+    {
+     "name": "Deepak Saluja",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0009"
+    },
+    {
+     "name": "Pankaj",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0011"
+    },
+    {
+     "name": "Ancha Satish Kumar",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0012"
+    },
+    {
+     "name": "Maneesh Kumar Pandey",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0014"
+    },
+    {
+     "name": "Shitikantha Dash",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0015"
+    },
+    {
+     "name": "Sathyamoorthy D",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0016"
+    },
+    {
+     "name": "Yashasvi",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0006"
+    },
+    {
+     "name": "Kirandeep Kaur",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0004"
+    },
+    {
+     "name": "Anju Rani",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0008"
+    },
+    {
+     "name": "Vansha Kher",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0013"
+    },
+    {
+     "name": "Manish Kumar",
+     "batch": "2016",
+     "affiliation": "",
+     "entry": "2016EEZ0010"
+    },
+    {
+     "name": "Ashwani Kumar Rana",
+     "batch": "2017",
+     "affiliation": "",
+     "entry": "2017EEZ0002"
+    },
+    {
+     "name": "Mudasani Satyanarayan",
+     "batch": "2017",
+     "affiliation": "",
+     "entry": "2017EEZ0001"
+    },
+    {
+     "name": "Sunil Pathania",
+     "batch": "2017",
+     "affiliation": "",
+     "entry": "2017EEZ0005"
+    },
+    {
+     "name": "Rohit Singh",
+     "batch": "2017",
+     "affiliation": "",
+     "entry": "2017EEZ0007"
+    },
+    {
+     "name": "Baibhav Kumar Gupta",
+     "batch": "2017",
+     "affiliation": "",
+     "entry": "2017EEZ0009"
+    },
+    {
+     "name": "Iyyappan C",
+     "batch": "2017",
+     "affiliation": "",
+     "entry": "2017EEZ0010"
+    },
+    {
+     "name": "Bellamkonda Dwiza",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0006"
+    },
+    {
+     "name": "Priya Singh",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0007"
+    },
+    {
+     "name": "Mehtab Alam",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0009"
+    },
+    {
+     "name": "Mahesh Reddy Pundru",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0008"
+    },
+    {
+     "name": "Vaibhav Shah",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0010"
+    },
+    {
+     "name": "Akhilesh Rawat",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0011"
+    },
+    {
+     "name": "Nishant Gupta",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0018"
+    },
+    {
+     "name": "Manoj Kumar",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0020"
+    },
+    {
+     "name": "Madduluri Ananth Bharadwaj",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0023"
+    },
+    {
+     "name": "Nancy Mehta",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0017"
+    },
+    {
+     "name": "Shruti Shantiling Phutke",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0019"
+    },
+    {
+     "name": "Digamber Kumar",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0002"
+    },
+    {
+     "name": "Balakrushna Sahu",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0005"
+    },
+    {
+     "name": "Sourav De",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0003"
+    },
+    {
+     "name": "Pratik Kalkal",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0022"
+    },
+    {
+     "name": "Ritesh Kumar",
+     "batch": "2018",
+     "affiliation": "",
+     "entry": "2018EEZ0013"
+    },
+    {
+     "name": "Samarjeet Singh",
+     "batch": "2019",
+     "affiliation": "",
+     "entry": "2019EEZ0007"
+    },
+    {
+     "name": "Amol Ishwarrao Gedam",
+     "batch": "2019",
+     "affiliation": "",
+     "entry": "2019EEZ0012"
+    },
+    {
+     "name": "Vivek Kumar Srivastava",
+     "batch": "2019",
+     "affiliation": "",
+     "entry": "2019EEZ0027"
+    },
+    {
+     "name": "Jasdeep Singh",
+     "batch": "2019",
+     "affiliation": "",
+     "entry": "2019EEZ0006"
+    },
+    {
+     "name": "Sundeep Kumar",
+     "batch": "2019",
+     "affiliation": "",
+     "entry": "SUNDEEP"
+    },
+    {
+     "name": "Sahibia Kaur Vohra",
+     "batch": "2019",
+     "affiliation": "",
+     "entry": "SAHIBIA"
+    },
+    {
+     "name": "Lalit Kumar Baghel",
+     "batch": "2019",
+     "affiliation": "",
+     "entry": "LALIT"
+    },
+    {
+     "name": "Shiv Kumar",
+     "batch": "2019",
+     "affiliation": "",
+     "entry": "SHIV"
+    },
+    {
+     "name": "AshutoshChandrashekhar Kulkarni",
+     "batch": "2020",
+     "affiliation": "",
+     "entry": "2020EEZ0008"
+    },
+    {
+     "name": "Anjali Goel",
+     "batch": "2020",
+     "affiliation": "",
+     "entry": "2020EEZ0027"
+    },
+    {
+     "name": "ARITRA DAS",
+     "batch": "2020",
+     "affiliation": "",
+     "entry": "2020EEZ0014"
+    }
+   ]
+  }
+ ]
+}
