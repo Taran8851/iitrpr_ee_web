@@ -1,0 +1,43 @@
+---
+/**
+ * One publication entry. Filter hooks: data-group = type, data-year, and one
+ * `data-f<n>="y"` attribute per associated faculty (see FacultySelect.astro).
+ */
+import { Icon } from "astro-icon/components";
+interface Props {
+  type: string;
+  title: string;
+  authors: string;
+  venue: string;
+  volume: string | null;
+  pages: string | null;
+  year: number | null;
+  link: string | null;
+  faculty: { slug: string; name: string; key: string }[];
+}
+const { type, title, authors, venue, volume, pages, year, link, faculty } = Astro.props;
+const group = type.startsWith("Book") ? "book" : type.toLowerCase();
+const facAttrs = Object.fromEntries(faculty.map((f) => [`data-${f.key}`, "y"]));
+const badge = { journal: "badge-primary", conference: "badge-secondary", patent: "badge-accent", book: "badge-neutral" }[group];
+const details = [venue, volume && (type === "Journal" ? `Vol. ${volume}` : volume), pages && `pp. ${pages}`].filter(Boolean).join(", ");
+---
+<li data-filter-item data-group={group} data-year={year ?? "na"} {...facAttrs} class="rounded-xl border border-base-content/10 bg-base-100 p-4 md:p-5">
+  <div class="mb-2 flex flex-wrap items-center gap-2">
+    <span class:list={["badge badge-sm badge-soft", badge]}>{type}</span>
+    {year && <span class="text-xs text-base-content/60">{year}</span>}
+  </div>
+  <h4 class="font-semibold leading-snug">
+    {link ? (
+      <a href={link} target="_blank" rel="noopener" class="link-hover hover:text-primary">
+        {title}<Icon name="lucide:external-link" class="ml-1 inline size-3.5 align-baseline opacity-60" aria-label="(opens external link)" />
+      </a>
+    ) : title}
+  </h4>
+  {authors && <p class="mt-1 text-sm text-base-content/75">{authors}</p>}
+  {details && <p class="mt-1 text-sm italic text-base-content/60">{details}</p>}
+  {faculty.length > 0 && (
+    <p class="mt-2 flex flex-wrap gap-1.5">
+      {faculty.map((f) => <a href={`/people/${f.slug}`} class="badge badge-ghost badge-sm hover:badge-primary">{f.name}</a>)}
+    </p>
+  )}
+</li>
