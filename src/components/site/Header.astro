@@ -40,31 +40,61 @@ const isActive = (href: string) => path === href || path.startsWith(href + "/");
       </div>
 
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal gap-1 px-1 text-sm font-medium">
+        <ul class="flex items-center gap-1 text-sm font-medium">
           {
             mainNav.map((item) =>
               "children" in item ? (
-                <li>
-                  <details class="group/dd">
-                    <summary
-                      class:list={[item.children.some((c) => isActive(c.href)) && "text-primary"]}
+                <li class="group/dd relative" data-nav-dd>
+                  <button
+                    type="button"
+                    data-nav-link
+                    aria-haspopup="true"
+                    class:list={[
+                      "flex items-center gap-1 rounded-lg px-3 py-2 transition-colors hover:bg-base-content/5",
+                      item.children.some((c) => isActive(c.href)) && "text-primary",
+                    ]}
+                  >
+                    {item.label}
+                    <Icon name="lucide:chevron-down" class="size-4 opacity-60 transition-transform duration-300 group-hover/dd:rotate-180 group-focus-within/dd:rotate-180" />
+                  </button>
+                  <div class="invisible absolute left-1/2 top-full z-20 -translate-x-1/2 translate-y-2 pt-3 opacity-0 transition-all duration-200 group-hover/dd:visible group-hover/dd:translate-y-0 group-hover/dd:opacity-100 group-focus-within/dd:visible group-focus-within/dd:translate-y-0 group-focus-within/dd:opacity-100">
+                    <ul
+                      class:list={[
+                        "glass grid gap-1 rounded-2xl p-2 text-base-content shadow-2xl shadow-black/20",
+                        item.children.length > 3 ? "w-[34rem] grid-cols-2" : "w-80",
+                      ]}
                     >
-                      {item.label}
-                    </summary>
-                    <ul class="glass z-10 w-56 rounded-box p-2 text-base-content shadow-xl">
                       {item.children.map((c) => (
                         <li>
-                          <a href={c.href} class:list={[isActive(c.href) && "menu-active"]}>
-                            {c.label}
+                          <a
+                            href={c.href}
+                            class:list={[
+                              "group/item flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-primary/10",
+                              isActive(c.href) && "bg-primary/10",
+                            ]}
+                          >
+                            {c.icon && (
+                              <span class="grid size-9 shrink-0 place-items-center rounded-lg bg-primary/15 text-primary transition-transform duration-300 group-hover/item:scale-110 group-hover/item:-rotate-6">
+                                <Icon name={c.icon} class="size-5" />
+                              </span>
+                            )}
+                            <span>
+                              <span class="block font-semibold">{c.label}</span>
+                              {c.desc && <span class="block text-xs font-normal text-base-content/60">{c.desc}</span>}
+                            </span>
                           </a>
                         </li>
                       ))}
                     </ul>
-                  </details>
+                  </div>
                 </li>
               ) : (
                 <li>
-                  <a href={item.href} class:list={[isActive(item.href) && "text-primary"]}>
+                  <a
+                    href={item.href}
+                    data-nav-link
+                    class:list={["block rounded-lg px-3 py-2 transition-colors hover:bg-base-content/5", isActive(item.href) && "text-primary"]}
+                  >
                     {item.label}
                   </a>
                 </li>
@@ -95,6 +125,15 @@ const isActive = (href: string) => path === href || path.startsWith(href + "/");
 
 <pagefind-modal></pagefind-modal>
 <script>
+  // Escape closes an open mega-menu (focus-within) and returns focus to its button.
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    const dd = (document.activeElement as HTMLElement | null)?.closest<HTMLElement>("[data-nav-dd]");
+    if (dd) {
+      dd.querySelector<HTMLElement>("button")?.focus();
+      (document.activeElement as HTMLElement).blur();
+    }
+  });
   // Mobile search icon opens the same Pagefind modal.
   document.querySelector("[data-search-open]")?.addEventListener("click", () => {
     (document.querySelector("pagefind-modal") as (HTMLElement & { open?: () => void }) | null)?.open?.();

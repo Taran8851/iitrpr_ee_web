@@ -8,6 +8,7 @@ import PersonCard from "../components/ui/PersonCard.astro";
 import SearchInput from "../components/ui/SearchInput.astro";
 import EmptyState from "../components/ui/EmptyState.astro";
 import HodFeature from "../components/faculty/HodFeature.astro";
+import FacultyQuickView from "../components/faculty/FacultyQuickView.astro";
 import { facultyLinks, type Faculty } from "../components/faculty/links";
 import facultyData from "../data/faculty/faculty.json";
 
@@ -84,6 +85,7 @@ const professors = faculty.filter((f) => /^Professor\b/.test(f.designation)).len
             href={f.profile}
             group={f.group}
             links={facultyLinks(f)}
+            quickView={`fq-${f.id}`}
           />
         ))}
       </div>
@@ -91,4 +93,5 @@ const professors = faculty.filter((f) => /^Professor\b/.test(f.designation)).len
       <EmptyState filter message="No faculty member matches your search. Try another name or research area." />
     </div>
   </Section>
+  {faculty.map((f) => <FacultyQuickView f={f} />)}
 </BaseLayout>

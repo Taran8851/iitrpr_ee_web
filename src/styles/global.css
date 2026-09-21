@@ -141,14 +141,13 @@
 .btn { transition-property: translate, color, background-color, border-color, box-shadow, transform; }
 
 /* Animated underline on header links */
-[data-site-header] .menu-horizontal > li > a,
-[data-site-header] .menu-horizontal > li > details > summary {
+[data-site-header] [data-nav-link] {
   background-image: linear-gradient(currentColor, currentColor);
   background-size: 0% 2px; background-repeat: no-repeat; background-position: 50% 100%;
   transition: background-size 250ms ease;
 }
-[data-site-header] .menu-horizontal > li > a:hover,
-[data-site-header] .menu-horizontal > li > details > summary:hover { background-size: 60% 2px; }
+[data-site-header] [data-nav-link]:hover,
+[data-site-header] [data-nav-dd]:focus-within > [data-nav-link] { background-size: 60% 2px; }
 
 /* Pagefind search modal themed to Voltage */
 pagefind-modal, pagefind-modal-trigger {
@@ -156,6 +155,14 @@ pagefind-modal, pagefind-modal-trigger {
   --pf-background: var(--color-base-100);
   --pf-border: color-mix(in oklab, var(--color-base-content) 15%, transparent);
   --pf-primary: var(--color-primary);
+}
+
+/* PageHero: circuit traces light up around the cursor (vars set by site.ts on [data-spotlight]) */
+.circuit-reveal {
+  --reveal: radial-gradient(260px circle at var(--mx, -999px) var(--my, -999px), #000 0%, rgb(0 0 0 / 0.5) 40%, transparent 70%);
+  -webkit-mask-image: var(--reveal);
+  mask-image: var(--reveal);
+  filter: drop-shadow(0 0 3px rgb(251 191 36 / 0.9));
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,0 +1,108 @@
+---
+/** Quick-view dialog for a faculty member; opened by PersonCard's `quickView` (see site.ts [data-quickview]). */
+import { Icon } from "astro-icon/components";
+import { facultyLinks, type Faculty } from "./links";
+
+interface Props {
+  f: Faculty;
+}
+const { f } = Astro.props;
+const links = facultyLinks(f);
+const initials = f.name.split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).join("");
+---
+
+<dialog id={`fq-${f.id}`} class="modal modal-bottom sm:modal-middle" aria-label={`${f.name} — quick view`}>
+  <div class="modal-box glass max-w-3xl overflow-hidden p-0">
+    <form method="dialog">
+      <button class="btn btn-circle btn-ghost btn-sm absolute right-3 top-3 z-10" aria-label="Close">
+        <Icon name="lucide:x" class="size-5" />
+      </button>
+    </form>
+
+    <div class="grid sm:grid-cols-[14rem_1fr]">
+      <div class="relative bg-base-300 sm:min-h-full">
+        {
+          f.photo ? (
+            <img src={f.photo} alt={f.name} class="h-64 w-full object-cover object-top sm:h-full" />
+          ) : (
+            <div class="grid h-40 place-items-center font-display text-5xl font-bold text-base-content/40 sm:h-full">
+              {initials}
+            </div>
+          )
+        }
+        <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/50 to-transparent sm:hidden"></div>
+      </div>
+
+      <div class="space-y-4 p-6">
+        <div>
+          <span class="badge badge-primary badge-sm mb-2">{f.groupLabel}</span>
+          <h3 class="text-2xl font-bold">{f.name}</h3>
+          <p class="text-sm font-medium text-primary">{f.designation}</p>
+        </div>
+
+        {
+          f.keywords.length > 0 && (
+            <div>
+              <p class="mb-1.5 text-xs font-semibold uppercase tracking-wider text-base-content/60">Research interests</p>
+              <div class="flex flex-wrap gap-1.5">
+                {f.keywords.map((k) => (
+                  <span class="badge badge-outline h-auto py-1 text-left">{k}</span>
+                ))}
+              </div>
+            </div>
+          )
+        }
+
+        {
+          f.education.length > 0 && (
+            <div>
+              <p class="mb-1.5 text-xs font-semibold uppercase tracking-wider text-base-content/60">Education</p>
+              <ul class="space-y-1 text-sm text-base-content/80">
+                {f.education.map((e) => (
+                  <li class="flex gap-2">
+                    <Icon name="lucide:graduation-cap" class="mt-0.5 size-4 shrink-0 text-primary" />
+                    {e}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+
+        <ul class="grid gap-1.5 text-sm text-base-content/80 sm:grid-cols-2">
+          {f.room && <li class="flex gap-2"><Icon name="lucide:map-pin" class="mt-0.5 size-4 shrink-0" />{f.room}</li>}
+          {f.phone && <li class="flex gap-2"><Icon name="lucide:phone" class="mt-0.5 size-4 shrink-0" />{f.phone}</li>}
+          {
+            f.email && (
+              <li class="flex gap-2 sm:col-span-2">
+                <Icon name="lucide:mail" class="mt-0.5 size-4 shrink-0" />
+                <a class="link-hover break-all" href={`mailto:${f.email}`}>{f.email}</a>
+              </li>
+            )
+          }
+        </ul>
+
+        <div class="flex flex-wrap gap-2 pt-1">
+          {
+            f.profile && (
+              <a href={f.profile} class="btn btn-primary btn-sm gap-1.5">
+                Full profile <Icon name="lucide:arrow-right" class="size-4" />
+              </a>
+            )
+          }
+          {
+            links.map((l) => (
+              <a href={l.href} target="_blank" rel="noopener" class="btn btn-ghost btn-sm border-base-content/15 gap-1.5">
+                {l.icon && <Icon name={l.icon} class="size-4" />}
+                {l.label}
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+  <form method="dialog" class="modal-backdrop bg-black/40 backdrop-blur-sm">
+    <button aria-label="Close">close</button>
+  </form>
+</dialog>

@@ -12,8 +12,10 @@ interface Props {
   href?: string;
   links?: { label: string; href: string; icon?: string }[];
   group?: string;
+  /** id of a <dialog> to open when the card is clicked (quick view) instead of navigating to href. */
+  quickView?: string;
 }
-const { name, role, photo, email, phone, room, tags = [], href, links = [], group } = Astro.props;
+const { name, role, photo, email, phone, room, tags = [], href, links = [], group, quickView } = Astro.props;
 const initials = name.split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).join("");
 ---
 <article
@@ -24,6 +26,11 @@ const initials = name.split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).
   class="card glass group overflow-hidden rounded-2xl transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/10"
 >
   <figure class="relative aspect-[4/3] bg-base-300">
+    {quickView && (
+      <span class="glass-dark pointer-events-none absolute right-3 top-3 z-10 flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium opacity-0 transition duration-300 group-hover:opacity-100">
+        <Icon name="lucide:scan-eye" class="size-3.5" /> Quick view
+      </span>
+    )}
     {photo ? (
       <img src={photo} alt={name} loading="lazy" class="h-full w-full object-cover object-top transition duration-500 group-hover:scale-105" />
     ) : (
@@ -32,7 +39,11 @@ const initials = name.split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).
   </figure>
   <div class="card-body gap-2 p-5">
     <h3 class="card-title text-lg">
-      {href ? <a href={href} class="hover:text-primary after:absolute after:inset-0">{name}</a> : name}
+      {quickView ? (
+        <button type="button" data-quickview={quickView} class="cursor-pointer text-left hover:text-primary after:absolute after:inset-0" aria-haspopup="dialog">{name}</button>
+      ) : href ? (
+        <a href={href} class="hover:text-primary after:absolute after:inset-0">{name}</a>
+      ) : name}
     </h3>
     {role && <p class="text-sm font-medium text-primary">{role}</p>}
     {tags.length > 0 && (

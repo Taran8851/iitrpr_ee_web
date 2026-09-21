@@ -11,6 +11,8 @@
  *   - spotlight: any .glass / .glass-dark gets a cursor-following glow (CSS vars --mx/--my)
  *   - tilt:      a.glass, .card.glass and [data-tilt] tilt in 3D (vanilla-tilt); opt out with [data-no-tilt]
  *   - magnetic:  .btn-primary and [data-magnetic] lean toward the cursor
+ *   - [data-spotlight]: same --mx/--my tracking for any element (PageHero circuit reveal)
+ * Quick view: [data-quickview="<dialog id>"] opens that dialog.
  */
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -128,6 +130,19 @@ function initCountUp() {
   els.forEach((el) => io.observe(el));
 }
 
+/** Any [data-quickview="<dialog id>"] opens that <dialog> as a modal. */
+function initQuickView() {
+  document.addEventListener("click", (e) => {
+    const trigger = (e.target as Element).closest?.<HTMLElement>("[data-quickview]");
+    if (!trigger) return;
+    const dialog = document.getElementById(trigger.dataset.quickview!) as HTMLDialogElement | null;
+    if (dialog?.showModal) {
+      e.preventDefault();
+      dialog.showModal();
+    }
+  });
+}
+
 function initNavbarScroll() {
   const nav = document.querySelector<HTMLElement>("[data-site-header]");
   if (!nav) return;
@@ -151,7 +166,7 @@ function initSpotlight() {
       if (frame) return;
       frame = requestAnimationFrame(() => {
         frame = 0;
-        const target = (ev!.target as Element).closest?.<HTMLElement>(".glass, .glass-dark") ?? null;
+        const target = (ev!.target as Element).closest?.<HTMLElement>(".glass, .glass-dark, [data-spotlight]") ?? null;
         if (last && last !== target) {
           last.style.removeProperty("--mx");
           last.style.removeProperty("--my");
@@ -193,6 +208,7 @@ initTheme();
 initSpotlight();
 initTilt();
 initMagnetic();
+initQuickView();
 initNavbarScroll();
 initFilters();
 initCountUp();

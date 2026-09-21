@@ -1,7 +1,7 @@
 // Single source of truth for site navigation (header + footer).
 // Routes keep the legacy slugs (e.g. /addmissions, /committe) so links stay stable.
 
-export type NavLink = { label: string; href: string; external?: boolean };
+export type NavLink = { label: string; href: string; external?: boolean; desc?: string; icon?: string };
 export type NavItem = NavLink | { label: string; children: NavLink[] };
 
 export const mainNav: NavItem[] = [
@@ -9,36 +9,36 @@ export const mainNav: NavItem[] = [
   {
     label: "People",
     children: [
-      { label: "Faculty", href: "/faculty" },
-      { label: "Staff", href: "/staff" },
-      { label: "Students", href: "/student" },
-      { label: "Alumni", href: "/alumni" },
-      { label: "Website Team", href: "/team" },
+      { label: "Faculty", href: "/faculty", icon: "lucide:graduation-cap", desc: "Professors, research interests & profiles" },
+      { label: "Staff", href: "/staff", icon: "lucide:briefcase", desc: "Technical & administrative team" },
+      { label: "Students", href: "/student", icon: "lucide:users", desc: "M.Tech & Ph.D. scholars" },
+      { label: "Alumni", href: "/alumni", icon: "lucide:award", desc: "Graduates of the department" },
+      { label: "Website Team", href: "/team", icon: "lucide:code-2", desc: "People who build this site" },
     ],
   },
   {
     label: "Research",
     children: [
-      { label: "Research Areas", href: "/areas" },
-      { label: "Labs", href: "/lab" },
-      { label: "Facilities", href: "/facilities" },
-      { label: "Projects", href: "/project" },
-      { label: "Publications", href: "/publications" },
+      { label: "Research Areas", href: "/areas", icon: "lucide:zap", desc: "Power, VLSI, signal processing & more" },
+      { label: "Labs", href: "/lab", icon: "lucide:flask-conical", desc: "27 teaching & research labs" },
+      { label: "Facilities", href: "/facilities", icon: "lucide:cpu", desc: "Research facilities & lab websites" },
+      { label: "Projects", href: "/project", icon: "lucide:folder-kanban", desc: "Sponsored research projects" },
+      { label: "Publications", href: "/publications", icon: "lucide:book-open", desc: "Journals, conferences & patents" },
     ],
   },
   {
     label: "Academics",
     children: [
-      { label: "Courses", href: "/course" },
-      { label: "Admissions", href: "/addmissions" },
-      { label: "Committees", href: "/committe" },
+      { label: "Courses", href: "/course", icon: "lucide:library", desc: "B.Tech & M.Tech course catalogue" },
+      { label: "Admissions", href: "/addmissions", icon: "lucide:door-open", desc: "How to join our programmes" },
+      { label: "Committees", href: "/committe", icon: "lucide:clipboard-list", desc: "Faculty advisors & committees" },
     ],
   },
   {
     label: "News",
     children: [
-      { label: "Latest News", href: "/news" },
-      { label: "Achievements", href: "/achievements" },
+      { label: "Latest News", href: "/news", icon: "lucide:newspaper", desc: "Announcements & events" },
+      { label: "Achievements", href: "/achievements", icon: "lucide:trophy", desc: "Awards & recognitions" },
     ],
   },
   { label: "Placements", href: "/placements.graphs" },
