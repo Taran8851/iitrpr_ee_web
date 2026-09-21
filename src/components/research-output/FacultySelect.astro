@@ -1,0 +1,28 @@
+---
+/**
+ * Faculty filter for multi-faculty items. site.ts `data-filter-select` does exact matching on a
+ * single data-<key>, which cannot express "item belongs to several faculty". Instead each item
+ * carries `data-f<n>="y"` per faculty, and this select swaps its own `data-filter-select` key to
+ * the chosen faculty's `f<n>` just before site.ts reacts (capture-phase listener on the root).
+ * Kit follow-up: token matching in data-filter-select would make this script unnecessary.
+ */
+interface Props { options: { key: string; name: string; count: number }[] }
+const { options } = Astro.props;
+---
+<label class="select select-bordered w-full md:max-w-xs">
+  <span class="sr-only">Faculty</span>
+  <select data-filter-select="fnone" data-faculty-select autocomplete="off" aria-label="Filter by faculty">
+    <option value="all">All faculty</option>
+    {options.map((o) => <option value="y" data-key={o.key}>{o.name} ({o.count})</option>)}
+  </select>
+</label>
+
+<script>
+  document.querySelectorAll<HTMLSelectElement>("[data-faculty-select]").forEach((sel) => {
+    const sync = () => {
+      sel.dataset.filterSelect = sel.selectedOptions[0]?.dataset.key ?? "fnone";
+    };
+    sel.closest("[data-filter-root]")?.addEventListener("change", (e) => e.target === sel && sync(), true);
+    sync();
+  });
+</script>

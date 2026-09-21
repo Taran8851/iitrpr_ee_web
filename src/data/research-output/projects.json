@@ -1,0 +1,1042 @@
+[
+ {
+  "title": "Design of Ferroelectric-Integrated Oxide Semiconductor TFTs for Low-Temperature Monolithic 3D Integration for High-performance Displays with Built-In Memory and Neuromorphic Sensing",
+  "agency": "Anusandhan National Research Foundation - ARG",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Pardeep Duhan",
+    "slug": "pduhan"
+   },
+   {
+    "name": "Devarshi Mrinal Das",
+    "slug": "devarshi.das"
+   }
+  ]
+ },
+ {
+  "title": "Design and implementation of the controller for IPMSM driven compressors used in the refrigeration system",
+  "agency": "DST IMPRINT-2",
+  "agencyGroup": "DST",
+  "faculty": [
+   {
+    "name": "K. Ramachandra Sekhar",
+    "slug": "sekhar"
+   }
+  ]
+ },
+ {
+  "title": "Secure Ubiquitous Connectivity for 6G V2X using Rate Splitting Multiple Access Enabled Joint Sensing and Communication",
+  "agency": "Bharat 6G mission, DoT",
+  "agencyGroup": "DoT",
+  "faculty": [
+   {
+    "name": "Sam Darshi",
+    "slug": "sam"
+   }
+  ]
+ },
+ {
+  "title": "Quality of Service (QoS) improvement through efficient integration of FR-1 and FR-2 in 6G Open RAN",
+  "agency": "TTDF, DoT",
+  "agencyGroup": "DoT",
+  "faculty": [
+   {
+    "name": "Brijesh Kumbhani",
+    "slug": "brijesh"
+   },
+   {
+    "name": "Satyam Agarwal",
+    "slug": "satyam"
+   }
+  ]
+ },
+ {
+  "title": "Electromagnetic Interference Mitigation Techniques for Analog and Mixed-Signal CMOS Integrated Circuits in 6G Environment for Robust Front-End Design",
+  "agency": "Department of Telecommunication - TTDF",
+  "agencyGroup": "DoT",
+  "faculty": [
+   {
+    "name": "Devarshi Mrinal Das",
+    "slug": "devarshi.das"
+   }
+  ]
+ },
+ {
+  "title": "Design and Demonstration of a Highly Scalable Quantum Computer using Semiconducting Qubits",
+  "agency": "Department of Science and Technology - National Quantum Mission (NQM)",
+  "agencyGroup": "DST",
+  "faculty": [
+   {
+    "name": "Devarshi Mrinal Das",
+    "slug": "devarshi.das"
+   },
+   {
+    "name": "Neeraj Goel",
+    "slug": null
+   }
+  ]
+ },
+ {
+  "title": "Development of Switched Multi-beam Antennas for Drone and Drone pad for High Communication Range with 3D Coverage Enhancement and Interference Avoidance",
+  "agency": "ARDB, DRDO",
+  "agencyGroup": "DRDO",
+  "faculty": [
+   {
+    "name": "Ashwani Sharma",
+    "slug": "ashwani.sharma"
+   }
+  ]
+ },
+ {
+  "title": "Design and Development of Low Cost and High Power Density Multi-Phase Interior Permanent Magnet Motor drive with Integrated Charger for Electric Vehicle Applications",
+  "agency": "SERB, Govt. of India",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Saifullah Payami",
+    "slug": "saif.payami"
+   }
+  ]
+ },
+ {
+  "title": "Al based Technology for Varicoloured Video Restoration and Object Detection",
+  "agency": "MoES, Govt of India",
+  "agencyGroup": "MoES",
+  "faculty": [
+   {
+    "name": "Santosh Kumar Vipparthi",
+    "slug": "skvipparthi"
+   },
+   {
+    "name": "Subrahmanyam Murala",
+    "slug": "subbumurala"
+   }
+  ]
+ },
+ {
+  "title": "Development of high-frequency rectifiers for the 5G, 6G and mm wave technologies",
+  "agency": "DST",
+  "agencyGroup": "DST",
+  "faculty": [
+   {
+    "name": "Raghav Sharma",
+    "slug": "raghav.sharma"
+   }
+  ]
+ },
+ {
+  "title": "Al based Technology for Underwater Varicoloured Video Restoration and Object Detection",
+  "agency": "MoES",
+  "agencyGroup": "MoES",
+  "faculty": [
+   {
+    "name": "Santosh Kumar Vipparthi",
+    "slug": "skvipparthi"
+   },
+   {
+    "name": "Subrahmanyam Murala",
+    "slug": "subbumurala"
+   }
+  ]
+ },
+ {
+  "title": "iSelecT: Multifaceted comprehensive framework for Referred instance selection and segmentation in a visual data",
+  "agency": "SERB",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Santosh Kumar Vipparthi",
+    "slug": "skvipparthi"
+   }
+  ]
+ },
+ {
+  "title": "Intelligent Transportation System: AI based Deep Learning Technology for Multi-Weather Video Restoration",
+  "agency": "SERB",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Subrahmanyam Murala",
+    "slug": "subbumurala"
+   },
+   {
+    "name": "Santosh Kumar Vipparthi",
+    "slug": "skvipparthi"
+   }
+  ]
+ },
+ {
+  "title": "Tool Development for Improvement in quality of images captured offshore",
+  "agency": "Oceaneering India Pvt. Ltd, India",
+  "agencyGroup": "Industry",
+  "faculty": [
+   {
+    "name": "Santosh Kumar Vipparthi",
+    "slug": "skvipparthi"
+   },
+   {
+    "name": "Subrahmanyam Murala",
+    "slug": "subbumurala"
+   }
+  ]
+ },
+ {
+  "title": "Autonomous Underwater Vehicle Assistance with Video Quality Enhancement and Restoration",
+  "agency": "DST-ICPC-TIH-Guwahati",
+  "agencyGroup": "DST",
+  "faculty": [
+   {
+    "name": "Santosh Kumar Vipparthi",
+    "slug": "skvipparthi"
+   },
+   {
+    "name": "Subrahmanyam Murala",
+    "slug": "subbumurala"
+   }
+  ]
+ },
+ {
+  "title": "A Triple-purpose Drone-pad System with Integrated Wireless charging and Localization along with High-Range Communication System for Completely Autonomous Drone Operations",
+  "agency": "NMICPS TiHAN Foundation",
+  "agencyGroup": "DST",
+  "faculty": [
+   {
+    "name": "Ashwani Sharma",
+    "slug": "ashwani.sharma"
+   }
+  ]
+ },
+ {
+  "title": "Development of Switched Reluctance motor (SRM) drive for actuators",
+  "agency": "Reliable Technosystems (I) Pvt. Ltd.",
+  "agencyGroup": "Industry",
+  "faculty": [
+   {
+    "name": "Saifullah Payami",
+    "slug": "saif.payami"
+   }
+  ]
+ },
+ {
+  "title": "Title",
+  "agency": "IIT Ropar",
+  "agencyGroup": "IIT Ropar (ISIRD / Seed)",
+  "faculty": [
+   {
+    "name": "Santosh Kumar Vipparthi",
+    "slug": "skvipparthi"
+   },
+   {
+    "name": "Ashwani Sharma",
+    "slug": "ashwani.sharma"
+   }
+  ]
+ },
+ {
+  "title": "ASIC and Package Design of Ultra Small Atomic Clock",
+  "agency": "Ministry of Electronics and Information Technology (MeitY) - C2S program",
+  "agencyGroup": "MeitY",
+  "faculty": [
+   {
+    "name": "Rohit Sharma",
+    "slug": "rohit"
+   },
+   {
+    "name": "Mahendra Sakare",
+    "slug": "mahendra"
+   },
+   {
+    "name": "Devarshi Mrinal Das",
+    "slug": "devarshi.das"
+   }
+  ]
+ },
+ {
+  "title": "Non-contact small form-factor neonatal apnea monitoring device",
+  "agency": "SERB",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Brijesh Kumbhani",
+    "slug": "brijesh"
+   },
+   {
+    "name": "Satyam Agarwal",
+    "slug": "satyam"
+   },
+   {
+    "name": "J. S. Sahambi",
+    "slug": "jsahambi"
+   }
+  ]
+ },
+ {
+  "title": "Design of RSMA based Cooperative Vehicular Network for Deep Ocean Critical Missions",
+  "agency": "Ministry of Earth Sciences/ Deep Ocean Mission",
+  "agencyGroup": "MoES",
+  "faculty": [
+   {
+    "name": "Sam Darshi",
+    "slug": "sam"
+   }
+  ]
+ },
+ {
+  "title": "Reliability and lifetime Improvement in Next Generation Vehicular Communication Networks using IoT and AI/ Machine Learning Based Coded Cooperation",
+  "agency": "Indo-Taiwan AI Center, IIT Ropar",
+  "agencyGroup": "International",
+  "faculty": []
+ },
+ {
+  "title": "Reliability and lifetime Improvement in Next Generation Vehicular Communication Networks using IoT and AI/ Machine Learning Based Coded Cooperation",
+  "agency": "Indo-Taiwan AI Center, IIT Ropar",
+  "agencyGroup": "International",
+  "faculty": [
+   {
+    "name": "Sam Darshi",
+    "slug": "sam"
+   }
+  ]
+ },
+ {
+  "title": "Design of RSMA based Cooperative Vehicular Network for Deep Ocean Critical Missions",
+  "agency": "Ministry of Earth Sciences/ Deep Ocean Mission",
+  "agencyGroup": "MoES",
+  "faculty": [
+   {
+    "name": "Sam Darshi",
+    "slug": "sam"
+   }
+  ]
+ },
+ {
+  "title": "Emergency Locator Transmitter (ELT) Antenna Testing",
+  "agency": "Hindustan Aeronautics Limited (HAL)",
+  "agencyGroup": "Industry",
+  "faculty": [
+   {
+    "name": "Abhishek Kumar Singh",
+    "slug": "akumar"
+   }
+  ]
+ },
+ {
+  "title": "Noise-power-area optimised instrumentation amplifier for sensing applications",
+  "agency": "Science and Engineering Research Board - CRG",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Devarshi Mrinal Das",
+    "slug": "devarshi.das"
+   }
+  ]
+ },
+ {
+  "title": "Design and development of an IoT enabled Pulse-oximeter system for integrating with oxygen concentrators",
+  "agency": "Science and Engineering Research Board (SERB)",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Devarshi Mrinal Das",
+    "slug": "devarshi.das"
+   }
+  ]
+ },
+ {
+  "title": "The AI-enabled solar-based multi-port high gain electric vehicle AC charging station for domestic and industrial use",
+  "agency": "Ministry of Electronics and Information Technology (MeitY)",
+  "agencyGroup": "MeitY",
+  "faculty": [
+   {
+    "name": "K. Ramachandra Sekhar",
+    "slug": "sekhar"
+   },
+   {
+    "name": "Bibhu Prasad Padhy",
+    "slug": "bibhu"
+   },
+   {
+    "name": "Devarshi Mrinal Das",
+    "slug": "devarshi.das"
+   }
+  ]
+ },
+ {
+  "title": "Non-contact small form-factor neonatal apnea monitoring device",
+  "agency": "SERB",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "J. S. Sahambi",
+    "slug": "jsahambi"
+   },
+   {
+    "name": "Sam Darshi",
+    "slug": "sam"
+   },
+   {
+    "name": "Satyam Agarwal",
+    "slug": "satyam"
+   },
+   {
+    "name": "Suksham Jain",
+    "slug": null
+   },
+   {
+    "name": "Deepak Chawla",
+    "slug": null
+   }
+  ]
+ },
+ {
+  "title": "Switched multibeam antenna design and Quality-aware synthesis process for wireless coverage enhancement in drone-assisted smart mobility application",
+  "agency": "CRG, SERB-DST",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Ashwani Sharma",
+    "slug": "ashwani.sharma"
+   }
+  ]
+ },
+ {
+  "title": "Study on Detection of False Data Injection (FDI) Attacks in Smart Grid Cyber-Physical Systems: A Machine Learning Approach",
+  "agency": "CPRI",
+  "agencyGroup": "Govt. & Public Bodies",
+  "faculty": [
+   {
+    "name": "Bibhu Prasad Padhy",
+    "slug": "bibhu"
+   }
+  ]
+ },
+ {
+  "title": "Low power programmable multiple uncorrelated output PRBS generator integrated circuit",
+  "agency": "CRG, SERB, GoI",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Mahendra Sakare",
+    "slug": "mahendra"
+   }
+  ]
+ },
+ {
+  "title": "Audit of ClllTs of I. K. Gujral Punjab Technical University, Kapurthala (Hub) and Jabbowal, Sultanpur Lodhi (Spoke)",
+  "agency": "I. K. Gujral Punjab Technical University, Punjab.",
+  "agencyGroup": "Govt. & Public Bodies",
+  "faculty": [
+   {
+    "name": "Mahendra Sakare",
+    "slug": "mahendra"
+   }
+  ]
+ },
+ {
+  "title": "The AI Enabled Solar based Multi port High Gain Electric Vehicle AC Charging Station for Domestic and Commercial Use",
+  "agency": "MeiTY-Industry",
+  "agencyGroup": "MeitY",
+  "faculty": [
+   {
+    "name": "K. Ramachandra Sekhar",
+    "slug": "sekhar"
+   }
+  ]
+ },
+ {
+  "title": "Design, Modeling, and Development of Solar- Based Enhanced Active Power Filter to Support EV Charging Infrastruc- ture Interfaced with the Grid",
+  "agency": "SERB-TARE",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "K. Ramachandra Sekhar",
+    "slug": "sekhar"
+   },
+   {
+    "name": "Manjunath (IIIT RAM)",
+    "slug": null
+   }
+  ]
+ },
+ {
+  "title": "Design, Modeling, and Development of Solar- Based Enhanced Active Power Filter to Support EV Charging Infrastruc- ture Interfaced with the Grid",
+  "agency": "SERB-TARE",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "K. Ramachandra Sekhar",
+    "slug": "sekhar"
+   }
+  ]
+ },
+ {
+  "title": "Reliability Enhancement for Vehicle-2-Pedestrian (V2P) Communication Scenario using Peer Conscious Opportunistic Network Coded Cooperation",
+  "agency": null,
+  "agencyGroup": "Not specified",
+  "faculty": [
+   {
+    "name": "Sam Darshi",
+    "slug": "sam"
+   }
+  ]
+ },
+ {
+  "title": "Terrestrial Network Offloading for Enhancement of Vehicular Communication through Integration of Microwave with Optical Wireless Communication",
+  "agency": "Indo-Austria International project",
+  "agencyGroup": "International",
+  "faculty": []
+ },
+ {
+  "title": "Terrestrial Network Offloading for Enhancement of Vehicular Communication through Integration of Microwave with Optical Wireless Communication",
+  "agency": "Indo-Austria International project",
+  "agencyGroup": "International",
+  "faculty": [
+   {
+    "name": "Sam Darshi",
+    "slug": "sam"
+   }
+  ]
+ },
+ {
+  "title": "Terrestrial Network Offloading for Enhancement of Vehicular Communication through Integration of Microwave with Optical Wireless Communication",
+  "agency": "Indo-Austria International project",
+  "agencyGroup": "International",
+  "faculty": [
+   {
+    "name": "Sam Darshi",
+    "slug": "sam"
+   },
+   {
+    "name": "Brijesh Kumbhani",
+    "slug": "brijesh"
+   }
+  ]
+ },
+ {
+  "title": "A Proposed Colorless, Fully Transparent, and Flexible Organic Thin-Film Transistor for ‘Invisible’ or ‘See-Through’ Electronic Applications",
+  "agency": "Advanced National Research Foundation (ANRF)",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Abhishek Kumar Singh",
+    "slug": "akumar"
+   }
+  ]
+ },
+ {
+  "title": "Support for lab equipment (RF source generator)",
+  "agency": "ISIRD, IIT Ropar",
+  "agencyGroup": "IIT Ropar (ISIRD / Seed)",
+  "faculty": [
+   {
+    "name": "Mahendra Sakare",
+    "slug": "mahendra"
+   }
+  ]
+ },
+ {
+  "title": "Implementation of Adaptive Reactive Power Compensation Mechanism for Enhanced Power Quality in Weak Grid Connected Solar Inverter under Varying Solar Irradiance",
+  "agency": "SERB-CRG",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "K. Ramachandra Sekhar",
+    "slug": "sekhar"
+   }
+  ]
+ },
+ {
+  "title": "Enabling Distributed Beamforming via Machine Learning for Energy Efficient Communications",
+  "agency": "SERB/CRG",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": []
+ },
+ {
+  "title": "Enabling Distributed Beamforming via Machine Learning for Energy Efficient Communications",
+  "agency": "SERB/CRG",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Sam Darshi",
+    "slug": "sam"
+   }
+  ]
+ },
+ {
+  "title": "Enabling Distributed Beamforming via Machine Learning for Energy Efficient Communications",
+  "agency": "SERB/CRG",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Sam Darshi",
+    "slug": "sam"
+   },
+   {
+    "name": "Satyam Agarwal",
+    "slug": "satyam"
+   }
+  ]
+ },
+ {
+  "title": "Development and Integration of LED driver for AIRFIELD Lighting System",
+  "agency": "Bharat Electronics Limited, Panchkula",
+  "agencyGroup": "Industry",
+  "faculty": [
+   {
+    "name": "Saifullah Payami",
+    "slug": "saif.payami"
+   },
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   },
+   {
+    "name": "A. V. Ravi Teja",
+    "slug": "avraviteja"
+   },
+   {
+    "name": "Kalaiselvi J",
+    "slug": "kalaiselvi"
+   },
+   {
+    "name": "K. Ramachandra Sekhar",
+    "slug": "sekhar"
+   }
+  ]
+ },
+ {
+  "title": "Motorization of main and sluice gates of Sirhind Canal System at Ropar head works.",
+  "agency": "Punjab Govt.",
+  "agencyGroup": "Govt. & Public Bodies",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   },
+   {
+    "name": "Saifullah Payami",
+    "slug": "saif.payami"
+   },
+   {
+    "name": "Kalaiselvi J",
+    "slug": "kalaiselvi"
+   },
+   {
+    "name": "A. V. Ravi Teja",
+    "slug": "avraviteja"
+   },
+   {
+    "name": "K. Ramachandra Sekhar",
+    "slug": "sekhar"
+   }
+  ]
+ },
+ {
+  "title": "Implementation of IoT Based Energy Management Tool For Grid Integrated Solar Irrigation System",
+  "agency": "Nidhi Prayas",
+  "agencyGroup": "DST",
+  "faculty": [
+   {
+    "name": "K. Ramachandra Sekhar",
+    "slug": "sekhar"
+   }
+  ]
+ },
+ {
+  "title": "Design modifications for improving DC rating of a three-speed rotary blower switch",
+  "agency": "Gillard Electronics",
+  "agencyGroup": "Industry",
+  "faculty": [
+   {
+    "name": "Devarshi Mrinal Das",
+    "slug": "devarshi.das"
+   },
+   {
+    "name": "Rohit Sharma",
+    "slug": "rohit"
+   }
+  ]
+ },
+ {
+  "title": "Design and development of miniaturized cost-effective antennas for Internet of Things and 5G technology",
+  "agency": "ECR, SERB-DST",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Ashwani Sharma",
+    "slug": "ashwani.sharma"
+   }
+  ]
+ },
+ {
+  "title": "IoT Enabled Mobility for Intelligent Transportation Based on 5G Technology",
+  "agency": "ISIRD-I, IIT Ropar",
+  "agencyGroup": "IIT Ropar (ISIRD / Seed)",
+  "faculty": [
+   {
+    "name": "Ashwani Sharma",
+    "slug": "ashwani.sharma"
+   }
+  ]
+ },
+ {
+  "title": "Development of a Five-Phase SRM for In-Wheel Drive Application with Fault-Tolerant Features for Plug-In Electric Vehicles Suitable for Indian Roads",
+  "agency": "SERB, Govt. of India",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Saifullah Payami",
+    "slug": "saif.payami"
+   }
+  ]
+ },
+ {
+  "title": "Development of an efficient Diagnostic Algorithm for Multiple fault Scenario in Switched Reluctance Motor Drives",
+  "agency": "ISIRD, IIT Ropar",
+  "agencyGroup": "IIT Ropar (ISIRD / Seed)",
+  "faculty": [
+   {
+    "name": "Saifullah Payami",
+    "slug": "saif.payami"
+   }
+  ]
+ },
+ {
+  "title": "6 Gb/s transciever design\\r\\nfor chip to chip communication",
+  "agency": "ISIRD, IIT Ropar",
+  "agencyGroup": "IIT Ropar (ISIRD / Seed)",
+  "faculty": [
+   {
+    "name": "Mahendra Sakare",
+    "slug": "mahendra"
+   }
+  ]
+ },
+ {
+  "title": "Timestamp-aware Aberrant Detection and Analysis in Big Visual Data using Deep Learning Architecture",
+  "agency": "SERB",
+  "agencyGroup": "SERB / ANRF",
+  "faculty": [
+   {
+    "name": "Santosh Kumar Vipparthi",
+    "slug": "skvipparthi"
+   }
+  ]
+ },
+ {
+  "title": "Inspection of ICT Material for Jaipur Smart City Limited",
+  "agency": "Jaipur Smart City Limited - Municipal Corporation Jaipur",
+  "agencyGroup": "Govt. & Public Bodies",
+  "faculty": [
+   {
+    "name": "D. Boolchandani",
+    "slug": null
+   },
+   {
+    "name": "Santosh Kumar Vipparthi",
+    "slug": "skvipparthi"
+   }
+  ]
+ },
+ {
+  "title": "Inspection of Integrated City Operation Centre in existing JSCL Building",
+  "agency": "Jaipur Smart City",
+  "agencyGroup": "Govt. & Public Bodies",
+  "faculty": [
+   {
+    "name": "Ramesh Babu Battula",
+    "slug": null
+   },
+   {
+    "name": "Santosh Kumar Vipparthi",
+    "slug": "skvipparthi"
+   }
+  ]
+ },
+ {
+  "title": "Inspection of Supplied materials and testing and commissioning of the equipment at RIICO",
+  "agency": "RIICO, Neemrana, Distt. Alwar",
+  "agencyGroup": "Govt. & Public Bodies",
+  "faculty": [
+   {
+    "name": "D. Boolchandani",
+    "slug": null
+   },
+   {
+    "name": "Santosh Kumar Vipparthi",
+    "slug": "skvipparthi"
+   }
+  ]
+ },
+ {
+  "title": "Smart wireless charging platforms for mobile devices",
+  "agency": "ISIRD-I, IIT Ropar",
+  "agencyGroup": "IIT Ropar (ISIRD / Seed)",
+  "faculty": [
+   {
+    "name": "Ashwani Sharma",
+    "slug": "ashwani.sharma"
+   }
+  ]
+ },
+ {
+  "title": "Design and Implementation of Power Converter for renewable energy sources to integrate with hybrid micro grid/utility grid",
+  "agency": "ISIRD-IIT Ropar",
+  "agencyGroup": "IIT Ropar (ISIRD / Seed)",
+  "faculty": [
+   {
+    "name": "K. Ramachandra Sekhar",
+    "slug": "sekhar"
+   }
+  ]
+ },
+ {
+  "title": "APATH: Affordable Preventative and Assistive Technology for Healthcare",
+  "agency": "Department of Science and Technology",
+  "agencyGroup": "DST",
+  "faculty": [
+   {
+    "name": "Ekta Singla",
+    "slug": null
+   }
+  ]
+ },
+ {
+  "title": "APATH: Affordable Preventative and Assistive Technology for Healthcare",
+  "agency": "Department of Science and Technology",
+  "agencyGroup": "DST",
+  "faculty": [
+   {
+    "name": "Ekta Singla",
+    "slug": null
+   }
+  ]
+ },
+ {
+  "title": "1. Fault-Tolerant Damping Controllers",
+  "agency": "IIT Ropar (Institute Seed Grant)",
+  "agencyGroup": "IIT Ropar (ISIRD / Seed)",
+  "faculty": [
+   {
+    "name": "Bibhu Prasad Padhy",
+    "slug": "bibhu"
+   }
+  ]
+ },
+ {
+  "title": "Analysis of Network Coded Cooperative Communication in Correlated Environment from Cross-Layer Perspective",
+  "agency": "ISIRD, IIT Ropar",
+  "agencyGroup": "IIT Ropar (ISIRD / Seed)",
+  "faculty": []
+ },
+ {
+  "title": "Analysis of Network Coded Cooperative Communication in Correlated Environment from Cross-Layer Perspective",
+  "agency": "ISIRD, IIT Ropar",
+  "agencyGroup": "IIT Ropar (ISIRD / Seed)",
+  "faculty": [
+   {
+    "name": "Sam Darshi",
+    "slug": "sam"
+   }
+  ]
+ },
+ {
+  "title": "Design and Development of Flux compression Generator Simulator",
+  "agency": "Defence Research and Development Organization - TBRL",
+  "agencyGroup": "DRDO",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Investigation on failure of transition cable joints in Bombay - design, materials and system (Consultancy)",
+  "agency": "Adani Electricity, Mumbai",
+  "agencyGroup": "Industry",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Development and Integration of LED Driver for Airfield Lighting System (Consultancy)",
+  "agency": "BEL, Chandigarh",
+  "agencyGroup": "Industry",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Surface Voltage Measurement of Overhead Insulated Conductor (Consultancy)",
+  "agency": "APAR Industries, Gujarat",
+  "agencyGroup": "Industry",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Motorization of sluice gates for Sutlej River Canal System",
+  "agency": "World Bank",
+  "agencyGroup": "International",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "HVDC Power Cables - Design and Development",
+  "agency": "KEI Industries",
+  "agencyGroup": "Industry",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Experimental Investigations on Breakdown Phenomenon in Power Cables",
+  "agency": "Department of Science and Technology",
+  "agencyGroup": "DST",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Investigations on new nanocomposite materials for electrical insulation",
+  "agency": "Central Power Research Institute",
+  "agencyGroup": "Govt. & Public Bodies",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Design Verification and Analysis of Electronic Impact cum Time Delay Sensing Module Circuit",
+  "agency": "Defence Research and Development Organization - TBRL",
+  "agencyGroup": "DRDO",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Design and Development of Compact Firing Circuit",
+  "agency": "Defence Research and Development Organization - TBRL",
+  "agencyGroup": "DRDO",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Investigation on transition cable joints",
+  "agency": "Reliance Infrastructure",
+  "agencyGroup": "Industry",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Life Estimation of Power Transformers and Bushings",
+  "agency": "CG Ltd",
+  "agencyGroup": "Industry",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "JPS-Academia Joint Research Project on Nanocomposite Dielectrics",
+  "agency": "JPS, Hitachi, Japan",
+  "agencyGroup": "International",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Design and development of 250 kV HVDC Cable for Hokkaido-Honshu Cable Project",
+  "agency": "JPS, Hitachi, Japan",
+  "agencyGroup": "International",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Evaluation of 11 kV Earthed HT XLPE Cable Conductor Resistance and High Voltage Performance",
+  "agency": "CPWD",
+  "agencyGroup": "Govt. & Public Bodies",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Evaluation of performance of HT Cables",
+  "agency": "CPWD",
+  "agencyGroup": "Govt. & Public Bodies",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Research and Development of New Equipment for Condition Assessment of Power Cable",
+  "agency": "Central Power Research Institute",
+  "agencyGroup": "Govt. & Public Bodies",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ },
+ {
+  "title": "Effect of long term electrical aging on space charge accumulation under step stress and polarity reversals in HVDC cable insulation",
+  "agency": "Department of Science and Technology",
+  "agencyGroup": "DST",
+  "faculty": [
+   {
+    "name": "C. C. Reddy",
+    "slug": "reddy"
+   }
+  ]
+ }
+]

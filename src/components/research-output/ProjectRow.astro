@@ -1,0 +1,32 @@
+---
+/** One research project: stacked card on mobile, table-like grid row on md+. */
+interface Props {
+  index: number;
+  title: string;
+  agency: string | null;
+  agencyGroup: string;
+  faculty: { name: string; slug: string | null }[];
+}
+const { index, title, agency, agencyGroup, faculty } = Astro.props;
+---
+<li
+  data-filter-item
+  data-agency={agencyGroup}
+  class="grid gap-3 rounded-2xl border border-base-content/10 bg-base-100 p-5 md:grid-cols-[3rem_minmax(0,1fr)_14rem_14rem] md:items-start md:gap-6 md:rounded-none md:border-0 md:border-b md:bg-transparent md:px-4 md:py-4 md:last:border-b-0 md:hover:bg-base-200/60"
+>
+  <span class="hidden font-display text-sm text-base-content/50 md:block">{String(index).padStart(2, "0")}</span>
+  <h3 class="font-semibold leading-snug">{title}</h3>
+  <div class="text-sm">
+    <span class="sr-only md:hidden">Funding agency:</span>
+    <span class="badge badge-primary badge-outline h-auto whitespace-normal py-1 text-left">{agency ?? "Not specified"}</span>
+  </div>
+  <div class="text-sm text-base-content/75">
+    <span class="mb-1 block text-xs font-semibold uppercase tracking-wide text-base-content/50 md:hidden">Faculty</span>
+    {faculty.length === 0 ? "—" : faculty.map((f, i) => (
+      <>
+        {f.slug ? <a href={`/people/${f.slug}`} class="link-hover link-primary">{f.name}</a> : <span>{f.name}</span>}
+        {i < faculty.length - 1 && ", "}
+      </>
+    ))}
+  </div>
+</li>

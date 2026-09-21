@@ -1,0 +1,106 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import StatCard from "../components/ui/StatCard.astro";
+import SearchInput from "../components/ui/SearchInput.astro";
+import EmptyState from "../components/ui/EmptyState.astro";
+import PublicationItem from "../components/research-output/PublicationItem.astro";
+import FacultySelect from "../components/research-output/FacultySelect.astro";
+import data from "../data/research-output/publications.json";
+
+const items = data.items;
+const facultySlugs = Object.keys(data.faculty) as (keyof typeof data.faculty)[];
+const facKey = new Map(facultySlugs.map((slug, i) => [slug as string, `f${i}`]));
+const facCount = new Map<string, number>();
+for (const p of items) for (const s of p.faculty) facCount.set(s, (facCount.get(s) ?? 0) + 1);
+const facultyOptions = facultySlugs
+  .filter((s) => facCount.has(s))
+  .map((s) => ({ key: facKey.get(s)!, name: data.faculty[s], count: facCount.get(s)! }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const count = (pred: (t: string) => boolean) => items.filter((p) => pred(p.type)).length;
+const types = [
+  { id: "all", label: "All", n: items.length },
+  { id: "journal", label: "Journals", n: count((t) => t === "Journal") },
+  { id: "conference", label: "Conferences", n: count((t) => t === "Conference") },
+  { id: "patent", label: "Patents", n: count((t) => t === "Patent") },
+  { id: "book", label: "Books & Chapters", n: count((t) => t.startsWith("Book")) },
+];
+
+// Year groups, newest first; undated entries last.
+const byYear = new Map<number | null, typeof items>();
+for (const p of items) (byYear.get(p.year) ?? byYear.set(p.year, []).get(p.year)!).push(p);
+const years = [...byYear.keys()].sort((a, b) => (b ?? 0) - (a ?? 0));
+const datedYears = years.filter((y): y is number => y !== null);
+---
+
+<BaseLayout title="Publications" description="Journal papers, conference papers, patents and books by the faculty of the Department of Electrical Engineering, IIT Ropar.">
+  <PageHero
+    title="Publications"
+    eyebrow="Research"
+    crumbs={[{ label: "Research" }]}
+    lead="Journal articles, conference papers, patents and books from our faculty and research groups."
+  >
+    <div class="mt-10 grid max-w-4xl grid-cols-2 gap-4 md:grid-cols-4">
+      <StatCard dark value={items.length} label="Publications listed" icon="lucide:library" />
+      <StatCard dark value={types[1].n} label="Journal articles" icon="lucide:book-open" />
+      <StatCard dark value={types[2].n} label="Conference papers" icon="lucide:presentation" />
+      <StatCard dark value={types[3].n} label="Patents" icon="lucide:lightbulb" />
+    </div>
+  </PageHero>
+
+  <Section>
+    <div role="note" class="alert mb-8 border-base-content/10 bg-base-200 text-sm">
+      <span>
+        Compiled from faculty profile pages{datedYears.length > 0 && <> ({datedYears[datedYears.length - 1]}–{datedYears[0]})</>}.
+        This list may be incomplete — see the <a href="/faculty" class="link link-primary">faculty directory</a>
+        for each member's full profile and complete publication record.
+      </span>
+    </div>
+
+    <div data-filter-root>
+      <div class="mb-4 flex flex-wrap gap-2" role="group" aria-label="Publication type">
+        {types.map((t) => (
+          <button type="button" data-filter-group={t.id} class:list={["btn btn-sm rounded-full", t.id === "all" && "btn-active"]}>
+            {t.label} <span class="opacity-60">{t.n}</span>
+          </button>
+        ))}
+      </div>
+      <div class="mb-8 flex flex-col gap-3 md:flex-row md:flex-wrap md:items-center">
+        <SearchInput placeholder="Search title, author, venue…" />
+        <label class="select select-bordered w-full md:w-40">
+          <span class="sr-only">Year</span>
+          <select data-filter-select="year" autocomplete="off" aria-label="Filter by year">
+            <option value="all">All years</option>
+            {years.map((y) => <option value={y ?? "na"}>{y ?? "Year not listed"}</option>)}
+          </select>
+        </label>
+        <FacultySelect options={facultyOptions} />
+        <p class="text-sm text-base-content/70 md:ml-auto" aria-live="polite">
+          Showing <span data-filter-count class="font-semibold text-base-content">{items.length}</span> of {items.length}
+        </p>
+      </div>
+
+      <div class="space-y-10">
+        {years.map((y) => (
+          <section class="[&:not(:has([data-filter-item]:not([hidden])))]:hidden">
+            <h3 class="mb-4 flex items-center gap-3 font-display text-2xl font-bold">
+              <span class="text-primary">{y ?? "Year not listed"}</span>
+              <span class="h-px flex-1 bg-base-content/10"></span>
+            </h3>
+            <ol class="space-y-3">
+              {byYear.get(y)!.map((p) => (
+                <PublicationItem
+                  {...p}
+                  faculty={p.faculty.map((s) => ({ slug: s, name: data.faculty[s as keyof typeof data.faculty], key: facKey.get(s)! }))}
+                />
+              ))}
+            </ol>
+          </section>
+        ))}
+      </div>
+      <EmptyState filter message="No publications match these filters." />
+    </div>
+  </Section>
+</BaseLayout>
