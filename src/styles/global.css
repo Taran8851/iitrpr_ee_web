@@ -55,8 +55,14 @@
 @custom-variant dark (&:where([data-theme=voltage-dark], [data-theme=voltage-dark] *));
 
 /* ---------- Shared utilities (use these instead of re-inventing per page) ---------- */
+/* --mx/--my are set by site.ts on pointer move → soft amber spotlight follows the cursor */
 @utility glass {
   background-color: color-mix(in oklab, var(--color-base-100) 65%, transparent);
+  background-image: radial-gradient(
+    380px circle at var(--mx, -999px) var(--my, -999px),
+    color-mix(in oklab, var(--color-primary) 16%, transparent),
+    transparent 45%
+  );
   backdrop-filter: blur(16px) saturate(160%);
   -webkit-backdrop-filter: blur(16px) saturate(160%);
   border: 1px solid color-mix(in oklab, var(--color-base-content) 10%, transparent);
@@ -65,6 +71,11 @@
 /* Glass panel meant to sit on dark imagery (hero, photo cards) */
 @utility glass-dark {
   background-color: rgb(2 6 23 / 0.45);
+  background-image: radial-gradient(
+    380px circle at var(--mx, -999px) var(--my, -999px),
+    rgb(251 191 36 / 0.16),
+    transparent 45%
+  );
   backdrop-filter: blur(16px) saturate(160%);
   -webkit-backdrop-filter: blur(16px) saturate(160%);
   border: 1px solid rgb(255 255 255 / 0.12);
@@ -102,4 +113,52 @@
     :where(footer, .glass-dark, [class*="bg-[#0b1629]"], [class*="bg-[#020617]"], [class*="bg-slate-9"]) *
   ) {
   color: #b45309;
+}
+
+/* ---------- Interaction layer ---------- */
+
+/* Smooth cross-page transitions (browser-native, no JS). Header stays put. */
+@view-transition { navigation: auto; }
+[data-site-header] { view-transition-name: site-header; }
+::view-transition-old(root) { animation: 180ms ease-out both vt-fade-out; }
+::view-transition-new(root) { animation: 260ms ease-out both vt-fade-in; }
+@keyframes vt-fade-out { to { opacity: 0; transform: translateY(-6px); } }
+@keyframes vt-fade-in { from { opacity: 0; transform: translateY(8px); } }
+
+/* Reading progress bar (scroll-driven animation, no JS; hidden where unsupported) */
+.scroll-progress {
+  position: fixed; inset: 0 0 auto 0; height: 3px; z-index: 70;
+  transform-origin: 0 50%; transform: scaleX(0);
+  background: linear-gradient(90deg, #f59e0b, #22d3ee);
+  animation: scroll-progress linear both;
+  animation-timeline: scroll(root);
+  pointer-events: none;
+}
+@keyframes scroll-progress { to { transform: scaleX(1); } }
+@supports not (animation-timeline: scroll()) { .scroll-progress { display: none; } }
+
+/* Magnetic buttons: site.ts sets `translate`; ease it back */
+.btn { transition-property: translate, color, background-color, border-color, box-shadow, transform; }
+
+/* Animated underline on header links */
+[data-site-header] .menu-horizontal > li > a,
+[data-site-header] .menu-horizontal > li > details > summary {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 2px; background-repeat: no-repeat; background-position: 50% 100%;
+  transition: background-size 250ms ease;
+}
+[data-site-header] .menu-horizontal > li > a:hover,
+[data-site-header] .menu-horizontal > li > details > summary:hover { background-size: 60% 2px; }
+
+/* Pagefind search modal themed to Voltage */
+pagefind-modal, pagefind-modal-trigger {
+  --pf-text: var(--color-base-content);
+  --pf-background: var(--color-base-100);
+  --pf-border: color-mix(in oklab, var(--color-base-content) 15%, transparent);
+  --pf-primary: var(--color-primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition { navigation: none; }
+  .scroll-progress { display: none; }
 }

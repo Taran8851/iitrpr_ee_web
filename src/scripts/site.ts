@@ -7,11 +7,16 @@
  * Lightbox:  GLightbox — <a class="glightbox" href="big.jpg" data-gallery="g1"><img …></a>
  * Count-up:  <span data-countup="671" data-suffix="+">0</span>
  * Filtering: see initFilters() below.
+ * Pointer FX (fine pointers only, off with reduced motion):
+ *   - spotlight: any .glass / .glass-dark gets a cursor-following glow (CSS vars --mx/--my)
+ *   - tilt:      a.glass, .card.glass and [data-tilt] tilt in 3D (vanilla-tilt); opt out with [data-no-tilt]
+ *   - magnetic:  .btn-primary and [data-magnetic] lean toward the cursor
  */
 import AOS from "aos";
 import "aos/dist/aos.css";
 import GLightbox from "glightbox";
 import "glightbox/dist/css/glightbox.min.css";
+import VanillaTilt from "vanilla-tilt";
 
 const THEME_KEY = "theme";
 
@@ -131,7 +136,63 @@ function initNavbarScroll() {
   addEventListener("scroll", onScroll, { passive: true });
 }
 
+const finePointer = matchMedia("(pointer: fine)").matches;
+const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+function initSpotlight() {
+  if (!finePointer) return;
+  let last: HTMLElement | null = null;
+  let frame = 0;
+  let ev: PointerEvent | null = null;
+  addEventListener(
+    "pointermove",
+    (e) => {
+      ev = e;
+      if (frame) return;
+      frame = requestAnimationFrame(() => {
+        frame = 0;
+        const target = (ev!.target as Element).closest?.<HTMLElement>(".glass, .glass-dark") ?? null;
+        if (last && last !== target) {
+          last.style.removeProperty("--mx");
+          last.style.removeProperty("--my");
+        }
+        last = target;
+        if (!target) return;
+        const r = target.getBoundingClientRect();
+        target.style.setProperty("--mx", `${ev!.clientX - r.left}px`);
+        target.style.setProperty("--my", `${ev!.clientY - r.top}px`);
+      });
+    },
+    { passive: true },
+  );
+}
+
+function initTilt() {
+  if (!finePointer || reducedMotion) return;
+  const els = [
+    ...document.querySelectorAll<HTMLElement>("a.glass, .card.glass, [data-tilt]"),
+  ].filter((el) => !el.closest("[data-no-tilt], [data-site-header], .drawer"));
+  if (els.length)
+    VanillaTilt.init(els, { max: 5, speed: 500, scale: 1.015, glare: true, "max-glare": 0.12, gyroscope: false });
+}
+
+function initMagnetic() {
+  if (!finePointer || reducedMotion) return;
+  document.querySelectorAll<HTMLElement>(".btn-primary, [data-magnetic]").forEach((el) => {
+    el.addEventListener("pointermove", (e) => {
+      const r = el.getBoundingClientRect();
+      const dx = (e.clientX - (r.left + r.width / 2)) * 0.25;
+      const dy = (e.clientY - (r.top + r.height / 2)) * 0.35;
+      el.style.translate = `${Math.max(-10, Math.min(10, dx))}px ${Math.max(-8, Math.min(8, dy))}px`;
+    });
+    el.addEventListener("pointerleave", () => (el.style.translate = ""));
+  });
+}
+
 initTheme();
+initSpotlight();
+initTilt();
+initMagnetic();
 initNavbarScroll();
 initFilters();
 initCountUp();

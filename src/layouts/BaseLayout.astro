@@ -45,11 +45,12 @@ const fullTitle = title ? `${title} | EE · IIT Ropar` : "Department of Electric
     </script>
   </head>
   <body class="flex min-h-screen flex-col">
+    <div class="scroll-progress" aria-hidden="true"></div>
     <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] btn btn-primary btn-sm">
       Skip to main content
     </a>
     <Header overlay={overlayHeader} />
-    <main id="main" class="flex-1">
+    <main id="main" class="flex-1" data-pagefind-body>
       <slot />
     </main>
     <Footer />

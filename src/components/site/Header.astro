@@ -1,5 +1,6 @@
 ---
 import { Icon } from "astro-icon/components";
+import PagefindConfig from "astro-pagefind/components/PagefindConfig.astro";
 import { mainNav } from "../../lib/nav";
 
 interface Props {
@@ -74,6 +75,12 @@ const isActive = (href: string) => path === href || path.startsWith(href + "/");
       </div>
 
       <div class="navbar-end gap-1">
+        <!-- Site search (Pagefind): button + Ctrl/⌘K opens the modal. Index is built by `astro build`. -->
+        <PagefindConfig />
+        <pagefind-modal-trigger class="hidden sm:block"></pagefind-modal-trigger>
+        <button class="btn btn-ghost btn-circle sm:hidden" data-search-open aria-label="Search">
+          <Icon name="lucide:search" class="size-5" />
+        </button>
         <button class="btn btn-ghost btn-circle" data-theme-toggle aria-label="Toggle dark mode">
           <Icon name="lucide:sun" class="hidden size-5 [[data-theme=voltage-dark]_&]:block" />
           <Icon name="lucide:moon" class="size-5 [[data-theme=voltage-dark]_&]:hidden" />
@@ -85,6 +92,14 @@ const isActive = (href: string) => path === href || path.startsWith(href + "/");
     </nav>
   </div>
 </header>
+
+<pagefind-modal></pagefind-modal>
+<script>
+  // Mobile search icon opens the same Pagefind modal.
+  document.querySelector("[data-search-open]")?.addEventListener("click", () => {
+    (document.querySelector("pagefind-modal") as (HTMLElement & { open?: () => void }) | null)?.open?.();
+  });
+</script>
 
 <!-- Mobile drawer (glass) -->
 <div class="drawer drawer-end lg:hidden">
