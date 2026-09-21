@@ -1,0 +1,40 @@
+---
+/** Message from the Head of Department: photo + short welcome + links. */
+import { Icon } from "astro-icon/components";
+import Section from "../ui/Section.astro";
+---
+
+<Section id="hod">
+  <div class="grid items-center gap-10 md:grid-cols-[minmax(0,18rem)_1fr] lg:gap-16">
+    <div class="relative mx-auto w-full max-w-xs" data-aos="fade-up">
+      <div aria-hidden="true" class="absolute -inset-3 -z-10 rounded-3xl bg-gradient-to-br from-amber-400/40 to-cyan-400/30 blur-2xl"></div>
+      <img
+        src="/images/legacy/44ebde54062a.jpg"
+        alt="Prof. C. C. Reddy, Head of the Department of Electrical Engineering"
+        width="400"
+        height="600"
+        loading="lazy"
+        class="aspect-[4/5] w-full rounded-3xl border border-base-content/10 object-cover object-top shadow-xl"
+      />
+    </div>
+    <div data-aos="fade-up">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-amber-700 dark:text-primary">From the Head of Department</p>
+      <h2 class="text-3xl font-bold md:text-4xl">Welcome to the Department of Electrical Engineering</h2>
+      <blockquote class="relative mt-6 border-l-4 border-primary pl-5 text-lg leading-relaxed text-base-content/85">
+        <Icon name="lucide:quote" class="absolute -left-1 -top-8 size-7 text-primary/40" />
+        The department imparts knowledge through a Bachelor's programme with an intake of 60 students per
+        year, a Master of Technology and a Doctoral (Ph.D.) programme — upskilling technical and research
+        excellence in specialised avenues of Electrical Engineering. We continually upgrade our experimental
+        and computational facilities so that our students and researchers can produce state-of-the-art work.
+      </blockquote>
+      <div class="mt-6">
+        <p class="font-display text-xl font-bold">Prof. C. C. Reddy</p>
+        <p class="text-sm text-base-content/70">Professor &amp; Head, Department of Electrical Engineering, IIT Ropar</p>
+      </div>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="/about" class="btn btn-primary gap-2">About the department <Icon name="lucide:arrow-right" class="size-4" /></a>
+        <a href="/people/reddy" class="btn btn-ghost border-base-content/20">View profile</a>
+      </div>
+    </div>
+  </div>
+</Section>

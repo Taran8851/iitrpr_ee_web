@@ -1,0 +1,26 @@
+[
+  {
+    "short": "B.Tech.",
+    "title": "Bachelor of Technology",
+    "blurb": "Undergraduate programme with an intake of 60 students per year, covering communication, control, electronics, and power & energy.",
+    "icon": "lucide:graduation-cap"
+  },
+  {
+    "short": "M.Tech.",
+    "title": "Master of Technology",
+    "blurb": "Specialisations in Signal Processing & Communication, Power Engineering, and VLSI.",
+    "icon": "lucide:book-open-check"
+  },
+  {
+    "short": "M.S.",
+    "title": "Master of Science (Research)",
+    "blurb": "A research-oriented master's degree with thesis work alongside faculty research groups.",
+    "icon": "lucide:flask-conical"
+  },
+  {
+    "short": "Ph.D.",
+    "title": "Doctor of Philosophy",
+    "blurb": "Around 120 research scholars working on challenging problems across all areas of Electrical Engineering.",
+    "icon": "lucide:atom"
+  }
+]

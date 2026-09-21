@@ -1,0 +1,49 @@
+---
+/** Dark navy band with 12 glass stat cards in three labelled groups (department / research / placements). */
+import { Icon } from "astro-icon/components";
+import StatCard from "../ui/StatCard.astro";
+import CircuitBg from "../ui/CircuitBg.astro";
+
+interface Item { value?: number; key?: string; label: string; icon: string; prefix?: string; suffix?: string }
+interface Group { group: string; href: string; items: Item[] }
+interface Props { groups: Group[]; startYear: number }
+const { groups, startYear } = Astro.props;
+// Years of service is computed at build time from the department's founding year.
+const years = new Date().getFullYear() - startYear;
+---
+
+<section class="relative isolate overflow-hidden bg-[#0b1629] py-16 text-white md:py-20" aria-labelledby="stats-heading">
+  <CircuitBg class="text-cyan-300 opacity-[0.06]" />
+  <div aria-hidden="true" class="absolute -right-24 top-0 -z-10 size-96 rounded-full bg-amber-500/15 blur-[120px]"></div>
+  <div aria-hidden="true" class="absolute -bottom-32 left-1/4 -z-10 size-96 rounded-full bg-cyan-500/15 blur-[120px]"></div>
+  <div class="mx-auto max-w-7xl px-4">
+    <div class="mb-10 max-w-3xl" data-aos="fade-up">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-amber-400">At a glance</p>
+      <h2 id="stats-heading" class="text-3xl font-bold md:text-4xl">The department in numbers</h2>
+    </div>
+    <div class="grid gap-10 lg:grid-cols-3 lg:gap-6">
+      {groups.map((g) => (
+        <div>
+          <div class="mb-4 flex items-center justify-between gap-2 border-b border-white/10 pb-2">
+            <h3 class="text-lg font-semibold text-amber-300">{g.group}</h3>
+            <a href={g.href} class="inline-flex items-center gap-1 text-sm text-white/70 hover:text-amber-300">
+              Details<span class="sr-only"> — {g.group}</span> <Icon name="lucide:arrow-right" class="size-4" />
+            </a>
+          </div>
+          <div class="grid grid-cols-2 gap-3">
+            {g.items.map((s) => (
+              <StatCard
+                dark
+                value={s.key === "years" ? years : (s.value ?? 0)}
+                label={s.label}
+                icon={s.icon}
+                prefix={s.prefix}
+                suffix={s.suffix}
+              />
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

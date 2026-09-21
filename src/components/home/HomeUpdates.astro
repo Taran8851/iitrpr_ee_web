@@ -1,0 +1,63 @@
+---
+/** Announcements list + latest news with calendar-style date blocks, side by side. */
+import { Icon } from "astro-icon/components";
+import Section from "../ui/Section.astro";
+import SectionHeading from "../ui/SectionHeading.astro";
+
+interface News { image: string; date: string; title: string; body: string }
+interface Props { notifications: string[]; news: News[] }
+const { notifications, news } = Astro.props;
+
+const fmt = (iso: string) => {
+  const d = new Date(`${iso}T00:00:00Z`);
+  return {
+    day: d.getUTCDate(),
+    month: d.toLocaleString("en", { month: "short", timeZone: "UTC" }),
+    year: d.getUTCFullYear(),
+  };
+};
+---
+
+<Section id="updates">
+  <SectionHeading eyebrow="What's happening" title="Announcements & latest news">
+    <a href="/news" class="btn btn-primary btn-sm gap-1">View all news <Icon name="lucide:arrow-right" class="size-4" /></a>
+  </SectionHeading>
+
+  <div class="grid gap-6 lg:grid-cols-5">
+    <div class="rounded-2xl border border-base-content/10 bg-base-200 p-5 lg:col-span-2" data-aos="fade-up">
+      <h3 class="mb-4 flex items-center gap-2 text-lg font-semibold">
+        <Icon name="lucide:megaphone" class="size-5 text-primary" /> Announcements
+      </h3>
+      <ul class="max-h-[30rem] space-y-3 overflow-y-auto pr-2" tabindex="0" aria-label="Announcements">
+        {notifications.map((n) => (
+          <li class="flex gap-3 border-b border-base-content/10 pb-3 text-sm leading-relaxed text-base-content/85 last:border-0">
+            <span class="mt-1.5 size-2 shrink-0 rounded-full bg-secondary" aria-hidden="true"></span>
+            <span>{n}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <ol class="space-y-3 lg:col-span-3" aria-label="Latest news">
+      {news.map((n) => {
+        const d = fmt(n.date);
+        return (
+          <li data-aos="fade-up">
+            <a href="/news" class="group flex gap-4 rounded-2xl border border-base-content/10 bg-base-100 p-3 transition hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 sm:p-4">
+              <time datetime={n.date} class="flex w-16 shrink-0 flex-col items-center justify-center rounded-xl bg-[#0b1629] py-2 text-white">
+                <span class="text-[0.7rem] font-semibold uppercase tracking-wider text-amber-400">{d.month}</span>
+                <span class="font-display text-2xl font-bold leading-none">{d.day}</span>
+                <span class="text-[0.7rem] text-white/70">{d.year}</span>
+              </time>
+              <div class="min-w-0 flex-1">
+                <h4 class="font-semibold leading-snug group-hover:text-amber-700 dark:group-hover:text-primary">{n.title}</h4>
+                <p class="mt-1 line-clamp-2 text-sm text-base-content/70">{n.body}</p>
+              </div>
+              <img src={n.image} alt="" loading="lazy" class="hidden size-16 shrink-0 rounded-xl object-cover sm:block" />
+            </a>
+          </li>
+        );
+      })}
+    </ol>
+  </div>
+</Section>

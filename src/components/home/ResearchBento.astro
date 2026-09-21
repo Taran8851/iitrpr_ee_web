@@ -1,0 +1,62 @@
+---
+/** Bento grid of research areas. First tile is a large photo tile; others are dark gradient tiles with circuit motif. */
+import { Icon } from "astro-icon/components";
+import Section from "../ui/Section.astro";
+import SectionHeading from "../ui/SectionHeading.astro";
+import CircuitBg from "../ui/CircuitBg.astro";
+import GlowBlobs from "../ui/GlowBlobs.astro";
+
+interface Area { title: string; blurb: string; icon: string; href: string; image?: string }
+interface Props { areas: Area[] }
+const { areas } = Astro.props;
+
+// Layout on lg (4 cols): tile 0 spans 2x2, tile 3 spans 2 cols, rest 1x1.
+const span = ["lg:col-span-2 lg:row-span-2 min-h-[20rem]", "", "", "lg:col-span-2", "", ""];
+const tint = [
+  "",
+  "from-amber-500/35",
+  "from-cyan-500/30",
+  "from-cyan-500/30",
+  "from-amber-500/35",
+  "from-sky-500/30",
+];
+---
+
+<Section tint id="research">
+  <GlowBlobs variant="sides" />
+  <SectionHeading eyebrow="Research" title="Where our current flows" lead="Faculty-led research groups spanning the full breadth of Electrical Engineering.">
+    <a href="/areas" class="btn btn-primary btn-sm gap-1">All research areas <Icon name="lucide:arrow-right" class="size-4" /></a>
+  </SectionHeading>
+
+  <div class="grid auto-rows-[minmax(13rem,auto)] gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    {areas.map((a, i) => (
+      <a
+        href={a.href}
+        data-aos="fade-up"
+        data-aos-delay={String((i % 3) * 80)}
+        class:list={[
+          "group relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-[#0b1629] p-6 text-white shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-amber-500/10",
+          span[i],
+        ]}
+      >
+        {a.image ? (
+          <>
+            <img src={a.image} alt="" loading="lazy" class="absolute inset-0 -z-20 h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+            <div class="absolute inset-0 -z-10 bg-gradient-to-t from-[#020617]/95 via-[#020617]/60 to-[#020617]/10"></div>
+          </>
+        ) : (
+          <>
+            <div class:list={["absolute inset-0 -z-10 bg-gradient-to-br to-transparent", tint[i]]}></div>
+            <CircuitBg class="text-white opacity-[0.07]" />
+          </>
+        )}
+        <span class="mb-auto inline-flex size-11 items-center justify-center rounded-xl border border-white/15 bg-white/10 text-amber-300">
+          <Icon name={a.icon} class="size-6" />
+        </span>
+        <h3 class:list={["mt-6 font-bold", i === 0 ? "text-2xl md:text-3xl" : "text-lg"]}>{a.title}</h3>
+        <p class="mt-2 text-sm text-white/75">{a.blurb}</p>
+        <Icon name="lucide:arrow-up-right" class="absolute right-5 top-5 size-5 text-white/50 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-amber-300" />
+      </a>
+    ))}
+  </div>
+</Section>

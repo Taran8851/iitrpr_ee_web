@@ -1,0 +1,103 @@
+---
+/** Full-bleed home hero: fading Swiper of campus photos + dark gradient + circuit motif + glass CTA panel. */
+import { Icon } from "astro-icon/components";
+import CircuitBg from "../ui/CircuitBg.astro";
+
+interface Props { images: string[] }
+const { images } = Astro.props;
+
+const ctas = [
+  { label: "Explore Research", href: "/areas", icon: "lucide:zap", primary: true },
+  { label: "Meet the Faculty", href: "/faculty", icon: "lucide:users" },
+  { label: "Admissions", href: "/addmissions", icon: "lucide:graduation-cap" },
+];
+---
+
+<section class="relative isolate flex min-h-[100svh] items-end overflow-hidden bg-[#020617] text-white md:items-center">
+  <div class="absolute inset-0 -z-20">
+    <div class="swiper h-full w-full" data-home-hero aria-hidden="true">
+      <div class="swiper-wrapper">
+        {images.map((src, i) => (
+          <div class="swiper-slide">
+            <img
+              src={src}
+              alt=""
+              class="h-full w-full object-cover"
+              loading={i === 0 ? "eager" : "lazy"}
+              fetchpriority={i === 0 ? "high" : undefined}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+  <div class="absolute inset-0 -z-10 bg-gradient-to-r from-[#020617]/95 via-[#020617]/70 to-[#020617]/30"></div>
+  <div class="absolute inset-0 -z-10 bg-gradient-to-t from-[#020617] via-transparent to-[#020617]/60"></div>
+  <CircuitBg class="text-cyan-300 opacity-[0.09]" animated />
+  <div aria-hidden="true" class="absolute -left-32 top-1/3 -z-10 size-[28rem] rounded-full bg-amber-500/20 blur-[120px]"></div>
+  <div aria-hidden="true" class="absolute -bottom-40 right-0 -z-10 size-[28rem] rounded-full bg-cyan-500/20 blur-[120px]"></div>
+
+  <div class="mx-auto w-full max-w-7xl px-4 pb-20 pt-32 md:pb-24">
+    <p class="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-400/40 bg-amber-400/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-amber-300">
+      <Icon name="lucide:zap" class="size-3.5" /> IIT Ropar · Est. 2008
+    </p>
+    <h1 class="max-w-4xl text-4xl font-bold leading-[1.05] sm:text-5xl lg:text-7xl">
+      Powering the <span class="bg-gradient-to-r from-amber-300 via-amber-400 to-cyan-300 bg-clip-text text-transparent">future</span>
+    </h1>
+    <p class="mt-3 font-display text-xl font-medium text-white/90 md:text-2xl">Department of Electrical Engineering</p>
+    <p class="mt-5 max-w-2xl text-base text-white/75 md:text-lg">
+      Teaching and research across power &amp; energy, microelectronics &amp; VLSI, signal processing &amp;
+      communication, and intelligent systems — from B.Tech to Ph.D.
+    </p>
+
+    <div class="glass-dark mt-8 max-w-2xl rounded-2xl p-4 sm:p-5">
+      <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+        {ctas.map((c) => (
+          <a
+            href={c.href}
+            class:list={[
+              "btn gap-2",
+              c.primary ? "btn-primary" : "btn-ghost border-white/25 text-white hover:border-white/50 hover:bg-white/10",
+            ]}
+          >
+            <Icon name={c.icon} class="size-4" />{c.label}
+            {c.primary && <Icon name="lucide:arrow-right" class="size-4" />}
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <div class="swiper-pagination !bottom-6" data-home-hero-pagination></div>
+</section>
+
+<script>
+  import Swiper from "swiper";
+  import { Autoplay, EffectFade, Pagination } from "swiper/modules";
+  import "swiper/css";
+  import "swiper/css/effect-fade";
+  import "swiper/css/pagination";
+
+  const el = document.querySelector<HTMLElement>("[data-home-hero]");
+  if (el) {
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    new Swiper(el, {
+      modules: [Autoplay, EffectFade, Pagination],
+      effect: "fade",
+      fadeEffect: { crossFade: true },
+      loop: true,
+      speed: 1200,
+      allowTouchMove: false,
+      autoplay: reduce ? false : { delay: 5500, disableOnInteraction: false },
+      pagination: { el: "[data-home-hero-pagination]", clickable: true },
+    });
+  }
+</script>
+
+<style>
+  [data-home-hero-pagination] {
+    --swiper-pagination-color: #fbbf24;
+    --swiper-pagination-bullet-inactive-color: #fff;
+    --swiper-pagination-bullet-inactive-opacity: 0.5;
+  }
+</style>

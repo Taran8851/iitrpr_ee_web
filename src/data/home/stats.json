@@ -1,0 +1,32 @@
+[
+  {
+    "group": "Department",
+    "href": "/about",
+    "items": [
+      { "key": "years", "label": "Years of Service", "icon": "lucide:calendar-clock" },
+      { "value": 24, "label": "Faculty Members", "icon": "lucide:users" },
+      { "value": 199, "label": "Students", "icon": "lucide:graduation-cap" },
+      { "value": 94, "label": "Courses Offered", "icon": "lucide:book-open" }
+    ]
+  },
+  {
+    "group": "Research",
+    "href": "/publications",
+    "items": [
+      { "value": 671, "label": "Publications", "icon": "lucide:file-text" },
+      { "value": 34, "label": "Patents", "icon": "lucide:lightbulb" },
+      { "value": 150, "prefix": "₹", "suffix": " Cr", "label": "Research Funding", "icon": "lucide:indian-rupee" },
+      { "value": 84, "label": "Projects", "icon": "lucide:flask-conical" }
+    ]
+  },
+  {
+    "group": "Placements",
+    "href": "/placements.graphs",
+    "items": [
+      { "value": 90, "suffix": "%", "label": "Students Placed", "icon": "lucide:briefcase" },
+      { "value": 85, "suffix": " LPA", "label": "Highest Package", "icon": "lucide:trending-up" },
+      { "value": 20, "suffix": " LPA", "label": "Average Package", "icon": "lucide:chart-column" },
+      { "value": 30, "label": "Research & Higher Studies", "icon": "lucide:school" }
+    ]
+  }
+]
