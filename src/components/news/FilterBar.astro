@@ -1,0 +1,23 @@
+---
+/** Group chips + live result count for a [data-filter-root] (root sets data-active-class="btn-primary"). */
+interface Props {
+  groups: { value: string; label: string; count: number }[];
+  total: number;
+  noun: string;
+  label: string;
+}
+const { groups, total, noun, label } = Astro.props;
+---
+<div class="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+  <div class="flex flex-wrap gap-2" role="group" aria-label={label}>
+    <button type="button" data-filter-group="all" class="btn btn-sm btn-primary rounded-full">All <span class="opacity-70">{total}</span></button>
+    {groups.map((g) => (
+      <button type="button" data-filter-group={g.value} class="btn btn-sm rounded-full">
+        {g.label} <span class="opacity-70">{g.count}</span>
+      </button>
+    ))}
+  </div>
+  <p class="text-sm text-base-content/70" aria-live="polite">
+    Showing <span data-filter-count class="font-semibold text-base-content">{total}</span> {noun}
+  </p>
+</div>

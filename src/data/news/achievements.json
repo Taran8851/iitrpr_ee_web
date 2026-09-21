@@ -1,0 +1,58 @@
+[
+  {
+    "title": "First Place — Power System Cybersecurity Hackathon 2024",
+    "students": ["Subal Beura", "Amit Kumar"],
+    "supervisor": "Bibhu Prasad Padhy",
+    "category": "competition",
+    "text": "Won (First Place) the hackathon on the Power System Cybersecurity Hackathon 2024, hosted by the Department of Water Resources Development and Management (WRD&M) at Indian Institute of Technology, Roorkee, in collaboration with the Centre for Sustainable Energy (CFSE), held on 14–15 October 2024."
+  },
+  {
+    "title": "GRID-INDIA Power System Award (GIPSA) 2024-25",
+    "students": ["Aritra Das"],
+    "supervisor": "C. C. Reddy",
+    "category": "award",
+    "text": "GRID-INDIA Power System Award (GIPSA) 2024-25 in the Ph.D./Doctoral category."
+  },
+  {
+    "title": "GRID-INDIA Power System Award (GIPSA) 2024-25",
+    "students": ["Pranav Johri"],
+    "supervisor": "C. C. Reddy",
+    "category": "award",
+    "text": "GRID-INDIA Power System Award (GIPSA) 2024-25 in the Ph.D./Doctoral category."
+  },
+  {
+    "title": "ANRF International Travel Support",
+    "students": ["Pratik Kalkal"],
+    "supervisor": "A. V. Ravi Teja",
+    "category": "travel-grant",
+    "text": "Received International Travel Support from ANRF to attend the 50th Annual IEEE Industrial Electronics Society Conference (IECON 2024) in the USA."
+  },
+  {
+    "title": "IEEE Student Travel Grant — MECOM 2024",
+    "students": ["Shiv Kumar"],
+    "supervisor": "Brijesh Kumbhani",
+    "category": "travel-grant",
+    "text": "Received IEEE student travel grant for attending IEEE MECOM 2024 conference at Abu Dhabi (UAE) from 17–20 November 2024."
+  },
+  {
+    "title": "Prof. Ned Mohan Memorial Student Travel Award",
+    "students": ["Annima Gupta"],
+    "supervisor": "Kalaiselvi J",
+    "category": "travel-grant",
+    "text": "Received Professor Ned Mohan's Memorial Student Travel Award for attending PEDES-2024."
+  },
+  {
+    "title": "INUP Hackathon Prize",
+    "students": ["Rahul Gond"],
+    "supervisor": "Brajesh Rawat",
+    "category": "competition",
+    "text": "Awarded INUP Hackathon prize at the User's Meet, organized by the Indian Nanoelectronics Users' Programme - Idea to Innovation (INUP-i2i) in association with MeitY (GoI) on 10 August 2024."
+  },
+  {
+    "title": "IEEE WIE Diversity and Inclusion Award",
+    "students": ["Ridhima"],
+    "supervisor": "Suman Kumar",
+    "category": "award",
+    "text": "IEEE WIE Women in Engineering, Diversity and Inclusion Award at the IEEE COINS Conference 2024, King’s College London, UK."
+  }
+]

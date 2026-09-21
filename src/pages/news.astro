@@ -1,0 +1,36 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import SearchInput from "../components/ui/SearchInput.astro";
+import EmptyState from "../components/ui/EmptyState.astro";
+import NewsCard from "../components/news/NewsCard.astro";
+import FilterBar from "../components/news/FilterBar.astro";
+import news from "../data/news/news.json";
+
+const items = [...news].sort((a, b) => b.date.localeCompare(a.date));
+const years = [...new Set(items.map((n) => n.date.slice(0, 4)))].sort().reverse();
+const groups = years.map((y) => ({ value: y, label: y, count: items.filter((n) => n.date.startsWith(y)).length }));
+---
+<BaseLayout title="News & Events" description="Latest news from the Department of Electrical Engineering, IIT Ropar — awards, patents, PhD defenses and more.">
+  <div data-filter-root data-active-class="btn-primary">
+    <PageHero
+      title="News & Events"
+      eyebrow="What's happening"
+      lead="Awards, patents, PhD defenses and milestones from our students and faculty."
+      crumbs={[{ label: "News & Events" }]}
+    >
+      <div class="mt-8 max-w-md text-base-content">
+        <SearchInput placeholder="Search news…" class="md:max-w-md" />
+      </div>
+    </PageHero>
+
+    <Section>
+      <FilterBar groups={groups} total={items.length} noun="news items" label="Filter by year" />
+      <div class="grid gap-4">
+        {items.map((n) => <NewsCard {...n} />)}
+      </div>
+      <div class="mt-4"><EmptyState filter message="No news matches your search." /></div>
+    </Section>
+  </div>
+</BaseLayout>

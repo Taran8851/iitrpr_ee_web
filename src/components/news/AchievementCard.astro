@@ -1,0 +1,35 @@
+---
+/** Glass achievement card: category icon, title, students, supervisor, description. Wrapper is the filter item. */
+import { Icon } from "astro-icon/components";
+import GlassCard from "../ui/GlassCard.astro";
+import { category } from "./categories";
+
+interface Props {
+  title: string;
+  students: string[];
+  supervisor: string;
+  text: string;
+  category: string;
+}
+const { title, students, supervisor, text, category: cat } = Astro.props;
+const c = category(cat);
+---
+<div
+  data-filter-item
+  data-group={cat}
+  data-text={`${title} ${students.join(" ")} ${supervisor} ${text} ${c.label}`}
+  class="h-full"
+>
+  <GlassCard class="flex h-full flex-col">
+    <div class="mb-4 flex items-center justify-between gap-3">
+      <span class="grid size-11 place-items-center rounded-xl bg-primary/15 text-primary">
+        <Icon name={c.icon} class="size-6" />
+      </span>
+      <span class="badge badge-sm badge-soft badge-secondary">{c.label}</span>
+    </div>
+    <h2 class="font-display text-lg font-semibold leading-snug">{title}</h2>
+    <p class="mt-2 font-medium">{students.join(", ")}</p>
+    <p class="text-sm text-base-content/70">Research Scholar · Supervisor: {supervisor}</p>
+    <p class="mt-3 text-sm text-base-content/80">{text}</p>
+  </GlassCard>
+</div>
