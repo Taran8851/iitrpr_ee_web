@@ -1,0 +1,17 @@
+---
+/** Rounded icon chip coloured by research domain. */
+import { Icon } from "astro-icon/components";
+import { domainByKey, domainChip, type DomainKey } from "./domains";
+interface Props { domain: DomainKey; size?: "sm" | "md" }
+const { domain, size = "md" } = Astro.props;
+---
+<span
+  aria-hidden="true"
+  class:list={[
+    "inline-grid shrink-0 place-items-center rounded-xl",
+    size === "sm" ? "size-9" : "size-12",
+    domainChip[domain],
+  ]}
+>
+  <Icon name={domainByKey[domain].icon} class={size === "sm" ? "size-5" : "size-6"} />
+</span>

@@ -1,0 +1,66 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import SectionHeading from "../components/ui/SectionHeading.astro";
+import SearchInput from "../components/ui/SearchInput.astro";
+import EmptyState from "../components/ui/EmptyState.astro";
+import LabCard from "../components/research/LabCard.astro";
+import ResearchLinks from "../components/research/ResearchLinks.astro";
+import { domains, type DomainKey } from "../components/research/domains";
+import labData from "../data/research/labs.json";
+
+const labs = labData as { domain: DomainKey; name: string; room: string; incharge: string }[];
+const chips = [
+  { key: "all", label: "All labs", count: labs.length },
+  ...domains.map((d) => ({ key: d.key, label: d.short, count: labs.filter((l) => l.domain === d.key).length })),
+];
+---
+<BaseLayout title="Research Laboratories" description="Teaching and research laboratories of the Department of Electrical Engineering, IIT Ropar, with room numbers and lab in-charges.">
+  <PageHero
+    title="Laboratories"
+    eyebrow="Research"
+    lead="Teaching and research labs across power engineering, signal processing & communication, and microelectronics & VLSI design."
+    crumbs={[{ label: "Research", href: "/areas" }]}
+  />
+
+  <Section>
+    <div data-filter-root>
+      <div class="mb-8 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+        <div class="flex flex-wrap gap-2" role="group" aria-label="Filter by domain">
+          {chips.map((c, i) => (
+            <button
+              type="button"
+              data-filter-group={c.key}
+              class:list={["btn btn-sm rounded-full border-base-content/15", i === 0 && "btn-active"]}
+            >
+              {c.label}<span class="badge badge-sm badge-ghost">{c.count}</span>
+            </button>
+          ))}
+        </div>
+        <SearchInput placeholder="Search labs, rooms or in-charge…" />
+      </div>
+      <p class="mb-4 text-sm text-base-content/70" aria-live="polite">
+        Showing <span data-filter-count>{labs.length}</span> of {labs.length} labs
+      </p>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {labs.map((l) => <LabCard {...l} />)}
+      </div>
+      <div class="mt-4"><EmptyState filter message="No labs match your search." /></div>
+    </div>
+  </Section>
+
+  <Section tint>
+    <SectionHeading eyebrow="Explore" title="More on research" />
+    <ResearchLinks exclude="/lab" />
+  </Section>
+</BaseLayout>
+
+<script>
+  // Deep link: /lab#power | #spc | #vlsi preselects that domain chip (filter listeners are attached by site.ts).
+  window.addEventListener("load", () => {
+    const key = location.hash.slice(1);
+    if (!key) return;
+    document.querySelector<HTMLButtonElement>(`[data-filter-group="${CSS.escape(key)}"]`)?.click();
+  });
+</script>

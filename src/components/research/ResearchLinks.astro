@@ -1,0 +1,24 @@
+---
+/** "Explore more" link tiles shared by the research pages. `exclude` hides the current page. */
+import { Icon } from "astro-icon/components";
+import GlassCard from "../ui/GlassCard.astro";
+interface Props { exclude?: string }
+const { exclude } = Astro.props;
+const links = [
+  { href: "/areas", label: "Research Areas", text: "The 20 areas our faculty work in.", icon: "lucide:compass" },
+  { href: "/lab", label: "Laboratories", text: "Find a lab by domain, room or in-charge.", icon: "lucide:flask-conical" },
+  { href: "/facilities", label: "Research Facilities", text: "Advanced labs and their websites.", icon: "lucide:microscope" },
+  { href: "/project", label: "Projects", text: "Sponsored and consultancy projects.", icon: "lucide:briefcase" },
+  { href: "/publications", label: "Publications", text: "Journal and conference papers.", icon: "lucide:book-open" },
+  { href: "/faculty", label: "Faculty", text: "Meet the people behind the research.", icon: "lucide:users" },
+].filter((l) => l.href !== exclude);
+---
+<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+  {links.map((l) => (
+    <GlassCard href={l.href}>
+      <Icon name={l.icon} class="mb-3 size-6 text-base-content/70 group-hover:text-primary" />
+      <h3 class="font-display text-lg font-semibold">{l.label}</h3>
+      <p class="mt-1 text-sm text-base-content/70">{l.text}</p>
+    </GlassCard>
+  ))}
+</div>

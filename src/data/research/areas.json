@@ -1,0 +1,52 @@
+{
+  "intro": "The faculty members of the department are currently active in various research areas, spanning power and energy systems, signal processing and communication, and microelectronics and VLSI design.",
+  "domains": [
+    {
+      "key": "power",
+      "title": "Power Engineering",
+      "short": "Power",
+      "icon": "lucide:zap",
+      "summary": "Renewable integration, power systems, high-voltage engineering and advanced dielectric materials.",
+      "areas": [
+        "Renewable Energy",
+        "Power Systems",
+        "High Voltage Engineering",
+        "Space Charges in Dielectrics",
+        "Nano-Dielectrics"
+      ]
+    },
+    {
+      "key": "spc",
+      "title": "Signal Processing & Communication",
+      "short": "Signal Processing & Comm.",
+      "icon": "lucide:radio-tower",
+      "summary": "Communication systems, signal and image processing, computer vision and deep learning.",
+      "areas": [
+        "Communication",
+        "Signal and Image Processing",
+        "Infrared Imaging",
+        "Non-destructive Testing",
+        "Computer Vision",
+        "Medical Image Processing",
+        "Deep Learning"
+      ]
+    },
+    {
+      "key": "vlsi",
+      "title": "Microelectronics & VLSI Design",
+      "short": "Microelectronics & VLSI",
+      "icon": "lucide:cpu",
+      "summary": "Semiconductor devices, nanoelectronics, photonics, high-speed interconnects and mixed-signal circuits.",
+      "areas": [
+        "Low-power communication networks for multi-core architecture",
+        "Development and applications of novel materials for high-speed circuits",
+        "Nano-Optics and Photonics",
+        "Analog, RF and Mixed Signal VLSI Circuits and Systems",
+        "High-speed interconnect design for on-chip and chip-chip applications",
+        "Nanoelectronics",
+        "Device Reliability",
+        "Semiconductor Devices"
+      ]
+    }
+  ]
+}
