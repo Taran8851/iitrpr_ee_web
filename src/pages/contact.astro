@@ -1,0 +1,63 @@
+---
+import { Icon } from "astro-icon/components";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import GlassCard from "../components/ui/GlassCard.astro";
+import GlowBlobs from "../components/ui/GlowBlobs.astro";
+import { contact } from "../lib/nav";
+
+const cards = [
+  {
+    icon: "lucide:map-pin",
+    title: "Address",
+    lines: ["EE Office, Department of Electrical Engineering", "J.C. Block, IIT Ropar", "Rupnagar, Punjab 140001, India"],
+    href: contact.mapUrl,
+    cta: "Open in Google Maps",
+    external: true,
+  },
+  { icon: "lucide:phone", title: "Phone", lines: [contact.phone], href: `tel:${contact.phone.replace(/[^\d+]/g, "")}`, cta: "Call the office" },
+  { icon: "lucide:mail", title: "Email", lines: [contact.email], href: `mailto:${contact.email}`, cta: "Send an email" },
+];
+---
+<BaseLayout title="Contact" description="Contact the Department of Electrical Engineering, IIT Ropar — address, phone and email.">
+  <PageHero title="Contact Us" eyebrow="Get in touch" lead={`${contact.name}, ${contact.institute}`} />
+
+  <Section>
+    <GlowBlobs />
+    <div class="grid gap-8 lg:grid-cols-[minmax(0,22rem)_minmax(0,1fr)]">
+      <div class="space-y-5">
+        {cards.map((c) => (
+          <GlassCard>
+            <div class="flex gap-4">
+              <span class="grid size-11 shrink-0 place-items-center rounded-xl bg-primary/15">
+                <Icon name={c.icon} class="size-5 text-primary" />
+              </span>
+              <div class="min-w-0">
+                <h2 class="font-display text-lg font-semibold">{c.title}</h2>
+                {c.lines.map((l) => <p class="break-words text-base-content/80">{l}</p>)}
+                <a
+                  href={c.href}
+                  class="mt-2 inline-flex items-center gap-1 text-sm font-medium underline decoration-primary decoration-2 underline-offset-4 hover:decoration-secondary"
+                  {...(c.external ? { target: "_blank", rel: "noopener" } : {})}
+                >
+                  {c.cta}<Icon name={c.external ? "lucide:external-link" : "lucide:arrow-right"} class="size-3.5" />
+                </a>
+              </div>
+            </div>
+          </GlassCard>
+        ))}
+      </div>
+      <div class="overflow-hidden rounded-2xl border border-base-content/10 shadow-xl" data-aos="fade-up">
+        <iframe
+          src="https://www.google.com/maps?q=IIT+Ropar&output=embed"
+          title="Map showing IIT Ropar, Rupnagar, Punjab"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+          class="block h-80 w-full border-0 md:h-full md:min-h-[28rem]"
+        ></iframe>
+      </div>
+    </div>
+  </Section>
+</BaseLayout>

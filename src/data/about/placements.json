@@ -1,0 +1,170 @@
+{
+  "highlights": [
+    {
+      "value": 90,
+      "suffix": "%",
+      "label": "Students placed",
+      "icon": "lucide:briefcase"
+    },
+    {
+      "value": 85,
+      "suffix": " LPA",
+      "label": "Highest package",
+      "icon": "lucide:trending-up"
+    },
+    {
+      "value": 20,
+      "suffix": " LPA",
+      "label": "Average package",
+      "icon": "lucide:wallet"
+    },
+    {
+      "value": 30,
+      "label": "Research & higher studies",
+      "icon": "lucide:graduation-cap"
+    }
+  ],
+  "charts": [
+    {
+      "title": "Number of placements",
+      "unit": "",
+      "series": [
+        {
+          "label": "2011",
+          "value": 120
+        },
+        {
+          "label": "2012",
+          "value": 180
+        },
+        {
+          "label": "2013",
+          "value": 250
+        },
+        {
+          "label": "2014",
+          "value": 300
+        },
+        {
+          "label": "2015",
+          "value": 350
+        },
+        {
+          "label": "2016",
+          "value": 400
+        },
+        {
+          "label": "2017",
+          "value": 450
+        },
+        {
+          "label": "2018",
+          "value": 500
+        },
+        {
+          "label": "2019",
+          "value": 550
+        },
+        {
+          "label": "2020",
+          "value": 600
+        },
+        {
+          "label": "2021",
+          "value": 650
+        },
+        {
+          "label": "2022",
+          "value": 700
+        },
+        {
+          "label": "2023",
+          "value": 750
+        },
+        {
+          "label": "2024",
+          "value": 800
+        }
+      ]
+    },
+    {
+      "title": "Average package",
+      "unit": " LPA",
+      "series": [
+        {
+          "label": "2011",
+          "value": 6
+        },
+        {
+          "label": "2012",
+          "value": 8
+        },
+        {
+          "label": "2013",
+          "value": 10
+        },
+        {
+          "label": "2014",
+          "value": 12
+        },
+        {
+          "label": "2015",
+          "value": 14
+        },
+        {
+          "label": "2016",
+          "value": 16
+        },
+        {
+          "label": "2017",
+          "value": 18
+        },
+        {
+          "label": "2018",
+          "value": 20
+        },
+        {
+          "label": "2019",
+          "value": 22
+        },
+        {
+          "label": "2020",
+          "value": 24
+        },
+        {
+          "label": "2021",
+          "value": 26
+        },
+        {
+          "label": "2022",
+          "value": 28
+        },
+        {
+          "label": "2023",
+          "value": 30
+        },
+        {
+          "label": "2024",
+          "value": 32
+        }
+      ]
+    }
+  ],
+  "outcomes": {
+    "title": "Placement status (2022)",
+    "series": [
+      {
+        "label": "Placement",
+        "value": 80
+      },
+      {
+        "label": "Higher studies",
+        "value": 10
+      },
+      {
+        "label": "Startup",
+        "value": 10
+      }
+    ]
+  }
+}

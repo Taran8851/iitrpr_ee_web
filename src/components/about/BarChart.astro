@@ -1,0 +1,36 @@
+---
+/** Pure CSS column chart (no chart library). Values are scaled against the series maximum. */
+interface Props {
+  title: string;
+  series: { label: string; value: number }[];
+  unit?: string;
+  color?: "primary" | "secondary";
+}
+const { title, series, unit = "", color = "primary" } = Astro.props;
+const max = Math.max(...series.map((d) => d.value), 1);
+const bar = color === "primary" ? "bg-primary" : "bg-secondary";
+---
+<figure class="rounded-2xl border border-base-content/10 bg-base-100 p-5 md:p-6" data-aos="fade-up">
+  <figcaption class="mb-5 flex items-baseline justify-between gap-2">
+    <span class="font-display text-lg font-semibold">{title}</span>
+    {unit && <span class="text-xs text-base-content/60">in{unit}</span>}
+  </figcaption>
+  <div class="flex h-56 items-end gap-1 border-b border-base-content/20 md:gap-2" aria-hidden="true">
+    {series.map((d) => (
+      <div class="group relative flex h-full flex-1 items-end" title={`${d.label}: ${d.value}${unit}`}>
+        <div class:list={["w-full rounded-t-md opacity-80 transition group-hover:opacity-100", bar]} style={`height:${(d.value / max) * 100}%`}></div>
+        <span class="pointer-events-none absolute -top-6 left-1/2 hidden -translate-x-1/2 whitespace-nowrap rounded bg-neutral px-1.5 py-0.5 text-xs text-neutral-content group-hover:block">
+          {d.value}{unit}
+        </span>
+      </div>
+    ))}
+  </div>
+  <div class="mt-2 flex gap-1 text-center text-[10px] text-base-content/60 md:gap-2 md:text-xs" aria-hidden="true">
+    {series.map((d) => <span class="flex-1">{/^\d{4}$/.test(d.label) ? `'${d.label.slice(2)}` : d.label}</span>)}
+  </div>
+  <table class="sr-only">
+    <caption>{title}</caption>
+    <thead><tr><th scope="col">Year</th><th scope="col">Value</th></tr></thead>
+    <tbody>{series.map((d) => <tr><td>{d.label}</td><td>{d.value}{unit}</td></tr>)}</tbody>
+  </table>
+</figure>

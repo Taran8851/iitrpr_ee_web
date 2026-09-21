@@ -1,0 +1,30 @@
+{
+  "statement": "The website of the Department of Electrical Engineering, IIT Ropar aims to comply with the World Wide Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG) 2.0 level AA. This enables people with visual impairments to access the website using assistive technologies, such as screen readers. The information on the website is accessible with different screen readers.",
+  "readers": [
+    {
+      "name": "Screen Access For All (SAFA)",
+      "url": "https://www.nabdelhi.org/NAB_SAFA.htm",
+      "type": "Free"
+    },
+    {
+      "name": "Non Visual Desktop Access (NVDA)",
+      "url": "https://www.nvda-project.org/",
+      "type": "Free"
+    },
+    {
+      "name": "System Access To Go",
+      "url": "https://www.satogo.com/",
+      "type": "Free"
+    },
+    {
+      "name": "JAWS",
+      "url": "https://www.freedomscientific.com/jaws-hq.asp",
+      "type": "Commercial"
+    },
+    {
+      "name": "Window-Eyes",
+      "url": "https://www.gwmicro.com/Window-Eyes/",
+      "type": "Commercial"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+---
+/** Readable (non-blurred) table of people with mailto / tel links. `first` = optional leading column. */
+interface Row { name: string; email: string; phone: string; [key: string]: string }
+interface Props {
+  rows: Row[];
+  first?: { key: string; label: string };
+  caption?: string;
+  numbered?: boolean;
+}
+const { rows, first, caption, numbered = false } = Astro.props;
+const tel = (p: string) => `tel:${p.replace(/[^\d+]/g, "")}`;
+---
+<div class="overflow-x-auto rounded-2xl border border-base-content/10 bg-base-100">
+  <table class="table table-zebra">
+    {caption && <caption class="px-4 pt-4 text-left font-display text-lg font-semibold">{caption}</caption>}
+    <thead>
+      <tr>
+        {numbered && <th scope="col" class="w-12">#</th>}
+        {first && <th scope="col">{first.label}</th>}
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((r, i) => (
+        <tr>
+          {numbered && <td class="text-base-content/60">{i + 1}</td>}
+          {first && <td class="font-medium">{r[first.key]}</td>}
+          <td class:list={[!first && "font-medium"]}>{r.name}</td>
+          <td><a class="link decoration-primary decoration-2 underline-offset-2 break-all" href={`mailto:${r.email}`}>{r.email}</a></td>
+          <td class="whitespace-nowrap"><a class="link link-hover" href={tel(r.phone)}>{r.phone}</a></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

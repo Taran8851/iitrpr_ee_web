@@ -1,0 +1,72 @@
+---
+import { Icon } from "astro-icon/components";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import SectionHeading from "../components/ui/SectionHeading.astro";
+import GlassCard from "../components/ui/GlassCard.astro";
+import GlowBlobs from "../components/ui/GlowBlobs.astro";
+import about from "../data/about/about.json";
+---
+<BaseLayout title="About" description="About the Department of Electrical Engineering, IIT Ropar — programmes, objectives and research.">
+  <PageHero
+    title="About the Department"
+    eyebrow="Welcome to"
+    lead="Department of Electrical Engineering, Indian Institute of Technology Ropar"
+    image="/assets/front_block.jpg"
+  />
+
+  <Section>
+    <GlowBlobs />
+    <div class="grid gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,26rem)] lg:items-start">
+      <div class="max-w-prose" data-aos="fade-up">
+        <p class="text-xl leading-relaxed">{about.intro}</p>
+        <div class="mt-6 space-y-4 leading-relaxed text-base-content/80">
+          {about.body.map((p) => <p>{p}</p>)}
+        </div>
+      </div>
+      <a href="/assets/front_block.jpg" class="glightbox block overflow-hidden rounded-2xl shadow-xl" data-aos="fade-up" aria-label="Open photo of the department building">
+        <img src="/assets/front_block.jpg" alt="Department of Electrical Engineering building, IIT Ropar" loading="lazy" class="aspect-[4/3] w-full object-cover transition duration-500 hover:scale-105" />
+      </a>
+    </div>
+  </Section>
+
+  <Section tint>
+    <SectionHeading eyebrow="What we offer" title="Programmes" />
+    <div class="grid gap-6 md:grid-cols-3">
+      {about.programs.map((p) => (
+        <GlassCard>
+          <Icon name={p.icon} class="mb-4 size-8 text-primary" />
+          <h3 class="font-display text-xl font-semibold">{p.title}</h3>
+          <p class="mt-2 text-base-content/75">{p.text}</p>
+        </GlassCard>
+      ))}
+    </div>
+  </Section>
+
+  <Section>
+    <SectionHeading eyebrow="Our mission" title="Objectives" />
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {about.objectives.map((o) => (
+        <GlassCard>
+          <Icon name={o.icon} class="mb-4 size-8 text-primary" />
+          <h3 class="font-display text-xl font-semibold">{o.title}</h3>
+          <p class="mt-2 text-base-content/75">{o.text}</p>
+        </GlassCard>
+      ))}
+    </div>
+  </Section>
+
+  <Section tint>
+    <SectionHeading eyebrow="Explore" title="Quick links" />
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {about.links.map((l) => (
+        <GlassCard href={l.href}>
+          <Icon name={l.icon} class="mb-4 size-7 text-primary" />
+          <h3 class="font-display text-lg font-semibold">{l.title}</h3>
+          <p class="mt-1 text-sm text-base-content/75">{l.text}</p>
+        </GlassCard>
+      ))}
+    </div>
+  </Section>
+</BaseLayout>

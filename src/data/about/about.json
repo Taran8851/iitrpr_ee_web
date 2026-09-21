@@ -1,0 +1,58 @@
+{
+  "intro": "The department imparts knowledge through three programmes — a Bachelor's programme with a total intake of 60 students per academic year, a Master of Technology, and a Doctoral (Ph.D.) programme — to build technical and research excellence in specialised avenues of Electrical Engineering.",
+  "body": [
+    "The undergraduate program delivers wide knowledge of Electrical Engineering in four broad areas: communication technology, control technology, electronics, and power & energy. To broaden the students' knowledge, the department offers elective courses designed for interested students.",
+    "In addition to the undergraduate program, the department plays a vital role in bringing forth world-class postgraduates and researchers. The Masters program provides students with strong knowledge in three areas of Electrical Engineering: Signal Processing and Communication, Power Engineering, and VLSI.",
+    "Around 120 research scholars work on challenging problems in different areas of Electrical Engineering. The department continually upgrades its experimental and computational facilities for research & development and consultancy activities, so as to produce state-of-the-art research output."
+  ],
+  "objectives": [
+    {
+      "icon": "lucide:lightbulb",
+      "title": "Upskill our students",
+      "text": "To upskill the undergraduate and postgraduate students in Electrical Engineering."
+    }
+  ],
+  "programs": [
+    {
+      "icon": "lucide:graduation-cap",
+      "title": "B.Tech.",
+      "text": "Intake of 60 students per year, covering communication, control, electronics, and power & energy."
+    },
+    {
+      "icon": "lucide:cpu",
+      "title": "M.Tech.",
+      "text": "Signal Processing & Communication, Power Engineering, and VLSI."
+    },
+    {
+      "icon": "lucide:flask-conical",
+      "title": "Ph.D.",
+      "text": "Around 120 research scholars working on challenging problems in Electrical Engineering."
+    }
+  ],
+  "links": [
+    {
+      "href": "/faculty",
+      "icon": "lucide:users",
+      "title": "Faculty",
+      "text": "Meet the people behind our teaching and research."
+    },
+    {
+      "href": "/areas",
+      "icon": "lucide:zap",
+      "title": "Research areas",
+      "text": "Explore the department's research areas."
+    },
+    {
+      "href": "/course",
+      "icon": "lucide:book-open",
+      "title": "Courses",
+      "text": "Undergraduate and postgraduate course listings."
+    },
+    {
+      "href": "/contact",
+      "icon": "lucide:mail",
+      "title": "Contact",
+      "text": "Reach the EE office at IIT Ropar."
+    }
+  ]
+}
