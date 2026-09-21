@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HomeHero from "../components/home/HomeHero.astro";
+import HomeStats from "../components/home/HomeStats.astro";
+import HomeUpdates from "../components/home/HomeUpdates.astro";
+import ResearchBento from "../components/home/ResearchBento.astro";
+import HomePrograms from "../components/home/HomePrograms.astro";
+import HodMessage from "../components/home/HodMessage.astro";
+import HomeAchievements from "../components/home/HomeAchievements.astro";
+import HomeGallery from "../components/home/HomeGallery.astro";
+
+import hero from "../data/home/hero.json";
+import meta from "../data/home/meta.json";
+import stats from "../data/home/stats.json";
+import notifications from "../data/home/notifications.json";
+import news from "../data/home/news.json";
+import research from "../data/home/research.json";
+import programs from "../data/home/programs.json";
+import achievements from "../data/home/achievements.json";
+
+// Gallery: campus photos from the hero + landscape news photos.
+const galleryNews = news.filter((n) => /\.(jpe?g|png)$/i.test(n.image)).slice(0, 8);
+const photos = [
+  ...hero.map((src) => ({ src, title: "IIT Ropar campus" })),
+  ...galleryNews.map((n) => ({ src: n.image, title: n.title })),
+];
+---
+
+<BaseLayout
+  title=""
+  description="Department of Electrical Engineering, IIT Ropar — B.Tech, M.Tech, M.S. and Ph.D. programmes; research in power & energy, microelectronics & VLSI, signal processing & communication, and computer vision."
+  overlayHeader
+>
+  <HomeHero images={hero} />
+  <HomeStats groups={stats} startYear={meta.startYear} />
+  <HomeUpdates notifications={notifications} news={news.slice(0, 6)} />
+  <ResearchBento areas={research} />
+  <HomePrograms programs={programs} />
+  <HodMessage />
+  <HomeAchievements items={achievements} />
+  <HomeGallery photos={photos} />
+</BaseLayout>

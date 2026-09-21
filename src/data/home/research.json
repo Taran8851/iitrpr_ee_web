@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Power Systems & Smart Grids",
+    "blurb": "Synchrophasors, wide-area monitoring, state estimation, grid cybersecurity, microgrids and renewable integration.",
+    "icon": "lucide:zap",
+    "image": "/images/legacy/9bfa5a15aaed.jpg",
+    "href": "/areas"
+  },
+  {
+    "title": "Power Electronics & Electric Drives",
+    "blurb": "SRM, BLDC and multi-phase drives, motor design, battery management for EVs and grid-tied converters.",
+    "icon": "lucide:cpu",
+    "href": "/areas"
+  },
+  {
+    "title": "High Voltage & Nano-Dielectrics",
+    "blurb": "Space charge in dielectrics, insulation ageing and life estimation, power equipment design.",
+    "icon": "lucide:shield-alert",
+    "href": "/areas"
+  },
+  {
+    "title": "Microelectronics & VLSI Design",
+    "blurb": "Analog, RF and mixed-signal ICs, high-speed CMOS, 2-D material devices, memristors and hardware security.",
+    "icon": "lucide:microchip",
+    "href": "/areas"
+  },
+  {
+    "title": "Signal Processing & Communication",
+    "blurb": "6G and wireless systems, antennas and RF energy harvesting, RIS, IoT and underwater communication.",
+    "icon": "lucide:radio-tower",
+    "href": "/areas"
+  },
+  {
+    "title": "Computer Vision & Deep Learning",
+    "blurb": "Object detection, affective computing, medical image processing and AI/ML for communications.",
+    "icon": "lucide:scan-eye",
+    "href": "/areas"
+  }
+]

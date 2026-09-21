@@ -1,0 +1,30 @@
+---
+/** Student achievements as cards. */
+import { Icon } from "astro-icon/components";
+import Section from "../ui/Section.astro";
+import SectionHeading from "../ui/SectionHeading.astro";
+
+interface Achievement { names: string; supervisor: string; text: string }
+interface Props { items: Achievement[] }
+const { items } = Astro.props;
+---
+
+<Section tint id="achievements">
+  <SectionHeading eyebrow="Recognition" title="Our achievements" lead="Awards, grants and honours won by our research scholars.">
+    <a href="/achievements" class="btn btn-primary btn-sm gap-1">All achievements <Icon name="lucide:arrow-right" class="size-4" /></a>
+  </SectionHeading>
+  <ul class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+    {items.map((a) => (
+      <li data-achievement data-aos="fade-up" class="flex gap-4 rounded-2xl border border-base-content/10 bg-base-100 p-5 shadow-sm">
+        <span class="inline-flex size-10 shrink-0 items-center justify-center rounded-xl bg-amber-400/15 text-amber-600 dark:text-amber-300">
+          <Icon name="lucide:trophy" class="size-5" />
+        </span>
+        <div class="min-w-0">
+          <p class="font-semibold">{a.names}</p>
+          {a.supervisor && <p class="text-xs text-base-content/65">Research Scholar · Supervisor: {a.supervisor}</p>}
+          <p class="mt-2 text-sm leading-relaxed text-base-content/80">{a.text}</p>
+        </div>
+      </li>
+    ))}
+  </ul>
+</Section>
