@@ -1,0 +1,38 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import StatCard from "../components/ui/StatCard.astro";
+import ProgramTabs from "../components/students/ProgramTabs.astro";
+import data from "../data/students/alumni.json";
+
+const { programs } = data;
+const total = programs.reduce((n, p) => n + p.records.length, 0);
+const batches = [...new Set(programs.flatMap((p) => p.records.map((r) => r.batch)))].sort();
+---
+
+<BaseLayout
+  title="Alumni"
+  description="Alumni of the Department of Electrical Engineering, IIT Ropar, by program and batch."
+>
+  <PageHero
+    title="Alumni"
+    eyebrow="People"
+    lead="Graduates of the Department of Electrical Engineering, IIT Ropar, listed by program and batch."
+    crumbs={[{ label: "People" }]}
+  >
+    <div class="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3">
+      <StatCard dark value={total} label="Alumni listed" icon="lucide:users" />
+      {programs
+        .filter((p) => p.records.length > 0)
+        .map((p) => <StatCard dark value={p.records.length} label={`${p.label} graduates`} icon="lucide:graduation-cap" />)}
+      {batches.length > 0 && (
+        <StatCard dark value={`${batches[0]}–${batches.at(-1)}`} label="Batches" icon="lucide:calendar-range" />
+      )}
+    </div>
+  </PageHero>
+
+  <Section>
+    <ProgramTabs programs={programs} variant="alumni" />
+  </Section>
+</BaseLayout>

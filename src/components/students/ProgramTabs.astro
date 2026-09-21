@@ -1,0 +1,34 @@
+---
+/** daisyUI radio tabs, one per program (count in label), each holding a ProgramTable. */
+import ProgramTable, { type Program } from "./ProgramTable.astro";
+
+interface Props {
+  programs: Program[];
+  variant?: "student" | "alumni";
+}
+const { programs, variant = "student" } = Astro.props;
+const defaultKey = (programs.find((p) => p.records.length > 0) ?? programs[0])?.key;
+const name = `${variant}-programs`;
+---
+
+<div class="tabs tabs-box bg-base-200 p-1.5" role="tablist">
+  {programs.map((p) => (
+    <>
+      <input
+        type="radio"
+        name={name}
+        role="tab"
+        class="tab grow sm:grow-0"
+        aria-label={`${p.label} (${p.records.length})`}
+        checked={p.key === defaultKey}
+      />
+      <div class="tab-content px-1 pb-2 pt-6 sm:px-4" role="tabpanel">
+        <h2 class="mb-1 text-2xl font-bold">{p.title}</h2>
+        <p class="mb-5 text-sm text-base-content/70">
+          {p.records.length} {p.records.length === 1 ? "record" : "records"}
+        </p>
+        <ProgramTable program={p} variant={variant} />
+      </div>
+    </>
+  ))}
+</div>

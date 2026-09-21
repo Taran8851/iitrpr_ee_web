@@ -1,0 +1,105 @@
+---
+/**
+ * One program's roster (students or alumni): search + batch select + count + table,
+ * wired to site.ts filtering. Renders an EmptyState when the program has no records.
+ */
+import { Icon } from "astro-icon/components";
+import SearchInput from "../ui/SearchInput.astro";
+import EmptyState from "../ui/EmptyState.astro";
+
+export interface Person {
+  name: string;
+  batch: string;
+  email?: string;
+  specialization?: string;
+  affiliation?: string;
+  entry?: string;
+}
+export interface Program {
+  key: string;
+  label: string;
+  title: string;
+  records: Person[];
+}
+
+interface Props {
+  program: Program;
+  variant?: "student" | "alumni";
+}
+const { program, variant = "student" } = Astro.props;
+const alumni = variant === "alumni";
+const { records } = program;
+const batches = [...new Set(records.map((r) => r.batch))].sort((a, b) => b.localeCompare(a));
+const selectId = `batch-${variant}-${program.key}`;
+---
+
+{records.length === 0 ? (
+  <EmptyState message={`No ${program.title} (${program.label}) records available yet.`} />
+) : (
+  <div data-filter-root>
+    <div class="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center">
+      <SearchInput placeholder={alumni ? "Search by name, batch, entry no.…" : "Search by name, batch, email…"} />
+      <label class="select w-full sm:w-44" for={selectId}>
+        <span class="label">Batch</span>
+        <select id={selectId} data-filter-select="batch">
+          <option value="all">All</option>
+          {batches.map((b) => <option value={b}>{b}</option>)}
+        </select>
+      </label>
+      <p class="text-sm text-base-content/70 sm:ml-auto" aria-live="polite">
+        Showing <span data-filter-count class="font-semibold text-base-content">{records.length}</span> of {records.length}
+      </p>
+    </div>
+
+    <div class="overflow-x-auto rounded-2xl border border-base-content/10 bg-base-100 shadow-sm">
+      <table class="table table-zebra">
+        <caption class="sr-only">{program.title} {alumni ? "alumni" : "students"}</caption>
+        <thead>
+          <tr>
+            <th class="w-14">#</th>
+            <th>Name</th>
+            <th>Batch</th>
+            <th>Degree</th>
+            {alumni && <th>Current affiliation</th>}
+            <th>{alumni ? "Entry no." : "Email"}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {records.map((r, i) => (
+            <tr
+              data-filter-item
+              data-batch={r.batch}
+              data-text={[r.name, r.batch, r.email, r.specialization, r.affiliation, r.entry].filter(Boolean).join(" ")}
+            >
+              <td class="tabular-nums text-base-content/60">{i + 1}</td>
+              <td class="font-medium">{r.name}</td>
+              <td class="tabular-nums">{r.batch}</td>
+              <td class="whitespace-nowrap">
+                {program.label}
+                {r.specialization && <span class="badge badge-sm badge-ghost ml-1">{r.specialization}</span>}
+              </td>
+              {alumni && (
+                <td>{r.affiliation || <span class="text-base-content/50">To be updated</span>}</td>
+              )}
+              <td class="whitespace-nowrap">
+                {alumni ? (
+                  <span class="font-mono text-sm">{r.entry}</span>
+                ) : r.email ? (
+                  <a href={`mailto:${r.email}`} class="link link-hover inline-flex items-center gap-1.5 text-sm">
+                    <Icon name="lucide:mail" class="size-3.5 opacity-60" />
+                    {r.email}
+                  </a>
+                ) : (
+                  <span class="text-base-content/50">—</span>
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <div class="mt-5">
+      <EmptyState filter message="No matching records. Try a different name or batch." />
+    </div>
+  </div>
+)}
