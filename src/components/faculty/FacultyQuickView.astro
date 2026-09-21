@@ -1,108 +1,146 @@
 ---
-/** Quick-view dialog for a faculty member; opened by PersonCard's `quickView` (see site.ts [data-quickview]). */
+/**
+ * Quick-view dialog for a faculty member. Opened by PersonCard `quickView` (site.ts [data-quickview]);
+ * prev/next buttons (and ← → keys) jump between faculty without closing the modal.
+ */
 import { Icon } from "astro-icon/components";
+import CircuitBg from "../ui/CircuitBg.astro";
 import { facultyLinks, type Faculty } from "./links";
 
 interface Props {
   f: Faculty;
+  prevId?: string;
+  nextId?: string;
+  position?: string; // e.g. "3 / 23"
 }
-const { f } = Astro.props;
+const { f, prevId, nextId, position } = Astro.props;
+
+// Publication / project counts from the full profile data, when available.
+const profiles = import.meta.glob<{ default: any }>("../../data/people/*.json", { eager: true });
+const prof = Object.entries(profiles).find(([path]) => path.endsWith(`/${f.id}.json`))?.[1]?.default;
+const stats = [
+  { label: "Journals", value: prof?.publications?.journal?.length ?? 0, icon: "lucide:book-open" },
+  { label: "Conferences", value: prof?.publications?.conference?.length ?? 0, icon: "lucide:presentation" },
+  { label: "Patents", value: prof?.publications?.patents?.length ?? 0, icon: "lucide:lightbulb" },
+  { label: "Projects", value: prof?.researchProjects?.length ?? 0, icon: "lucide:folder-kanban" },
+].filter((s) => s.value > 0);
+
+const accent = { power: "bg-amber-400 text-slate-950", vlsi: "bg-violet-300 text-slate-950" }[f.group] ?? "bg-cyan-300 text-slate-950";
 const links = facultyLinks(f);
 const initials = f.name.split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).join("");
 ---
 
 <dialog id={`fq-${f.id}`} class="modal modal-bottom sm:modal-middle" aria-label={`${f.name} — quick view`}>
-  <div class="modal-box glass max-w-3xl overflow-hidden p-0">
-    <form method="dialog">
-      <button class="btn btn-circle btn-ghost btn-sm absolute right-3 top-3 z-10" aria-label="Close">
-        <Icon name="lucide:x" class="size-5" />
-      </button>
-    </form>
-
-    <div class="grid sm:grid-cols-[14rem_1fr]">
-      <div class="relative bg-base-300 sm:min-h-full">
-        {
-          f.photo ? (
-            <img src={f.photo} alt={f.name} class="h-64 w-full object-cover object-top sm:h-full" />
-          ) : (
-            <div class="grid h-40 place-items-center font-display text-5xl font-bold text-base-content/40 sm:h-full">
-              {initials}
-            </div>
-          )
-        }
-        <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/50 to-transparent sm:hidden"></div>
-      </div>
-
-      <div class="space-y-4 p-6">
-        <div>
-          <span class="badge badge-primary badge-sm mb-2">{f.groupLabel}</span>
-          <h3 class="text-2xl font-bold">{f.name}</h3>
-          <p class="text-sm font-medium text-primary">{f.designation}</p>
-        </div>
-
-        {
-          f.keywords.length > 0 && (
-            <div>
-              <p class="mb-1.5 text-xs font-semibold uppercase tracking-wider text-base-content/60">Research interests</p>
-              <div class="flex flex-wrap gap-1.5">
-                {f.keywords.map((k) => (
-                  <span class="badge badge-outline h-auto py-1 text-left">{k}</span>
-                ))}
-              </div>
-            </div>
-          )
-        }
-
-        {
-          f.education.length > 0 && (
-            <div>
-              <p class="mb-1.5 text-xs font-semibold uppercase tracking-wider text-base-content/60">Education</p>
-              <ul class="space-y-1 text-sm text-base-content/80">
-                {f.education.map((e) => (
-                  <li class="flex gap-2">
-                    <Icon name="lucide:graduation-cap" class="mt-0.5 size-4 shrink-0 text-primary" />
-                    {e}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )
-        }
-
-        <ul class="grid gap-1.5 text-sm text-base-content/80 sm:grid-cols-2">
-          {f.room && <li class="flex gap-2"><Icon name="lucide:map-pin" class="mt-0.5 size-4 shrink-0" />{f.room}</li>}
-          {f.phone && <li class="flex gap-2"><Icon name="lucide:phone" class="mt-0.5 size-4 shrink-0" />{f.phone}</li>}
-          {
-            f.email && (
-              <li class="flex gap-2 sm:col-span-2">
-                <Icon name="lucide:mail" class="mt-0.5 size-4 shrink-0" />
-                <a class="link-hover break-all" href={`mailto:${f.email}`}>{f.email}</a>
-              </li>
-            )
-          }
-        </ul>
-
-        <div class="flex flex-wrap gap-2 pt-1">
-          {
-            f.profile && (
-              <a href={f.profile} class="btn btn-primary btn-sm gap-1.5">
-                Full profile <Icon name="lucide:arrow-right" class="size-4" />
-              </a>
-            )
-          }
-          {
-            links.map((l) => (
-              <a href={l.href} target="_blank" rel="noopener" class="btn btn-ghost btn-sm border-base-content/15 gap-1.5">
-                {l.icon && <Icon name={l.icon} class="size-4" />}
-                {l.label}
-              </a>
-            ))
-          }
+  <div class="modal-box flex max-h-[92vh] max-w-3xl flex-col overflow-hidden bg-base-100 p-0 shadow-2xl">
+    <!-- Banner -->
+    <div class="relative isolate shrink-0 overflow-hidden bg-[#0b1629] px-5 pb-16 pt-4 text-white" data-spotlight>
+      <CircuitBg class="text-cyan-300 opacity-[0.1]" animated />
+      <div class="circuit-reveal absolute inset-0 -z-10" aria-hidden="true"><CircuitBg class="text-amber-300 opacity-90" animated /></div>
+      <div aria-hidden="true" class="absolute -right-16 -top-20 -z-10 size-64 rounded-full bg-amber-500/25 blur-[90px]"></div>
+      <div aria-hidden="true" class="absolute -bottom-24 left-10 -z-10 size-64 rounded-full bg-cyan-500/20 blur-[90px]"></div>
+      <div class="flex items-center justify-between gap-2">
+        <span class:list={["badge badge-sm border-0 font-semibold", accent]}>{f.groupLabel}</span>
+        <div class="flex items-center gap-1">
+          {position && <span class="mr-1 text-xs text-white/60">{position}</span>}
+          {prevId && <button type="button" data-quickview={prevId} data-qv-prev class="btn btn-circle btn-ghost btn-sm text-white hover:bg-white/15" aria-label="Previous faculty"><Icon name="lucide:chevron-left" class="size-5" /></button>}
+          {nextId && <button type="button" data-quickview={nextId} data-qv-next class="btn btn-circle btn-ghost btn-sm text-white hover:bg-white/15" aria-label="Next faculty"><Icon name="lucide:chevron-right" class="size-5" /></button>}
+          <form method="dialog"><button class="btn btn-circle btn-ghost btn-sm text-white hover:bg-white/15" aria-label="Close"><Icon name="lucide:x" class="size-5" /></button></form>
         </div>
       </div>
     </div>
+
+    <!-- Identity -->
+    <div class="relative -mt-12 flex shrink-0 items-end gap-4 px-5 sm:gap-5 sm:px-6">
+      {
+        f.photo ? (
+          <img src={f.photo} alt={f.name} class="size-24 shrink-0 rounded-2xl object-cover object-top shadow-xl ring-4 ring-base-100 sm:size-28" />
+        ) : (
+          <div class="grid size-24 shrink-0 place-items-center rounded-2xl bg-base-300 font-display text-3xl font-bold text-base-content/50 shadow-xl ring-4 ring-base-100 sm:size-28">{initials}</div>
+        )
+      }
+      <div class="min-w-0 pb-1">
+        <h3 class="truncate text-xl font-bold sm:text-2xl">{f.name}</h3>
+        <p class="text-sm font-medium text-primary">{f.designation}</p>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="min-h-0 flex-1 space-y-5 overflow-y-auto px-5 py-5 sm:px-6">
+      {
+        stats.length > 0 && (
+          <div class:list={["grid gap-2", (["", "grid-cols-1", "grid-cols-2", "grid-cols-3", "grid-cols-2 sm:grid-cols-4"] as const)[stats.length]]}>
+            {stats.map((s) => (
+              <a href={f.profile} class="group/stat rounded-xl bg-base-200 p-3 transition hover:bg-primary/10">
+                <Icon name={s.icon} class="size-4 text-primary" />
+                <p class="mt-1 font-display text-2xl font-bold">{s.value}</p>
+                <p class="text-xs text-base-content/60">{s.label}</p>
+              </a>
+            ))}
+          </div>
+        )
+      }
+
+      {
+        f.keywords.length > 0 && (
+          <section>
+            <h4 class="mb-2 text-xs font-semibold uppercase tracking-wider text-base-content/60">Research interests</h4>
+            <div class="flex flex-wrap gap-1.5">
+              {f.keywords.map((k) => (
+                <span class="badge h-auto border-primary/30 bg-primary/10 py-1 text-left text-base-content">{k}</span>
+              ))}
+            </div>
+          </section>
+        )
+      }
+
+      {
+        f.education.length > 0 && (
+          <section>
+            <h4 class="mb-2 text-xs font-semibold uppercase tracking-wider text-base-content/60">Education</h4>
+            <ol class="relative ml-1.5 space-y-2 border-l border-base-content/15 pl-4">
+              {f.education.map((e) => (
+                <li class="relative text-sm text-base-content/80">
+                  <span class="absolute -left-[1.3rem] top-1.5 size-2.5 rounded-full bg-primary ring-4 ring-base-100"></span>
+                  {e}
+                </li>
+              ))}
+            </ol>
+          </section>
+        )
+      }
+
+      <section class="grid gap-2 sm:grid-cols-2">
+        {
+          f.email && (
+            <div class="flex items-center gap-3 rounded-xl border border-base-content/10 p-3 sm:col-span-2">
+              <Icon name="lucide:mail" class="size-5 shrink-0 text-primary" />
+              <a class="link-hover min-w-0 flex-1 truncate text-sm" href={`mailto:${f.email}`}>{f.email}</a>
+              <button type="button" class="btn btn-ghost btn-xs" data-copy={f.email} aria-label={`Copy ${f.email}`}>
+                <Icon name="lucide:copy" class="size-3.5" /><span data-copy-label>Copy</span>
+              </button>
+            </div>
+          )
+        }
+        {f.phone && <div class="flex items-center gap-3 rounded-xl border border-base-content/10 p-3 text-sm"><Icon name="lucide:phone" class="size-5 shrink-0 text-primary" />{f.phone}</div>}
+        {f.room && <div class="flex items-center gap-3 rounded-xl border border-base-content/10 p-3 text-sm"><Icon name="lucide:map-pin" class="size-5 shrink-0 text-primary" />{f.room}</div>}
+      </section>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex shrink-0 flex-wrap gap-2 border-t border-base-content/10 bg-base-100 px-5 py-4 sm:px-6">
+      <a href={f.profile} class="btn btn-primary btn-sm gap-1.5">Full profile <Icon name="lucide:arrow-right" class="size-4" /></a>
+      <a href={`/research-graph?focus=${f.id}`} class="btn btn-ghost btn-sm gap-1.5 border-base-content/15"><Icon name="lucide:network" class="size-4" />Research graph</a>
+      {
+        links.map((l) => (
+          <a href={l.href} target="_blank" rel="noopener" class="btn btn-ghost btn-sm gap-1.5 border-base-content/15">
+            {l.icon && <Icon name={l.icon} class="size-4" />}
+            {l.label}
+          </a>
+        ))
+      }
+    </div>
   </div>
-  <form method="dialog" class="modal-backdrop bg-black/40 backdrop-blur-sm">
+  <form method="dialog" class="modal-backdrop bg-slate-950/50 backdrop-blur-sm">
     <button aria-label="Close">close</button>
   </form>
 </dialog>

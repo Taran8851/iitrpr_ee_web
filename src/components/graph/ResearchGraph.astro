@@ -1,0 +1,393 @@
+---
+/**
+ * Interactive research graph: faculty ⇄ topics ⇄ papers (force-graph, canvas).
+ * Data: PUBLIC_RESEARCH_GRAPH_URL (live backend, same schema) → falls back to /api/research-graph.json.
+ */
+import { Icon } from "astro-icon/components";
+
+const domains = [
+  { id: "all", label: "All" },
+  { id: "power", label: "Power" },
+  { id: "spc", label: "Signal & Comm." },
+  { id: "vlsi", label: "VLSI" },
+];
+---
+
+<div data-rg class="grid gap-4 lg:grid-cols-[minmax(0,1fr)_23rem]">
+  <div class="relative isolate h-[72vh] min-h-[480px] overflow-hidden rounded-3xl border border-white/10 bg-[#020617] text-white shadow-2xl shadow-black/30">
+    <div data-rg-canvas class="absolute inset-0"></div>
+
+    <!-- Toolbar -->
+    <div class="glass-dark absolute inset-x-3 top-3 z-10 flex flex-wrap items-center gap-2 rounded-2xl p-2 sm:right-auto">
+      <label class="input input-sm flex w-full items-center gap-2 border-white/15 bg-white/5 text-white sm:w-60">
+        <Icon name="lucide:search" class="size-4 opacity-60" />
+        <input data-rg-search list="rg-options" type="search" placeholder="Find a professor or topic…" class="grow" aria-label="Find a professor or topic" />
+      </label>
+      <datalist id="rg-options"></datalist>
+      <div class="join" role="group" aria-label="Research domain">
+        {domains.map((d, i) => (
+          <button type="button" data-rg-domain={d.id} class:list={["btn join-item btn-xs border-white/15 bg-white/5 text-white hover:bg-white/15", i === 0 && "btn-active !bg-amber-400 !text-slate-950"]}>
+            {d.label}
+          </button>
+        ))}
+      </div>
+      <label class="label cursor-pointer gap-2 px-1 text-xs text-white/80">
+        <input data-rg-papers type="checkbox" class="toggle toggle-xs toggle-warning" />
+        Papers
+      </label>
+      <select data-rg-type class="select select-xs w-28 border-white/15 bg-white/5 text-white" aria-label="Paper type" disabled>
+        <option value="all">All types</option>
+        <option value="Journal">Journals</option>
+        <option value="Conference">Conferences</option>
+        <option value="Patent">Patents</option>
+        <option value="Book/Chapter">Books</option>
+      </select>
+      <select data-rg-year class="select select-xs w-24 border-white/15 bg-white/5 text-white" aria-label="From year">
+        <option value="0">All years</option>
+        <option value="2022">2022+</option>
+        <option value="2018">2018+</option>
+        <option value="2014">2014+</option>
+      </select>
+    </div>
+
+    <!-- Legend -->
+    <div class="glass-dark pointer-events-none absolute bottom-3 left-3 z-10 hidden gap-3 rounded-xl px-3 py-2 text-[11px] text-white/80 sm:flex">
+      <span class="flex items-center gap-1.5"><span class="size-3 rounded-full border-2 border-amber-400 bg-slate-700"></span>Professor</span>
+      <span class="flex items-center gap-1.5"><span class="h-3 w-5 rounded-full border border-cyan-300 bg-cyan-300/20"></span>Topic</span>
+      <span class="flex items-center gap-1.5"><span class="size-2 rounded-full bg-slate-300"></span>Paper</span>
+      <span class="flex items-center gap-1.5"><span class="size-2 rounded-full bg-amber-400"></span>Patent</span>
+    </div>
+
+    <!-- Zoom -->
+    <div class="absolute bottom-3 right-3 z-10 flex flex-col gap-1">
+      <button type="button" data-rg-zoom="in" class="btn btn-circle btn-sm glass-dark" aria-label="Zoom in"><Icon name="lucide:plus" class="size-4" /></button>
+      <button type="button" data-rg-zoom="out" class="btn btn-circle btn-sm glass-dark" aria-label="Zoom out"><Icon name="lucide:minus" class="size-4" /></button>
+      <button type="button" data-rg-zoom="fit" class="btn btn-circle btn-sm glass-dark" aria-label="Fit graph"><Icon name="lucide:maximize" class="size-4" /></button>
+    </div>
+
+    <div data-rg-loading class="absolute inset-0 z-20 grid place-items-center bg-[#020617]">
+      <span class="loading loading-ring loading-lg text-amber-400"></span>
+    </div>
+  </div>
+
+  <aside data-rg-panel class="glass max-h-[72vh] overflow-y-auto rounded-3xl p-5" aria-live="polite"></aside>
+</div>
+
+<script>
+  import ForceGraph from "force-graph";
+  import { ensureTopics, type ResearchGraphData, type GraphPaper } from "../../lib/research-graph";
+
+  type Kind = "faculty" | "topic" | "paper";
+  interface N { id: string; kind: Kind; label: string; domain?: string; ref: any; weight: number; x?: number; y?: number; img?: HTMLImageElement }
+  interface L { source: any; target: any; weight: number; kind: string }
+
+  const COLORS: Record<string, string> = { power: "#f59e0b", spc: "#22d3ee", vlsi: "#a78bfa" };
+  const TYPE_COLOR: Record<string, string> = { Journal: "#e2e8f0", Conference: "#94a3b8", Patent: "#fbbf24", "Book/Chapter": "#f472b6" };
+  const esc = (s: unknown) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
+  const nid = (id: any) => (typeof id === "object" ? id.id : id);
+
+  const root = document.querySelector<HTMLElement>("[data-rg]")!;
+  const el = root.querySelector<HTMLElement>("[data-rg-canvas]")!;
+  const panel = root.querySelector<HTMLElement>("[data-rg-panel]")!;
+  const $ = <T extends HTMLElement>(s: string) => root.querySelector<T>(s)!;
+
+  async function load(): Promise<{ data: ResearchGraphData; live: boolean }> {
+    const remote = import.meta.env.PUBLIC_RESEARCH_GRAPH_URL as string | undefined;
+    if (remote) {
+      try {
+        const r = await fetch(remote, { headers: { Accept: "application/json" } });
+        if (r.ok) return { data: ensureTopics(await r.json()), live: true };
+      } catch {}
+    }
+    const r = await fetch("/api/research-graph.json");
+    return { data: ensureTopics(await r.json()), live: false };
+  }
+
+  const { data, live } = await load();
+  const facultyById = new Map(data.faculty.map((f) => [f.id, f]));
+  const topicById = new Map(data.topics.map((t) => [t.id, t]));
+  const facDomain = (f: any) => (f.group in COLORS ? f.group : "spc");
+
+  // Preload faculty photos so the canvas can draw them (short timeout, never blocks for long).
+  const photos = new Map<string, HTMLImageElement>();
+  await Promise.race([
+    Promise.all(
+      data.faculty.filter((f) => f.photo).map(
+        (f) => new Promise<void>((res) => {
+          const img = new Image();
+          img.onload = () => (photos.set(f.id, img), res());
+          img.onerror = () => res();
+          img.src = f.photo!;
+        }),
+      ),
+    ),
+    new Promise((r) => setTimeout(r, 1500)),
+  ]);
+
+  const state = { domain: "all", papers: false, type: "all", year: 0, selected: null as N | null, hover: null as N | null };
+
+  function visiblePapers(): GraphPaper[] {
+    return data.papers.filter((p) => {
+      if (state.year && (p.year ?? 0) < state.year) return false;
+      if (state.type !== "all" && p.type !== state.type) return false;
+      if (state.domain !== "all" && !(p.topics ?? []).some((t) => topicById.get(t)?.domain === state.domain)) return false;
+      return true;
+    });
+  }
+
+  function buildGraph() {
+    const papers = visiblePapers();
+    const nodes = new Map<string, N>();
+    const links: L[] = [];
+    const ft = new Map<string, number>();
+
+    for (const f of data.faculty) {
+      if (state.domain !== "all" && facDomain(f) !== state.domain) continue;
+      nodes.set(`f:${f.id}`, { id: `f:${f.id}`, kind: "faculty", label: f.name, domain: facDomain(f), ref: f, weight: 0, img: photos.get(f.id) });
+    }
+    for (const t of data.topics) {
+      if (state.domain !== "all" && t.domain !== state.domain) continue;
+      nodes.set(`t:${t.id}`, { id: `t:${t.id}`, kind: "topic", label: t.label, domain: t.domain, ref: t, weight: 0 });
+    }
+    for (const p of papers) {
+      const fs = p.faculty.filter((f) => nodes.has(`f:${f}`));
+      const ts = (p.topics ?? []).filter((t) => nodes.has(`t:${t}`));
+      fs.forEach((f) => nodes.get(`f:${f}`)!.weight++);
+      ts.forEach((t) => nodes.get(`t:${t}`)!.weight++);
+      for (const f of fs) for (const t of ts) ft.set(`${f}|${t}`, (ft.get(`${f}|${t}`) ?? 0) + 1);
+      if (state.papers && (fs.length || ts.length)) {
+        const pid = `p:${p.id}`;
+        nodes.set(pid, { id: pid, kind: "paper", label: p.title, ref: p, weight: 1 });
+        fs.forEach((f) => links.push({ source: pid, target: `f:${f}`, weight: 1, kind: "pf" }));
+        ts.forEach((t) => links.push({ source: pid, target: `t:${t}`, weight: 1, kind: "pt" }));
+      }
+    }
+    for (const [key, w] of ft) {
+      const [f, t] = key.split("|");
+      links.push({ source: `f:${f}`, target: `t:${t}`, weight: w, kind: "ft" });
+    }
+    // Drop topics nobody works on in the current filter.
+    for (const n of [...nodes.values()]) if (n.kind === "topic" && n.weight === 0) nodes.delete(n.id);
+    return { nodes: [...nodes.values()], links: links.filter((l) => nodes.has(nid(l.source)) && nodes.has(nid(l.target))) };
+  }
+
+  // ---- neighbourhood for highlighting ----
+  let neighbours = new Map<string, Set<string>>();
+  const computeNeighbours = (g: { links: L[] }) => {
+    neighbours = new Map();
+    for (const l of g.links) {
+      const a = nid(l.source), b = nid(l.target);
+      (neighbours.get(a) ?? neighbours.set(a, new Set()).get(a)!).add(b);
+      (neighbours.get(b) ?? neighbours.set(b, new Set()).get(b)!).add(a);
+    }
+  };
+  const focus = () => state.hover ?? state.selected;
+  const isLit = (id: string) => { const f = focus(); return !f || f.id === id || !!neighbours.get(f.id)?.has(id); };
+  const linkLit = (l: L) => { const f = focus(); return !!f && (nid(l.source) === f.id || nid(l.target) === f.id); };
+
+  const radius = (n: N) => (n.kind === "faculty" ? 7 + Math.min(10, Math.sqrt(n.weight) * 1.1) : n.kind === "paper" ? 2.4 : 4);
+
+  const graph = new ForceGraph<N, L>(el)
+    .backgroundColor("rgba(0,0,0,0)")
+    .nodeId("id")
+    .nodeLabel((n) => (n.kind === "paper" ? esc(n.label) : ""))
+    .linkColor((l) => (linkLit(l) ? "rgba(251,191,36,0.85)" : focus() ? "rgba(148,163,184,0.06)" : l.kind === "ft" ? "rgba(56,189,248,0.22)" : "rgba(148,163,184,0.12)"))
+    .linkWidth((l) => (l.kind === "ft" ? Math.min(4, 0.6 + Math.sqrt(l.weight) * 0.5) : 0.5) * (linkLit(l) ? 1.6 : 1))
+    .linkDirectionalParticles((l) => (linkLit(l) ? Math.min(4, 1 + Math.ceil(l.weight / 4)) : 0))
+    .linkDirectionalParticleWidth(2.2)
+    .linkDirectionalParticleColor(() => "#fbbf24")
+    .linkDirectionalParticleSpeed(0.006)
+    .cooldownTicks(160)
+    .nodeCanvasObject((n, ctx, scale) => {
+      const lit = isLit(n.id);
+      ctx.globalAlpha = lit ? 1 : 0.12;
+      const r = radius(n);
+      const x = n.x!, y = n.y!;
+      if (n.kind === "faculty") {
+        const c = COLORS[n.domain!] ?? "#f59e0b";
+        if (n === focus()) { ctx.beginPath(); ctx.arc(x, y, r + 5, 0, 2 * Math.PI); ctx.fillStyle = c + "33"; ctx.fill(); }
+        ctx.save();
+        ctx.beginPath(); ctx.arc(x, y, r, 0, 2 * Math.PI); ctx.closePath();
+        ctx.fillStyle = "#1e293b"; ctx.fill();
+        if (n.img) { ctx.clip(); ctx.drawImage(n.img, x - r, y - r, r * 2, r * 2); }
+        ctx.restore();
+        ctx.beginPath(); ctx.arc(x, y, r, 0, 2 * Math.PI); ctx.lineWidth = 1.8; ctx.strokeStyle = c; ctx.stroke();
+        if (scale > 1.1 || (lit && focus())) {
+          const fs = Math.max(10 / scale, 2.4);
+          ctx.font = `600 ${fs}px "Noto Sans Variable", sans-serif`;
+          ctx.textAlign = "center"; ctx.textBaseline = "top"; ctx.fillStyle = "#f8fafc";
+          ctx.fillText(n.label, x, y + r + 2);
+        }
+      } else if (n.kind === "topic") {
+        const c = COLORS[n.domain!] ?? "#22d3ee";
+        const fs = Math.max(11 / scale, 3);
+        ctx.font = `600 ${fs}px "Space Grotesk Variable", sans-serif`;
+        const w = ctx.measureText(n.label).width + fs * 1.4, h = fs * 1.8;
+        ctx.beginPath(); ctx.roundRect(x - w / 2, y - h / 2, w, h, h / 2);
+        ctx.fillStyle = c + (n === focus() ? "55" : "26"); ctx.fill();
+        ctx.lineWidth = 1 / scale + 0.5; ctx.strokeStyle = c; ctx.stroke();
+        ctx.textAlign = "center"; ctx.textBaseline = "middle"; ctx.fillStyle = "#f8fafc";
+        ctx.fillText(n.label, x, y);
+        (n as any).__box = [w, h];
+      } else {
+        ctx.beginPath(); ctx.arc(x, y, r, 0, 2 * Math.PI);
+        ctx.fillStyle = TYPE_COLOR[n.ref.type] ?? "#cbd5e1"; ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+    })
+    .nodePointerAreaPaint((n, color, ctx) => {
+      ctx.fillStyle = color;
+      if (n.kind === "topic" && (n as any).__box) {
+        const [w, h] = (n as any).__box; ctx.fillRect(n.x! - w / 2, n.y! - h / 2, w, h);
+      } else { ctx.beginPath(); ctx.arc(n.x!, n.y!, radius(n) + 2, 0, 2 * Math.PI); ctx.fill(); }
+    })
+    .onNodeHover((n) => { state.hover = n ?? null; el.style.cursor = n ? "pointer" : "grab"; })
+    .onNodeClick((n) => select(n))
+    .onBackgroundClick(() => select(null));
+
+  graph.d3Force("charge")?.strength((n: N) => (n.kind === "paper" ? -18 : n.kind === "topic" ? -260 : -180));
+  graph.d3Force("link")?.distance((l: L) => (l.kind === "ft" ? 90 : 26)).strength((l: L) => (l.kind === "ft" ? Math.min(0.5, 0.05 + l.weight * 0.03) : 0.6));
+
+  const resize = () => graph.width(el.clientWidth).height(el.clientHeight);
+  new ResizeObserver(resize).observe(el);
+
+  function refresh(fit = true) {
+    const g = buildGraph();
+    computeNeighbours(g);
+    if (state.selected && !g.nodes.some((n) => n.id === state.selected!.id)) state.selected = null;
+    graph.graphData(g);
+    if (fit) graph.onEngineStop(() => { graph.zoomToFit(500, 50); graph.onEngineStop(() => {}); });
+    const opts = root.querySelector("#rg-options")!;
+    opts.innerHTML = g.nodes.filter((n) => n.kind !== "paper").map((n) => `<option value="${esc(n.label)}"></option>`).join("");
+    renderPanel();
+  }
+
+  function select(n: N | null) {
+    state.selected = n;
+    if (n) {
+      graph.centerAt(n.x, n.y, 600);
+      if (graph.zoom() < 1.6) graph.zoom(2.2, 600);
+    }
+    renderPanel();
+  }
+
+  const chip = (id: string, label: string, extra = "") =>
+    `<button type="button" data-rg-go="${esc(id)}" class="badge badge-outline h-auto cursor-pointer gap-1 py-1 text-left hover:badge-primary">${esc(label)}${extra}</button>`;
+  const paperItem = (p: GraphPaper) => `
+    <li class="rounded-xl border border-base-content/10 p-3 text-sm">
+      <p class="font-medium leading-snug">${p.link ? `<a class="link-hover" href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.title)}</a>` : esc(p.title)}</p>
+      <p class="mt-1 text-xs text-base-content/60">${esc(p.type ?? "")}${p.year ? ` · ${p.year}` : ""}${p.venue ? ` · ${esc(p.venue)}` : ""}</p>
+    </li>`;
+
+  function renderPanel() {
+    const n = state.selected;
+    const papers = visiblePapers();
+    if (!n) {
+      panel.innerHTML = `
+        <p class="text-xs font-semibold uppercase tracking-[0.18em] text-primary">Explore</p>
+        <h3 class="mt-1 text-2xl font-bold">Who works on what</h3>
+        <p class="mt-2 text-sm text-base-content/70">Professors are linked to the topics of their papers — thicker links mean more papers. Hover to trace a connection, click to see details, turn on <b>Papers</b> to see every publication.</p>
+        <div class="mt-4 grid grid-cols-3 gap-2 text-center">
+          <div class="rounded-xl bg-base-200 p-3"><p class="font-display text-2xl font-bold">${data.faculty.length}</p><p class="text-xs text-base-content/60">Professors</p></div>
+          <div class="rounded-xl bg-base-200 p-3"><p class="font-display text-2xl font-bold">${data.topics.length}</p><p class="text-xs text-base-content/60">Topics</p></div>
+          <div class="rounded-xl bg-base-200 p-3"><p class="font-display text-2xl font-bold">${papers.length}</p><p class="text-xs text-base-content/60">Papers</p></div>
+        </div>
+        <p class="mt-4 text-xs font-semibold uppercase tracking-wider text-base-content/60">Biggest topics</p>
+        <div class="mt-2 flex flex-wrap gap-1.5">${data.topics
+          .map((t) => [t, papers.filter((p) => p.topics?.includes(t.id)).length] as const)
+          .filter(([, c]) => c).sort((a, b) => b[1] - a[1]).slice(0, 8)
+          .map(([t, c]) => chip(`t:${t.id}`, t.label, ` <span class="opacity-60">${c}</span>`)).join("")}</div>
+        <p class="mt-5 text-[11px] text-base-content/50">Data: ${live ? "live research API" : "department website"} · updated ${esc(new Date(data.generatedAt).toLocaleDateString())}</p>`;
+    } else if (n.kind === "faculty") {
+      const f = n.ref;
+      const mine = papers.filter((p) => p.faculty.includes(f.id)).sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+      const topicCounts = new Map<string, number>();
+      mine.forEach((p) => p.topics?.forEach((t) => topicCounts.set(t, (topicCounts.get(t) ?? 0) + 1)));
+      panel.innerHTML = `
+        <div class="flex items-center gap-4">
+          ${f.photo ? `<img src="${esc(f.photo)}" alt="" class="size-16 rounded-2xl object-cover ring-2 ring-primary/60" />` : ""}
+          <div><h3 class="text-xl font-bold leading-tight">${esc(f.name)}</h3><p class="text-sm text-primary">${esc(f.designation ?? "")}</p><p class="text-xs text-base-content/60">${esc(f.groupLabel ?? "")}</p></div>
+        </div>
+        <div class="mt-4 flex flex-wrap gap-2">
+          <a href="${esc(f.profile)}" class="btn btn-primary btn-sm">Profile</a>
+          ${f.scholarId ? `<a href="https://scholar.google.com/citations?user=${esc(f.scholarId)}" target="_blank" rel="noopener" class="btn btn-ghost btn-sm border-base-content/15">Google Scholar</a>` : ""}
+        </div>
+        <p class="mt-5 text-xs font-semibold uppercase tracking-wider text-base-content/60">Topics (${topicCounts.size})</p>
+        <div class="mt-2 flex flex-wrap gap-1.5">${[...topicCounts].sort((a, b) => b[1] - a[1]).map(([t, c]) => chip(`t:${t}`, topicById.get(t)?.label ?? t, ` <span class="opacity-60">${c}</span>`)).join("")}</div>
+        <p class="mt-5 text-xs font-semibold uppercase tracking-wider text-base-content/60">Recent papers (${mine.length})</p>
+        <ul class="mt-2 space-y-2">${mine.slice(0, 8).map(paperItem).join("")}</ul>`;
+    } else if (n.kind === "topic") {
+      const t = n.ref;
+      const tp = papers.filter((p) => p.topics?.includes(t.id)).sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+      const fc = new Map<string, number>();
+      tp.forEach((p) => p.faculty.forEach((f) => fc.set(f, (fc.get(f) ?? 0) + 1)));
+      panel.innerHTML = `
+        <span class="badge badge-sm" style="background:${COLORS[t.domain]}33;border-color:${COLORS[t.domain]}">${esc(t.domain.toUpperCase())}</span>
+        <h3 class="mt-2 text-2xl font-bold">${esc(t.label)}</h3>
+        <p class="mt-1 text-sm text-base-content/70">${tp.length} papers by ${fc.size} professors</p>
+        <p class="mt-5 text-xs font-semibold uppercase tracking-wider text-base-content/60">Professors</p>
+        <div class="mt-2 flex flex-wrap gap-1.5">${[...fc].sort((a, b) => b[1] - a[1]).map(([f, c]) => chip(`f:${f}`, facultyById.get(f)?.name ?? f, ` <span class="opacity-60">${c}</span>`)).join("")}</div>
+        <p class="mt-5 text-xs font-semibold uppercase tracking-wider text-base-content/60">Recent papers</p>
+        <ul class="mt-2 space-y-2">${tp.slice(0, 8).map(paperItem).join("")}</ul>`;
+    } else {
+      const p: GraphPaper = n.ref;
+      panel.innerHTML = `
+        <span class="badge badge-sm">${esc(p.type ?? "Paper")}${p.year ? ` · ${p.year}` : ""}</span>
+        <h3 class="mt-2 text-lg font-bold leading-snug">${esc(p.title)}</h3>
+        ${p.authors ? `<p class="mt-2 text-sm text-base-content/70">${esc(p.authors)}</p>` : ""}
+        ${p.venue ? `<p class="mt-1 text-sm italic text-base-content/60">${esc(p.venue)}</p>` : ""}
+        <div class="mt-4 flex flex-wrap gap-1.5">${p.faculty.map((f) => chip(`f:${f}`, facultyById.get(f)?.name ?? f)).join("")}${(p.topics ?? []).map((t) => chip(`t:${t}`, topicById.get(t)?.label ?? t)).join("")}</div>
+        ${p.link ? `<a href="${esc(p.link)}" target="_blank" rel="noopener" class="btn btn-primary btn-sm mt-4">Open paper</a>` : ""}`;
+    }
+  }
+
+  // ---- controls ----
+  panel.addEventListener("click", (e) => {
+    const id = (e.target as Element).closest<HTMLElement>("[data-rg-go]")?.dataset.rgGo;
+    const n = id && (graph.graphData().nodes as N[]).find((x) => x.id === id);
+    if (n) select(n);
+  });
+  root.querySelectorAll<HTMLElement>("[data-rg-domain]").forEach((b) =>
+    b.addEventListener("click", () => {
+      state.domain = b.dataset.rgDomain!;
+      root.querySelectorAll("[data-rg-domain]").forEach((x) => x.classList.toggle("btn-active", x === b));
+      root.querySelectorAll("[data-rg-domain]").forEach((x) => x.classList.toggle("!bg-amber-400", x === b));
+      root.querySelectorAll("[data-rg-domain]").forEach((x) => x.classList.toggle("!text-slate-950", x === b));
+      refresh();
+    }),
+  );
+  $<HTMLInputElement>("[data-rg-papers]").addEventListener("change", (e) => {
+    state.papers = (e.target as HTMLInputElement).checked;
+    $<HTMLSelectElement>("[data-rg-type]").disabled = !state.papers;
+    refresh();
+  });
+  $<HTMLSelectElement>("[data-rg-type]").addEventListener("change", (e) => { state.type = (e.target as HTMLSelectElement).value; refresh(); });
+  $<HTMLSelectElement>("[data-rg-year]").addEventListener("change", (e) => { state.year = Number((e.target as HTMLSelectElement).value); refresh(); });
+  $<HTMLInputElement>("[data-rg-search]").addEventListener("change", (e) => {
+    const q = (e.target as HTMLInputElement).value.trim().toLowerCase();
+    const n = (graph.graphData().nodes as N[]).find((x) => x.kind !== "paper" && x.label.toLowerCase() === q)
+      ?? (graph.graphData().nodes as N[]).find((x) => x.kind !== "paper" && x.label.toLowerCase().includes(q));
+    if (q && n) select(n);
+  });
+  root.querySelectorAll<HTMLElement>("[data-rg-zoom]").forEach((b) =>
+    b.addEventListener("click", () => {
+      const z = b.dataset.rgZoom;
+      if (z === "fit") graph.zoomToFit(500, 50);
+      else graph.zoom(graph.zoom() * (z === "in" ? 1.4 : 1 / 1.4), 300);
+    }),
+  );
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && state.selected) select(null); });
+
+  resize();
+  refresh();
+  $<HTMLElement>("[data-rg-loading]").remove();
+
+  // Deep link: /research-graph?focus=<facultyId|topicId>
+  const f = new URLSearchParams(location.search).get("focus");
+  if (f) {
+    setTimeout(() => {
+      const n = (graph.graphData().nodes as N[]).find((x) => x.id === `f:${f}` || x.id === `t:${f}`);
+      if (n) select(n);
+    }, 1400);
+  }
+</script>

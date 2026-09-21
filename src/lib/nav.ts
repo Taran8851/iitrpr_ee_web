@@ -24,6 +24,7 @@ export const mainNav: NavItem[] = [
       { label: "Facilities", href: "/facilities", icon: "lucide:cpu", desc: "Research facilities & lab websites" },
       { label: "Projects", href: "/project", icon: "lucide:folder-kanban", desc: "Sponsored research projects" },
       { label: "Publications", href: "/publications", icon: "lucide:book-open", desc: "Journals, conferences & patents" },
+      { label: "Research Graph", href: "/research-graph", icon: "lucide:network", desc: "Interactive map of profs, topics & papers" },
     ],
   },
   {

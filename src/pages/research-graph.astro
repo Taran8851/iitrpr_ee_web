@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import ResearchGraph from "../components/graph/ResearchGraph.astro";
+---
+
+<BaseLayout
+  title="Research Graph"
+  description="An interactive map linking EE faculty at IIT Ropar to their research topics and publications."
+>
+  <PageHero
+    eyebrow="Research"
+    title="Research Graph"
+    lead="See how our professors, research topics and papers connect. Hover to trace the current, click any node to dig in."
+    crumbs={[{ label: "Research", href: "/areas" }]}
+  />
+  <Section class="!pt-8">
+    <ResearchGraph />
+    <p class="mt-4 text-xs text-base-content/60">
+      Topics are assigned automatically from paper titles, so a few papers may sit in an unexpected topic.
+      For complete per-person lists see the <a href="/publications" class="link">publications</a> page or each
+      <a href="/faculty" class="link">faculty profile</a>.
+    </p>
+  </Section>
+</BaseLayout>

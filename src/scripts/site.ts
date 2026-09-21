@@ -138,8 +138,31 @@ function initQuickView() {
     const dialog = document.getElementById(trigger.dataset.quickview!) as HTMLDialogElement | null;
     if (dialog?.showModal) {
       e.preventDefault();
+      trigger.closest<HTMLDialogElement>("dialog[open]")?.close(); // prev/next inside a modal
       dialog.showModal();
     }
+  });
+  // ← → step through quick views while one is open.
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    const open = document.querySelector<HTMLDialogElement>("dialog[open]");
+    open?.querySelector<HTMLElement>(e.key === "ArrowLeft" ? "[data-qv-prev]" : "[data-qv-next]")?.click();
+  });
+}
+
+/** [data-copy="text"] copies to the clipboard; a child [data-copy-label] briefly says "Copied". */
+function initCopy() {
+  document.addEventListener("click", async (e) => {
+    const btn = (e.target as Element).closest?.<HTMLElement>("[data-copy]");
+    if (!btn) return;
+    try {
+      await navigator.clipboard.writeText(btn.dataset.copy!);
+      const label = btn.querySelector<HTMLElement>("[data-copy-label]");
+      if (label) {
+        label.textContent = "Copied";
+        setTimeout(() => (label.textContent = "Copy"), 1500);
+      }
+    } catch {}
   });
 }
 
@@ -209,6 +232,7 @@ initSpotlight();
 initTilt();
 initMagnetic();
 initQuickView();
+initCopy();
 initNavbarScroll();
 initFilters();
 initCountUp();

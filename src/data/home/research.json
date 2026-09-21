@@ -31,9 +31,9 @@
     "href": "/areas"
   },
   {
-    "title": "Computer Vision & Deep Learning",
-    "blurb": "Object detection, affective computing, medical image processing and AI/ML for communications.",
-    "icon": "lucide:scan-eye",
+    "title": "Infrared Imaging & Non-destructive Testing",
+    "blurb": "Thermal and infrared imaging, non-destructive evaluation, sensing and instrumentation for power and industrial systems.",
+    "icon": "lucide:thermometer",
     "href": "/areas"
   }
 ]

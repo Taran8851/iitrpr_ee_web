@@ -1,4 +1,5 @@
 ---
+import { Icon } from "astro-icon/components";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageHero from "../components/ui/PageHero.astro";
 import Section from "../components/ui/Section.astro";
@@ -48,6 +49,9 @@ const datedYears = years.filter((y): y is number => y !== null);
       <StatCard dark value={types[2].n} label="Conference papers" icon="lucide:presentation" />
       <StatCard dark value={types[3].n} label="Patents" icon="lucide:lightbulb" />
     </div>
+    <a href="/research-graph" class="btn btn-primary mt-8 gap-2">
+      <Icon name="lucide:network" class="size-4" /> Explore the research graph
+    </a>
   </PageHero>
 
   <Section>

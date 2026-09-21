@@ -30,7 +30,7 @@ Reference sites for look & feel:
 - Subtle EE motifs: circuit-trace SVG lines in hero/section backgrounds, a slow "current flow"
   animated stroke on dividers, waveform/sine accents — decorative, low-contrast, CSS/SVG only
 - Research bento tiles: Power & Energy · VLSI & Microelectronics · Communication & Signal Processing ·
-  Control & Robotics · Computer Vision & ML · Devices & Photonics (final list from faculty areas)
+  Infrared Imaging & NDT · Devices & Photonics — keep the home page EE-first (no Computer Vision tile; user decision 2026-09-23)
 
 ### Blur usage rules (blur is a confirmed requirement)
 - Navbar: glass (`bg-base-100/70 backdrop-blur-md`) once scrolled
@@ -234,3 +234,6 @@ cd legacy-site && python3 -m http.server 8090
 - Icons: `astro-icon` with Lucide — `<Icon name="lucide:arrow-right" />`.
 - Page data: JSON in `src/data/<area>/`, imported directly in the page frontmatter.
 - Verify: `npm run build && npm run check:links`.
+- Research graph: `/research-graph` (force-graph) reads `/api/research-graph.json` (static endpoint) or
+  `PUBLIC_RESEARCH_GRAPH_URL` (live backend, same schema). Contract + Scholar sync: `docs/research-graph-api.md`,
+  `src/lib/research-graph.ts`, `scripts/scholar/sync_scholar.py`, topic rules in `src/data/graph/topics.json`.
