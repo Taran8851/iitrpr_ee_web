@@ -1,0 +1,274 @@
+---
+/**
+ * Faculty profile — /people/<id>. Data: src/data/people/<id>.json
+ * (generated from the legacy pages by scripts/extract/people.py).
+ */
+import { Icon } from "astro-icon/components";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Section from "../../components/ui/Section.astro";
+import SectionHeading from "../../components/ui/SectionHeading.astro";
+import GlowBlobs from "../../components/ui/GlowBlobs.astro";
+import ProfileHeader from "../../components/profile/ProfileHeader.astro";
+import PubGroup from "../../components/profile/PubGroup.astro";
+import Block from "../../components/profile/Block.astro";
+import type { Faculty, Activity, Project } from "../../components/profile/types";
+
+export function getStaticPaths() {
+  const files = import.meta.glob<{ default: Faculty }>("../../data/people/*.json", { eager: true });
+  return Object.values(files).map(({ default: p }) => ({ params: { id: p.id }, props: { p } }));
+}
+
+const { p } = Astro.props as { p: Faculty };
+const pubs = p.publications;
+const projectCount = p.researchProjects.length + p.consultancy.length;
+
+const stats = [
+  { label: "Journal papers", value: pubs.journal.length, href: "#journal", icon: "lucide:book-open" },
+  { label: "Conference papers", value: pubs.conference.length, href: "#conference", icon: "lucide:presentation" },
+  { label: "Patents", value: pubs.patents.length, href: "#patents", icon: "lucide:lightbulb" },
+  { label: "Projects", value: projectCount, href: "#projects", icon: "lucide:flask-conical" },
+].filter((s) => s.value > 0);
+
+const interestsAsChips = p.interests.length > 1 && p.interests.every((i) => i.split(/\s+/).length <= 8);
+
+const activities: { id: string; title: string; icon: string; items: Activity[] }[] = [
+  { id: "awards", title: "Awards & honours", icon: "lucide:award", items: p.awards },
+  { id: "events", title: "Events organised", icon: "lucide:calendar-check", items: p.events },
+  { id: "visits", title: "Academic visits & invited talks", icon: "lucide:plane", items: p.visits },
+  { id: "outreach", title: "Outreach activities", icon: "lucide:hand-heart", items: p.outreach },
+  { id: "misc", title: "Miscellaneous", icon: "lucide:sparkles", items: p.misc },
+].filter((a) => a.items.length > 0);
+
+const has = {
+  about: p.intro.length + p.briefProfile.length + p.interests.length + p.qualifications.length + p.affiliations.length > 0,
+  publications: pubs.journal.length + pubs.conference.length + pubs.books.length + pubs.patents.length > 0,
+  projects: projectCount > 0,
+  teaching: p.courses.length + p.phdSupervised.length + p.adminRoles.length > 0,
+  honours: activities.length + p.studentAchievements.length > 0,
+};
+const nav = [
+  { id: "about", label: "About", icon: "lucide:user-round", show: has.about },
+  { id: "publications", label: "Publications", icon: "lucide:library", show: has.publications },
+  { id: "projects", label: "Projects", icon: "lucide:flask-conical", show: has.projects },
+  { id: "teaching", label: "Teaching", icon: "lucide:graduation-cap", show: has.teaching },
+  { id: "honours", label: "Honours & activities", icon: "lucide:award", show: has.honours },
+].filter((n) => n.show);
+
+const firstPub = (["journal", "conference", "books", "patents"] as const).find((k) => pubs[k].length > 0);
+const amount = (a?: string) => {
+  const n = Number(a);
+  return a && Number.isFinite(n) && n > 0 ? `₹${n.toLocaleString("en-IN", { maximumFractionDigits: 2 })} lakh` : "";
+};
+---
+
+<BaseLayout
+  title={p.name}
+  description={`${p.name}${p.designation ? `, ${p.designation}` : ""} — Department of Electrical Engineering, IIT Ropar. Research, publications, projects and teaching.`}
+>
+  <ProfileHeader p={p} stats={stats} />
+
+  {nav.length > 1 && (
+    <nav aria-label="Profile sections" class="glass sticky top-[4.5rem] z-30 border-x-0 border-t-0">
+      <ul class="mx-auto flex max-w-7xl gap-1 overflow-x-auto px-4 py-2">
+        {nav.map((n) => (
+          <li class="shrink-0">
+            <a href={`#${n.id}`} class="btn btn-ghost btn-sm font-medium"><Icon name={n.icon} class="size-4 text-primary" />{n.label}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  )}
+
+  <Section>
+    <GlowBlobs variant="sides" />
+    <div class="space-y-20">
+      {nav.length === 0 && (
+        <p class="rounded-2xl border border-dashed border-base-content/20 p-10 text-center text-base-content/70">
+          A detailed profile will be added soon. For enquiries, please use the contact details above.
+        </p>
+      )}
+
+      {has.about && (
+        <section id="about" class="scroll-mt-36">
+          <SectionHeading eyebrow="Profile" title="About" />
+          <div class="grid gap-6 lg:grid-cols-3">
+            <div class="space-y-6 lg:col-span-2">
+              {p.intro.length > 0 && (
+                <Block title="Introduction" icon="lucide:user-round">
+                  <div class="max-w-prose space-y-3 leading-relaxed text-base-content/85">{p.intro.map((t) => <p>{t}</p>)}</div>
+                </Block>
+              )}
+              {p.briefProfile.length > 0 && (
+                <Block title="Research profile" icon="lucide:microscope">
+                  <div class="max-w-prose space-y-3 leading-relaxed text-base-content/85">{p.briefProfile.map((t) => <p>{t}</p>)}</div>
+                </Block>
+              )}
+              {p.interests.length > 0 && (
+                <Block title="Research interests" icon="lucide:zap">
+                  {interestsAsChips ? (
+                    <ul class="flex flex-wrap gap-2">
+                      {p.interests.map((t) => <li class="badge badge-lg badge-primary badge-soft h-auto py-1.5">{t.replace(/\.$/, "")}</li>)}
+                    </ul>
+                  ) : p.interests.length === 1 ? (
+                    <p class="max-w-prose leading-relaxed text-base-content/85">{p.interests[0]}</p>
+                  ) : (
+                    <ul class="list-disc space-y-1.5 pl-5 marker:text-primary">{p.interests.map((t) => <li>{t}</li>)}</ul>
+                  )}
+                </Block>
+              )}
+            </div>
+            <div class="space-y-6">
+              {p.qualifications.length > 0 && (
+                <Block title="Qualifications" icon="lucide:graduation-cap">
+                  <ul class="space-y-3">
+                    {p.qualifications.map((q) => (
+                      <li class="flex gap-3 text-sm"><span class="mt-1.5 size-2 shrink-0 rounded-full bg-primary"></span>{q}</li>
+                    ))}
+                  </ul>
+                </Block>
+              )}
+              {p.affiliations.length > 0 && (
+                <Block title="Professional affiliations" icon="lucide:network">
+                  <ul class="space-y-3">
+                    {p.affiliations.map((a) => (
+                      <li class="flex gap-3 text-sm"><span class="mt-1.5 size-2 shrink-0 rounded-full bg-secondary"></span>{a}</li>
+                    ))}
+                  </ul>
+                </Block>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {has.publications && (
+        <section id="publications" class="scroll-mt-36">
+          <SectionHeading eyebrow="Research output" title="Publications" />
+          <div class="space-y-4">
+            {pubs.journal.length > 0 && <PubGroup id="journal" title="Journal papers" icon="lucide:book-open" pubs={pubs.journal} open={firstPub === "journal"} />}
+            {pubs.conference.length > 0 && <PubGroup id="conference" title="Conference papers" icon="lucide:presentation" pubs={pubs.conference} open={firstPub === "conference"} />}
+            {pubs.books.length > 0 && <PubGroup id="books" title="Books & book chapters" icon="lucide:book" books={pubs.books} open={firstPub === "books"} />}
+            {pubs.patents.length > 0 && <PubGroup id="patents" title="Patents" icon="lucide:lightbulb" books={pubs.patents} open={firstPub === "patents"} />}
+          </div>
+        </section>
+      )}
+
+      {has.projects && (
+        <section id="projects" class="scroll-mt-36">
+          <SectionHeading eyebrow="Funded work" title="Projects & consultancy" />
+          <div class="space-y-6">
+            {[
+              { title: "Research projects", icon: "lucide:flask-conical", items: p.researchProjects },
+              { title: "Consultancy projects", icon: "lucide:briefcase", items: p.consultancy },
+            ].filter((g) => g.items.length > 0).map((g) => (
+              <Block title={g.title} icon={g.icon} count={g.items.length}>
+                <ul class="grid gap-3 md:grid-cols-2">
+                  {g.items.map((r: Project) => (
+                    <li class="rounded-xl border border-base-content/5 bg-base-200/50 p-4">
+                      <p class="font-semibold leading-snug">{r.title}</p>
+                      {r.agency && <p class="mt-1 text-sm text-base-content/70">{r.agency}</p>}
+                      <div class="mt-3 flex flex-wrap gap-2 text-xs">
+                        {r.role && <span class="badge badge-primary badge-soft badge-sm">{r.role}</span>}
+                        {r.period && <span class="badge badge-ghost badge-sm"><Icon name="lucide:calendar" class="size-3" />{r.period}</span>}
+                        {amount(r.amount) && <span class="badge badge-secondary badge-soft badge-sm">{amount(r.amount)}</span>}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </Block>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {has.teaching && (
+        <section id="teaching" class="scroll-mt-36">
+          <SectionHeading eyebrow="Academics" title="Teaching & supervision" />
+          <div class="space-y-6">
+            {p.courses.length > 0 && (
+              <Block title="Courses taught" icon="lucide:book-marked" count={p.courses.length}>
+                <div class="overflow-x-auto">
+                  <table class="table table-zebra table-sm">
+                    <thead>
+                      <tr><th>Code</th><th>Course</th><th>L-T-P-S-C</th><th>Type</th><th>Programme</th><th>Offered</th></tr>
+                    </thead>
+                    <tbody>
+                      {p.courses.map((c) => (
+                        <tr>
+                          <td class="font-mono font-semibold whitespace-nowrap text-primary">{c.code}</td>
+                          <td class="min-w-48">{c.title}</td>
+                          <td class="font-mono whitespace-nowrap">{c.ltpsc}</td>
+                          <td>{c.type}</td>
+                          <td class="whitespace-nowrap">{c.degree}</td>
+                          <td class="min-w-40 text-base-content/70">{c.offerings.join("; ")}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </Block>
+            )}
+            <div class="grid gap-6 md:grid-cols-2">
+              {p.phdSupervised.length > 0 && (
+                <Block title="PhD research supervised" icon="lucide:users" count={p.phdSupervised.length}>
+                  <ol class="list-decimal space-y-1.5 pl-5 marker:text-primary">{p.phdSupervised.map((s) => <li>{s}</li>)}</ol>
+                </Block>
+              )}
+              {p.adminRoles.length > 0 && (
+                <Block title="Administrative responsibilities" icon="lucide:key-round" count={p.adminRoles.length}>
+                  <ul class="list-disc space-y-1.5 pl-5 marker:text-primary">{p.adminRoles.map((s) => <li>{s}</li>)}</ul>
+                </Block>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {has.honours && (
+        <section id="honours" class="scroll-mt-36">
+          <SectionHeading eyebrow="Recognition" title="Honours & activities" />
+          <div class="space-y-6">
+            {p.studentAchievements.length > 0 && (
+              <Block title="Student achievements" icon="lucide:megaphone" count={p.studentAchievements.length}>
+                <ul class="space-y-3">
+                  {p.studentAchievements.map((s) => (
+                    <li class="flex gap-3 text-sm"><Icon name="lucide:trophy" class="mt-0.5 size-4 shrink-0 text-secondary" />{s}</li>
+                  ))}
+                </ul>
+              </Block>
+            )}
+            {activities.map((a) => (
+              <Block title={a.title} icon={a.icon} id={a.id} count={a.items.length}>
+                <ul class="grid gap-3 md:grid-cols-2">
+                  {a.items.map((it) => (
+                    <li class="overflow-hidden rounded-xl border border-base-content/5 bg-base-200/50">
+                      {it.image && (
+                        <a href={it.image} class="glightbox block" data-gallery={`${p.id}-${a.id}`}>
+                          <img src={it.image} alt={it.title ?? ""} loading="lazy" class="aspect-video w-full object-cover" />
+                        </a>
+                      )}
+                      <div class="p-4">
+                        {it.title && <p class="font-semibold leading-snug">{it.title}</p>}
+                        {it.body && <p class="mt-1 text-sm text-base-content/75">{it.body}</p>}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </Block>
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+  </Section>
+</BaseLayout>
+
+<script>
+  // Stat chips / nav link to a publication <details>: open it when targeted.
+  const openTarget = () => {
+    const el = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (el instanceof HTMLDetailsElement) el.open = true;
+  };
+  addEventListener("hashchange", openTarget);
+  openTarget();
+</script>

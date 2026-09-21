@@ -1,0 +1,347 @@
+{
+  "id": "mahendra",
+  "studentAchievements": [],
+  "photo": "/images/legacy/8414b7d33796.jpg",
+  "name": "Mahendra Sakare",
+  "designation": "Assistant Professor",
+  "address": "Office location: Room no. 315, 2nd floor, J C Bose block. Department of Electrical Engineering Indian Institute of Technology Ropar Rupnagar, Punjab - 140001, India",
+  "email": "mahendra@iitrpr.ac.in",
+  "phone": "+91-1881-23-2214",
+  "scholar": "https://scholar.google.co.in/citations?user=tNQyN5sAAAAJ&hl=en",
+  "website": "https://sites.google.com/a/iitrpr.ac.in/mahendra/home",
+  "otherLinks": [
+    {
+      "label": "https://www.linkedin.com/in/mahendra-sakare-238134b/?originalSubdomain=in",
+      "href": "https://www.linkedin.com/in/mahendra-sakare-238134b/?originalSubdomain=in"
+    },
+    {
+      "label": "https://www.researchgate.net/profile/Mahendra-Sakare-2",
+      "href": "https://www.researchgate.net/profile/Mahendra-Sakare-2"
+    }
+  ],
+  "intro": [
+    "Dr. Mahendra Sakare has been a faculty member in the Department of Electrical Engineering at the Indian Institute of Technology (IIT) Ropar since 2018. He completed his PhD from IIT Bombay in the year 2017. He was also a faculty member of the Department of Electronics and Communication Engineering at NIT Surathkal and NIT Rourkela for a very short period of time before joining IIT Ropar."
+  ],
+  "qualifications": [
+    "Doctor of Philosophy (Ph.D.) Electrical Engineering Indian Institute of Technology Bombay Mumbai India",
+    "Master of Technology (M. Tech.) Microelectronics and VLSI SGSITS Indore Madhya Pradesh India",
+    "Bachelor of Engineering (B. E.) Electrical Engineering RGPV Bhopal Madhya Pradesh India."
+  ],
+  "interests": [
+    "CMOS analog integrated circuit design.",
+    "High speed CMOS integrated circuits and systems.",
+    "ASIC for High frequency applications."
+  ],
+  "briefProfile": [
+    "A broad area of his research is analog circuit design. More specifically, his research focuses on high-speed integrated circuit design for chip-to-chip communication."
+  ],
+  "publications": {
+    "journal": [
+      {
+        "authors": "Puneet Singh, Mayank, Vinayak Hande, and Mahendra Sakare",
+        "title": "An active inductor employed CML latch for high speed integrated circuits",
+        "venue": "Analog Integrated Circuits and Signal Processing",
+        "volume": "114",
+        "pages": "pages 277–286",
+        "year": "2022",
+        "url": "https://doi.org/10.1007/s10470-022-02070-7"
+      },
+      {
+        "authors": "Mahendra Sakare",
+        "title": "A Power and Area Efficient Architecture of a PRBS Generator With Multiple Output",
+        "venue": "Transactions on circuits and systems - part II: Express briefs",
+        "volume": "64",
+        "pages": "pp. 927-931",
+        "year": "2017",
+        "url": "https://doi.org/doi: 10.1109/TCSII.2016.2641582"
+      },
+      {
+        "authors": "Mahendra Sakare, Pavan Kumar Sadhu and Shalabh Gupta",
+        "title": "Bandwidth enhancement of flip-flops using feedback for high-speed integrated circuits",
+        "venue": "Transactions on Circuits and Systems II: Express Briefs",
+        "volume": "63",
+        "pages": "pp. 768-772",
+        "year": "2016",
+        "url": "https://doi.org/doi: 10.1109/TCSII.2016.2531098"
+      }
+    ],
+    "conference": [
+      {
+        "authors": "Zahid Rashid Sheikh, Taranveer Kaur, Rajasekhar Nagulapalli, Hitesh Shrimali,Mahendra Sakare",
+        "title": "A 5.4mW 12GHz Quadrature VCO using current reusing technique in 28nm CMOS technology",
+        "venue": "ICCCNT",
+        "pages": "1-5",
+        "year": "novalue"
+      },
+      {
+        "authors": "Mayank Kumar Singh, Hirensh Mehra, Taranveer Kaur, Rajasekhar Nagulapalli, Devarshi das, and Mahendra Sakare",
+        "title": "A 15.4 ppm/oC Improved Current Mode Bandgap with 0.9 V Supply in 28 nm CMOS",
+        "venue": "IEEE Int. Conference on Integrated Circuits, Communication and Computing Systems (ICIC3S)",
+        "volume": "-",
+        "pages": "-",
+        "year": "2024",
+        "url": "https://doi.org/Accepted"
+      },
+      {
+        "authors": "Mayank Kumar Singh, Rajasekhar Nagulapalli, Devarshi das, and Mahendra Sakare",
+        "title": "An RC-based Dual Injection locked Delay Cell for\\nHigh-Frequency Ring VCOs",
+        "venue": "35th Irish Signal and System Conference",
+        "volume": "-",
+        "pages": "-",
+        "year": "2024",
+        "url": "https://doi.org/Accepted"
+      },
+      {
+        "authors": "Puneet Singh, Rahul Walia, Rajasekhar Nagulapalli, and Mahendra Sakare",
+        "title": "A linear improved equalizers for short-channel communication link",
+        "venue": "35th Irish Signal and System Conference",
+        "volume": "-",
+        "pages": "-",
+        "year": "2024",
+        "url": "https://doi.org/Accepted"
+      },
+      {
+        "authors": "Hirensh Mehra, Mayank Kumar Singh, Zahid Rashid Sheikh, Mahendra Sakare, and Rajasekhar Nagulapalli",
+        "title": "A Noise and Mismatch Improved Charge Pump for PLL in 28nm CMOS Technology",
+        "venue": "ICIC3S",
+        "volume": "-",
+        "year": "2024"
+      },
+      {
+        "authors": "Mayank Kumar Singh, Puneet Singh, Devarshi das, and Mahendra Sakare",
+        "title": "A low power 8× 27-1 PRBS generator using Exclusive-OR gate merged D flip-flops",
+        "venue": "Midwest Symposium on Circuits and Systems (MWSCAS)",
+        "volume": "-",
+        "pages": "779-782",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/MWSCAS47672.2021.9531827"
+      },
+      {
+        "authors": "Puneet Singh, Mayank, Vinayak Hande, and Mahendra Sakare",
+        "title": "Design of a PRBS generator and a serializer using active inductor employed CML latch",
+        "venue": "Midwest Symposium on Circuits and Systems (MWSCAS)",
+        "volume": "-",
+        "pages": "pages 802-805",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/MWSCAS47672.2021.9531752"
+      }
+    ],
+    "books": [],
+    "patents": [
+      {
+        "kind": "Patent",
+        "title": "A symmetrical differential exclusive XOR gate",
+        "publisher": "Indian",
+        "year": "2021",
+        "authors": "Mahendra Sakare, Puneet Singh, and Mayank Kumar Singh"
+      },
+      {
+        "kind": "Patent",
+        "title": "A Circuit facilitating optimisation of data frequency and power consumption and a method thereof",
+        "publisher": "Indian",
+        "year": "2023",
+        "authors": "Mahendra Sakare, Puneet Singh, and Mayank Kumar Singh"
+      },
+      {
+        "kind": "Patent",
+        "title": "An equalizer and method of operation thereof",
+        "publisher": "Indian",
+        "year": "2023",
+        "authors": "Mahendra Sakare, Puneet Singh, Rahul Walia, and Raja Sekhar Nagulapalli"
+      },
+      {
+        "kind": "Patent",
+        "title": "A linearity improved equalizers for short-channel communication links",
+        "publisher": "Indian",
+        "year": "2024",
+        "authors": "Mahendra Sakare, Puneet Singh, Rahul Walia, and Raja Sekhar Nagulapalli"
+      },
+      {
+        "title": "Patent, \"A phase frequency detector and its method of operation thereof\" ISBN: published by - Indian Year: 8th March 2024 authors- Mayank Kumar Singh, Hirensh Mehra, Rajasekhar Nagulapalli, and Mahendra Sakare"
+      },
+      {
+        "title": "Patent, \"An electronic device and fabrication method thereof\" ISBN: published by - Indian Year: 30th Nov 2023 authors- Mayank Kumar Singh, Upendra Chichhula, Rajasekhar Nagulapalli, and Mahendra Sakare"
+      },
+      {
+        "title": "Patent, \"Bandgap reference (BGR) circuit for generating BGR voltage and a method\\nthereof\" ISBN: published by - US Patent Year: 27th Sept 2023 authors- Mayank Kumar Singh, Rajasekhar Nagulapalli, and Mahendra Sakare"
+      },
+      {
+        "title": "Patent, \"A constant slope circuit for high-speed applications,\" ISBN: published by - Indian Year: 11th Feb 2022 authors- Mayank Kumar Singh, Puneet Singh, and Mahendra Sakare"
+      },
+      {
+        "title": "Patent, \"A Single-Tank Quadrature Voltage Controlled Oscillator (QVCO) and method of Operation thereof\" ISBN: published by - Indian Year: 12th Feb 2024 authors- Mayank Kumar Singh, Hirensh Mehra, Rajasekhar Nagulapalli, and Mahendra Sakare"
+      },
+      {
+        "title": "Patent, \"A Resistor Assisted Supply Sensitivity Improved Ring Oscillator for Wireline and Wireless Applications\" ISBN: published by - Indian Year: 25th Sept 2024 authors- Mayank Kumar Singh, Hirensh Mehra, Rajasekhar Nagulapalli, and Mahendra Sakare"
+      },
+      {
+        "kind": "Patent",
+        "title": "AN IMPROVED ULTRA-LOW MISMATCH CHARGE PUMP CIRCUIT FOR SERIALIZER/DESERIALIZER (SERDES) SYSTEMS",
+        "publisher": "Indian",
+        "year": "24/06/2024",
+        "authors": "Hirensh Mehra, Mayank Kumar Singh, Puneet Singh, Mahendra Sakare, and Rajasekhar Nagulapalli"
+      },
+      {
+        "kind": "Patent",
+        "title": "A Noise and Mismatch Improved Resistor-based Charge Pump for Serializer/Deserializer (SerDes) applications.",
+        "publisher": "Indian",
+        "year": "-",
+        "authors": "Hirensh Mehra, Mayank Kumar Singh, Mahendra Sakare, and Rajasekhar Nagulapalli"
+      },
+      {
+        "title": "Patent, \"A dual tank technique to improve the Phase Noise of the VCO\" ISBN: published by - Indian Year: 25th April 2024 authors- Zahid Rashid Sheikh, Rajasekhar Nagulapalli, Hitesh Shrimali,Mahendra Sakare"
+      },
+      {
+        "title": "Patent, \"12GHz Quadrature VCO using the current reusing technique\" ISBN: published by - Indian Year: 2nd july 2024 authors- Zahid Rashid Sheikh, Taranveer Kaur, Rajasekhar Nagulapalli, Hitesh Shrimali,Mahendra Sakare"
+      }
+    ]
+  },
+  "affiliations": [],
+  "researchProjects": [
+    {
+      "title": "6 Gb/s transciever design\\r\\nfor chip to chip communication",
+      "agency": "ISIRD, IIT Ropar",
+      "role": "PI",
+      "period": "2019 - 2019",
+      "amount": "7.000"
+    },
+    {
+      "title": "Support for lab equipment (RF source generator)",
+      "agency": "ISIRD, IIT Ropar",
+      "role": "PI",
+      "period": "2021 - 2021",
+      "amount": "107.000"
+    },
+    {
+      "title": "Low power programmable multiple uncorrelated output PRBS generator integrated circuit",
+      "agency": "CRG, SERB, GoI",
+      "role": "PI",
+      "period": "2022 - 2025",
+      "amount": "26.000"
+    },
+    {
+      "title": "ASIC and Package Design of Ultra Small Atomic Clock",
+      "agency": "Ministry of Electronics and Information Technology (MeitY) - C2S program",
+      "role": "CO-PI",
+      "period": "2023 - 2028",
+      "amount": "285.000"
+    }
+  ],
+  "consultancy": [
+    {
+      "title": "Audit of ClllTs of I. K. Gujral Punjab Technical University, Kapurthala (Hub) and Jabbowal, Sultanpur Lodhi (Spoke)",
+      "agency": "I. K. Gujral Punjab Technical University, Punjab.",
+      "period": "2022 - 2022",
+      "amount": "11.800"
+    }
+  ],
+  "courses": [
+    {
+      "code": "EE301",
+      "title": "Analog circuits",
+      "ltpsc": "3-1-0-5-3",
+      "type": "core",
+      "degree": "B.tech.",
+      "offerings": [
+        "2024 · Semester I",
+        "2023 · Semester I",
+        "2022 · Semester I",
+        "2021 · Semester I",
+        "2020 · Semester I"
+      ]
+    },
+    {
+      "code": "EE302",
+      "title": "Analog Circuits Lab",
+      "ltpsc": "0-0-3-1.5-1.5",
+      "type": "core",
+      "degree": "B.tech.",
+      "offerings": [
+        "2024 · Semester I",
+        "2023 · Semester I",
+        "2022 · Semester I",
+        "2021 · Semester I",
+        "2020 · Semester I"
+      ]
+    }
+  ],
+  "phdSupervised": [],
+  "adminRoles": [
+    "DC member of Sunil Pathania (2017EEZ0005), Saurabh Jaiswal (2019csz0009), Prabuddha sinha (2019csz0008),",
+    "I am one of the faculties who proposed MTech (Microelectronics and VLSI design) at IIT Ropar.",
+    "Developed Electrical hardware part for Tinkering lab, which was conducted for the first time after revised UG curriculum. Since then, the same equipment is in use.",
+    "Faculty advisor of the 2020 EE batch, IIT Ropar.",
+    "Departmental representative of Academic Committee for Continuing Education and Outreach Activities (ACCEOA) at IIT Ropar.",
+    "Contributed as web chair in organizing committee in International Conference on Advances in VLSI and Embedded Systems (AVES) 2019 conducted by SVNIT Surat India.",
+    "Departmental member for PMRF Shortlisting Policy and shortlisting for year 2021 and 2022.",
+    "Departmental member of Committee for organizing \"Dynamic Website Challenge\" for year 2023.",
+    "Served as a reviewer in the 4th EAI International Conference on Cognitive Computing and Cyber-Physical Systems 2023.",
+    "Electrical Engineering department representative for Visvesvaraya PhD scheme from July 2023.",
+    "Faculty advisor of Jammu & Kasmir cell at IIT Ropar w.e.f. 14 May 2024.",
+    "Faculty member of Anti Ragging Squad (ARS) 2024 of IIT Ropar.",
+    "Member of advisory committee for construction and planning (ACCP) 2024 of IIT Ropar."
+  ],
+  "awards": [
+    {
+      "title": "Received International travel support (ITS) - DST (File no. SB/ITS/0779/2014-15) in 2014."
+    }
+  ],
+  "events": [],
+  "visits": [
+    {
+      "title": "VLSI Physical Design Techniques",
+      "body": "Delivered two expert talks/lectures on online short term course on “VLSI Physical Design Techniques” conducted by National Institute of Technical Technical Teachers Training & Research, Chandigarh, Punjab, India held on 19 June 2020."
+    },
+    {
+      "title": "Mixed Signal and Radio Frequency VLSI Design",
+      "body": "Delivered two expert talks/lectures in AICTE Sponsored Short Term Training Programme on \" Mixed Signal and Radio Frequency VLSI Design\" on 08 Dec 2020 and 18 Dec 2020, respectively conducted by SGSITS Indore Madhya Pradesh."
+    },
+    {
+      "title": "Emerging Trends in RF and Energy device and Circuits",
+      "body": "Delivered an expert talk/lecture in online Faculty Development Program under the MOU with AICTE on “Emerging Trends in RF and Energy device and Circuits” on 23rd Feb 2021 conducted by NIT Meghalaya."
+    },
+    {
+      "title": "Emerging Nanoscale Devices, Circuits and Its Applications",
+      "body": "Delivered an expert talk/lecture in online Short-Term Training Program on “Emerging Nanoscale Devices, Circuits and Its Applications” on 12th May 2021 that was organized and sponsored by Department of Electronics and Communication Engineering, Delhi Technological University between May 10-14, 2021."
+    },
+    {
+      "title": "high performance Analog and Mixed signal VLSI System design",
+      "body": "Delivered expert talk/lectures in online AICTE training and learning (ATAL) faculty development programme (FDP) on \"high performance Analog and Mixed signal VLSI System design\" on 16th Dec 2021 (Full day) and 17th Dec 2021 (one lecture) that was organized by IIT Dharwad and sponsored by All India Council for Technical Education (AICTE) between Dec 13-17, 2021."
+    },
+    {
+      "title": "Advances in Signal Processing and VLSI Technologies",
+      "body": "Delivered an expert talk/lecture in an online short-term course (STC) on \" Advances in Signal Processing and VLSI Technologies\" on 6th May 2022 that was organized by NIT Rourkela and sponsored by SERB GoI between 2-6 May 2022."
+    },
+    {
+      "title": "Artificial Intelligence and Its Application in VLSI",
+      "body": "Delivered two expert talks/lectures for the faculty development program (FDP) on \"Artificial Intelligence and Its Application in VLSI\" conducted by the Department of Electronics and Communication Engineering, SRM Institute of Science and Technology, Delhi NCR Campus, Ghaziabad, in association with Electronics and ICT Academy of IIT Roorkee from 8th to 12th January 2024 on online mode."
+    },
+    {
+      "title": "India's Techade-Chips for Viksit Bharat",
+      "body": "Delivered one expert talk for India's Techade-Chips for Viksit Bharat at Indian Institute of Information Technology (IIIT) Una on 13th March 2024 on online mode."
+    },
+    {
+      "title": "Advancement and Challenges in VLSI Design and Nanoscale Devices",
+      "body": "Delivered one expert talk (Date: 29/05/2024) in on a one-week Faculty Development Program on “Advancement and Challenges in VLSI Design and Nanoscale Devices” held between May 27-31, 2024 organized by the Department of Electronics and Communication Engineering, Delhi Technological University, Delhi-110042."
+    },
+    {
+      "title": "Implementing AI-driven Solutions in Engineering and Technology",
+      "body": "Delivered one expert talk (Date: 26/09/2024) in Faculty Development Program (FDP) on “Implementing AI-driven Solutions in Engineering and Technology” held between September 23-28, 2024 organized by SCHOOL OF ENGINEERING & TECHNOLOGY IIMT UNIVERSITY, MEERUT."
+    }
+  ],
+  "outreach": [
+    {
+      "title": "Part of InterIIT staff badminton team, tournament held at IIT Guwahati on December 2018."
+    },
+    {
+      "title": "Won first prize in Hindi poem competition held on 24 June 2019 at IIT Ropar."
+    },
+    {
+      "title": "Won first prize in Hindi poem competition held on 19 September 2019 at IIT Ropar."
+    },
+    {
+      "title": "Won second prize in Hindi poem competition held on 18 October 2019 at IIT Ropar."
+    }
+  ],
+  "misc": []
+}

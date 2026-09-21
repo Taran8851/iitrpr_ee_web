@@ -1,0 +1,123 @@
+---
+/** Dark navy hero with a glass-dark profile card, contact rows, link buttons and stat chips. */
+import { Icon } from "astro-icon/components";
+import CircuitBg from "../ui/CircuitBg.astro";
+import type { Faculty } from "./types";
+
+interface Props {
+  p: Faculty;
+  stats: { label: string; value: number; href: string; icon: string }[];
+}
+const { p, stats } = Astro.props;
+const initials = p.name.split(/\s+/).filter((w) => /^[A-Z]/.test(w)).map((w) => w[0]).slice(0, 2).join("");
+const digits = p.phone.replace(/\D/g, "");
+const tel = digits.length >= 10 ? `tel:+${digits.length === 10 ? "91" + digits : digits}` : undefined;
+const hostOf = (u: string) => {
+  try {
+    return new URL(u).hostname.replace(/^www\./, "");
+  } catch {
+    return u;
+  }
+};
+---
+<section class="relative isolate overflow-hidden bg-[#0b1629] text-white">
+  <CircuitBg class="text-cyan-300 opacity-[0.08]" animated />
+  <div aria-hidden="true" class="absolute -right-24 -top-24 -z-10 size-96 rounded-full bg-amber-500/25 blur-[120px]"></div>
+  <div aria-hidden="true" class="absolute -bottom-32 left-10 -z-10 size-96 rounded-full bg-cyan-500/20 blur-[120px]"></div>
+
+  <div class="mx-auto max-w-7xl px-4 pb-12 pt-10 md:pb-16 md:pt-14">
+    <div class="mb-6 flex flex-wrap items-center justify-between gap-3">
+      <div class="breadcrumbs p-0 text-sm text-white/70">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/faculty">Faculty</a></li>
+          <li class="text-white">{p.name}</li>
+        </ul>
+      </div>
+      <a href="/faculty" class="btn btn-sm btn-ghost text-white/80 hover:bg-white/10">
+        <Icon name="lucide:arrow-left" class="size-4" /> Back to faculty
+      </a>
+    </div>
+
+    <div class="glass-dark rounded-3xl p-5 md:p-8" data-aos="fade-up">
+      <div class="flex flex-col gap-6 md:flex-row md:items-start">
+        <div class="mx-auto w-40 shrink-0 md:mx-0 md:w-48">
+          {p.photo ? (
+            <img src={p.photo} alt={`Photo of ${p.name}`} class="aspect-[4/5] w-full rounded-2xl object-cover object-top ring-2 ring-amber-400/40" />
+          ) : (
+            <div class="flex aspect-[4/5] w-full items-center justify-center rounded-2xl bg-white/10 font-display text-5xl font-bold text-white/50">{initials}</div>
+          )}
+        </div>
+
+        <div class="min-w-0 flex-1">
+          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-amber-400">Faculty · Electrical Engineering</p>
+          <h1 class="mt-2 font-display text-3xl font-bold md:text-5xl">{p.name}</h1>
+          {p.designation && <p class="mt-2 text-lg text-cyan-200">{p.designation}</p>}
+
+          <ul class="mt-5 grid gap-2 text-sm text-white/85 sm:grid-cols-2">
+            {p.email && (
+              <li class="flex gap-2"><Icon name="lucide:mail" class="mt-0.5 size-4 shrink-0 text-amber-400" /><a href={`mailto:${p.email}`} class="break-all hover:underline">{p.email}</a></li>
+            )}
+            {p.phone && (
+              <li class="flex gap-2"><Icon name="lucide:phone" class="mt-0.5 size-4 shrink-0 text-amber-400" />{tel ? <a href={tel} class="hover:underline">{p.phone}</a> : <span>{p.phone}{digits.length <= 5 && " (ext.)"}</span>}</li>
+            )}
+            {p.address && (
+              <li class="flex gap-2 sm:col-span-2"><Icon name="lucide:map-pin" class="mt-0.5 size-4 shrink-0 text-amber-400" />{p.address}</li>
+            )}
+          </ul>
+
+          <div class="mt-6 flex flex-wrap gap-2">
+            {p.scholar && (
+              <a href={p.scholar} target="_blank" rel="noopener" class="btn btn-primary btn-sm"><Icon name="lucide:graduation-cap" class="size-4" />Google Scholar</a>
+            )}
+            {p.website && (
+              <a href={p.website} target="_blank" rel="noopener" class="btn btn-sm border-white/20 bg-white/10 text-white hover:bg-white/20"><Icon name="lucide:globe" class="size-4" />Website</a>
+            )}
+            {p.otherLinks.map((l) => (
+              <a href={l.href} target="_blank" rel="noopener" class="btn btn-sm border-white/20 bg-white/10 text-white hover:bg-white/20"><Icon name="lucide:external-link" class="size-4" />{hostOf(l.href)}</a>
+            ))}
+            {p.email && (
+              <a href={`mailto:${p.email}`} class="btn btn-sm border-white/20 bg-white/10 text-white hover:bg-white/20"><Icon name="lucide:send" class="size-4" />Email</a>
+            )}
+            <button type="button" data-share class="btn btn-sm border-white/20 bg-white/10 text-white hover:bg-white/20">
+              <Icon name="lucide:share-2" class="size-4" /><span data-share-label>Share</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {stats.length > 0 && (
+        <div class="mt-8 grid grid-cols-2 gap-3 border-t border-white/10 pt-6 sm:grid-cols-4">
+          {stats.map((s) => (
+            <a href={s.href} class="group rounded-2xl border border-white/10 bg-white/5 p-4 transition hover:border-amber-400/50 hover:bg-white/10">
+              <Icon name={s.icon} class="mb-2 size-5 text-cyan-300" />
+              <p class="font-display text-3xl font-bold"><span data-countup={s.value}>{s.value}</span></p>
+              <p class="text-sm text-white/70 group-hover:text-white">{s.label}</p>
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+</section>
+
+<script>
+  // Share: native share sheet where available, else copy the URL.
+  document.querySelectorAll<HTMLButtonElement>("[data-share]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const data = { title: document.title, url: location.href };
+      if (navigator.share) {
+        try { await navigator.share(data); } catch {}
+        return;
+      }
+      const label = btn.querySelector("[data-share-label]");
+      try {
+        await navigator.clipboard.writeText(location.href);
+        if (label) label.textContent = "Link copied";
+      } catch {
+        if (label) label.textContent = "Copy failed";
+      }
+      setTimeout(() => label && (label.textContent = "Share"), 2000);
+    });
+  });
+</script>

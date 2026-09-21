@@ -1,0 +1,13 @@
+---
+/** Titled sub-block inside a profile section (card surface, icon + heading). */
+import { Icon } from "astro-icon/components";
+interface Props { title: string; icon: string; id?: string; count?: number }
+const { title, icon, id, count } = Astro.props;
+---
+<div id={id} class="scroll-mt-36 rounded-2xl border border-base-content/10 bg-base-100 p-5 shadow-sm md:p-6" data-aos="fade-up">
+  <h3 class="mb-4 flex items-center gap-2 text-lg font-semibold">
+    <Icon name={icon} class="size-5 text-primary" />{title}
+    {count !== undefined && <span class="badge badge-primary badge-soft">{count}</span>}
+  </h3>
+  <slot />
+</div>

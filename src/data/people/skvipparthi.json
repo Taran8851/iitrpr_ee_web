@@ -1,0 +1,608 @@
+{
+  "id": "skvipparthi",
+  "studentAchievements": [],
+  "photo": "/images/legacy/e6090a3de5e5.jpg",
+  "name": "Santosh Kumar Vipparthi",
+  "designation": "Associate Professor",
+  "address": "IIT Ropar",
+  "email": "skvipparthi@iitrpr.ac.in",
+  "phone": "9549658135",
+  "scholar": "https://scholar.google.co.in/citations?hl=en&user=JWSfd7YAAAAJ&view_op=list_works&sortby=pubdate",
+  "website": "https://skvipparthi.github.io/",
+  "otherLinks": [
+    {
+      "label": "https://visionintelligence.github.io/",
+      "href": "https://visionintelligence.github.io/"
+    }
+  ],
+  "intro": [
+    "Dr. Santosh Kumar Vipparthi, a distinguished member of IEEE, brings over 12 years of experience spanning academia and industry. He is presently serving as an Assistant Professor at the Indian Institute of Technology Ropar (IIT Ropar), India. Prior to this, he held positions at the Mehta Family School of Data Science and Artificial Intelligence, Indian Institute of Technology, Guwahati (IIT Guwahati) and Malaviya National Institute of Technology (MNIT), Jaipur. Dr. Vipparthi earned his Ph.D. and MTech degrees with Honors from the Indian Institute of Technology Varanasi (IIT Varanasi), BHU, India. His research interests include computer vision, affective computing, deep learning, among others. He is actively involved in various sponsored and consultancy projects in the field of computer vision from both public and private sectors."
+  ],
+  "qualifications": [
+    "Ph.D",
+    "M.Tech (Honors)"
+  ],
+  "interests": [
+    "Computer vision",
+    "Affective Computing",
+    "Deep Learning"
+  ],
+  "briefProfile": [
+    "Dr. Vipparthi specializes primarily in computer vision and deep learning techniques with a focus on all-weather surveillance, underwater exploration, and human emotion recognition. Additionally, he has supervised four PhD students and fifteen master's students."
+  ],
+  "publications": {
+    "journal": [
+      {
+        "authors": "Monu Verma, Santosh Kumar Vipparthi, Girdhari Singh",
+        "title": "Deep Insights of Learning based Micro Expression Recognition: A Perspective on Promises, Challenges and Research Needs",
+        "venue": "IEEE Transactions on Cognitive and Developmental Systems",
+        "volume": "15(3)",
+        "pages": "1051–1069",
+        "year": "2023"
+      },
+      {
+        "authors": "Bhaumik G, Verma M, Govil MC, Vipparthi SK",
+        "title": "Hyfinet: hybrid feature attention network for hand gesture recognition",
+        "venue": "Multimedia Tools and Applications",
+        "pages": "4863-4882",
+        "year": "2023",
+        "url": "https://doi.org/10.1007/s11042-021-11623-3"
+      },
+      {
+        "authors": "Verma M, Vipparthi SK, Singh G",
+        "title": "Deep insights of learning based micro expression recognition: A perspective on promises, challenges and research needs",
+        "venue": "IEEE Transactions on Cognitive and Developmental Systems",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TCDS.2022.3226348"
+      },
+      {
+        "authors": "Mandal M, Meedimale YR, Reddy MS, Vipparthi SK",
+        "title": "Neural architecture search for image dehazing",
+        "venue": "IEEE Transactions on Artificial Intelligence",
+        "volume": "120",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAI.2022.3204732"
+      },
+      {
+        "authors": "Satrawala A, Mazumdar AP, Vipparthi SK",
+        "title": "A multilane traffic and collision generator for IoV",
+        "venue": "Simulation Modelling Practice and Theory",
+        "volume": "82",
+        "pages": "102588",
+        "year": "2022",
+        "url": "https://doi.org/10.1016/j.simpat.2022.102588"
+      },
+      {
+        "authors": "Bhaumik G, Verma M, Govil MC, Vipparthi SK",
+        "title": "ExtriDeNet: an intensive feature extrication deep network for hand gesture recognition",
+        "venue": "The Visual Computer",
+        "volume": "110",
+        "pages": "3853-3866",
+        "year": "2022",
+        "url": "https://doi.org/10.1007/s00371-021-02225-z"
+      },
+      {
+        "authors": "Verma M, Reddy MS, Meedimale YR, Mandal M, Vipparthi SK",
+        "title": "Automer: Spatiotemporal neural architecture search for microexpression recognition",
+        "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+        "volume": "23",
+        "pages": "6116-6128",
+        "year": "2021",
+        "url": "https://doi.org/https://doi.org/10.1109/TNNLS.2021.3072290"
+      },
+      {
+        "authors": "Mandal M, Vipparthi SK",
+        "title": "An empirical review of deep learning frameworks for change detection: Model design, experimental frameworks, challenges and research needs",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "volume": "38",
+        "pages": "6101-6122",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TITS.2021.3077883"
+      },
+      {
+        "authors": "Choudhary M, Chouhan SS, Pilli ES, Vipparthi SK",
+        "title": "BerConvoNet: A deep learning framework for fake news classification",
+        "venue": "Applied Soft Computing",
+        "pages": "107614",
+        "year": "2021",
+        "url": "https://doi.org/10.1016/j.asoc.2021.107614"
+      },
+      {
+        "authors": "Mandal M, Dhar V, Mishra A, Vipparthi SK, Abdel-Mottaleb M",
+        "title": "3DCD: Scene Independent End-to-End Spatiotemporal Feature Learning Framework for Change Detection in Unseen Videos",
+        "venue": "IEEE Transactions on Image Processing",
+        "volume": "23",
+        "pages": "546-558",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TIP.2020.3037472"
+      },
+      {
+        "authors": "Mandal M, Vipparthi SK",
+        "title": "Scene independency matters: An empirical study of scene dependent and scene independent evaluation for CNN-based change detection",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "volume": "28",
+        "pages": "2031-2044",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TITS.2020.3030801"
+      },
+      {
+        "authors": "Verma M, Vipparthi SK, Singh G",
+        "title": "Affectivenet: Affective-motion feature learning for microexpression recognition",
+        "venue": "IEEE MultiMedia",
+        "volume": "29",
+        "pages": "17-27",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/MMUL.2020.3021659"
+      },
+      {
+        "authors": "Verma M, Vipparthi SK, Singh G, Murala S",
+        "title": "LEARNet: Dynamic imaging network for micro expression recognition",
+        "venue": "IEEE Transactions on Image Processing",
+        "pages": "1618-1627",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/TIP.2019.2912358"
+      },
+      {
+        "authors": "Mandal M, Dhar V, Mishra A, Vipparthi SK",
+        "title": "3DFR: A swift 3D feature reductionist framework for scene independent change detection",
+        "venue": "IEEE Signal Processing Letters",
+        "volume": "17",
+        "pages": "1882-1886",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/LSP.2019.2952253"
+      },
+      {
+        "authors": "Mandal M, Shah M, Meena P, Devi S, Vipparthi SK",
+        "title": "AVDNet: A small-sized vehicle detection network for aerial visual data",
+        "venue": "IEEE Geoscience and Remote Sensing Letters",
+        "volume": "13",
+        "pages": "494-498",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/LGRS.2019.2923564"
+      },
+      {
+        "authors": "Mandal M, Verma M, Mathur S, Vipparthi SK, Murala S, Kranthi Kumar D",
+        "title": "Regional adaptive affinitive patterns (RADAP) with logical operators for facial expression recognition",
+        "venue": "IET Image Processing",
+        "volume": "2",
+        "pages": "850-861",
+        "year": "2019",
+        "url": "https://doi.org/10.1049/iet-ipr.2018.5683"
+      },
+      {
+        "authors": "Verma M, Vipparthi SK, Singh G",
+        "title": "Hinet: Hybrid inherited feature learning network for facial expression recognition",
+        "venue": "IEEE Letters of the Computer Society",
+        "volume": "13",
+        "pages": "36-39",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/LOCS.2019.2927959"
+      },
+      {
+        "authors": "Singh M, Govil MC, Pilli ES, Vipparthi SK",
+        "title": "SOD-CED: salient object detection for noisy images using convolution encoder--decoder",
+        "venue": "IET Computer Vision",
+        "pages": "578-587",
+        "year": "2019",
+        "url": "https://doi.org/10.1049/iet-cvi.2018.5814"
+      },
+      {
+        "authors": "Biradar KM, Gupta A, Mandal M, Vipparthi SK",
+        "title": "Challenges in time-stamp aware anomaly detection in traffic videos",
+        "venue": "arXiv preprint arXiv:1906. 04574",
+        "year": "2019"
+      },
+      {
+        "authors": "Mandal M, Chaudhary M, Vipparthi SK, Murala S, Gonde AB, Nagar SK",
+        "title": "ANTIC: ANTithetic isomeric cluster patterns for medical image retrieval and change detection",
+        "venue": "IET Computer Vision",
+        "pages": "31-43",
+        "year": "2019",
+        "url": "https://doi.org/10.1049/iet-cvi.2018.5206"
+      },
+      {
+        "authors": "Vipparthi SK, Murala S, Gonde AB, Jonathan Wu QM",
+        "title": "Local directional mask maximum edge patterns for image retrieval and face recognition",
+        "venue": "IET Computer Vision",
+        "pages": "182-192",
+        "year": "2016",
+        "url": "https://doi.org/10.1049/iet-cvi.2015.0035"
+      },
+      {
+        "authors": "Vipparthi SK, Murala S, Nagar SK, Gonde AB",
+        "title": "Local Gabor maximum edge position octal patterns for image retrieval",
+        "venue": "Neurocomputing",
+        "volume": "40",
+        "pages": "336-345",
+        "year": "2015",
+        "url": "https://doi.org/10.1016/j.neucom.2015.04.062"
+      },
+      {
+        "authors": "Vipparthi SK, Murala S, Nagar SK",
+        "title": "Dual directional multi-motif XOR patterns: A new feature descriptor for image indexing and retrieval",
+        "venue": "Optik",
+        "volume": "8",
+        "pages": "1467-1473",
+        "year": "2015",
+        "url": "https://doi.org/10.1016/j.ijleo.2015.04.018"
+      },
+      {
+        "authors": "Vipparthi SK, Nagar SK",
+        "title": "Directional local ternary patterns for multimedia image indexing and retrieval",
+        "venue": "International Journal of Signal and Imaging Systems Engineering",
+        "volume": "96",
+        "pages": "137-145",
+        "year": "2015",
+        "url": "https://doi.org/10.1504/IJSISE.2015.070485"
+      },
+      {
+        "authors": "Vipparthi SK, Nagar SK",
+        "title": "Integration of color and local derivative pattern features for content-based image indexing and retrieval",
+        "venue": "Journal of the Institution of Engineers (India): Series B",
+        "pages": "251-263",
+        "year": "2015",
+        "url": "https://doi.org/10.1007/s40031-014-0153-5"
+      },
+      {
+        "authors": "Vipparthi SK, Nagar SK",
+        "title": "Expert image retrieval system using directional local motif XoR patterns",
+        "venue": "Expert Systems with Applications",
+        "volume": "167",
+        "pages": "8016-8026",
+        "year": "2014",
+        "url": "https://doi.org/10.1016/j.eswa.2014.07.001"
+      },
+      {
+        "authors": "Vipparthi SK, Nagar SK",
+        "title": "Multi-joint histogram based modelling for image indexing and retrieval",
+        "venue": "Computers & Electrical Engineering",
+        "volume": "126",
+        "pages": "163-173",
+        "year": "2014",
+        "url": "https://doi.org/10.1016/j.compeleceng.2014.04.018"
+      }
+    ],
+    "conference": [
+      {
+        "authors": "Khan R, Mishra P, Mehta N, Phutke SS, Vipparthi SK, Nandi S, Murala S",
+        "title": "Spectroformer: Multi-Domain Query Cascaded Transformer Network for Underwater Image Enhancement",
+        "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+        "pages": "1454-1463",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/WACV57701.2024.00148"
+      },
+      {
+        "authors": "Kulkarni A, Phutke SS, Vipparthi SK, Murala S",
+        "title": "C2AIR: Consolidated Compact Aerial Image Haze Removal",
+        "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+        "pages": "749-758",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/WACV57701.2024.00080"
+      },
+      {
+        "authors": "Verma M, Lubal P, Vipparthi SK, Abdel-Mottaleb M",
+        "title": "RNAS-MER: A Refined Neural Architecture Search with Hybrid Spatiotemporal Operations for Micro-Expression Recognition",
+        "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+        "pages": "4770-4779",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/WACV56688.2023.00475"
+      },
+      {
+        "authors": "Phutke SS, Kulkarni A, Vipparthi SK, Murala S",
+        "title": "Blind Image Inpainting via Omni-Dimensional Gated Attention and Wavelet Queries",
+        "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "pages": "1251-1260",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/CVPRW59228.2023.00132"
+      },
+      {
+        "authors": "Saxena P, Biradar K, Tyagi DK, Vipparthi SK",
+        "title": "RIChEx: A Robust Inter-Frame Change Exposure for Segmenting Moving Objects",
+        "venue": "2022 IEEE International Conference on Image Processing (ICIP)",
+        "pages": "2172-2176",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/ICIP46576.2022.9897970"
+      },
+      {
+        "authors": "Sharma D, Biradar KM, Vipparthi SK, Battula RB",
+        "title": "HYPE: CNN Based HYbrid PrEcoding Framework for 5G and Beyond",
+        "venue": "International Conference on Advanced Information Networking and Applications",
+        "volume": "33",
+        "pages": "43-54",
+        "year": "2022",
+        "url": "https://doi.org/10.1007/978-3-030-99587-4_5"
+      },
+      {
+        "authors": "Verma M, Gupta A, Vipparthi SK",
+        "title": "One for all: An end-to-end compact solution for hand gesture recognition",
+        "venue": "2021 International Joint Conference on Neural Networks (IJCNN)",
+        "volume": "30",
+        "pages": "45505",
+        "year": "2021"
+      },
+      {
+        "authors": "Mandal M, Kumar LK, Vipparthi SK",
+        "title": "Mor-uav: A benchmark dataset and baselines for moving object recognition in uav videos",
+        "venue": "Proceedings of the 28th ACM international conference on multimedia",
+        "pages": "2626-2635",
+        "year": "2020"
+      },
+      {
+        "authors": "Verma M, Vipparthi SK, Singh G",
+        "title": "Non-linearities improve originet based on active imaging for micro expression recognition",
+        "venue": "2020 International Joint Conference on Neural Networks (IJCNN)",
+        "pages": "45505",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/IJCNN48605.2020.9207718"
+      },
+      {
+        "authors": "Bhaumik G, Verma M, Govil MC, Vipparthi SK",
+        "title": "EXTRA: an extended radial mean response pattern for hand gesture recognition",
+        "venue": "2020 International Conference on Communication and Signal Processing (ICCSP)",
+        "volume": "26",
+        "pages": "0640-0645",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/ICCSP48568.2020.9182207"
+      },
+      {
+        "authors": "Dwivedi S, Mandal M, Yadav S, Vipparthi SK",
+        "title": "3D CNN with localized residual connections for hyperspectral image classification",
+        "venue": "Computer Vision and Image Processing: 4th International Conference, CVIP 2019, Jaipur, India, September 27--29, 2019, Revised Selected Papers, Part II 4",
+        "volume": "13",
+        "pages": "354-363",
+        "year": "2020",
+        "url": "https://doi.org/10.1007/978-981-15-4018-9_32"
+      },
+      {
+        "authors": "Mandal M, Shah M, Meena P, Vipparthi SK",
+        "title": "SSSDET: Simple short and shallow network for resource efficient vehicle detection in aerial scenes",
+        "venue": "2019 IEEE international conference on image processing (ICIP)",
+        "pages": "3098-3102",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/ICIP.2019.8803262"
+      },
+      {
+        "authors": "Mandal M, Saxena P, Vipparthi SK, Murala S",
+        "title": "CANDID: Robust change dynamics and deterministic update policy for dynamic background subtraction",
+        "venue": "2018 24th international conference on pattern recognition (ICPR)",
+        "pages": "2468-2473",
+        "year": "2018",
+        "url": "https://doi.org/10.1109/ICPR.2018.8545504"
+      },
+      {
+        "authors": "Verma M, Bhui JK, Vipparthi SK, Singh G",
+        "title": "Expertnet: exigent features preservative network for facial expression recognition",
+        "venue": "Proceedings of the 11th Indian conference on computer vision, graphics and image processing",
+        "pages": "45505",
+        "year": "2018",
+        "url": "https://doi.org/10.1145/3293353.3293374"
+      },
+      {
+        "authors": "Verma M, Vipparthi SK, Singh G",
+        "title": "Region Based Extensive Response Index Pattern for Facial Expression Recognition",
+        "venue": "2018 International Conference on Communication, Computing and Internet of Things (IC3IoT)",
+        "pages": "20-24",
+        "year": "2018",
+        "url": "https://doi.org/10.1109/IC3IoT.2018.8668200"
+      },
+      {
+        "authors": "Mathur S, Chaudhary M, Verma H, Mandal M, Vipparthi SK, Murala S",
+        "title": "Multichannel distributed local pattern for content based indexing and retrieval",
+        "venue": "2017 14th IEEE India Council International Conference (INDICON)",
+        "volume": "10",
+        "pages": "45444",
+        "year": "2017",
+        "url": "https://doi.org/10.1109/INDICON.2017.8487542"
+      },
+      {
+        "authors": "Gonde AB, Murala S, Vipparthi SK, Maheshwari R, Balasubramanian R",
+        "title": "3D local transform patterns: a new feature descriptor for image retrieval",
+        "venue": "Proceedings of International Conference on Computer Vision and Image Processing: CVIP 2016, Volume 2",
+        "volume": "41",
+        "pages": "495-507",
+        "year": "2017",
+        "url": "https://doi.org/10.1007/978-981-10-2107-7_45"
+      }
+    ],
+    "books": [
+      {
+        "kind": "Book Chapter",
+        "title": "Definet: Portable CNN Network for Facial Expression Recognition",
+        "year": "2020",
+        "authors": "Verma M, Saxena P, Vipparthi SK, Singh G, Nagar SK"
+      }
+    ],
+    "patents": []
+  },
+  "affiliations": [
+    "IEEE SM (Senior Member)",
+    "ACM Member"
+  ],
+  "researchProjects": [
+    {
+      "title": "Al based Technology for Varicoloured Video Restoration and Object Detection",
+      "agency": "MoES, Govt of India",
+      "role": "PI",
+      "period": "2023 - 2025",
+      "amount": "45.000"
+    },
+    {
+      "title": "Al based Technology for Underwater Varicoloured Video Restoration and Object Detection",
+      "agency": "MoES",
+      "role": "PI",
+      "period": "2023 - 2026",
+      "amount": "45.480"
+    },
+    {
+      "title": "iSelecT: Multifaceted comprehensive framework for Referred instance selection and segmentation in a visual data",
+      "agency": "SERB",
+      "role": "PI",
+      "period": "2023 - 2026",
+      "amount": "41.130"
+    },
+    {
+      "title": "Intelligent Transportation System: AI based Deep Learning Technology for Multi-Weather Video Restoration",
+      "agency": "SERB",
+      "role": "CO-PI",
+      "period": "2023 - 2026",
+      "amount": "43.380"
+    },
+    {
+      "title": "Autonomous Underwater Vehicle Assistance with Video Quality Enhancement and Restoration",
+      "agency": "DST-ICPC-TIH-Guwahati",
+      "role": "PI",
+      "period": "2023 - 2024",
+      "amount": "11.880"
+    },
+    {
+      "title": "Timestamp-aware Aberrant Detection and Analysis in Big Visual Data using Deep Learning Architecture",
+      "agency": "SERB",
+      "role": "PI",
+      "period": "2018 - 2022",
+      "amount": "19.880"
+    },
+    {
+      "title": "Title",
+      "agency": "IIT ROPAR",
+      "role": "PI",
+      "period": "2023 - 2024",
+      "amount": "51.000"
+    }
+  ],
+  "consultancy": [
+    {
+      "title": "Tool Development for Improvement in quality of images captured offshore",
+      "agency": "Oceaneering India Pvt. Ltd, India",
+      "period": "2023 - 2024",
+      "amount": "19.500"
+    },
+    {
+      "title": "Inspection of ICT Material for Jaipur Smart City Limited",
+      "agency": "Jaipur Smart City Limited - Municipal Corporation Jaipur",
+      "period": "2018 - 2019",
+      "amount": "8.710"
+    },
+    {
+      "title": "Inspection of Integrated City Operation Centre in existing JSCL Building",
+      "agency": "Jaipur Smart City",
+      "period": "2018 - 2019",
+      "amount": "3.480"
+    },
+    {
+      "title": "Inspection of Supplied materials and testing and commissioning of the equipment at RIICO",
+      "agency": "RIICO, Neemrana, Distt. Alwar",
+      "period": "2018 - 2019",
+      "amount": "2.030"
+    }
+  ],
+  "courses": [
+    {
+      "code": "EE647",
+      "title": "Machine Learning",
+      "ltpsc": "3-0-0-6-3",
+      "type": "Elective",
+      "degree": ">M.tech. - Signal and Communication",
+      "offerings": [
+        "2024 · Semester II"
+      ]
+    },
+    {
+      "code": "EE673",
+      "title": "Deep Learning for Computer Vision",
+      "ltpsc": "3-0-0-6-3",
+      "type": "Elective",
+      "degree": "Btech",
+      "offerings": [
+        "2024 · Semester VIII"
+      ]
+    },
+    {
+      "code": "EE527",
+      "title": "Advance Digital Signal Processing",
+      "ltpsc": "3-0-0-6-3",
+      "type": "Core",
+      "degree": ">M.tech. - Signal and Communication",
+      "offerings": [
+        "2023 · Semester I"
+      ]
+    },
+    {
+      "code": "EE525",
+      "title": "Communication and Signal Processing Lab-1",
+      "ltpsc": "0-0-3-1.5-1.5",
+      "type": "Core",
+      "degree": ">M.tech. - Signal and Communication",
+      "offerings": [
+        "2023 · Semester I"
+      ]
+    },
+    {
+      "code": "EE629",
+      "title": "Special Topics In Communication",
+      "ltpsc": "3-0-0-6-3",
+      "type": "Elective",
+      "degree": ">M.tech. - Signal and Communication",
+      "offerings": [
+        "2023 · Semester I"
+      ]
+    },
+    {
+      "code": "DS501",
+      "title": "Programming and Data Structures",
+      "ltpsc": "2-0-0-4-2",
+      "type": "Core",
+      "degree": "M.Sc.",
+      "offerings": [
+        "2023 · Semester I"
+      ]
+    },
+    {
+      "code": "EE639",
+      "title": "Computer Vision",
+      "ltpsc": "3-0-0-6-3",
+      "type": "Elective",
+      "degree": "Btech",
+      "offerings": [
+        "2022 · Semester VIII"
+      ]
+    },
+    {
+      "code": "GE108",
+      "title": "Basic Electronics",
+      "ltpsc": "2-2/3-2-13/3-3",
+      "type": "Core",
+      "degree": "Btech",
+      "offerings": [
+        "2022 · Semester I"
+      ]
+    },
+    {
+      "code": "HS404",
+      "title": "Indian Urbanism",
+      "ltpsc": "3-4-5-6-7",
+      "type": "Elective",
+      "degree": "B.tech.,M.Sc.",
+      "offerings": [
+        "2020 · Semester I,Semester II"
+      ]
+    }
+  ],
+  "phdSupervised": [
+    "Mr. Ashutosh Kulkarni (TCS Research Scholar)",
+    "Ms. Priyanka Mishra",
+    "Ms. Sania Bano",
+    "Mr. Ranjit Katta",
+    "Mr. Amitab Tripathi",
+    "Mr. Sunil Kumar Bansal- Parttime",
+    "Mr. Sanket Laxman Waghmare - Parttime"
+  ],
+  "adminRoles": [
+    "Faculty Advisor for First Batch MSDSM 2023-25",
+    "Faculty Advisor for M.Tech SPCOM 2023-25"
+  ],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

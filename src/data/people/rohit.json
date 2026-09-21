@@ -1,0 +1,54 @@
+{
+  "id": "rohit",
+  "studentAchievements": [],
+  "photo": "/images/legacy/523697136b5c.jpg",
+  "name": "Rohit Sharma",
+  "designation": "Professor",
+  "address": "Room 321, Department of Electrical Engineering, IIT Ropar, Rupnagar, 140001, Punjab, India",
+  "email": "rohit@iitrpr.ac.in",
+  "phone": "+911881232219",
+  "scholar": "https://scholar.google.com/citations?user=6QT6IE4AAAAJ&hl=en",
+  "website": "https://sites.google.com/site/rysharma/home",
+  "otherLinks": [
+    {
+      "label": "https://www.linkedin.com/in/rohit-sharma-9509b5197/",
+      "href": "https://www.linkedin.com/in/rohit-sharma-9509b5197/"
+    }
+  ],
+  "intro": [
+    "Prof. Rohit Sharma joined the Electrical Engineering department in 2012, where he is currently a Professor.",
+    "Before joining IIT Ropar, Prof. Sharma was a post-doctoral fellow at the Interconnect Focus Center, Georgia Tech., Atlanta. He was working under the supervision of Prof. Paul A. Kohl. Prior to this, he worked as a post-doctoral fellow at the Design Automation Lab, Seoul National University, Seoul. He worked under supervision of Prof. Kiyoung Choi.",
+    "He received the Ph. D. degree from Jaypee University of Information Technology in 2009 in Electronics and Communication Engineering. His Ph. D. supervisor was Prof. A. B. Bhattacharyya - from whom he learned the rudiments of high-speed interconnect design. His current research interests include design of high-speed chip-chip and on-chip interconnects, Graphene based nanoelectronic devices and interconnects, Signal and Thermal integrity in high-speed interconnects and application of Machine Learning in advance packaging and systems.",
+    "He has been a Visiting Professor at the Small Scale Systems Integration and Packaging Center, Binghamton University (May - Jul 2027), and the Packaging Research Center, Georgia Institute of Technology (Sep 2023 - Feb 2023). He was a Research Professor in the Department of Electrical Engineering at The Pennsylvania State University, USA (Mar 2023 - Apr 2024).",
+    "He is a Distinguished Lecturer of the IEEE Electronics Packaging Society and an Associate Editor to the IEEE Transactions on Components, Packaging and Manufacturing Technology and a referee for several leading IEEE journals. He is a Program Committee member in all major IEEE EPS conferences including ECTC, EDAPS, EPEPS and SPI. He has been the chair of the IEEE CPMT Technical Committee on Electrical Design, Modeling and Simulation. He is a Fellow of the Institution of Engineering and Technology (IET), UK and the Institution of Electronics and Telecommunication Engineers (IETE), India and a Senior Member of the IEEE.",
+    "Visit our research group website for more details."
+  ],
+  "qualifications": [],
+  "interests": [],
+  "briefProfile": [],
+  "publications": {
+    "journal": [],
+    "conference": [],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [],
+  "researchProjects": [
+    {
+      "title": "ASIC and Package Design of Ultra Small Atomic Clock",
+      "agency": "Ministry of Electronics and Information Technology (MeitY) - C2S program",
+      "role": "PI",
+      "period": "2023 - 2028",
+      "amount": "285.000"
+    }
+  ],
+  "consultancy": [],
+  "courses": [],
+  "phdSupervised": [],
+  "adminRoles": [],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

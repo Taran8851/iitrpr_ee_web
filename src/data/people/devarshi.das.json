@@ -1,0 +1,544 @@
+{
+  "id": "devarshi.das",
+  "studentAchievements": [],
+  "photo": "/images/legacy/987618020a98.jpg",
+  "name": "Devarshi Mrinal Das",
+  "designation": "Assistant Professor",
+  "address": "212, JC Bose, Main Campus, IIT Ropar",
+  "email": "devarshi.das@iitrpr.ac.in",
+  "phone": "1881232211",
+  "scholar": "https://scholar.google.com/citations?hl=en&user=K6S8aYMAAAAJ&view_op=list_works&sortby=pubdate",
+  "website": "https://www.devarshi.in/",
+  "otherLinks": [
+    {
+      "label": "https://vidwan.inflibnet.ac.in/profile/169410",
+      "href": "https://vidwan.inflibnet.ac.in/profile/169410"
+    },
+    {
+      "label": "https://ieeexplore.ieee.org/author/37085355782",
+      "href": "https://ieeexplore.ieee.org/author/37085355782"
+    }
+  ],
+  "intro": [
+    "I am an Assistant Professor in Electrical Engineering and an associate faculty at the School of AI and Data Engineering, IIT Ropar. I lead the Integrated System Design Lab (ISDL), focusing on analog, mixed-signal, and RF IC design for computing and sensing. I am a senior IEEE member and part of the AMS/RF committee of the DevSET program. I am an avid reader. Before joining academia, I was a design engineer at the GE Technology Centre (2010–2012) and a lead research engineer in Siemens Corporate R&D. (2017–2018)."
+  ],
+  "qualifications": [
+    "PhD IIT Bombay 2017",
+    "M.Tech IIT Delhi 2010"
+  ],
+  "interests": [
+    "Analog & Mixed-Signal IC Design",
+    "Bio-inspired circuits and systems for AI",
+    "Semiconductor qubit readout circuits for QC",
+    "Chip-scale atomic clock ASIC",
+    "EMI immune circuits for 6G ecosystem"
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [
+      {
+        "authors": "S. K. Vohra, M. Sakare, A. P. James, D. M. Das",
+        "title": "SpiMAM: CMOS Implementation of Bio-Inspired Spiking Multidirectional Associative Memory Featuring In-Situ Learning",
+        "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+        "year": "novalue",
+        "url": "https://doi.org/10.1109/TCSI.2024.3427387"
+      },
+      {
+        "authors": "Nidhi Sharma, R. K. Srivsatava, D. Sehgal, Devarshi Mrinal Das",
+        "title": "A Low-power Common-mode Insensitive Rail-to-Rail Dynamic Comparator for ADCs",
+        "venue": "Integration",
+        "year": "novalue",
+        "url": "https://doi.org/10.1016/j.vlsi.2024.102288"
+      },
+      {
+        "authors": "N. Sharma, V. Hande, Devarshi Mrinal Das",
+        "title": "A Dynamic Comparator With Cross-Coupled Pre-Amplifier With <160 ps Delay and 81 fJ.ns EDP",
+        "venue": "Integrated Circuits and Systems",
+        "year": "novalue",
+        "url": "https://doi.org/10.23919/ICS.2024.3505092"
+      },
+      {
+        "authors": "N. Sharma, S. A. Thomas, V. Hande, Devarshi Mrinal Das",
+        "title": "A Modified Three-Stage Dynamic Comparator Achieving Rail-to-Rail Input Common-mode Range with <86 fJ.ns EDP",
+        "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+        "year": "novalue",
+        "url": "https://doi.org/10.1109/TCSII.2025.3581335"
+      },
+      {
+        "authors": "S. A. Thomas, S. Kushwaha, R. Sharma, Devarshi Mrinal Das",
+        "title": "Design and Analysis of 3D Integrated Folded Ferro-Capacitive Crossbar Array for Brain-Inspired Computing System",
+        "venue": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/JETCAS.2024.3432458"
+      },
+      {
+        "authors": "S. K. Vohra, S. A. Thomas, Shivdeep, M. Sakare and D. M. Das",
+        "title": "Full CMOS Circuit for Brain-Inspired Associative Memory With On-Chip Trainable Memristive STDP Synapse",
+        "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+        "year": "2023"
+      },
+      {
+        "authors": "M. A. Saeed, M. Kumar, B. Umapathi and D. M. Das",
+        "title": "Optimization of Slew Mitigation Capacitor in Passive Charge Compensation-Based Delta–Sigma Modulator",
+        "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+        "year": "2023"
+      },
+      {
+        "authors": "M. A. Saeed, R. K. Srivastava, D. Sehgal, D. M. Das",
+        "title": "Design of a High Precision CMOS Programmable Gain and Data Rate Delta Sigma ADC",
+        "venue": "Analog Integrated Circuits and Signal Processing",
+        "year": "2023"
+      },
+      {
+        "authors": "M. K. Singh, P. Singh, U. Chichhula, H. Mehra, D. M. Das, M. Sakare",
+        "title": "A PRBS Generator using Merged XOR-D flip-flop as Building Blocks",
+        "venue": "Circuits, System and Signal Processing",
+        "year": "2023"
+      },
+      {
+        "authors": "K. Varshney, P. Shukla, B. Prakash, D. M. Das, B. Rawat",
+        "title": "Enhancing Resistive Switching Characteristics of MoS2-based Memristor through O2 Plasma Irradiation-Induced Defects",
+        "venue": "IEEE Journal of the Electron Devices Society",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/JEDS.2024.3480356"
+      },
+      {
+        "authors": "K. Varshney, M. S. Yadav, B. Rawat, D. M. Das",
+        "title": "Analysis and Modeling of Bipolar Resistive Switching in Two-Dimensional Graphene Electrode-based Memristor",
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "70",
+        "pages": "5454 - 5461",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TED.2023.3308525"
+      },
+      {
+        "authors": "S. Singh, S. Boyapati, D. M. Das",
+        "title": "Impact of EMI on the Reliability of Crossbar Architecture-based Inference in CMOS Technology",
+        "venue": "IEEE Transactions on Components, Packaging and Manufacturing Technology",
+        "volume": "15",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TCPMT.2025.3559486"
+      },
+      {
+        "authors": "S. A. Thomas, S. K. Vohra, R. Kumar, R. Sharma and D. M. Das",
+        "title": "Analysis of Parasitic Effects in a Crossbar in CMOS Based Neuromorphic System for Pattern Recognition Using Memristive Synapses",
+        "venue": "IEEE Transactions on Nanotechnology",
+        "year": "2022"
+      },
+      {
+        "authors": "D. M. Das, K. Barot, A. Srivastava, M. S. Baghini",
+        "title": "Noise-power-area optimised design procedure for OTAs with complementary input transistors for neural amplifiers",
+        "venue": "IET Circuits, Devices and Systems",
+        "year": "2020"
+      },
+      {
+        "authors": "A. Karmakar, D. M. Das, M. S. Baghini",
+        "title": "Adaptive analogue calibration technique to compensate electrode motion artefacts in biopotential recording",
+        "venue": "IET Circuits, Devices and Systems",
+        "year": "2020"
+      },
+      {
+        "authors": "D. M. Das, A. Vidwans, A. Srivastava, M. Ahmad, S. Vaishnav, S. Dewan and M. Shojaei Baghini",
+        "title": "Design and development of an Internet-of-Things enabled wearable ExG measuring system with a novel signal processing algorithm for electrocardiogram",
+        "venue": "IET Circuits, Devices and Systems",
+        "year": "2019"
+      },
+      {
+        "authors": "A. Srivastava, D. M. Das, P. Mathur, D. K. Sharma, M. S. Baghini",
+        "title": "0.43-nJ/bit OOK Transmitter for Wearable and Implantable Devices in 400-MHz MedRadio Band",
+        "venue": "IEEE Microwave and Wireless Components Letters",
+        "year": "2018"
+      },
+      {
+        "authors": "D. M. Das, A. Gupta, A. Srivastava, A. Vidwans, M. Ahmad, A. Shelke, S. Kale, J. Ananthapadmanabhan, D K Sharma, M. Shojaei Baghini",
+        "title": "A pulse oximeter system, OxiSense, with embedded signal processing using an ultra-low power ASIC designed for testability",
+        "venue": "Microelectronics Journal",
+        "year": "2018"
+      },
+      {
+        "authors": "A. Srivastava, N. Sankar K., B. Chatterjee, D. M. Das, M. Ahmad, Rakesh K. K., V. Saraf, J. Ananthapadmanabhan, D. K. Sharma, M. S. Baghini",
+        "title": "Bio-WiTel: A Low-Power Integrated Wireless Telemetry System for Healthcare Applications in 401–406 MHz Band of MedRadio Spectrum",
+        "venue": "IEEE Journal of Biomedical and Health Informatics",
+        "year": "2018"
+      },
+      {
+        "authors": "B. Chatterjee, N. Modak, A. Amaravati, D. Mistry, D. M. Das, M. S. Baghini",
+        "title": "A Sub-1 V, 120 nW, PVT-Variation Tolerant, Tunable, and Scalable Voltage Reference With 60-dB PSNA",
+        "venue": "IEEE Transactions on Nanotechnology",
+        "year": "2017"
+      },
+      {
+        "authors": "D. M. Das, A. Srivastava, J. Ananthapadmanabhan, M. Ahmad, M. S. Baghini",
+        "title": "A novel low-noise fully differential CMOS instrumentation amplifier with 1.88 noise efficiency factor for biomedical and sensor applications",
+        "venue": "Microelectronics Journal",
+        "year": "2016"
+      }
+    ],
+    "conference": [
+      {
+        "authors": "N. Sharma, A. Pratap, P. A. Husing, Devarshi Mrinal Das",
+        "title": "Intelligent Analog and Mixed-Signal IC (I-AMS-IC) Design: A Conceptual Framework, and Case Study on AI Integration",
+        "venue": "2025 Seventh International Symposium on Computer, Consumer and Control (IS3C), Taichung, Taiwan",
+        "year": "2025",
+        "url": "https://doi.org/10.1109/IS3C65361.2025.11131067"
+      },
+      {
+        "authors": "M. K. Singh, M. K. Gautam, P. Singh, R. S. Nagulapalli, D. M. Das and M. Sakare",
+        "title": "A Double Cross-Coupled Delay Cell for High-Frequency Differential Ring VCOs",
+        "venue": "IEEE Asia Pacific Conference On Circuits And Systems (IEEE APCCAS) 2023",
+        "year": "2023"
+      },
+      {
+        "authors": "N. Sharma, R. K. Srivastava, V. Hande, D. Sehgal, D. M. Das",
+        "title": "A Self-Calibration Logic Circuit Agnostic To Offset Calibration Technique For High-Precision Dynamic Comparator",
+        "venue": "IEEE Women in Technology Conference (IEEE WINTECHCON) 2023",
+        "year": "2023"
+      },
+      {
+        "authors": "S. K. Vohra, M. Sakare, D. M. Das",
+        "title": "Full CMOS Analog Circuit Implementation of Multi-Functional Pavlov Associative Memory using STDP Learning",
+        "venue": "IEEE Women in Technology Conference (IEEE WINTECHCON) 2023",
+        "year": "2023"
+      },
+      {
+        "authors": "Shivdeep, S. Sharma, S. Boyapati, D. M. Das",
+        "title": "A Two Stage Miller OpAmp with Low Voltage Cascode Current Source with High EMI Immunity",
+        "venue": "IEEE International Symposium and Exhibition on Electromagnetic Compatibility (EMC Europe 2023)",
+        "year": "2023"
+      },
+      {
+        "authors": "M. K. Singh, P. Singh, D. M. Das and M. Sakare",
+        "title": "A Low Power Differential Delay Cell without Cross-Coupled Latch for Ring VCO",
+        "venue": "2023 18th Conference on Ph.D Research in Microelectronics and Electronics (PRIME)",
+        "year": "2023"
+      },
+      {
+        "authors": "S. A. Thomas, S. K. Vohra, S. Kushwaha, R. Sharma and D. M. Das, \\\"Modeling and Analysis of CMOS-based Folded Memristive Crossbar Array for 3D Neuromorphic Integrated Circuits,\\\" 2023 IEEE 73rd Electronic Components and Technology Conference (ECTC), Orlando, FL, USA, 2023, pp. 960-966, doi: 10.1109/ECTC51909.2023.00164.",
+        "title": "Modeling and Analysis of CMOS-based Folded Memristive Crossbar Array for 3D Neuromorphic Integrated Circuits",
+        "venue": "2023 IEEE 73rd Electronic Components and Technology Conference (ECTC)",
+        "year": "2023"
+      },
+      {
+        "authors": "N. Sharma, V. Hande, R. K. Srivastava and D. M. Das",
+        "title": "6-bit 1-GS/s Partially Active Flash ADC with Comparator Offset Correction",
+        "venue": "2022 IEEE International Symposium on Smart Electronic Systems (iSES)",
+        "year": "2022"
+      },
+      {
+        "authors": "K. Varshney, M. S. Yadav, D. M. Das and B. Rawat",
+        "title": "Performance of Graphene Oxide-based Memristor for Nonvolatile Memory and Neuromorphic Computing",
+        "venue": "2022 IEEE International Conference on Emerging Electronics (ICEE)",
+        "year": "2022"
+      },
+      {
+        "authors": "S. Chittoriya, Shivdeep, K. K. Jha, D. M. Das and R. Sharma",
+        "title": "A Low-Overhead PUF Based Hardware Security Technique to Prevent Scan Chain Attacks for Industry-Standard DFT Architecture",
+        "venue": "2022 IEEE 65th International Midwest Symposium on Circuits and Systems (MWSCAS)",
+        "year": "2022"
+      },
+      {
+        "authors": "K. Poojith, K. Varshney, M. S. Yadav, D. M. Das and B. Rawat, \\\"Modulation of Resistive Switching Behaviour of TaOx-based Memristor Through Device Engineering\\\", 2022 IEEE 7th International conference for Convergence in Technology (I2CT), 2022, pp. 1-6, doi: 10.1109/I2CT54291.2022.9824458.",
+        "title": "Modulation of Resistive Switching Behaviour of TaOx-based Memristor Through Device Engineering",
+        "venue": "2022 IEEE 7th International conference for Convergence in Technology (I2CT)",
+        "year": "2022"
+      },
+      {
+        "authors": "Shivdeep, S. K. Vohra, N. Goel and D. M. Das",
+        "title": "A Robust Training Signal Generator for Trainable Memristive Digital to Analog Converter",
+        "venue": "2021 IEEE International Symposium on Smart Electronic Systems (iSES)",
+        "year": "2021"
+      },
+      {
+        "authors": "S. Kumar and D. M. Das",
+        "title": "Python-LTspice Co-Simulation to Train Neural Networks with Memristive Synapses to Learn Logic Gate Operations",
+        "venue": "2021 IEEE International Symposium on Smart Electronic Systems (iSES)",
+        "year": "2021"
+      },
+      {
+        "authors": "S. K. Vohra, S. A. Thomas, M. Sakare, D. M. Das",
+        "title": "Analytical Modelling of a CMOS Inter Spike Interval Decoder for Resistive Crossbar based Brain Inspired Computing",
+        "venue": "25th International Symposium on VLSI Design and Test (VDAT), 2021",
+        "year": "2021"
+      },
+      {
+        "authors": "A. Srivastava, D. M. Das, M. S. Baghini, \\\"Design and Implementation of 0.23 nJ/bit Reference-Spur-Free FSK/OOK Transmitter at 400 MHz for Wearable Health Monitoring\\\", 2021 IEEE Biomedical Circuits and Systems Conference (BioCAS), 2021, pp. 1-5, doi: 10.1109/BioCAS49922.2021.9644937 (selected as one of the top contributions to the conference).",
+        "title": "Design and Implementation of 0.23 nJ/bit Reference-Spur-Free FSK/OOK Transmitter at 400 MHz for Wearable Health Monitoring",
+        "venue": "2021 IEEE Biomedical Circuits and Systems Conference (BioCAS)",
+        "year": "2021"
+      },
+      {
+        "authors": "S. K. Vohra, S. Thomas, M. Sakare, D. M. Das",
+        "title": "Full CMOS Implementation of Bidirectional Associative Memory Neural Network with Analog Memristive Synapse",
+        "venue": "2021 IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)",
+        "year": "2021"
+      },
+      {
+        "authors": "S. A. Thomas, S. K. Vohra, R. Kumar, R. Sharma, D. M. Das",
+        "title": "Analysis of Parasitics on CMOS based Memristor Crossbar Array for Neuromorphic Systems",
+        "venue": "2021 IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)",
+        "year": "2021"
+      },
+      {
+        "authors": "S. Das, S. Wadhwa, D. M. Das",
+        "title": "A CMOS based High Resolution All-Digital Temperature Sensor with Low Power Supply Sensitivity",
+        "venue": "2021 IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)",
+        "year": "2021"
+      },
+      {
+        "authors": "M. K. Singh, P. Singh, D. M. Das, M. Sakare",
+        "title": "A low power 8 X 27 - 1 PRBS using Exclusive-OR gate merged D flip-flops",
+        "venue": "2021 IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)",
+        "year": "2021"
+      },
+      {
+        "authors": "D. M. Das, A. Srivastava, A. Gupta, K. Barot, M. S. Baghini",
+        "title": "A noise-power-area optimized novel programmable gain and bandwidth instrumentation amplifier for biomedical applications",
+        "venue": "2017 IEEE International Symposium on Circuits and Systems (ISCAS)",
+        "year": "2017"
+      },
+      {
+        "authors": "A. Srivastava, N. Sankar, D. M. Das, M. S. Baghini",
+        "title": "LNA-LO Co-design Considerations for Low Intermediate Frequency Receivers in 401-406 MHz MedRadio Spectrum for Healthcare Applications",
+        "venue": "2017 30th International Conference on VLSI Design",
+        "year": "2017"
+      },
+      {
+        "authors": "A. Srivastava, D. M. Das, M. S. Vignesh, K. Bharadwaj, S. Dewan and M. S. Baghini",
+        "title": "Bio-telemetry and bio-instrumentation technologies for healthcare monitoring systems",
+        "venue": "2016 IEEE Region 10 Humanitarian Technology Conference (R10-HTC)",
+        "year": "2016"
+      },
+      {
+        "authors": "A. Srivastava, D. M. Das, D. K. Sharma, M. S. Baghini",
+        "title": "SAW resonator oscillator based injection locked OOK transmitter for MedRadio spectrum",
+        "venue": "2016 14th IEEE International New Circuits and Systems Conference (NEWCAS)",
+        "year": "2016"
+      },
+      {
+        "authors": "P. Kimtee, D. M. Das, M. S. Baghini",
+        "title": "A mismatch insensitive reconfigurable discrete time biosignal conditioning circuit in 180 nm MM CMOS technology",
+        "venue": "2016 20th International Symposium on VLSI Design and Test (VDAT)",
+        "year": "2016"
+      },
+      {
+        "authors": "A. Srivastava, N. Sankar, K. K. Rakesh, B. Chatterjee, D. M. Das, M. S. Baghini",
+        "title": "Design and measurement techniques for a low noise amplifier in a receiver chain for MedRadio spectrum of 401–406 MHz frequency band",
+        "venue": "2016 20th International Symposium on VLSI Design and Test (VDAT)",
+        "year": "2016"
+      },
+      {
+        "authors": "D. M. Das, J. Ananthapadmanabhan, M. S. Baghini, D. K. Sharma",
+        "title": "Design considerations for high-CMRR low-power current mode instrumentation amplifier for biomedicai data acquisition systems",
+        "venue": "2014 21st IEEE International Conference on Electronics, Circuits and Systems (ICECS)",
+        "year": "2014"
+      },
+      {
+        "authors": "B. Subrahmanyam, D. M. Das, M. S. Baghini and J. Redoute",
+        "title": "A balanced CMOS OpAmp with high EMI immunity",
+        "venue": "International Symposium on Electromagnetic Compatibility (EMC)",
+        "pages": "703-708",
+        "year": "2014",
+        "url": "https://doi.org/10.1109/EMCEurope.2014.6930995"
+      }
+    ],
+    "books": [],
+    "patents": [
+      {
+        "kind": "Patent",
+        "title": "Ultra Low Noise Instrumentation Amplifier",
+        "isbn": "Indian Patent 473407",
+        "publisher": "Indian Patent Office",
+        "year": "2023",
+        "authors": "D. M. Das, M. S. Baghini"
+      },
+      {
+        "kind": "Patent",
+        "title": "A handheld pulse oximeter system",
+        "isbn": "Indian Patent 498947",
+        "publisher": "Indian Patent Office",
+        "year": "2024",
+        "authors": "A. Gupta, D. M. Das, M. S. Baghini, et. al."
+      },
+      {
+        "kind": "Patent",
+        "title": "A Design Method for Low Power and Low Noise Biomedical Signal Conditioning Circuit",
+        "isbn": "Indian Patent 408593",
+        "publisher": "Indian Patent Office",
+        "year": "2022",
+        "authors": "K. J. Barot, D. M. Das, M. S. Baghini"
+      },
+      {
+        "kind": "Patent",
+        "title": "Voltage Mode Log Domain Low Pass Filter (LDLPF) for Healthcare Applications",
+        "isbn": "Indian Patent 398460",
+        "publisher": "Indian Patent Office",
+        "year": "2022",
+        "authors": "J. Ananthapadmanabhan, D. M. Das, M. S. Baghini"
+      },
+      {
+        "kind": "Patent",
+        "title": "SAW Resonator Oscillator Based Injection Locked OOK Transmitter for Healthcare Applications",
+        "isbn": "Indian Patent 381814",
+        "publisher": "Indian Patent Office",
+        "year": "2021",
+        "authors": "A. Srivastava, D. M. Das, M. S. Baghini"
+      },
+      {
+        "kind": "Patent",
+        "title": "Design Considerations for Transmitter and Receiver for Personal Healthcare Applications",
+        "isbn": "Indian Patent 408641",
+        "publisher": "Indian Patent Office",
+        "year": "2022",
+        "authors": "A. Srivastava, N. S. Karuthedath, B. Chaterjee, M. Ahmad, R. K. Kukkundoor, D. M. Das, V. Saraf, J. AnanthPadmanabhan, D. K. Sharma, M. S. Baghini,"
+      },
+      {
+        "kind": "Patent",
+        "title": "Pseudo-random binary sequences (PRBS) generator for performing on-chip testing and a method thereof",
+        "isbn": "US patent 11,774,496",
+        "publisher": "US Patent Office",
+        "year": "2023",
+        "authors": "M. Sakare, M. K. Singh, P. Singh, D. M. Das, V. G. Hande,"
+      },
+      {
+        "kind": "Patent",
+        "title": "A THREE-DIMENSIONAL FOLDED CAPACITIVE CROSSBAR ARRAY SYSTEM",
+        "publisher": "Indian Patent Office",
+        "year": "2025",
+        "authors": "S. A. Thomas, S. K. Vohra, R. Sharma, Devarshi Mrinal Das"
+      }
+    ]
+  },
+  "affiliations": [
+    "Senior Member, IEEE"
+  ],
+  "researchProjects": [
+    {
+      "title": "Noise-power-area optimised instrumentation amplifier for sensing applications",
+      "agency": "Science and Engineering Research Board - CRG",
+      "role": "PI",
+      "period": "2022 - 2025",
+      "amount": "34.000"
+    },
+    {
+      "title": "Design and development of an IoT enabled Pulse-oximeter system for integrating with oxygen concentrators",
+      "agency": "Science and Engineering Research Board (SERB)",
+      "role": "PI",
+      "period": "2022 - 2023",
+      "amount": "9.000"
+    },
+    {
+      "title": "The AI-enabled solar-based multi-port high gain electric vehicle AC charging station for domestic and industrial use",
+      "agency": "Ministry of Electronics and Information Technology (MeitY)",
+      "role": "CO-PI",
+      "period": "2022 - 2024",
+      "amount": "66.000"
+    },
+    {
+      "title": "ASIC and Package Design of Ultra Small Atomic Clock",
+      "agency": "Ministry of Electronics and Information Technology (MeitY) - C2S program",
+      "role": "CO-PI",
+      "period": "2023 - 2028",
+      "amount": "285.000"
+    },
+    {
+      "title": "Electromagnetic Interference Mitigation Techniques for Analog and Mixed-Signal CMOS Integrated Circuits in 6G Environment for Robust Front-End Design",
+      "agency": "Department of Telecommunication - TTDF",
+      "role": "PI",
+      "period": "2025 - 2028",
+      "amount": "121.000"
+    },
+    {
+      "title": "Design and Demonstration of a Highly Scalable Quantum Computer using Semiconducting Qubits",
+      "agency": "Department of Science and Technology - National Quantum Mission (NQM)",
+      "role": "PI",
+      "period": "2025 - 2030",
+      "amount": "130.000"
+    },
+    {
+      "title": "Design of Ferroelectric-Integrated Oxide Semiconductor TFTs for Low-Temperature Monolithic 3D Integration for High-performance Dispalys with Built-In Memory and Neuromorphic Sensing",
+      "agency": "Anusandhan National Research Foundation - ARG",
+      "role": "CO-PI",
+      "period": "2026 - 2029",
+      "amount": "102.000"
+    }
+  ],
+  "consultancy": [
+    {
+      "title": "Design modifications for improving DC rating of a three-speed rotary blower switch",
+      "agency": "Gillard Electronics",
+      "period": "2019 - 2019",
+      "amount": "1.000"
+    }
+  ],
+  "courses": [
+    {
+      "code": "EE301",
+      "title": "Analog Circuits",
+      "ltpsc": "3-1-0-5-3",
+      "type": "Core",
+      "degree": "B.tech.",
+      "offerings": [
+        "2025 · Semester I"
+      ]
+    },
+    {
+      "code": "EE302",
+      "title": "Analog Circuits Lab",
+      "ltpsc": "0-0-3-1.5-1.5",
+      "type": "Core",
+      "degree": "B.tech.",
+      "offerings": [
+        "2025 · Semester I",
+        "2024 · Semester I"
+      ]
+    },
+    {
+      "code": "EE657",
+      "title": "Mixed Signal IC Design",
+      "ltpsc": "3-0-0-6-3",
+      "type": "Elective",
+      "degree": "M.tech. - Microelectronics and VLSI Design",
+      "offerings": [
+        "2024 · Semester II"
+      ]
+    },
+    {
+      "code": "EE662",
+      "title": "Selected Topics in Microelectronics and VLSI Design",
+      "ltpsc": "3-0-0-6-3",
+      "type": "Elective",
+      "degree": "M.tech. - Microelectronics and VLSI Design",
+      "offerings": [
+        "2024 · Semester II"
+      ]
+    }
+  ],
+  "phdSupervised": [
+    "Dr. Sahibia Kaur Vohra (2019-25)",
+    "Dr. Sherin A. Thomas (2019-25)",
+    "Dr. Nidhi Sharma (2019-25)",
+    "Dr. Kanupriya Varshney (2020-25)"
+  ],
+  "adminRoles": [
+    "PhD (VLSI) Coordinator",
+    "Library Committee Member"
+  ],
+  "awards": [
+    {
+      "title": "Sahibia Kaur Vohra received the best paper award in the Wintechcon 2023",
+      "image": "/images/legacy/4c75d2ecf927.jpg"
+    },
+    {
+      "title": "Sherin Thomas received the Best student's paper award in Mixdes 2024, Poland.",
+      "image": "/images/legacy/58dab7232d42.png"
+    },
+    {
+      "title": "Nidhi Sharma received the IEEE WinTechCon Award 2024 from the IEEE Circuits and Systems (CAS) and Women in Engineering Bangalore Chapter in the Research Scholars Category",
+      "image": "/images/legacy/5495a25b042a.png"
+    }
+  ],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

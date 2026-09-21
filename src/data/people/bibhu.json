@@ -1,0 +1,166 @@
+{
+  "id": "bibhu",
+  "studentAchievements": [
+    "Subal Beura and Amit Kumar PhD scholar under supervisor Dr.Bibhu Prasad Padhy has won First Place the hackathon on the 𝗣𝗼𝘄𝗲𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗖𝘆𝗯𝗲𝗿𝘀𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 𝟮𝟬𝟮𝟰, hosted by the 𝗗𝗲𝗽𝗮𝗿𝘁𝗺𝗲𝗻𝘁 𝗼𝗳 𝗪𝗮𝘁𝗲𝗿 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗮𝗻𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 (𝗪𝗥𝗗&𝗠) at Indian Institute of Technology, Roorkee in collaboration with 𝗖𝗲𝗻𝘁𝗿𝗲 𝗳𝗼𝗿 𝗦𝘂𝘀𝘁𝗮𝗶𝗻𝗮𝗯𝗹𝗲 𝗘𝗻𝗲𝗿𝗴𝘆 (𝗖𝗙𝗦𝗘) which was held on 14-15th October 2024",
+    "Subal Beura completed his PhD under Supervisor Dr.Bibhu Prasad Padhy",
+    "Subal Beura, Amit Kumar, Research Scholar, under the supervision of Bibhu Prasad Padhy, Won (First Place) the hackathon on the 𝗣𝗼𝘄𝗲𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗖𝘆𝗯𝗲𝗿𝘀𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 𝟮𝟬𝟮𝟰, hosted by the 𝗗𝗲𝗽𝗮𝗿𝘁𝗺𝗲𝗻𝘁 𝗼𝗳 𝗪𝗮𝘁𝗲𝗿 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗮𝗻𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 (𝗪𝗥𝗗&𝗠) at Indian Institute of Technology, Roorkee, held on 14-15th October 2024..",
+    "Subal Beura, Amit Kumar, Research Scholar, under the supervision of Bibhu Prasad Padhy, Subal Beura and Amit Kumar PhD scholar under supervisor Dr.Bibhu Prasad Padhy has won First Place the hackathon on the 𝗣𝗼𝘄𝗲𝗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗖𝘆𝗯𝗲𝗿𝘀𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻 𝟮𝟬𝟮𝟰."
+  ],
+  "photo": "/images/legacy/4d99ee2a1a63.jpg",
+  "name": "Bibhu Prasad Padhy",
+  "designation": "Associate Professor",
+  "address": "213, JC BOSE BUILDING, IIT ROPAR,140001",
+  "email": "bibhu@iitrpr.ac.in",
+  "phone": "2207",
+  "scholar": "https://scholar.google.co.in/citations?user=Oz5tUxkAAAAJ&hl=en",
+  "website": null,
+  "otherLinks": [],
+  "intro": [
+    "Dr. Bibhu Prasad Padhy received BE degree in Electrical Engineering from the University College of Engineering Burla, Odisha, in 2006 and MTech degree from the Dept. of Electrical Engineering, Indian Institute of Technology Roorkee, India, in 2009, and subsequently he received his PhD degree from the Dept. of Electrical Engineering, Indian Institute of Technology Kanpur, India, in 2015. After his PhD, he worked approximately 8 months as a Project Engineer in the Advance Power System Lab at IIT Kanpur. Currently, he is an Assistant Professor in the Department of Electrical Engineering, Indian Institute of Technology Ropar. His research interests include power system dynamics and stability, WAMS, cybersecurity and AI applications in power systems."
+  ],
+  "qualifications": [
+    "PhD, Electrical Engineering, Indian Institute of Technology Kanpur, India",
+    "M. Tech, Electrical Engineering, Indian Institute of Technology Roorkee, India.",
+    "B.E. in Electrical Engineering, University College of Engineering, Burla, Odisha, India."
+  ],
+  "interests": [
+    "Power system dynamics & stability studies",
+    "Synchrophasor technology & its applications",
+    "State estimation in power systems",
+    "Smart & Micro grids",
+    "Cybersecurity in smart-grid",
+    "Renewable energy integration"
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [],
+    "conference": [],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [
+    "Member of IEEE"
+  ],
+  "researchProjects": [
+    {
+      "title": "The AI-enabled solar-based multi-port high gain electric vehicle AC charging station for domestic and industrial use",
+      "agency": "Ministry of Electronics and Information Technology (MeitY)",
+      "role": "CO-PI",
+      "period": "2022 - 2024",
+      "amount": "66.000"
+    },
+    {
+      "title": "1. Fault-Tolerant Damping Controllers",
+      "agency": ": IIT Ropar, India, under Institute Seeds Grants scheme",
+      "role": "PI",
+      "period": "2017 - 2019",
+      "amount": "26.000"
+    },
+    {
+      "title": "Study on Detection of False Data Injection (FDI) Attacks in Smart Grid Cyber-Physical Systems: A Machine Learning Approach",
+      "agency": "CPRI",
+      "role": "PI",
+      "period": "2022 - 2023",
+      "amount": "14.000"
+    }
+  ],
+  "consultancy": [],
+  "courses": [
+    {
+      "code": "EEL-631",
+      "title": "Power System Dynamics, Stability & Control",
+      "ltpsc": "3-0-0-6-3",
+      "type": "CORE",
+      "degree": "M.tech.",
+      "offerings": [
+        "2024 · Semester II"
+      ]
+    },
+    {
+      "code": "GE104",
+      "title": "Basic Electrical Engineering",
+      "ltpsc": "2-2/3-2-13/3-3",
+      "type": "Core",
+      "degree": "B.tech.",
+      "offerings": [
+        "2024 · Semester II"
+      ]
+    },
+    {
+      "code": "GEL104",
+      "title": "Basic Electrical Engineering",
+      "ltpsc": "2-2/3-2-13/3-3",
+      "type": "Both",
+      "degree": "B.tech.",
+      "offerings": [
+        "2023 · Semester I"
+      ]
+    },
+    {
+      "code": "EEL-401",
+      "title": "Flexible AC Transmission Systems",
+      "ltpsc": "3-0-0-6-3",
+      "type": "CORE",
+      "degree": "B.tech.",
+      "offerings": [
+        "2021 · Semester IV"
+      ]
+    },
+    {
+      "code": "EEP-309",
+      "title": "Power Systems Laboratory",
+      "ltpsc": "0-0-3-3/2-1.5",
+      "type": "CORE",
+      "degree": "B.tech.",
+      "offerings": [
+        "2020 · Semester III"
+      ]
+    },
+    {
+      "code": "EEL-606",
+      "title": "Simulation and Analysis of Modern Power Systems",
+      "ltpsc": "3-0-4-8-5",
+      "type": "CORE",
+      "degree": "M.tech.",
+      "offerings": [
+        "2019 · Semester I"
+      ]
+    },
+    {
+      "code": "EEL-209",
+      "title": "Power Systems",
+      "ltpsc": "3-1-0-5-3",
+      "type": "CORE",
+      "degree": "B.tech.",
+      "offerings": [
+        "2018 · Semester II"
+      ]
+    }
+  ],
+  "phdSupervised": [
+    "Satish Kumar Ancha",
+    "Subal Beura",
+    "Balakrushna Sahu"
+  ],
+  "adminRoles": [
+    "M. Tech coordinator for Power Engineering (2018- Dec. 2024)",
+    "▪",
+    "Faculty advisor BTech 2016 batch (2016-2021)",
+    "▪",
+    "TA duty Coordinator (2016-2019)",
+    "▪",
+    "PhD coordinator for Power Engineering (Dec. 2024-Present)"
+  ],
+  "awards": [
+    {
+      "title": "Received POSOCO award 2014 for my Doctoral Research work on ”Synchrophasor measurement based wide-area stabilizing controller design to improve power system stability”"
+    },
+    {
+      "title": "MHRD fellowship, for pursing PhD at IIT Kanpur"
+    }
+  ],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

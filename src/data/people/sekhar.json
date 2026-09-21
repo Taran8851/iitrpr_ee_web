@@ -1,0 +1,410 @@
+{
+  "id": "sekhar",
+  "studentAchievements": [],
+  "photo": "/images/legacy/f62a04233853.jpg",
+  "name": "K. Ramachandra Sekhar",
+  "designation": "Associate Professor",
+  "address": "Room No-118, J C Bose building, IIT Ropar",
+  "email": "sekhar@iitrpr.ac.in",
+  "phone": "+91-188-1232215",
+  "scholar": "https://scholar.google.com/citations?user=mD5FcEMAAAAJ&hl=en",
+  "website": null,
+  "otherLinks": [],
+  "intro": [],
+  "qualifications": [
+    "Ph.D"
+  ],
+  "interests": [
+    "Power electronics",
+    "Renewable energy sources",
+    "microgrids",
+    "control systems",
+    "Drives"
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [
+      {
+        "authors": "Aashish Kumar, K Ramachandra Sekhar",
+        "title": "A Novel DC Capacitor Deficit Power Balancing Mechanism for Innate Maximum Power Tracking With Eliminated Regulators in PV-Inverters",
+        "venue": "IEEE Transactions on Industrial Electronics",
+        "year": "2025",
+        "url": "https://doi.org/12"
+      },
+      {
+        "authors": "Aashish Kumar; Baibhav Kumar Gupta; A.Surya Kiran;K Ramachandra Sekhar",
+        "title": "An Adaptive Fractional Voltage MPPT with the Exponential Sliding AC Voltage and Current Controllers for Enhanced Power Processing Integrity",
+        "venue": "IEEE Transactions on Industry Applications",
+        "year": "2025",
+        "url": "https://doi.org/12"
+      },
+      {
+        "authors": "Aashish Kumar, K Ramachandra Sekhar, A Surya Kiran",
+        "title": "The Grid interfaced PV-driven Dual Port Solar System with Improved Depth of Power Extraction under Solar Irradiance Disparity (Accepted)",
+        "venue": "IEEE Transactions on Power Electronics",
+        "year": "2025"
+      },
+      {
+        "authors": "Reddy, P Mahesh; Gupta, Baibhav Kumar; K Ramachandra Sekhar;",
+        "title": "Design and Implementation of Load Network Time Constant Computation Based Solar Active Power Filters Cum Injector for Industrial Loads/Grids",
+        "venue": "IEEE Access",
+        "year": "2024"
+      },
+      {
+        "authors": "Reddy, P Mahesh; Gedam, Amol Ishwarrao; K Ramachandra Sekhar;",
+        "title": "A Solar Series Grid Following Harmonic Compensator with Enhanced Grid Current Shaping and Active Power Injection Capability",
+        "venue": "IEEE Transactions on Power Delivery",
+        "year": "2024"
+      },
+      {
+        "authors": "Gedam, Amol Ishwarrao; K Ramachandra Sekhar;",
+        "title": "A Novel Switching Vector Sequencing Method to Optimize DC Voltage Ripple in Dual Inverter Drive Without Affecting Load Current Ripple",
+        "venue": "IEEE Transactions on Industrial Electronics",
+        "year": "2024"
+      },
+      {
+        "authors": "Reddy, P Mahesh; K Ramachandra Sekhar;",
+        "title": "Instantaneous Induced Braking Energy Modeling and Disperse Inverter Voltage Vector Synthesis for Maximum Energy Recovery in IM-based Drives",
+        "venue": "IEEE Transactions on Industry Applications",
+        "year": "2024"
+      },
+      {
+        "authors": "Gedam, Amol Ishwarrao; K Ramachandra Sekhar; Kumar, Nikhil;",
+        "title": "A New Minimum DC Voltage Ripple Generating PWM Selection Algorithm for Voltage Source Inverter",
+        "venue": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+        "year": "2024"
+      },
+      {
+        "authors": "Gupta, Baibhav Kumar; Kumar, Aashish; K Ramachandra Sekhar;",
+        "title": "A configurable multi input port hybrid inverter topology with quadrupled voltage gain for PV and hybrid applications",
+        "venue": "CPSS Transactions on Power Electronics and Applications",
+        "year": "2024"
+      },
+      {
+        "authors": "Gupta, Baibhav Kumar; K Ramachandra Sekhar;",
+        "title": "A current controller gain characterization of weak grid coupled solar inverter through impedance interaction modeling",
+        "venue": "IEEE Transactions on Industrial Electronics",
+        "volume": "70",
+        "pages": "2520-2530",
+        "year": "2022",
+        "url": "https://doi.org/3"
+      },
+      {
+        "authors": "Gedam, Amol Ishwarrao; K Ramachandra Sekhar;",
+        "title": "Minimum DC voltage ripple switching sequence elicitation for dual inverter through AC load error volt-sec computation",
+        "venue": "IEEE Transactions on Power Electronics",
+        "volume": "37",
+        "pages": "15654-15665",
+        "year": "2022",
+        "url": "https://doi.org/12"
+      },
+      {
+        "authors": "Gupta, Baibhav Kumar; K Ramachandra Sekhar; Kumar, Aashish;",
+        "title": "A novel multigain single-stage grid-connected inverter with asynchronous switching for intra-inverter circulating current elimination",
+        "venue": "IEEE Transactions on Power Electronics",
+        "volume": "37",
+        "pages": "15641-15653",
+        "year": "2022",
+        "url": "https://doi.org/12"
+      },
+      {
+        "authors": "Gupta, Baibhav Kumar; K Ramachandra Sekhar; Gedam, Amol Ishwarrao;",
+        "title": "Solar Interfaced Series Inverter with Provision of Common DC bus Grounding",
+        "venue": "IEEE Transactions on Industrial Electronics",
+        "year": "2021"
+      },
+      {
+        "authors": "K Ramachandra Sekhar; Srinivas, Srirama;",
+        "title": "Torque ripple reduction PWMs for a single DC source powered dual‐inverter fed open‐end winding induction motor drive",
+        "venue": "IET Power Electronics",
+        "volume": "11",
+        "pages": "43-51",
+        "year": "2018",
+        "url": "https://doi.org/1"
+      },
+      {
+        "authors": "K Ramachandra Sekhar; Srinivas, S;",
+        "title": "Discontinuous decoupled PWMs for reduced current ripple in a dual two-level inverter fed open-end winding induction motor drive",
+        "venue": "IEEE Transactions on Power Electronics",
+        "volume": "28",
+        "pages": "2493-2502",
+        "year": "2012",
+        "url": "https://doi.org/5"
+      },
+      {
+        "authors": "Srinivas, S; K Ramachandra Sekhar;",
+        "title": "Theoretical and experimental analysis for current in a dual-inverter-fed open-end winding induction motor drive with reduced switching PWM",
+        "venue": "IEEE Transactions on Industrial Electronics",
+        "volume": "60",
+        "pages": "4318-4328",
+        "year": "2012",
+        "url": "https://doi.org/10"
+      }
+    ],
+    "conference": [
+      {
+        "authors": "Lone, Azad Hamza; Gedam, Amol Ishwarrao; K Ramachandra Sekhar;",
+        "title": "Voltage Support and Imbalance Mitigation during Voltage Sags by Renewable Energy Fed Grid Connected Inverters",
+        "venue": "2023 IEEE IAS Global Conference on Renewable Energy and Hydrogen Technologies (GlobConHT)",
+        "pages": "1-6",
+        "year": "2023"
+      },
+      {
+        "authors": "Lone, Azad Hamza; Gedam, Amol Ishwarrao; K Ramachandra Sekhar;",
+        "title": "Fault Ride Through with Conformance to Grid Voltage Limits in Photovoltaic Grid Connected Inverters.",
+        "venue": "2023 IEEE IAS Global Conference on Emerging Technologies (GlobConET)",
+        "pages": "1-6",
+        "year": "2023"
+      },
+      {
+        "authors": "Reddy, P Mahesh; Manjunath, K; K Ramachandra Sekhar; Gupta, Baibhav Kumar;",
+        "title": "Nonlinear Load Time-Constant Based Filter Inductance Design for PV-Driven Grid-Connected SAF/PFC in EV Charging Infrastructure",
+        "venue": "IECON 2023-49th Annual Conference of the IEEE Industrial Electronics Society",
+        "pages": "1-6",
+        "year": "2023"
+      },
+      {
+        "authors": "Kumar, Aashish; Karn, Manish; Gupta, Baibhav Kumar; K Ramachandra Sekhar;",
+        "title": "A direct current MPPT control with eliminated outer loop for grid interfaced solar inverter",
+        "venue": "2022 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES)",
+        "pages": "1-5",
+        "year": "2022"
+      },
+      {
+        "authors": "Reddy, P Mahesh; K Ramachandra Sekhar;",
+        "title": "The Effect of Disperse voltage on Dynamic Braking Energy Recovery in Induction Motor Based EV Drives",
+        "venue": "2022 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES)",
+        "pages": "1-6",
+        "year": "2022"
+      },
+      {
+        "authors": "Gedem, Amol Ishwarrao; Ranjan, Ravi; Mishra, Nitish; K Ramachandra Sekhar;",
+        "title": "Modelling and Design of Grid Synchronised Three Phase Single Stage Battery Charging Station",
+        "venue": "2022 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES)",
+        "pages": "1-6",
+        "year": "2022"
+      },
+      {
+        "authors": "Kumar, Aashish; Gupta, Baibhav Kumar; K Ramachandra Sekhar;",
+        "title": "Double Integral Sliding Surface MPP Control for Single Stage Grid Connected Inverte",
+        "venue": "2022 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES)",
+        "pages": "1-5",
+        "year": "2022"
+      },
+      {
+        "authors": "Meikap, Somnath; K Ramachandra Sekhar;",
+        "title": "Pole-Zero Analysis of a simple Gate Driver Circuit over the medium range of frequency used in Power Electronics Devices",
+        "venue": "2020 IEEE Applied Power Electronics Conference and Exposition (APEC)",
+        "pages": "103-106",
+        "year": "2020"
+      },
+      {
+        "authors": "Barot, Rohan; K Ramachandra Sekhar;",
+        "title": "Printed circuit board for reducing common mode current and a method thereof",
+        "year": "2019"
+      },
+      {
+        "authors": "Gupta, BK; Gedam, AI; K Ramachandra Sekhar;",
+        "title": "Evaluation of DC Link Capacitor for Solar Fed Dual Inverter with Zero Sequence Elimination PWM",
+        "year": "2019"
+      },
+      {
+        "authors": "Gupta, Baibhav Kumar; Gedam, Amol Ishwarrao; K Ramachandra Sekhar;",
+        "title": "A dual inverter based grid connected solar power conditioning system with coordinated closed loop control",
+        "venue": "2019 IEEE Innovative Smart Grid Technologies-Asia (ISGT Asia)",
+        "pages": "2178-2183",
+        "year": "2019"
+      },
+      {
+        "authors": "K Ramachandra Sekhar; Gupta, Baibhav Kumar; Gedam, Amol Ishwarrao;",
+        "title": "The closed loop controller gain characterization for enhanced current quality in solar inverters coupled with weak grid",
+        "venue": "2019 8th International Conference on Renewable Energy Research and Applications (ICRERA)",
+        "pages": "696-701",
+        "year": "2019"
+      },
+      {
+        "authors": "Gupta, Aakriti; K Ramachandra Sekhar;",
+        "title": "A DC planar bus bar of high-frequency power converter with enhanced current distribution",
+        "venue": "2019 21st European Conference on Power Electronics and Applications (EPE\\'19 ECCE Europe)",
+        "pages": "P. 1-P. 10",
+        "year": "2019"
+      },
+      {
+        "authors": "Gupta, Baibhav Kumar; K Ramachandra Sekhar; Gedam, Amol Ishwarrao;",
+        "title": "Balanced per-phase sequential switching to suppress circulating current in grid connected modular solar inverters",
+        "venue": "2019 8th International Conference on Renewable Energy Research and Applications (ICRERA)",
+        "pages": "686-691",
+        "year": "2019"
+      },
+      {
+        "authors": "K Ramachandra Sekhar; Bhatt, Aalok; Kawashima, Tetsuya;",
+        "title": "A New High Power Solar Inverter Topology with Reduced DC Potential for Enhanced Reliability",
+        "venue": "PCIM Asia 2017; International Exhibition and Conference for Power Electronics, Intelligent Motion, Renewable Energy and Energy Management",
+        "pages": "1-6",
+        "year": "2017"
+      },
+      {
+        "authors": "Patel, Prashant; K Ramachandra Sekhar; Patel, Yashpal;",
+        "title": "A novel control strategy to enhance the current quality in grid tied solar inverter",
+        "venue": "2016 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES)",
+        "pages": "1-6",
+        "year": "2016"
+      },
+      {
+        "authors": "K Ramachandra Sekhar; Barot, Rohan; Patel, Prashant; Kumar, N Vinoth;",
+        "title": "A novel topology for improved DC bus utilization in PMSG based wind energy generation system",
+        "venue": "2015 International Conference on Renewable Energy Research and Applications (ICRERA)",
+        "pages": "525-530",
+        "year": "2015"
+      },
+      {
+        "authors": "K Ramachandra Sekhar; Kumar, N Vinoth; Harada, Yasushi;",
+        "title": "Impact of renewable energy control center on voltage stability and transmission network efficiency in wind farm integrated grid",
+        "venue": "2014 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES)",
+        "pages": "1-6",
+        "year": "2014"
+      },
+      {
+        "authors": "K Ramachandra Sekhar; Srinivas, S;",
+        "title": "Current ripple analysis for an asymmetric dual two-level inverter drive with reduced common mode voltage PWM technique",
+        "venue": "2012 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES)",
+        "pages": "1-6",
+        "year": "2012"
+      },
+      {
+        "authors": "Kalaiselvi, J; K Ramachandra Sekhar; Srinivas, S;",
+        "title": "Common mode voltage elimination PWMs for a dual two-level VSI with single inverter switching",
+        "venue": "2012 IEEE International Symposium on Industrial Electronics",
+        "pages": "234-239",
+        "year": "2012"
+      },
+      {
+        "authors": "K Ramachandra Sekhar; Srinivas, S;",
+        "title": "Effect of a CMV elimination PWM on stator current ripple in a dual two-level inverter fed induction motor drive",
+        "venue": "International Symposium on Power Electronics Power Electronics, Electrical Drives, Automation and Motion",
+        "pages": "395-400",
+        "year": "2012"
+      },
+      {
+        "authors": "K Ramachandra Sekhar; Srinivas, S;",
+        "title": "Current ripple analysis in a decoupled SVPWM controlled dual two-level inverter fed open-end winding induction motor drive",
+        "venue": "2011 2nd Power Electronics, Drive Systems and Technologies Conference",
+        "pages": "373-378",
+        "year": "2011"
+      },
+      {
+        "authors": "Srinivas, S; K Ramachandra Sekhar;",
+        "title": "HYBRID PWM SWITCHING STRATEGY FOR A THREE‐LEVEL INVERTER FED INDUCTION MOTOR DRIVE WITH OPEN‐END WINDINGS",
+        "venue": "AIP Conference Proceedings",
+        "volume": "1239",
+        "pages": "141-147",
+        "year": "2010",
+        "url": "https://doi.org/1"
+      },
+      {
+        "authors": "K Ramachandra Sekhar; Mohan, Shravan; Srinivas, S;",
+        "title": "An improved PWM for a dual two-level inverter fed open-end winding induction motor drive",
+        "venue": "The XIX International Conference on Electrical Machines-ICEM 2010",
+        "pages": "1-6",
+        "year": "2010"
+      }
+    ],
+    "books": [],
+    "patents": [
+      {
+        "kind": "Patent",
+        "title": "Circuit for controlling gate current of a semiconductor switching device",
+        "publisher": "US Patent 10,187,051(Granted)",
+        "year": "2019",
+        "authors": "K Ramachandra Sekhar;"
+      },
+      {
+        "kind": "Patent",
+        "title": "Harmonic erasure unit and method of harmonic erasure",
+        "publisher": "JP Patent 2,017,070,186 (Granted)",
+        "year": "2017",
+        "authors": "Patel Prashant, K Ramachandra Sekhar;"
+      },
+      {
+        "kind": "Patent",
+        "title": "Printed circuit board for reducing common mode current and a method thereof",
+        "publisher": "US Patent 10,271,422 (Granted)",
+        "year": "2019",
+        "authors": "K Ramachandra Sekhar; Rohan Barot"
+      },
+      {
+        "kind": "Patent",
+        "title": "suppressing circulating current through sequential switching of modular inverters in grid applications",
+        "publisher": "Indian Patent, 202011014453 (Granted)",
+        "year": "2013",
+        "authors": "Baibhav Kumar Gupta K Ramachandra Sekhar; Amol"
+      },
+      {
+        "kind": "Patent",
+        "title": "A METHOD FOR TRACKING MAXIMUM POWER POINT OF A SOLAR FARM INTERFACED GRID-TIED INVERTER",
+        "publisher": "Grant number-569586/",
+        "year": "2023",
+        "authors": "Aashish Kumar, K Ramachandra Sekhar"
+      }
+    ]
+  },
+  "affiliations": [],
+  "researchProjects": [
+    {
+      "title": "Implementation of IoT Based Energy Management Tool For Grid Integrated Solar Irrigation System",
+      "agency": "Nidhi Prayas",
+      "role": "PI",
+      "period": "2020 - 2022",
+      "amount": "10.000"
+    },
+    {
+      "title": "Implementation of Adaptive Reactive Power Compensation Mechanism for Enhanced Power Quality in Weak Grid Connected Solar Inverter under Varying Solar Irradiance",
+      "agency": "SERB-CRG",
+      "role": "PI",
+      "period": "2021 - 2024",
+      "amount": "32.000"
+    },
+    {
+      "title": "The AI Enabled Solar based Multi port High Gain Electric Vehicle AC Charging Station for Domestic and Commercial Use",
+      "agency": "MeiTY-Industry",
+      "role": "PI",
+      "period": "2022 - 2024",
+      "amount": "66.000"
+    },
+    {
+      "title": "Design, Modeling, and Development of Solar- Based Enhanced Active Power Filter to Support EV Charging Infrastruc- ture Interfaced with the Grid",
+      "agency": "SERB-TARE",
+      "role": "PI",
+      "period": "2022 - 2025",
+      "amount": "19.000"
+    },
+    {
+      "title": "Design and implementation of the controller for IPMSM driven compressors used in the refrigeration system",
+      "agency": "DST IMPRINT-2",
+      "role": "PI",
+      "period": "2025 - 2025",
+      "amount": "10.000"
+    },
+    {
+      "title": "Design and Implementation of Power Converter for renewable energy sources to integrate with hybrid micro grid/utility grid",
+      "agency": "ISIRD-IIT Ropar",
+      "role": "PI",
+      "period": "2018 - 2021",
+      "amount": "50.000"
+    }
+  ],
+  "consultancy": [],
+  "courses": [],
+  "phdSupervised": [
+    "Baibhav Kumar Gupta (Completed)",
+    "Mahesh Reddy (Completed)",
+    "Amol Ishwarrao Gedam (Completed)",
+    "Aashish Kumar(Thesis submitted)"
+  ],
+  "adminRoles": [],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

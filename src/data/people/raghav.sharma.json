@@ -1,0 +1,58 @@
+{
+  "id": "raghav.sharma",
+  "studentAchievements": [],
+  "photo": "/images/legacy/75e5b72b9a7b.jpg",
+  "name": "Raghav Sharma",
+  "designation": "Inspire Faculty",
+  "address": "Room No. 201, JC Bose Block, Department of Electrical engineering",
+  "email": "raghav.sharma@iitrpr.ac.in",
+  "phone": "9650162192",
+  "scholar": "https://scholar.google.com/citations?user=iNvWAccAAAAJ&hl=en",
+  "website": "https://www.theraghavsharma.info/",
+  "otherLinks": [],
+  "intro": [
+    "Dr. Raghav Sharma earned his Bachelor of Technology in Electronics and Communication from the Maharshi Dayanand University, Rohtak, Haryana in 2010 and M. Tech in Nanoscience and Technology from Guru Govind Singh Indraprastha University in 2012. Thereafter, he joined IIT Delhi as a PhD student and awarded with the Doctorate degree with a distinction in doctoral thesis in December, 2017."
+  ],
+  "qualifications": [
+    "B. Tech in Electronics and Communication (2006-2010)",
+    "M. Tech in Nanoscience and Technology (2010-2012)",
+    "Ph.D (with distinction) (2012-2017), IIT Delhi."
+  ],
+  "interests": [
+    "Nanodevices Fabrication",
+    "Topological Quantum Materials",
+    "Spintronics",
+    "RF and microwave applications"
+  ],
+  "briefProfile": [
+    "My current research focuses on the development of 1) a topological quantum rectifier based on nonlinear transport, 2) high-frequency spintronic devices based on ferrimagnets or magnetic topological materials for GHz and sub-THz signal generation for applications such as fast data transmission, fast switching, and neural networking, 3) a high-frequency large-array of devices for GHz energy harvesting, and 4) a physical model for spintronic and quantum devices. My main areas of research include nano-device fabrication compatible with CMOS technology, electronic and radio frequency (RF) instrumentation, and the design of measurement circuits for the characterization and testing of RF electronic devices. I've set up systems for measuring ferromagnetic resonance, DC and RF probe stations, frequency and time-domain measurements of RF devices, RF energy harvesting module etc. My current aim is to design and understand high-frequency (above 20 GHz) nano-rectifiers and oscillators using ferrimagnets and exotic materials such as Weyl semimetal and topological insulators. These devices target the application in 4G, 5G (24 – 86 GHz) and 6G technology (95 GHz and above)."
+  ],
+  "publications": {
+    "journal": [],
+    "conference": [],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [
+    "Member of IEEE",
+    "IEEE Magnetic Society and IEEE Young Professional Society"
+  ],
+  "researchProjects": [
+    {
+      "title": "Development of high-frequency rectifiers for the 5G, 6G and mm wave technologies",
+      "agency": "DST",
+      "role": "PI",
+      "period": "2023 - 2027",
+      "amount": "35.000"
+    }
+  ],
+  "consultancy": [],
+  "courses": [],
+  "phdSupervised": [],
+  "adminRoles": [],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

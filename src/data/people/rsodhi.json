@@ -1,0 +1,651 @@
+{
+  "id": "rsodhi",
+  "studentAchievements": [
+    "Sourav De PhD scholar under supervisor Dr.Ranjana Sodhi completed PhD defense"
+  ],
+  "photo": "/images/legacy/493826066def.jpg",
+  "name": "Ranjana Sodhi",
+  "designation": "Associate Professor",
+  "address": "",
+  "email": "rsodhi@iitrpr.ac.in",
+  "phone": "1881232217",
+  "scholar": "https://scholar.google.co.in/citations?user=QGjIzxEAAAAJ&hl=en",
+  "website": "https://sites.google.com/iitrpr.ac.in/symarlab/symar-lab",
+  "otherLinks": [],
+  "intro": [
+    "Dr. Ranjana Sodhi earned her B.Tech degree in Electrical Engineering from NIT Hamirpur, in 2005. She has been active in the field of electrical engineering since 2005. In the past she had a brief stint as a Project Engineer (in voice and next generation networks group) at Wipro Technologies, Bangalore; and also got appointment as Additional Director in Central Electricity Authority (CEA), New Delhi, (IES batch 2005). She came back to academia to pursue research in the area of power systems and completed her Ph.D. from IIT Kanpur in May 2011. Dr. Sodhi is currently an Associate Professor in the Department of EE at IIT Ropar. Dr. Sodhi's doctoral research work is around the Synchrophasor technology and its applications towards power system state estimation and voltage stability assessment, Power Quality Assessment and Control, Smart Home Automation and Cyber Security of Smart Grids."
+  ],
+  "qualifications": [
+    "B.Tech.",
+    "PhD"
+  ],
+  "interests": [
+    "Power Systems",
+    "Smart Grid",
+    "Synchrophasor Technology",
+    "Wide Area Monitoring Systems",
+    "Power Quality",
+    "State Estimation",
+    "Smart Home",
+    "Cyber Security",
+    "Power Markets",
+    "Electric Vehicles"
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [
+      {
+        "authors": "Manish Pandit and Ranjana Sodhi",
+        "title": "Randomized Singular Value Decomposition based Real-time Wide Area Voltage Stability Assessment (WAVS)",
+        "venue": "Electric Power System Research",
+        "volume": "231",
+        "year": "2024",
+        "url": "http://dx.doi.org/10.1016/j.epsr.2024.110310"
+      },
+      {
+        "authors": "Sourav De and Ranjana Sodhi",
+        "title": "A Unified Cyber Attack Detection and Mitigation Framework for an Islanded AC Microgrid",
+        "venue": "IEEE Transactions on Systems, Man and Cybernetics: Systems",
+        "volume": "54",
+        "pages": "5270-5282",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/TSMC.2024.3403749"
+      },
+      {
+        "authors": "Yashasvi Bansal, Ranjana Sodhi, Saikat Chakrabarti, and Ankush Sharma",
+        "title": "A Novel Two-Stage Partitioning Based Reconfiguration Method for Active Distribution Networks",
+        "venue": "IEEE Transactions on Power Delivery",
+        "volume": "38",
+        "pages": "4004-4016",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TPWRD.2023.3298470"
+      },
+      {
+        "authors": "Sourav De, M Venkateswara Reddy and Ranjana Sodhi",
+        "title": "A Data-Driven Passive Islanding Scheme",
+        "venue": "IEEE Transactions on Industry Applications",
+        "volume": "60",
+        "pages": "3698-3709",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TIA.2023.3348425"
+      },
+      {
+        "authors": "Manish Pandit and Ranjana Sodhi",
+        "title": "Phasor Measurement Sensor-Assisted Time to Collapse Estimation under Long Term Voltage Instability of Smart Grids",
+        "venue": "IEEE Sensors Journal",
+        "volume": "24",
+        "pages": "6523-6531",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/JSEN.2024.3349595"
+      },
+      {
+        "authors": "Sourav De and Ranjana Sodhi",
+        "title": "A PMU Assisted Cyber Security Resilient Framework Against Power System Structural Vulnerabilities",
+        "venue": "Electric Power System Research",
+        "volume": "206",
+        "year": "2022",
+        "url": "https://doi.org/10.1016/j.epsr.2022.107805"
+      },
+      {
+        "authors": "Yashasvi Bansal and Ranjana Sodhi",
+        "title": "A Novel Frequency Estimator for Protection Applications in Active Distribution Networks",
+        "venue": "IEEE Transactions on Industrial Applications",
+        "volume": "58",
+        "pages": "4319 - 4327",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TIA.2022.3164019"
+      },
+      {
+        "authors": "Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi",
+        "title": "Community Pool Model for Active-Hour Appliance Management: A Multi-Round ADMM Approach",
+        "venue": "IEEE Transactions on Smart Grid",
+        "volume": "14",
+        "pages": "1070-1082",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TSG.2022.3206147"
+      },
+      {
+        "authors": "Kapil Chauhan and Ranjana Sodhi",
+        "title": "A signal Parameter Measurement Technique for Adversely Distorted Multi-Frequency Grid Signals",
+        "venue": "journal of the Institutions of Engineers India - Series B",
+        "volume": "102",
+        "pages": "927-938",
+        "year": "2021",
+        "url": "https://doi.org/10.1007/s40031-021-00615-4"
+      },
+      {
+        "authors": "Yashasvi Bansal and Ranjana Sodhi",
+        "title": "A Novel µPMUs Assisted Loss-of-Mains Detection Technique for Active Distribution Systems",
+        "venue": "Electric Power System Research",
+        "volume": "202",
+        "year": "2021",
+        "url": "https://doi.org/10.1016/j.epsr.2021.107578"
+      },
+      {
+        "authors": "Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi",
+        "title": "A Bi-Layer Clustered Priority Driven Energy Management Model for Inclining Block Rate Tariff Environment",
+        "venue": "IEEE Transactions on Industrial Informatics",
+        "volume": "18",
+        "pages": "3936-3946",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TII.2021.3114361"
+      },
+      {
+        "authors": "Yashasvi Bansal and Ranjana Sodhi",
+        "title": "A Statistical Features based generic Passive Islanding Detection scheme for IIDGs",
+        "venue": "IEEE Transactions on Power Delivery",
+        "volume": "37",
+        "pages": "3176-3188",
+        "year": "2021",
+        "url": "http://dx.doi.org/10.1109/TPWRD.2021.3124986"
+      },
+      {
+        "authors": "Kapil Chauhan and Ranjana Sodhi",
+        "title": "Placement of Distribution-level Phasor Measurements for Topological Observability and Monitoring of Active Distribution Networks",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "69",
+        "pages": "3451-3460",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TIM.2019.2939951"
+      },
+      {
+        "authors": "M Venkateswara Reddy and Ranjana Sodhi",
+        "title": "An Open Loop Fundamental and Harmonic Phasor Estimator for Single-Phase Voltage Signals",
+        "venue": "IEEE Transactions on Industrial Informatics",
+        "volume": "16",
+        "pages": "4535-4546",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TII.2019.2950404"
+      },
+      {
+        "authors": "Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi",
+        "title": "An Appliance Load Disaggregation Scheme Using Automatic State Detection Enabled Enhanced Integer-Programming",
+        "venue": "IEEE Transactions on Industrial Informatics",
+        "volume": "17",
+        "pages": "1176-1185",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TII.2020.2975810"
+      },
+      {
+        "authors": "Yashasvi Bansal and Ranjana Sodhi",
+        "title": "PMUs Enabled Tellegen’s Theorem based Fault Identification Method for Unbalanced Active Distribution Network using RTDS",
+        "venue": "IEEE systems journal",
+        "volume": "14",
+        "pages": "4567-4578",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/JSYST.2020.2976736"
+      },
+      {
+        "authors": "Yashasvi Bansal and Ranjana Sodhi",
+        "title": "A Half-Cycle Fast Discrete Orthonormal S Transform based Protection-class µPMU",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "69",
+        "pages": "6934-6945",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TIM.2020.2980339"
+      },
+      {
+        "authors": "Kapil Chauhan and Ranjana Sodhi",
+        "title": "A Distribution-Level PM enabled Teager-Kaiser Energy based Islanding Detector",
+        "venue": "Electric Power System Research",
+        "volume": "192",
+        "year": "2020",
+        "url": "https://doi.org/10.1016/j.epsr.2020.106964"
+      },
+      {
+        "authors": "Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi",
+        "title": "A Novel Instrumentation Approach for Clustered Appliance Load Monitoring",
+        "venue": "IEEE Transactions on Power Delivery",
+        "volume": "34",
+        "pages": "2257-2259",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/TPWRD.2019.2917585"
+      },
+      {
+        "authors": "Yashasvi Bansal, M Venkateswara Reddy and Ranjana Sodhi",
+        "title": "An Open Loop Frequency Estimator for Adversely Distorted Signals Encompassing Interharmonics",
+        "venue": "Electric Power Components and Systems",
+        "volume": "47",
+        "pages": "1218-1229",
+        "year": "2019",
+        "url": "https://doi.org/10.1080/15325008.2019.1660737"
+      },
+      {
+        "authors": "M Venkateswara Reddy and Ranjana Sodhi",
+        "title": "A Modified S-Transform and Random Forests based Power Quality Assessment Framework",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "67",
+        "pages": "78-89",
+        "year": "2018",
+        "url": "https://doi.org/10.1109/TIM.2017.2761239"
+      },
+      {
+        "authors": "Kapil Chauhan, M Venkateswara Reddy and Ranjana Sodhi",
+        "title": "A Novel Distribution-Level Phasor Estimation Algorithm Using Empirical Wavelet Transform",
+        "venue": "IEEE Transactions on Industrial Electronics",
+        "volume": "65",
+        "pages": "7984-7995",
+        "year": "2018",
+        "url": "http://dx.doi.org/10.1109/TIE.2018.2801837"
+      },
+      {
+        "authors": "M. Venkateswara Reddy and Ranjana Sodhi",
+        "title": "A Rule-based S-Transform and AdaBoost based Approach for Power Quality Assessment",
+        "venue": "Electric Power System Research",
+        "volume": "134",
+        "pages": "66-79",
+        "year": "2016",
+        "url": "https://doi.org/10.1016/j.epsr.2016.01.003"
+      },
+      {
+        "authors": "Imran Sharieff and Ranjana Sodhi",
+        "title": "Synchrophasor-Assisted Detection and Control of Emergency Voltage Instability Conditions",
+        "venue": "Power research",
+        "volume": "12",
+        "pages": "433-444",
+        "year": "2016",
+        "url": "https://cprijournal.in/index.php/pr/article/view/293"
+      },
+      {
+        "authors": "Ranjana Sodhi, S.C. Srivastava, S.N. Singh",
+        "title": "A Simple Scheme for Wide Area Detection of Impending Voltage Instability",
+        "venue": "IEEE Transactions on Smart Grid",
+        "volume": "2",
+        "pages": "818-827",
+        "year": "2012",
+        "url": "https://doi.org/10.1109/TSG.2011.2180936"
+      },
+      {
+        "authors": "Ranjana Sodhi, S.C. Srivastava, S.N. Singh",
+        "title": "Multi-criteria decision-making approach for multi-stage optimal placement of phasor measurement units",
+        "venue": "IET Generation, Transmission & Distribution",
+        "volume": "5",
+        "pages": "181-190",
+        "year": "2011",
+        "url": "https://doi.org/10.1049/iet-gtd.2009.0709"
+      },
+      {
+        "authors": "Ranjana Sodhi, S.C. Srivastava, S.N. Singh",
+        "title": "Optimal PMU placement method for complete topological and numerical observability of power system",
+        "venue": "Electric Power Systems Research",
+        "volume": "80",
+        "pages": "1154-1159",
+        "year": "2010",
+        "url": "https://doi.org/10.1016/j.epsr.2010.03.005"
+      }
+    ],
+    "conference": [
+      {
+        "authors": "Yashasvi Bansal, R Sodhi, S Chakrabarti, A Sharma and K Chauhan",
+        "title": "A Modified Loadflow Method for Enhancing Resiliency of Islanded Distribution Systems",
+        "venue": "IEEE PES General Meeting",
+        "year": "2024"
+      },
+      {
+        "authors": "Swati Agarwal and Ranjana Sodhi",
+        "title": "A Multilevel Vulnerability Assessment Strategy of N−k−{j} Contingencies for Ensuring the Cybersecurity of Power Systems",
+        "venue": "International Conference on Sustainable Energy and Future Electric Transportation (SEFET)",
+        "volume": "https://doi.org/10.1109/SEFET61574.2024.10718172",
+        "year": "2024",
+        "url": "https://doi.org/979-8-3503-8399-7"
+      },
+      {
+        "authors": "Swati Agarwal and Ranjana Sodhi",
+        "title": "A Fast Multilevel Vulnerability Assessment Strategy for Power Systems Cyber Security",
+        "venue": "Sustainable Energy and Future Electric Transportation (SEFET), International Conference on",
+        "volume": "https://doi.org/10.1109/SEFET61574.2024.10717925",
+        "year": "2024",
+        "url": "https://doi.org/979-8-3503-8399-7"
+      },
+      {
+        "authors": "Shitikantha Dash, Ranjana Sodhi and S N Singh",
+        "title": "Cluster-Wise Response Aggregation-Based Differentially Private Pool Energy Market Model",
+        "venue": "Sustainable Energy and Future Electric Transportation (SEFET), International Conference on",
+        "volume": "https://doi.org/10.1109/SEFET61574.2024.10717938",
+        "year": "2024",
+        "url": "https://doi.org/979-8-3503-8399-7"
+      },
+      {
+        "authors": "Ranjana Sodhi",
+        "title": "Planning Study for Wide Area Monitoring System (WAMS) Installation in SAR Countries",
+        "venue": "International Conference on Electrical Power and Energy Systems (ICEPES)",
+        "year": "2024"
+      },
+      {
+        "authors": "Nitish Kumar, Sourav De and Ranjana Sodhi",
+        "title": "A Comparative Assessment of Machine Learning Techniques for False Data Injection Attack Classification",
+        "venue": "Smart Technologies for Power, Energy and Control (STPEC), IEEE International Conference on",
+        "volume": "https://doi.org/10.1109/STPEC59253.2023.10430663",
+        "year": "2023",
+        "url": "https://doi.org/979-8-3503-0473-2"
+      },
+      {
+        "authors": "Ayush Srivastava, Swati Agarwal, Ranjana Sodhi, and T Soni",
+        "title": "A Comparative Assessment of Data Exploratory Techniques for Power Theft Detection in Residential Distribution Grids",
+        "venue": "Smart Technologies for Power, Energy and Control (STPEC), IEEE International Conference on",
+        "volume": "https://doi.org/10.1109/STPEC59253.2023.10430551",
+        "year": "2023",
+        "url": "https://doi.org/979-8-3503-0473-2"
+      },
+      {
+        "authors": "Ayush Srivastava, Swati Agarwal, and Ranjana Sodhi",
+        "title": "Power Theft Detection in Residential Distribution Grids using Dirichlet Process Mixture Modelling",
+        "venue": "International Conference on Power Systems (ICPS)",
+        "volume": "https://doi.org/10.1109/ICPS60393.2023.10428841",
+        "year": "2023",
+        "url": "https://doi.org/979-8-3503-1873-9"
+      },
+      {
+        "authors": "Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi",
+        "title": "Community Pool-Based Active Appliance Management Model",
+        "year": "2022"
+      },
+      {
+        "authors": "Manish Pandit and Ranjana Sodhi",
+        "title": "Synchrophasor Estimation: Review, Limitations and Future Trends",
+        "venue": "International Conference on Power System Technology (POWERCON)",
+        "volume": "https://doi.org/10.1109/POWERCON53406.2022.9929993",
+        "year": "2022",
+        "url": "https://doi.org/978-1-6654-1775-4"
+      },
+      {
+        "authors": "Kapil Chauhan, Manish Pandit, Ranjana Sodhi and Hung Dinh Nguyen",
+        "title": "Synchrophasor Measurement Assisted Control Framework for Voltage Rise Mitigation in Active Distribution Networks",
+        "venue": "Power India International Conference (PIICON)",
+        "volume": "https://doi.org/10.1109/PIICON56320.2022.10045255",
+        "year": "2022",
+        "url": "https://doi.org/978-1-6654-5930-3"
+      },
+      {
+        "authors": "Sourav De, M Venkateswara Reddy and Ranjana Sodhi",
+        "title": "A Data Driven Passive Islanding Detection Scheme",
+        "venue": "Power India International Conference (PIICON)",
+        "volume": "https://doi.org/10.1109/PIICON56320.2022.10045174",
+        "year": "2022",
+        "url": "https://doi.org/978-1-6654-5930-3"
+      },
+      {
+        "authors": "Yashasvi Bansal and Ranjana Sodhi",
+        "title": "Adapting Tellegen\\'s Theorem for Synchrophasor-Assisted Fault Identification in Active Distribution Networks - An Illustration",
+        "venue": "National Power Systems Conference (NPSC)",
+        "volume": "https://doi.org/10.1109/NPSC49263.2020.9331882",
+        "year": "2021",
+        "url": "https://doi.org/978-1-7281-8552-1"
+      },
+      {
+        "authors": "Yashasvi Bansal and Ranjana Sodhi",
+        "title": "A Novel Frequency Estimator for Protection Applications in Active Distribution Systems",
+        "venue": "National Power Systems Conference (NPSC)",
+        "volume": "https://doi.org/10.1109/NPSC49263.2020.9331839",
+        "year": "2021",
+        "url": "https://doi.org/978-1-7281-8552-1"
+      },
+      {
+        "authors": "Kapil Chauhan and Ranjana Sodhi",
+        "title": "Advancements in Microgrid Voltage Control Schemes",
+        "venue": "National Power Systems Conference (NPSC)",
+        "volume": "https://doi.org/10.1109/NPSC49263.2020.9331907",
+        "year": "2021",
+        "url": "https://doi.org/978-1-7281-8552-1"
+      },
+      {
+        "authors": "Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi",
+        "title": "A Serverless Cloud Computing Framework for Realtime Appliance Usage Recommendation",
+        "venue": "National Power Systems Conference (NPSC)",
+        "volume": "https://doi.org/10.1109/NPSC49263.2020.9331847",
+        "year": "2021",
+        "url": "https://doi.org/978-1-7281-8552-1"
+      },
+      {
+        "authors": "Sourav De and Ranjana Sodhi",
+        "title": "A Simple Cyber Attack Detection Scheme for Smart Grid Cyber Security Enhancement",
+        "venue": "National Power Systems Conference (NPSC)",
+        "volume": "https://doi.org/10.1109/NPSC49263.2020.9331837",
+        "year": "2021",
+        "url": "https://doi.org/978-1-7281-8552-1"
+      },
+      {
+        "authors": "Poojith Rao, Balwinder Sodhi and Ranjana Sodhi",
+        "title": "Cyber Security Enhancement of Smart Grids via Machine Learning - A Review",
+        "venue": "National Power Systems Conference (NPSC)",
+        "volume": "https://doi.org/10.1109/NPSC49263.2020.9331859",
+        "year": "2021",
+        "url": "https://doi.org/978-1-7281-8552-1"
+      },
+      {
+        "authors": "Kapil Chauhan and Ranjana Sodhi",
+        "title": "A novel Centralized Islanding Scheme using Teager-Kaiser Energy of Distribution-level Synchrophasors",
+        "venue": "International Conference on Power Electronics (ICPE)",
+        "volume": "https://doi.org/10.1109/ECCE-Asia49820.2021.9479403",
+        "year": "2021",
+        "url": "https://doi.org/978-1-7281-6344-4"
+      },
+      {
+        "authors": "Shitikantha Dash, Kandarp Gandhi, Ranjana Sodhi",
+        "title": "An Automatic State Detection Algorithm for Non-Intrusive Load Monitoring",
+        "venue": "IEEE India Conference (INDICON)",
+        "volume": "https://doi.org/10.1109/INDICON47234.2019.9030372",
+        "year": "2020",
+        "url": "https://doi.org/978-1-7281-2327-1"
+      },
+      {
+        "authors": "Tukesh Soni and Ranjana Sodhi",
+        "title": "Impact of Harmonic Road Disturbances on Active Magnetic Bearing Supported Flywheel Energy Storage System in Electric Vehicles",
+        "venue": "IEEE International Transportation Electrification Conference (ITEC)",
+        "volume": "https://doi.org/10.1109/ITEC-India48457.2019.ITECINDIA2019-268",
+        "year": "2020",
+        "url": "https://doi.org/978-1-7281-3169-6"
+      },
+      {
+        "authors": "Yashasvi Bansal and Ranjana Sodhi",
+        "title": "An Adaptive IIR Notch Filter based Half-Cycle P-Class Phasor Measurement Estimation Scheme",
+        "venue": "International Conference on Power Systems (ICPS)",
+        "volume": "https://doi.org/10.1109/ICPS48983.2019.9067648",
+        "year": "2020",
+        "url": "https://doi.org/978-1-7281-4103-9"
+      },
+      {
+        "authors": "Kapil Chauhan and Ranjana Sodhi",
+        "title": "A Comparative Analysis of uPMU Placement for Active Distribution Networks\\' Observability",
+        "venue": "International Conference on Power Systems (ICPS)",
+        "volume": "https://doi.org/10.1109/ICPS48983.2019.9067640",
+        "year": "2020",
+        "url": "https://doi.org/978-1-7281-4103-9"
+      },
+      {
+        "authors": "Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi",
+        "title": "A Semi-Intrusive Load Monitoring Approach for Demand Response Applications",
+        "venue": "International Conference on Power Systems (ICPS)",
+        "volume": "https://doi.org/10.1109/ICPS48983.2019.9067320",
+        "year": "2020",
+        "url": "https://doi.org/978-1-7281-4103-9"
+      },
+      {
+        "authors": "M Venkateswara Reddy and Ranjana Sodhi",
+        "title": "A Novel Power Quality Enhancement Strategy for Single Phase Islanded Microgrid",
+        "venue": "IEEE General Meeting Power& Energy Society",
+        "volume": "https://doi.org/10.1109/PESGM41954.2020.9281630",
+        "year": "2020",
+        "url": "https://doi.org/978-1-7281-5508-1"
+      },
+      {
+        "authors": "Kapil Chauhan and Ranjana Sodhi",
+        "title": "A Robust State Estimation Framework for Active Distribution Network with Distribution-Level PMUs",
+        "venue": "IEEE General Meeting Power& Energy Society",
+        "volume": "https://doi.org/10.1109/PESGM41954.2020.9281743",
+        "year": "2020",
+        "url": "https://doi.org/978-1-7281-5508-1"
+      },
+      {
+        "authors": "Kapil Chauhan, M Venkateswara Reddy and Ranjana Sodhi",
+        "title": "A Novel Frequency Estimator for Adversely Distorted Grid Signals",
+        "venue": "International Symposium on Industrial Electronics (INDEL)",
+        "volume": "https://doi.org/10.1109/INDEL.2018.8637622",
+        "year": "2019",
+        "url": "https://doi.org/978-1-5386-2353-4"
+      },
+      {
+        "authors": "Imran Sharieff and Ranjana Sodhi",
+        "title": "A simple strategic SVC placement scheme for enhanced voltage stability margins",
+        "venue": "National Power Systems Conference (NPSC)",
+        "volume": "https://doi.org/10.1109/NPSC.2018.8771759",
+        "year": "2019",
+        "url": "https://doi.org/978-1-5386-6159-8"
+      },
+      {
+        "authors": "Kapil Chauhan and Ranjana Sodhi",
+        "title": "Distribution-level Synchrophasor Estimation",
+        "venue": "National Power Systems Conference (NPSC)",
+        "volume": "https://doi.org/10.1109/NPSC.2018.8771750",
+        "year": "2019",
+        "url": "https://doi.org/978-1-5386-6159-8"
+      },
+      {
+        "authors": "Shitikantha Dash, Ranjana Sodhi and Balwinder Sodhi",
+        "title": "A smart Demand Response Management Scheme for Direct Load Control in Residential Grid",
+        "venue": "National Power Systems Conference (NPSC)",
+        "volume": "https://doi.org/10.1109/NPSC.2018.8771746",
+        "year": "2019",
+        "url": "https://doi.org/978-1-5386-6159-8"
+      },
+      {
+        "authors": "M Venkateswara Reddy and Ranjana Sodhi",
+        "title": "A Robust Frequency Estimator for Single-phase MicroGrid Applications",
+        "venue": "IEEE General Meeting Power& Energy Society",
+        "volume": "https://doi.org/10.1109/PESGM.2017.8273941",
+        "year": "2018",
+        "url": "https://doi.org/978-1-5386-2212-4"
+      },
+      {
+        "authors": "Yashasvi Bansal and Ranjana Sodhi",
+        "title": "Microgrid Fault Detection Methods: Reviews, Issues And Future Trends",
+        "venue": "IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)",
+        "volume": "https://doi.org/10.1109/ISGT-Asia.2018.8467938",
+        "year": "2018",
+        "url": "https://doi.org/978-1-5386-4291-7"
+      },
+      {
+        "authors": "Jatin Verma, Imran Sharieff and Ranjana Sodhi",
+        "title": "A Meticulous Approach towards Contingency Clustering in Power System",
+        "venue": "IEEE Power India Conference",
+        "volume": "https://doi.org/10.1109/POWERI.2016.8077280",
+        "year": "2017",
+        "url": "https://doi.org/978-1-4673-8962-4"
+      },
+      {
+        "authors": "Md. Imran Sharieff, M Prasad, K Satish and Ranjana Sodhi",
+        "title": "Implementation and Evaluation of a Labscale Synchrophasor Model and Applications",
+        "venue": "National Power Systems Conference (NPSC",
+        "volume": "https://doi.org/10.1109/NPSC.2014.7103840",
+        "year": "2015",
+        "url": "https://doi.org/978-1-4799-5141-3"
+      },
+      {
+        "authors": "Ranjana Sodhi",
+        "title": "Evaluating PMU Site Performance using MultiAttribute Utility Theory",
+        "venue": "IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)",
+        "volume": "https://doi.org/10.1109/ISGT-Asia.2013.6698757",
+        "year": "2014",
+        "url": "https://doi.org/978-1-4799-1347-3"
+      },
+      {
+        "authors": "M Prasad, K Satish, K Meena and Ranjana Sodhi",
+        "title": "A Synchrophasor Measurement based Adaptive Underfrequency Load Shedding Scheme",
+        "venue": "IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)",
+        "volume": "https://doi.org/10.1109/ISGT-Asia.2014.6873829",
+        "year": "2014",
+        "url": "https://doi.org/978-1-4799-1300-8"
+      },
+      {
+        "authors": "Imran Sharieff and Ranjana Sodhi",
+        "title": "A Synchrophasor-Assisted Voltage Stability Index",
+        "venue": "IEEE Innovative Smart Grid Technologies - Asia (ISGT Asia)",
+        "year": "2014"
+      },
+      {
+        "authors": "Ranjana Sodhi, S C Srivastava and S N Singh",
+        "title": "Teager Energy based Dynamic Phasor Estimation",
+        "venue": "IEEE India Conference (INDICON)",
+        "volume": "https://doi.org/10.1109/INDCON.2012.6420792",
+        "year": "2013",
+        "url": "https://doi.org/978-1-4673-2270-6"
+      },
+      {
+        "authors": "Ranjana Sodhi, S C Srivastava and S N Singh",
+        "title": "A Transient Monitor to Reflect the Quality of Synchrophasors",
+        "venue": "IEEE General Meeting Power& Energy Society",
+        "volume": "https://doi.org/10.1109/PES.2010.5588199",
+        "year": "2010",
+        "url": "https://doi.org/978-1-4244-6551-4"
+      },
+      {
+        "authors": "Ranjana Sodhi, S C Srivastava and S N Singh",
+        "title": "Optimal PMU Placement to Ensure System Observability Under Contingencies",
+        "venue": "IEEE General Meeting Power& Energy Society",
+        "volume": "https://doi.org/10.1109/PES.2009.5275618",
+        "year": "2009",
+        "url": "https://doi.org/978-1-4244-4241-6"
+      },
+      {
+        "authors": "Ranjana Sodhi, S C Srivastava and S N Singh",
+        "title": "An Improved Phasor Assisted State Estimation",
+        "venue": "IEEE General Meeting Power& Energy Society",
+        "volume": "https://doi.org/10.1109/PES.2009.5275652",
+        "year": "2009",
+        "url": "https://doi.org/978-1-4244-4241-6"
+      },
+      {
+        "authors": "Ranjana Sodhi and S C Srivastava",
+        "title": "Optimal PMU Placement to Ensure Observability of Power System",
+        "venue": "IEEE General Meeting Power& Energy Society",
+        "year": "2008"
+      },
+      {
+        "authors": "S C Srivastava and Ranjana Sodhi",
+        "title": "Synchrophasors based Wide Area Monitoring System and its Application to Voltage Stability Assessment"
+      },
+      {
+        "authors": "Md. Imran Sharieff and Ranjana Sodhi",
+        "title": "PMU Measurements based Voltage Stability Assessment"
+      }
+    ],
+    "books": [
+      {
+        "kind": "Book",
+        "title": "Simulation and Analysis of Modern Power Systems",
+        "isbn": "978-1260464504",
+        "publisher": "McGraw Hill",
+        "year": "2021",
+        "authors": "Ranjana Sodhi"
+      }
+    ],
+    "patents": []
+  },
+  "affiliations": [
+    "Senior Member, IEEE"
+  ],
+  "researchProjects": [],
+  "consultancy": [],
+  "courses": [],
+  "phdSupervised": [
+    "Dr. Md. Imran Sharieff",
+    "Dr. M Venkateswara Reddy",
+    "Dr. Yashasvi Bansal",
+    "Dr. Kapil Chauhan",
+    "Dr. Shitikantha Dash",
+    "Dr. Sourav De"
+  ],
+  "adminRoles": [
+    "Faculty Advisor, EE Batch 2024",
+    "Faculty Incharge, SYMAR Lab",
+    "Faculty Incharge, Power Systems Lab",
+    "Ex- Chairperson, Career Development and Placement Cell",
+    "Ex- Senate Member, IIT Ropar",
+    "Ex- TA Coordinator, EED"
+  ],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

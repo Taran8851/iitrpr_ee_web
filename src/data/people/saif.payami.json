@@ -1,0 +1,104 @@
+{
+  "id": "saif.payami",
+  "studentAchievements": [
+    "Dr.Saifullah Payami getting patent that deals with the fault (Interturn and eccentricity faults) diagnosis in Switched Reluctance Motor (SRM)."
+  ],
+  "photo": "/images/legacy/0ee22479bbc2.jpg",
+  "name": "Saifullah Payami",
+  "designation": "Associate Professor",
+  "address": "Room 322, JC Bose Block",
+  "email": "saif.payami@iitrpr.ac.in",
+  "phone": "919760609991",
+  "scholar": "https://scholar.google.com.sg/citations?user=oL2oEOAAAAAJ&hl=en",
+  "website": null,
+  "otherLinks": [],
+  "intro": [],
+  "qualifications": [
+    "PhD",
+    "M.Tech",
+    "B.Tech"
+  ],
+  "interests": [
+    "Electric Motor Design",
+    "Electric motor drives (Induction Motor, Switched Reluctance Motor, IPMSM)",
+    "Multi-phase Motor drive",
+    "Fault diagnosis in electric motors",
+    "Fault diagnosis in high frequency transformer."
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [
+      {
+        "authors": "Saifullah Payami",
+        "title": "A Universal-Input On-Board Charger Integrated Power Converter for Switched Reluctance Motor Drive Based EV Application",
+        "venue": "A Universal-Input On-Board Charger Integrated Power Converter for Switched Reluctance Motor Drive Based EV Application",
+        "year": "2023",
+        "url": "https://doi.org/doi: 10.1109/TIA.2024.3397952"
+      }
+    ],
+    "conference": [],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [
+    "Member, IEEE"
+  ],
+  "researchProjects": [
+    {
+      "title": "Design and Development of Low Cost and High Power Density Multi-Phase Interior Permanent Magnet Motor drive with Integrated Charger for Electric Vehicle Applications",
+      "agency": "SERB, Govt. of India",
+      "role": "PI",
+      "period": "2024 - 2027",
+      "amount": "38.000"
+    },
+    {
+      "title": "Development of a Five-Phase SRM for In-Wheel Drive Application with Fault-Tolerant Features for Plug-In Electric Vehicles Suitable for Indian Roads",
+      "agency": "SERB, Govt. of India",
+      "role": "PI",
+      "period": "2019 - 2022",
+      "amount": "49.000"
+    },
+    {
+      "title": "Development of an efficient Diagnostic Algorithm for Multiple fault Scenario in Switched Reluctance Motor Drives",
+      "agency": "ISIRD, IIT Ropar",
+      "role": "PI",
+      "period": "2019 - 2022",
+      "amount": "50.000"
+    },
+    {
+      "title": "Motorization of main and sluice gates of Sirhind Canal System at Ropar head works.",
+      "agency": "Punjab Govt.",
+      "role": "CO-PI",
+      "period": "2020 - 2021",
+      "amount": "30.000"
+    }
+  ],
+  "consultancy": [
+    {
+      "title": "Development of Switched Reluctance motor (SRM) drive for actuators",
+      "agency": "Relaiable Technosystems (I) Pvt. Ltd.",
+      "period": "2023 - 2024",
+      "amount": "27.000"
+    },
+    {
+      "title": "Development and Integration of LED driver for AIRFIELD Lighting System",
+      "agency": "Bharat Electronics Limited, Panchkula",
+      "period": "2020 - 2021",
+      "amount": "5.000"
+    }
+  ],
+  "courses": [],
+  "phdSupervised": [
+    "Vaibhav Shah (Currently Working at Carrier )",
+    "Mahetab Alam (Post Doc at Alto University)"
+  ],
+  "adminRoles": [
+    "Member Advisory Committee for Construction and Planning",
+    "Faculty Advisor (2026 Graduating Batch)"
+  ],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}
