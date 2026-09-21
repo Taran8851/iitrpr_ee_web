@@ -1,0 +1,94 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import SectionHeading from "../components/ui/SectionHeading.astro";
+import StatCard from "../components/ui/StatCard.astro";
+import PersonCard from "../components/ui/PersonCard.astro";
+import SearchInput from "../components/ui/SearchInput.astro";
+import EmptyState from "../components/ui/EmptyState.astro";
+import HodFeature from "../components/faculty/HodFeature.astro";
+import { facultyLinks, type Faculty } from "../components/faculty/links";
+import facultyData from "../data/faculty/faculty.json";
+
+const faculty = facultyData as Faculty[];
+const hod = faculty.find((f) => f.head);
+
+// Group tabs in legacy order, with counts (Former / Retired Faculty are empty on the live site).
+const groups = [...new Map(faculty.map((f) => [f.group, f.groupLabel])).entries()].map(([id, label]) => ({
+  id,
+  label,
+  count: faculty.filter((f) => f.group === id).length,
+}));
+const researchGroups = groups.filter((g) => g.id !== "fellows").length;
+const professors = faculty.filter((f) => /^Professor\b/.test(f.designation)).length;
+---
+
+<BaseLayout
+  title="Faculty"
+  description="Faculty of the Department of Electrical Engineering, IIT Ropar — Power Engineering, Microelectronics & VLSI Design, and Signal Processing & Communication."
+>
+  <PageHero
+    eyebrow="People"
+    title="Our Faculty"
+    lead="Researchers and teachers across power & energy, microelectronics & VLSI, and signal processing & communication — search by name or research interest."
+    crumbs={[{ label: "People" }]}
+  >
+    <div class="mt-10 grid max-w-3xl grid-cols-3 gap-3 md:gap-4">
+      <StatCard dark value={faculty.length} label="Faculty members" icon="lucide:users" />
+      <StatCard dark value={researchGroups} label="Research groups" icon="lucide:zap" />
+      <StatCard dark value={professors} label="Professors" icon="lucide:award" />
+    </div>
+  </PageHero>
+
+  {hod && (
+    <Section>
+      <SectionHeading eyebrow="Leadership" title="Head of the Department" />
+      <HodFeature hod={hod} />
+    </Section>
+  )}
+
+  <Section tint id="directory">
+    <SectionHeading eyebrow="Directory" title="Faculty Members" lead="Filter by research group or search across names, rooms and research interests." />
+
+    <div data-filter-root>
+      <div class="mb-8 flex flex-col gap-4 rounded-2xl border border-base-content/10 bg-base-100 p-4 shadow-sm lg:flex-row lg:items-center lg:justify-between">
+        <div class="flex flex-wrap gap-2" role="group" aria-label="Filter by research group">
+          <button type="button" data-filter-group="all" class="btn btn-sm btn-active rounded-full [&.btn-active]:border-primary [&.btn-active]:bg-primary [&.btn-active]:text-primary-content">
+            All <span class="opacity-70">{faculty.length}</span>
+          </button>
+          {groups.map((g) => (
+            <button type="button" data-filter-group={g.id} class="btn btn-sm rounded-full [&.btn-active]:border-primary [&.btn-active]:bg-primary [&.btn-active]:text-primary-content">
+              {g.label} <span class="opacity-70">{g.count}</span>
+            </button>
+          ))}
+        </div>
+        <div class="flex flex-col gap-2 sm:flex-row sm:items-center lg:shrink-0">
+          <SearchInput placeholder="Search name, research interest…" />
+          <p class="text-sm text-base-content/70" aria-live="polite">
+            Showing <span data-filter-count class="font-semibold text-base-content">{faculty.length}</span> of {faculty.length}
+          </p>
+        </div>
+      </div>
+
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 [&_.badge]:h-auto [&_.badge]:py-0.5 [&_.badge]:text-left">
+        {faculty.map((f) => (
+          <PersonCard
+            name={f.name}
+            role={f.designation}
+            photo={f.photo || undefined}
+            email={f.email}
+            phone={f.phone}
+            room={f.room}
+            tags={f.keywords}
+            href={f.profile}
+            group={f.group}
+            links={facultyLinks(f)}
+          />
+        ))}
+      </div>
+
+      <EmptyState filter message="No faculty member matches your search. Try another name or research area." />
+    </div>
+  </Section>
+</BaseLayout>
