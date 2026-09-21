@@ -1,0 +1,55 @@
+{
+  "id": "jsahambi",
+  "studentAchievements": [],
+  "photo": "",
+  "name": "Jyotindra Singh Sahambi",
+  "designation": "Professor",
+  "address": "Room 218,",
+  "email": "jsahambi@iitrpr.ac.in",
+  "phone": "+91-1881-232213",
+  "scholar": null,
+  "website": null,
+  "otherLinks": [],
+  "intro": [],
+  "qualifications": [],
+  "interests": [],
+  "briefProfile": [],
+  "publications": {
+    "journal": [
+      {
+        "authors": "A. Hari, R. Kumar, B. Kumbhani, S. Darshi, S. Agarwal, J. S. Sahambi, S. Jain, D. Chawla",
+        "title": "Contactless Breathing Monitoring at Home and in the Hospital: Protocol for a Low-Cost Frequency-Modulated Continuous-Wave Radar-Based Device",
+        "venue": "JMIR Research Protocols",
+        "volume": "14",
+        "year": "2025"
+      }
+    ],
+    "conference": [],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [],
+  "researchProjects": [],
+  "consultancy": [],
+  "courses": [
+    {
+      "code": "EE201",
+      "title": "Signals and Systems",
+      "ltpsc": "3-1-0-0-3",
+      "type": "Core",
+      "degree": "B.tech.",
+      "offerings": [
+        "2024 · Semester III",
+        "2023 · Semester III",
+        "2022 · Semester III"
+      ]
+    }
+  ],
+  "phdSupervised": [],
+  "adminRoles": [],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

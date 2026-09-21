@@ -1,0 +1,159 @@
+{
+  "id": "sam",
+  "studentAchievements": [],
+  "photo": "/images/legacy/02d92c81cf6e.jpg",
+  "name": "Sam Darshi",
+  "designation": "Associate Professor",
+  "address": "Room No. 215, J C Bose Block, Electrical Engineering Department, IIT Ropar, PUNJAB.",
+  "email": "sam@iitrpr.ac.in",
+  "phone": "01881-23-2215",
+  "scholar": "https://scholar.google.com/citations?user=GR9xOH4AAAAJ&hl=en",
+  "website": "https://sites.google.com/a/iitrpr.ac.in/dr-sam-darshi/home?authuser=0",
+  "otherLinks": [],
+  "intro": [],
+  "qualifications": [
+    "B.Tech. with honors (M.J.P.R.U.)",
+    "PhD (IIT Guwahati)"
+  ],
+  "interests": [
+    "Next generation multiple access techniques",
+    "Smart vehicles",
+    "Advanced underwater communication."
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [],
+    "conference": [
+      {
+        "authors": "Dhawal Salwan, Satyam Agarwal, Brijesh Kumbhani, Sam Darshi, Kamesh Namuduri, Sumit Chakravarty and Ashwin Ashok",
+        "title": "Communication Receiver Design for PSK-LFM Joint Sensing and Communication Waveform",
+        "venue": "IEEE ICC 2024 workshops",
+        "pages": "1617-1622",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/ICCWorkshops59551.2024.10615893"
+      },
+      {
+        "authors": "SK Singh, S Bhattacharyya, R Singh, Brijesh Kumbhani, Sam Darshi",
+        "title": "RSMA for Future Generation Multiple Access: Challenges and Opportunities",
+        "venue": "ICIIS 2023",
+        "year": "2023"
+      },
+      {
+        "authors": "Sameer Kumar Singh, Sagnik Bhattacharyya, Rohit Singh, Brijesh Kumbhani, Sam Darshi",
+        "title": "RSMA for Future Generation Multiple Access: Challenges and Opportunties",
+        "venue": "IEEE ICIIS 2023",
+        "pages": "359-364",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/ICIIS58898.2023.10253542"
+      }
+    ],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [
+    "IEEE Senior Member",
+    "TSDSI member"
+  ],
+  "researchProjects": [
+    {
+      "title": "Non-contact small form-factor neonatal apnea monitoring device",
+      "agency": "SERB",
+      "role": "CO-PI",
+      "period": "2022 - 2025",
+      "amount": "34.000"
+    },
+    {
+      "title": "Design of RSMA based Cooperative Vehicular Network for Deep Ocean Critical Missions",
+      "agency": "Ministry of Earth Sciences/ Deep Ocean Mission",
+      "role": "PI",
+      "period": "2023 - 2025",
+      "amount": "54.000"
+    },
+    {
+      "title": "Reliability Enhancement for Vehicle-2-Pedestrian (V2P) Communication Scenario using Peer Conscious Opportunistic Network Coded Cooperation",
+      "role": "PI",
+      "period": "2022 - 2025",
+      "amount": "39.000"
+    },
+    {
+      "title": "Secure Ubiquitous Connectivity for 6G V2X using Rate Splitting Multiple Access Enabled Joint Sensing and Communication",
+      "agency": "Bharat 6G mission, DoT",
+      "role": "PI",
+      "period": "2025 - 2027",
+      "amount": "100.000"
+    },
+    {
+      "title": "Reliability and lifetime Improvement in Next Generation Vehicular Communication Networks using IoT and AI/ Machine Learning Based Coded Cooperation",
+      "agency": "Indo- Taiwan AI center, IIT Ropar",
+      "role": "PI",
+      "period": "2023 - 2025",
+      "amount": "2.250"
+    },
+    {
+      "title": "Enabling Distributed Beamforming via Machine Learning for Energy Efficient Communications",
+      "agency": "SERB/CRG",
+      "role": "PI",
+      "period": "2021 - 2024",
+      "amount": "46.000"
+    },
+    {
+      "title": "Terrestrial Network Offloading for Enhancement of Vehicular Communication through Integration of Microwave with Optical Wireless Communication",
+      "agency": "Indo-Austria International project",
+      "role": "PI",
+      "period": "2022 - 2024",
+      "amount": "4.900"
+    },
+    {
+      "title": "Analysis of Network Coded Cooperative Communication in Correlated Environment from Cross-Layer Perspective",
+      "agency": "ISIRD, IIT Ropar",
+      "role": "PI",
+      "period": "2017 - 2020",
+      "amount": "23.000"
+    },
+    {
+      "title": "Design of RSMA based Cooperative Vehicular Network for Deep Ocean Critical Missions",
+      "agency": "Ministry of Earth Sciences/ Deep Ocean Mission",
+      "role": "PI",
+      "period": "2023 - 2025",
+      "amount": "54.000"
+    },
+    {
+      "title": "Enabling Distributed Beamforming via Machine Learning for Energy Efficient Communications",
+      "agency": "SERB/CRG",
+      "role": "PI",
+      "period": "2021 - 2024",
+      "amount": "46.000"
+    },
+    {
+      "title": "Terrestrial Network Offloading for Enhancement of Vehicular Communication through Integration of Microwave with Optical Wireless Communication",
+      "agency": "Indo-Austria International project",
+      "role": "PI",
+      "period": "2022 - 2024",
+      "amount": "4.900"
+    }
+  ],
+  "consultancy": [],
+  "courses": [],
+  "phdSupervised": [
+    "01"
+  ],
+  "adminRoles": [
+    "Vice-Chair: Information Technology committee of the Institute",
+    "PhD coordinator of the department of Electrical Engineering",
+    "Batch Advisor: M.Tech 2021 SPCOM batch",
+    "Placement co-ordinator (DFR) for SPCOM group",
+    "Member of the Institutional Building Safety Committee",
+    "Member of Hindi cell",
+    "Warden, Satluj Hostel (from 6/19 to 7/21)",
+    "Warden, Mercury Hostel (from 6/17 to 5/19)",
+    "RPEC (Research Program Evaluation Committee) member from Electrical department (from 1/17 to 8/21)",
+    "ACPGS member from Electrical department ( from 6/19 to 8/21)",
+    "Member of Audio-Video committee",
+    "Member of Official language implementation committee"
+  ],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

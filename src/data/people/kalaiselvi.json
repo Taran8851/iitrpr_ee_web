@@ -1,0 +1,53 @@
+{
+  "id": "kalaiselvi",
+  "studentAchievements": [
+    "Annima Gupta, Research Scholar, under the supervision of Kalaiselvi J, received Professor Ned Mohan\\'s memorial Student Travel Award- for attending PEDES -2024."
+  ],
+  "photo": "/images/legacy/ab8a9c85dc2b.jpg",
+  "name": "Kalaiselvi J",
+  "designation": "Associate Professor",
+  "address": "",
+  "email": "kalaiselvi@iitrpr.ac.in",
+  "phone": "",
+  "scholar": "https://scholar.google.com/citations?user=glyRncsAAAAJ&hl=en",
+  "website": "https://sites.google.com/iitrpr.ac.in/ampe4re",
+  "otherLinks": [],
+  "intro": [],
+  "qualifications": [
+    "PhD - IIT Madras"
+  ],
+  "interests": [
+    "Power Electronics and Drives"
+  ],
+  "briefProfile": [
+    "Dr. J. Kalaiselvi completed her Ph.D. at IIT Madras and has been a faculty member at IIT Ropar since 2016. She leads the AMPE4RE Lab (Applied Motor drives & Power Electronics 4 Research & Education), which focuses on advancing research in motor drives and power electronics. Her research interests include EMI/EMC issues in power converters and motor drives, as well as fault diagnosis and fault tolerance in converter and motor drive systems. The lab strives to bridge the gap between fundamental research and real-world applications in energy-efficient systems."
+  ],
+  "publications": {
+    "journal": [],
+    "conference": [],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [
+    "IEEE Member",
+    "Bureau of Indian Standards for EV - member"
+  ],
+  "researchProjects": [
+    {
+      "title": "Motorization of main and sluice gates of Sirhind Canal System at Ropar head works.",
+      "agency": "Punjab Govt.",
+      "role": "CO-PI",
+      "period": "2020 - 2021",
+      "amount": "30.000"
+    }
+  ],
+  "consultancy": [],
+  "courses": [],
+  "phdSupervised": [],
+  "adminRoles": [],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

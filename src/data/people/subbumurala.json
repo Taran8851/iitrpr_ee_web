@@ -1,0 +1,751 @@
+{
+  "id": "subbumurala",
+  "studentAchievements": [],
+  "photo": "/images/legacy/5eb67f4d8e2b.jpg",
+  "name": "Subrahmanyam Murala",
+  "designation": "Associate Professor",
+  "address": "",
+  "email": "subbumurala@iitrpr.ac.in",
+  "phone": "9549658135",
+  "scholar": "https://scholar.google.co.in/citations?user=5lGnNQoAAAAJ&hl=en",
+  "website": null,
+  "otherLinks": [],
+  "intro": [
+    "Dr. Subrahmanyam Murala is an Associate Professor in Electrical Engineering at IIT Ropar, and a Post-Doctoral Research role at the University of Windsor, Canada, from 2012 to 2014. With over ten years of post-PhD research experience, Dr. Murala has significantly impacted the fields of computer vision and artificial intelligence. He established the Computer Vision and Pattern Recognition Laboratory (CVPR Lab), focusing on developing practical solutions for complex computer vision challenges. His research encompasses a range of areas including Computer Vision, Pattern Recognition and Machine Learning."
+  ],
+  "qualifications": [
+    "PhD",
+    "M.Tech"
+  ],
+  "interests": [
+    "Computer Vision",
+    "Deep Learning",
+    "Object Detection"
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [
+      {
+        "authors": "Phutke SS, Murala S",
+        "title": "Image Inpainting via Correlated Multi-resolution Feature Projection",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics",
+        "year": "2023",
+        "url": "https://doi.org/10.1016/j.patcog.2022.109040"
+      },
+      {
+        "authors": "Phutke SS, Murala S",
+        "title": "Image inpainting via spatial projections",
+        "venue": "Pattern Recognition",
+        "volume": "133",
+        "pages": "109040",
+        "year": "2023",
+        "url": "https://doi.org/10.1016/j.patcog.2022.109040"
+      },
+      {
+        "authors": "Kulkarni A, Patil PW, Murala S, Gupta S",
+        "title": "Unified Multi-Weather Visibility Restoration",
+        "venue": "IEEE Transactions on Multimedia",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TMM.2022.3225712"
+      },
+      {
+        "authors": "Mehta N, Murala S",
+        "title": "Image Super-resolution with Content-Aware Feature Processing",
+        "venue": "IEEE Transactions on Artificial Intelligence",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAI.2022.3225784"
+      },
+      {
+        "authors": "Phutke SS, Murala S",
+        "title": "Pseudo decoder guided light-weight architecture for image inpainting",
+        "venue": "IEEE Transactions on Image Processing",
+        "volume": "31",
+        "pages": "6577-6590",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TIP.2022.3213444"
+      },
+      {
+        "authors": "Kulkarni A, Murala S",
+        "title": "Wipernet: A lightweight multi-weather restoration network for enhanced surveillance",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "volume": "23",
+        "pages": "24488-24498",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TITS.2022.3208372"
+      },
+      {
+        "authors": "Mehta N, Murala S",
+        "title": "Con-Net: a consolidated light-weight image restoration network",
+        "venue": "IEEE Transactions on Broadcasting",
+        "volume": "68",
+        "pages": "862-875",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TBC.2022.3192998"
+      },
+      {
+        "authors": "Phutke SS, Murala S",
+        "title": "Fasnet: Feature aggregation and sharing network for image inpainting",
+        "venue": "IEEE Signal Processing Letters",
+        "volume": "29",
+        "pages": "1664-1668",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/LSP.2022.3193026"
+      },
+      {
+        "authors": "Mehta N, Murala S",
+        "title": "(MLE $\\\\^${$2$}$ $ A $\\\\^${$2$}$ $ U)-Net: Image Super-Resolution via Multi-Level Edge Embedding and Aggregated Attentive Upsampler Network",
+        "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+        "volume": "7",
+        "pages": "523-536",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TETCI.2022.3182654"
+      },
+      {
+        "authors": "Patil PW, Dudhane A, Chaudhary S, Murala S",
+        "title": "Multi-frame based adversarial learning approach for video surveillance",
+        "venue": "Pattern Recognition",
+        "volume": "122",
+        "pages": "108350",
+        "year": "2022",
+        "url": "https://doi.org/10.1016/j.patcog.2021.108350"
+      },
+      {
+        "authors": "Kulkarni A, Patil PW, Murala S",
+        "title": "Progressive subtractive recurrent lightweight network for video deraining",
+        "venue": "IEEE Signal Processing Letters",
+        "volume": "29",
+        "pages": "229-233",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/LSP.2021.3134171"
+      },
+      {
+        "authors": "Patil PW, Dudhane A, Kulkarni A, Murala S, Gonde AB, Gupta S",
+        "title": "An unified recurrent video object segmentation framework for various surveillance environments",
+        "venue": "IEEE Transactions on Image Processing",
+        "volume": "30",
+        "pages": "7889-7902",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TIP.2021.3108405"
+      },
+      {
+        "authors": "Hambarde P, Murala S, Dhall A",
+        "title": "UW-GAN: Single-image depth estimation and image enhancement for underwater images",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "70",
+        "pages": "01-Dec",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TIM.2021.3120130"
+      },
+      {
+        "authors": "Phutke SS, Murala S",
+        "title": "Diverse receptive field based adversarial concurrent encoder network for image inpainting",
+        "venue": "IEEE Signal Processing Letters",
+        "volume": "28",
+        "pages": "1873-1877",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/LSP.2021.3109774"
+      },
+      {
+        "authors": "Patil PW, Dudhane A, Murala S, Gonde AB",
+        "title": "Deep adversarial network for scene independent moving object segmentation",
+        "venue": "IEEE Signal Processing Letters",
+        "volume": "28",
+        "pages": "489-493",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/LSP.2021.3059195"
+      },
+      {
+        "authors": "Mehta N, Murala S",
+        "title": "MSAR-Net: Multi-scale attention based light-weight image super-resolution",
+        "venue": "Pattern Recognition Letters",
+        "volume": "151",
+        "pages": "215-221",
+        "year": "2021",
+        "url": "https://doi.org/10.1016/j.patrec.2021.08.011"
+      },
+      {
+        "authors": "Chaudhary S, Dudhane A, Patil PW, Murala S, Talbar S",
+        "title": "Motion estimation in hazy videos",
+        "venue": "Pattern Recognition Letters",
+        "volume": "150",
+        "pages": "130-138",
+        "year": "2021",
+        "url": "https://doi.org/10.1016/j.patrec.2021.06.029"
+      },
+      {
+        "authors": "Patil PW, Dudhane A, Murala S",
+        "title": "End-to-end recurrent generative adversarial network for traffic and surveillance applications",
+        "venue": "IEEE Transactions on Vehicular Technology",
+        "volume": "69",
+        "pages": "14550-14562",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TVT.2020.3043575"
+      },
+      {
+        "authors": "Hambarde P, Murala S",
+        "title": "S2DNet: Depth estimation from single image and sparse samples",
+        "venue": "IEEE Transactions on Computational Imaging",
+        "volume": "6",
+        "pages": "806-817",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TCI.2020.2981761"
+      },
+      {
+        "authors": "Dudhane A, Hambarde P, Patil P, Murala S",
+        "title": "Deep underwater image restoration and beyond",
+        "venue": "IEEE Signal Processing Letters",
+        "volume": "27",
+        "pages": "675-679",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/LSP.2020.2988590"
+      },
+      {
+        "authors": "Dudhane A, Patil PW, Murala S",
+        "title": "An end-to-end network for image de-hazing and beyond",
+        "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+        "volume": "6",
+        "pages": "159-170",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TETCI.2020.3035407"
+      },
+      {
+        "authors": "Verma M, Vipparthi SK, Singh G, Murala S",
+        "title": "LEARNet: Dynamic imaging network for micro expression recognition",
+        "venue": "IEEE Transactions on Image Processing",
+        "pages": "1618-1627",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/TIP.2019.2912358"
+      },
+      {
+        "authors": "Mandal M, Verma M, Mathur S, Vipparthi SK, Murala S, Kranthi Kumar D",
+        "title": "Regional adaptive affinitive patterns (RADAP) with logical operators for facial expression recognition",
+        "venue": "IET Image Processing",
+        "volume": "2",
+        "pages": "850-861",
+        "year": "2019",
+        "url": "https://doi.org/10.1049/iet-ipr.2018.5683"
+      },
+      {
+        "authors": "Mandal M, Chaudhary M, Vipparthi SK, Murala S, Gonde AB, Nagar SK",
+        "title": "ANTIC: ANTithetic isomeric cluster patterns for medical image retrieval and change detection",
+        "venue": "IET Computer Vision",
+        "pages": "31-43",
+        "year": "2019",
+        "url": "https://doi.org/10.1049/iet-cvi.2018.5206"
+      },
+      {
+        "authors": "Dudhane A, Murala S",
+        "title": "RYF-Net: Deep fusion network for single image haze removal",
+        "venue": "IEEE Transactions on Image Processing",
+        "volume": "29",
+        "pages": "628-640",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/TIP.2019.2934360"
+      },
+      {
+        "authors": "Dudhane A, Murala S",
+        "title": "Cardinal color fusion network for single image haze removal",
+        "venue": "Machine Vision and Applications",
+        "volume": "30",
+        "pages": "231-242",
+        "year": "2019",
+        "url": "https://doi.org/10.1007/s00138-019-01014-y"
+      },
+      {
+        "authors": "Chaudhary S, Murala S",
+        "title": "Depth-based end-to-end deep network for human action recognition",
+        "venue": "IET Computer Vision",
+        "volume": "13",
+        "pages": "15-22",
+        "year": "2019",
+        "url": "https://doi.org/10.1049/iet-cvi.2018.5020"
+      },
+      {
+        "authors": "Patil PW, Murala S",
+        "title": "MSFgNet: A novel compact end-to-end deep network for moving object detection",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "volume": "20",
+        "pages": "4066-4077",
+        "year": "2018",
+        "url": "https://doi.org/10.1109/TITS.2018.2880096"
+      },
+      {
+        "authors": "Galshetwar GM, Waghmare LM, Gonde AB, Murala S",
+        "title": "Edgy salient local binary patterns in inter-plane relationship for image retrieval in diabetic retinopathy",
+        "venue": "Procedia computer science",
+        "volume": "115",
+        "pages": "440-447",
+        "year": "2017",
+        "url": "https://doi.org/10.1016/j.procs.2017.09.103"
+      },
+      {
+        "authors": "Vipparthi SK, Murala S, Gonde AB, Jonathan Wu QM",
+        "title": "Local directional mask maximum edge patterns for image retrieval and face recognition",
+        "venue": "IET Computer Vision",
+        "pages": "182-192",
+        "year": "2016",
+        "url": "https://doi.org/10.1049/iet-cvi.2015.0035"
+      },
+      {
+        "authors": "Vipparthi SK, Murala S, Nagar SK, Gonde AB",
+        "title": "Local Gabor maximum edge position octal patterns for image retrieval",
+        "venue": "Neurocomputing",
+        "volume": "40",
+        "pages": "336-345",
+        "year": "2015",
+        "url": "https://doi.org/10.1016/j.neucom.2015.04.062"
+      },
+      {
+        "authors": "Vipparthi SK, Murala S, Nagar SK",
+        "title": "Dual directional multi-motif XOR patterns: A new feature descriptor for image indexing and retrieval",
+        "venue": "Optik",
+        "volume": "8",
+        "pages": "1467-1473",
+        "year": "2015",
+        "url": "https://doi.org/10.1016/j.ijleo.2015.04.018"
+      },
+      {
+        "authors": "Verma M, Raman B, Murala S",
+        "title": "Local extrema co-occurrence pattern for color and texture image retrieval",
+        "venue": "Neurocomputing",
+        "volume": "165",
+        "pages": "255-269",
+        "year": "2015",
+        "url": "https://doi.org/10.1016/j.neucom.2015.03.015"
+      },
+      {
+        "authors": "Murala S, Wu QM",
+        "title": "Spherical symmetric 3D local ternary patterns for natural, texture and biomedical image indexing and retrieval",
+        "venue": "Neurocomputing",
+        "volume": "149",
+        "pages": "1502-1514",
+        "year": "2015",
+        "url": "https://doi.org/10.1016/j.neucom.2014.08.042"
+      },
+      {
+        "authors": "Murala S, Wu QM",
+        "title": "Expert content-based image retrieval system using robust local patterns",
+        "venue": "Journal of Visual Communication and Image Representation",
+        "volume": "25",
+        "pages": "1324-1334",
+        "year": "2014",
+        "url": "https://doi.org/10.1016/j.jvcir.2014.05.008"
+      },
+      {
+        "authors": "Murala S, Wu QM",
+        "title": "MRI and CT image indexing and retrieval using local mesh peak valley edge patterns",
+        "venue": "Signal processing: image communication",
+        "volume": "29",
+        "pages": "400-409",
+        "year": "2014",
+        "url": "https://doi.org/10.1016/j.image.2013.12.002"
+      },
+      {
+        "authors": "Murala S, Wu QM",
+        "title": "Local mesh patterns versus local binary patterns: biomedical image indexing and retrieval",
+        "venue": "IEEE journal of biomedical and health informatics",
+        "volume": "18",
+        "pages": "929-938",
+        "year": "2013",
+        "url": "https://doi.org/10.1109/JBHI.2013.2288522"
+      },
+      {
+        "authors": "Murala S, Wu QM",
+        "title": "Local ternary co-occurrence patterns: a new feature descriptor for MRI and CT image retrieval",
+        "venue": "Neurocomputing",
+        "volume": "119",
+        "pages": "399-412",
+        "year": "2013",
+        "url": "https://doi.org/10.1016/j.neucom.2013.03.018"
+      },
+      {
+        "authors": "Murala S, Maheshwari RP, Balasubramanian R",
+        "title": "Local tetra patterns: a new feature descriptor for content-based image retrieval",
+        "venue": "IEEE transactions on image processing",
+        "volume": "21",
+        "pages": "2874-2886",
+        "year": "2012",
+        "url": "https://doi.org/10.1109/TIP.2012.2188809"
+      },
+      {
+        "authors": "Murala S, Maheshwari RP, Balasubramanian R",
+        "title": "Directional binary wavelet patterns for biomedical image indexing and retrieval",
+        "venue": "Journal of Medical Systems",
+        "volume": "36",
+        "pages": "2865-2879",
+        "year": "2012",
+        "url": "https://doi.org/10.1007/s10916-011-9764-4"
+      },
+      {
+        "authors": "Murala S, Maheshwari RP, Balasubramanian R",
+        "title": "Directional local extrema patterns: a new descriptor for content based image retrieval",
+        "venue": "International journal of multimedia information retrieval",
+        "volume": "1",
+        "pages": "191-203",
+        "year": "2012",
+        "url": "https://doi.org/10.1007/s13735-012-0008-2"
+      }
+    ],
+    "conference": [
+      {
+        "authors": "Khan R, Mishra P, Mehta N, Phutke SS, Vipparthi SK, Nandi S, Murala S",
+        "title": "Spectroformer: Multi-Domain Query Cascaded Transformer Network for Underwater Image Enhancement",
+        "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+        "pages": "1454-1463",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/WACV57701.2024.00148"
+      },
+      {
+        "authors": "Kulkarni A, Phutke SS, Vipparthi SK, Murala S",
+        "title": "C2AIR: Consolidated Compact Aerial Image Haze Removal",
+        "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+        "pages": "749-758",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/WACV57701.2024.00080"
+      },
+      {
+        "authors": "Phutke SS, Kulkarni A, Vipparthi SK, Murala S",
+        "title": "Blind Image Inpainting via Omni-Dimensional Gated Attention and Wavelet Queries",
+        "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "pages": "1251-1260",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/CVPRW59228.2023.00132"
+      },
+      {
+        "authors": "Mehta N, Dudhane A, Murala S, Zamir SW, Khan S, Khan FS",
+        "title": "Gated Multi-Resolution Transfer Network for Burst Restoration and Enhancement",
+        "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "pages": "22201-22210",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/CVPR52729.2023.02126"
+      },
+      {
+        "authors": "Singh J, Murala S, Kosuru G",
+        "title": "Multi Domain Learning for Motion Magnification",
+        "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "pages": "13914-13923",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/CVPR52729.2023.01337"
+      },
+      {
+        "authors": "Kulkarni A, Murala S",
+        "title": "Aerial Image Dehazing with Attentive Deformable Transformers",
+        "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+        "pages": "6305-6314",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/WACV56688.2023.00624"
+      },
+      {
+        "authors": "Phutke SS, Murala S",
+        "title": "Nested Deformable Multi-head Attention for Facial Image Inpainting",
+        "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+        "pages": "6078-6087",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/WACV56688.2023.00602"
+      },
+      {
+        "authors": "Singh J, Murala S, Kosuru G",
+        "title": "Lightweight network for video motion magnification",
+        "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+        "pages": "2041-2050",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/WACV56688.2023.00208"
+      },
+      {
+        "authors": "Khan MD, Kulkarni A, Phutke SS, Murala S",
+        "title": "Underwater Image Enhancement with Phase Transfer and Attention",
+        "venue": "2023 International Joint Conference on Neural Networks (IJCNN)",
+        "pages": "01-Aug",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/IJCNN54540.2023.10191620"
+      },
+      {
+        "authors": "Mehta N, Dudhane A, Murala S, Zamir SW, Khan S, Khan FS",
+        "title": "Adaptive feature consolidation network for burst super-resolution",
+        "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "pages": "1279-1286",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/CVPRW56347.2022.00134}"
+      },
+      {
+        "authors": "Kulkarni A, Phutke SS, Murala S",
+        "title": "Unified Transformer Network for Multi-Weather Image Restoration",
+        "venue": "European Conference on Computer Vision",
+        "pages": "344-360",
+        "year": "2022",
+        "url": "https://doi.org/10.1007/978-3-031-25063-7_21"
+      },
+      {
+        "authors": "Chaudhary S, Patil PW, Dudhane A, Murala S",
+        "title": "Deep Network for Extremely Low-Resolution Human Action Recognition",
+        "venue": "2022 18th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)",
+        "pages": "01-Aug",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/AVSS56176.2022.9959612"
+      },
+      {
+        "authors": "Patil P, Singh J, Hambarde P, Kulkarni A, Chaudhary S, Murala S",
+        "title": "Robust Unseen Video Understanding for Various Surveillance Environments",
+        "venue": "2022 18th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)",
+        "pages": "01-Aug",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/AVSS56176.2022.9959513"
+      },
+      {
+        "authors": "Patil PW, Dudhane A, Murala S",
+        "title": "Multi-frame recurrent adversarial network for moving object segmentation",
+        "venue": "Proceedings of the IEEE/CVF winter conference on applications of computer vision",
+        "pages": "2302-2311",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/WACV48630.2021.00235"
+      },
+      {
+        "authors": "Wadhwa G, Dhall A, Murala S, Tariq U",
+        "title": "Hyperrealistic image inpainting with hypergraphs",
+        "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+        "pages": "3912-3921",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/WACV48630.2021.00396"
+      },
+      {
+        "authors": "Dudhane A, Biradar KM, Patil PW, Hambarde P, Murala S",
+        "title": "Varicolored image de-hazing",
+        "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "pages": "4564-4573",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/CVPR42600.2020.00462"
+      },
+      {
+        "authors": "Patil PW, Biradar KM, Dudhane A, Murala S",
+        "title": "An end-to-end edge aggregation network for moving object segmentation",
+        "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+        "pages": "8149-8158",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/CVPR42600.2020.00817"
+      },
+      {
+        "authors": "Hambarde P, Dudhane A, Patil PW, Murala S, Dhall A",
+        "title": "Depth estimation from single image and semantic prior",
+        "venue": "2020 IEEE International Conference on Image Processing (ICIP)",
+        "pages": "1441-1445",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/ICIP40778.2020.9190985"
+      },
+      {
+        "authors": "Dudhane A, Murala S",
+        "title": "Cdnet: Single image de-hazing using unpaired adversarial training",
+        "venue": "2019 IEEE Winter conference on applications of computer vision (WACV)",
+        "pages": "1147-1155",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/WACV.2019.00127"
+      },
+      {
+        "authors": "Patil P, Murala S",
+        "title": "Fggan: A cascaded unpaired learning for background estimation and foreground segmentation",
+        "venue": "2019 IEEE Winter Conference on Applications of Computer Vision (WACV)",
+        "pages": "1770-1778",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/WACV.2019.00193"
+      },
+      {
+        "authors": "Dudhane A, Singh Aulakh H, Murala S",
+        "title": "Ri-gan: An end-to-end network for single image haze removal",
+        "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition workshops",
+        "pages": "0-0",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/CVPRW.2019.00253"
+      },
+      {
+        "authors": "Patil PW, Thawakar O, Dudhane A, Murala S",
+        "title": "Motion saliency based generative adversarial network for underwater moving object segmentation",
+        "venue": "2019 IEEE international conference on image processing (ICIP)",
+        "pages": "1565-1569",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/ICIP.2019.8803091"
+      },
+      {
+        "authors": "Hambarde P, Dudhane A, Murala S",
+        "title": "Single image depth estimation using deep adversarial training",
+        "venue": "2019 IEEE International Conference on Image Processing (ICIP)",
+        "pages": "989-993",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/ICIP.2019.8803027"
+      },
+      {
+        "authors": "Thawakar O, Patil PW, Dudhane A, Murala S, Kulkarni U",
+        "title": "Image and video super resolution using recurrent generative adversarial network",
+        "venue": "2019 16th IEEE international conference on advanced video and signal based surveillance (AVSS)",
+        "pages": "01-Aug",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/AVSS.2019.8909900"
+      },
+      {
+        "authors": "Chaudhary S, Dudhane A, Patil P, Murala S",
+        "title": "Pose guided dynamic image network for human action recognition in person centric videos",
+        "venue": "2019 16th IEEE international conference on advanced video and signal based surveillance (AVSS)",
+        "pages": "01-Aug",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/AVSS.2019.8909835"
+      },
+      {
+        "authors": "Mandal M, Saxena P, Vipparthi SK, Murala S",
+        "title": "CANDID: Robust change dynamics and deterministic update policy for dynamic background subtraction",
+        "venue": "2018 24th international conference on pattern recognition (ICPR)",
+        "pages": "2468-2473",
+        "year": "2018",
+        "url": "https://doi.org/10.1109/ICPR.2018.8545504"
+      },
+      {
+        "authors": "Dudhane A, Murala S, Dhall A",
+        "title": "LEDNet: Deep Network for Single Image Haze Removal",
+        "venue": "Proceedings of the 11th Indian Conference on Computer Vision, Graphics and Image Processing",
+        "pages": "01-Jul",
+        "year": "2018",
+        "url": "https://doi.org/10.1145/3293353.3293359"
+      },
+      {
+        "authors": "Chaudhary S, Murala S",
+        "title": "Tsnet: deep network for human action recognition in hazy videos",
+        "venue": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+        "pages": "3981-3986",
+        "year": "2018",
+        "url": "https://doi.org/10.1109/SMC.2018.00675"
+      },
+      {
+        "authors": "Patil PW, Murala S, Dhall A, Chaudhary S",
+        "title": "MsEDNet: Multi-scale deep saliency learning for moving object detection",
+        "venue": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+        "pages": "1670-1675",
+        "year": "2018",
+        "url": "https://doi.org/10.1109/SMC.2018.00289"
+      },
+      {
+        "authors": "Dudhane A, Murala S",
+        "title": "C\\\\^ 2msnet: A novel approach for single image haze removal",
+        "venue": "2018 IEEE winter conference on applications of computer vision (WACV)",
+        "pages": "1397-1404",
+        "year": "2018",
+        "url": "https://doi.org/10.1109/WACV.2018.00157"
+      },
+      {
+        "authors": "Mathur S, Chaudhary M, Verma H, Mandal M, Vipparthi SK, Murala S",
+        "title": "Multichannel distributed local pattern for content based indexing and retrieval",
+        "venue": "2017 14th IEEE India Council International Conference (INDICON)",
+        "volume": "10",
+        "pages": "45444",
+        "year": "2017",
+        "url": "https://doi.org/10.1109/INDICON.2017.8487542"
+      },
+      {
+        "authors": "Gonde AB, Murala S, Vipparthi SK, Maheshwari R, Balasubramanian R",
+        "title": "3D local transform patterns: a new feature descriptor for image retrieval",
+        "venue": "Proceedings of International Conference on Computer Vision and Image Processing: CVIP 2016, Volume 2",
+        "volume": "41",
+        "pages": "495-507",
+        "year": "2017",
+        "url": "https://doi.org/10.1007/978-981-10-2107-7_45"
+      },
+      {
+        "authors": "Khalili N, Prasad C, Vedprakash M, Chaudhary S, Murala S",
+        "title": "Local auxiliary-color maximum vector pattern: A new feature descriptor for image indexing and retrieval",
+        "venue": "TENCON 2017-2017 IEEE Region 10 Conference",
+        "pages": "1201-1206",
+        "year": "2017",
+        "url": "https://doi.org/10.1109/TENCON.2017.8228040"
+      },
+      {
+        "authors": "Agarwal G, Mishra SP, Maurya S, Chaudhary S, Murala S",
+        "title": "Local peak valley co-occurrence patterns: A new feature descriptor for image retrieval",
+        "venue": "2016 International Conference on Signal and Information Processing (IConSIP)",
+        "pages": "01-May",
+        "year": "2016",
+        "url": "https://doi.org/10.1109/ICONSIP.2016.7857470"
+      },
+      {
+        "authors": "Murala S, Wu QM",
+        "title": "Peak valley edge patterns: a new descriptor for biomedical image indexing and retrieval",
+        "venue": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops",
+        "pages": "444-449",
+        "year": "2013",
+        "url": "https://doi.org/10.1109/CVPRW.2013.73"
+      },
+      {
+        "authors": "Murala S, Wu QM, Balasubramanian R, Maheshwari RP",
+        "title": "Joint histogram between color and local extrema patterns for object tracking",
+        "venue": "Video surveillance and transportation imaging applications",
+        "volume": "8663",
+        "pages": "230-236",
+        "year": "2013",
+        "url": "https://doi.org/10.1117/12.2002185"
+      },
+      {
+        "authors": "Devarapu KV, Murala S, Kumar V",
+        "title": "Denoising of ultrasound images using curvelet transform",
+        "venue": "2010 The 2nd International Conference on Computer and Automation Engineering (ICCAE)",
+        "volume": "3",
+        "pages": "447-451",
+        "year": "2010",
+        "url": "https://doi.org/10.1109/ICCAE.2010.5451210"
+      },
+      {
+        "authors": "Murala S, Gonde AB, Maheshwari RP",
+        "title": "Color and texture features for image indexing and retrieval",
+        "venue": "2009 IEEE International Advance Computing Conference",
+        "pages": "1411-1416",
+        "year": "2009",
+        "url": "https://doi.org/10.1109/IADCC.2009.4809223"
+      }
+    ],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [
+    "IEEE SM"
+  ],
+  "researchProjects": [
+    {
+      "title": "Al based Technology for Varicoloured Video Restoration and Object Detection",
+      "agency": "MoES, Govt of India",
+      "role": "CO-PI",
+      "period": "2023 - 2025",
+      "amount": "45.000"
+    },
+    {
+      "title": "Al based Technology for Underwater Varicoloured Video Restoration and Object Detection",
+      "agency": "MoES",
+      "role": "CO-PI",
+      "period": "2023 - 2026",
+      "amount": "45.480"
+    },
+    {
+      "title": "Intelligent Transportation System: AI based Deep Learning Technology for Multi-Weather Video Restoration",
+      "agency": "SERB",
+      "role": "PI",
+      "period": "2023 - 2026",
+      "amount": "43.380"
+    },
+    {
+      "title": "Autonomous Underwater Vehicle Assistance with Video Quality Enhancement and Restoration",
+      "agency": "DST-ICPC-TIH-Guwahati",
+      "role": "CO-PI",
+      "period": "2023 - 2024",
+      "amount": "11.880"
+    }
+  ],
+  "consultancy": [
+    {
+      "title": "Tool Development for Improvement in quality of images captured offshore",
+      "agency": "Oceaneering India Pvt. Ltd, India",
+      "period": "2023 - 2024",
+      "amount": "19.500"
+    }
+  ],
+  "courses": [],
+  "phdSupervised": [],
+  "adminRoles": [],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

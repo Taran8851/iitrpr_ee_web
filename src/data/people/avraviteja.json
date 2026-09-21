@@ -1,0 +1,87 @@
+{
+  "id": "avraviteja",
+  "studentAchievements": [
+    "Pratik Kalkal, Research Scholar, under the supervision of A. V. Ravi Teja, Received International Travel Support from ANRF to attend the 50th Annual IEEE Industrial Electronics Society Conference (IECON 2024) in the USA.."
+  ],
+  "photo": "/images/legacy/b745ce9e7e22.jpg",
+  "name": "A. V. Ravi Teja",
+  "designation": "Associate Professor",
+  "address": "Room No 214, Department of Electrical Engineering, J. C. Bose Block, IIT Ropar",
+  "email": "avraviteja@iitrpr.ac.in",
+  "phone": "2205",
+  "scholar": "https://scholar.google.co.in/citations?hl=en&user=wp5W3V8AAAAJ&view_op=list_works&sortby=pubdate",
+  "website": "https://sites.google.com/iitrpr.ac.in/edge",
+  "otherLinks": [
+    {
+      "label": "https://www.linkedin.com/in/dr-a-v-ravi-teja-386920260/",
+      "href": "https://www.linkedin.com/in/dr-a-v-ravi-teja-386920260/"
+    }
+  ],
+  "intro": [],
+  "qualifications": [
+    "PhD in Electrical Engineering from IIT Kharagpur",
+    "M.Tech in Machine Drives and Power Electronics Specialization from IIT Kharagpur",
+    "B.E. in Electrical and Electronics Engineering from Osmania University."
+  ],
+  "interests": [
+    "Switched reluctance motor drives",
+    "BLDC motor drives",
+    "Active cell balancing",
+    "Battery management systems for electric vehicle applications",
+    "Phase and frequency locked loop algorithms for grid connected converters",
+    "Selective harmonic elimination and mitigation technologies",
+    "Bladeless wind turbines"
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [],
+    "conference": [
+      {
+        "authors": "A. Azeem; A. V. Ravi Teja; S. Payami",
+        "title": "A Single-Phase Integrated Power Charger Considering High Frequency Behaviour for Two Motor Drives Fed Electric Vehicles",
+        "venue": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+        "volume": "PP",
+        "pages": "1-1",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/JESTPE.2024.3461876"
+      }
+    ],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [
+    "Senior Member, IEEE"
+  ],
+  "researchProjects": [
+    {
+      "title": "Motorization of main and sluice gates of Sirhind Canal System at Ropar head works.",
+      "agency": "Punjab Govt.",
+      "role": "CO-PI",
+      "period": "2020 - 2021",
+      "amount": "30.000"
+    }
+  ],
+  "consultancy": [
+    {
+      "title": "Development and Integration of LED driver for AIRFIELD Lighting System",
+      "agency": "Bharat Electronics Limited, Panchkula",
+      "period": "2020 - 2021",
+      "amount": "5.000"
+    }
+  ],
+  "courses": [],
+  "phdSupervised": [
+    "Dr. Ashwani K Rana",
+    "Dr. Satyanarayana Muddasani",
+    "Dr. Pratik Kalkal",
+    "Dr. Pratik Kalkal"
+  ],
+  "adminRoles": [
+    "ACRPGS Member"
+  ],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "suman",
+  "studentAchievements": [
+    "Lalit Kumar Baghel PhD scholar under supervisor Dr.Suman Kumar Completed PhD"
+  ],
+  "photo": "/images/legacy/c4d3e8a6cdb5.jpg",
+  "name": "Suman Kumar",
+  "designation": "Associate Professor",
+  "address": "Room no: 318, J C Bose Block, Main Campus, IIT Ropar",
+  "email": "suman@iitrpr.ac.in",
+  "phone": "8124660891",
+  "scholar": "https://scholar.google.com/citations?user=zUAA1f9ajZ4C&hl=en",
+  "website": null,
+  "otherLinks": [],
+  "intro": [],
+  "qualifications": [
+    "PhD in Electrical Engineering from IIT Madras"
+  ],
+  "interests": [
+    "Internet of Things",
+    "Low power Wireless Communication"
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [],
+    "conference": [],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [],
+  "researchProjects": [],
+  "consultancy": [],
+  "courses": [],
+  "phdSupervised": [],
+  "adminRoles": [],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

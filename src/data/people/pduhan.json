@@ -1,0 +1,210 @@
+{
+  "id": "pduhan",
+  "studentAchievements": [],
+  "photo": "/images/legacy/7cfac4f0c312.jpg",
+  "name": "Pardeep Duhan",
+  "designation": "Assistant Professor",
+  "address": "319, Department of Electrical Engineering, J C Bose Block, IIT Ropar",
+  "email": "pduhan@iitrpr.ac.in",
+  "phone": "+91-1881-232228",
+  "scholar": "https://scholar.google.com/citations?user=Y9ZKiYYAAAAJ&hl=en",
+  "website": "https://www.iitrpr.ac.in/pduhan/",
+  "otherLinks": [],
+  "intro": [
+    "Pardeep Duhan received his Ph.D. in electrical engineering from IIT Bombay, Mumbai, India, in 2017. He was with GlobalFoundries, Singapore, as a Senior Engineer, Process Integration, and technical staff in Fraunhofer IPMS-CNT, Dresden, Germany. In 2020, he joined the Department of Electrical Engineering at IIT Ropar, Rupnagar, India, as an Assistant Professor. His current research interests include nanoscale device physics, ferroelectric memory devices, thin-film transistors, CMOS technology development, and the reliability of semiconductor devices."
+  ],
+  "qualifications": [
+    "Ph.D. Electrical Engineering Indian Institute of Technology Bombay",
+    "M.Tech. Microelectronics Panjab University Chandigarh",
+    "M.Sc. Electronic Science Kurukshetra University Kurukshetra"
+  ],
+  "interests": [
+    "Semiconductor Devices",
+    "Simulation of Nanodevices",
+    "Ferroelectric Memory Devices",
+    "Thin Film Transistors",
+    "Electrical characterization",
+    "Gate oxide reliability"
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [
+      {
+        "authors": "Ajay Kumar, Tarek Ali, David Lehninger, Pardeep Duhan",
+        "title": "Impact of Interface Traps and Fixed Interface Charges on Polarization and TER Ratio in MFIS Ferroelectric Tunnel Junctions: A TCAD Study",
+        "venue": "Journal of Applied Physics",
+        "volume": "138",
+        "pages": "114503",
+        "year": "2025",
+        "url": "https://doi.org/10.1063/5.0288212"
+      },
+      {
+        "authors": "Prabhat Khedgarkar, Mohit D. Ganeriwala, Gangadhar Gupta, Pardeep Duhan",
+        "title": "1/f Noise Model for Extracting Bulk Trap Density in Scaled Metal Oxide Semiconductor Field Effect Transistors",
+        "venue": "Journal of Applied Physics",
+        "volume": "138",
+        "pages": "244501",
+        "year": "2025",
+        "url": "https://doi.org/10.1063/5.0299430"
+      },
+      {
+        "authors": "Prabhat Khedgarkar, Mohit D. Ganeriwala, Pardeep Duhan",
+        "title": "TCAD-based investigation of the origin of 1/f noise in advanced 22 nm FDSOI MOSFETs",
+        "venue": "Applied Physics Letters",
+        "volume": "125",
+        "pages": "203506",
+        "year": "2024",
+        "url": "https://doi.org/10.1063/5.0232149"
+      },
+      {
+        "authors": "Bhairov Kumar Bhowmik, Rohith KM, Pardeep Duhan, Gagan Kumar",
+        "title": "Excitation of high-quality quasi-BIC toroidal mode in a lattice perturbed terahertz metasurface",
+        "venue": "Applied Physics Letters",
+        "volume": "125",
+        "pages": "161701",
+        "year": "2024",
+        "url": "https://doi.org/10.1063/5.0228324"
+      },
+      {
+        "authors": "P. Duhan, T. Ali, P. Khedgarkar, K. Kuhnel, M. Czernohorsky, M. Rudolph, R. Hoffmann, Ayse Sünbül, D. Lehninger, P. Schramm, T. Kämpfe, K. Seidel",
+        "title": "Endurance Study of Silicon-Doped Hafnium Oxide (HSO) and Zirconium-Doped Hafnium Oxide (HZO)-Based FeFET Memory",
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "70",
+        "pages": "5645-5650",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TED.2023.3316138"
+      },
+      {
+        "authors": "Pardeep Duhan, V. Ramgopal Rao, Nihar R. Mohapatra",
+        "title": "Effect of device dimensions, layout, and pre-gate carbon implant on hot carrier induced degradation in HKMG nMOS Transistors",
+        "venue": "IEEE Transactions on Device and Materials Reliability",
+        "volume": "20",
+        "pages": "555-561",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TDMR.2020.3007553"
+      },
+      {
+        "authors": "Pardeep Duhan, V. Ramgopal Rao, Nihar R. Mohapatra",
+        "title": "PBTI in HKMG nMOS Transistors - Effect of Width, Layout and other Technological Parameters",
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "64",
+        "pages": "4018 - 4024",
+        "year": "2017",
+        "url": "https://doi.org/10.1109/TED.2017.2742860"
+      },
+      {
+        "authors": "Satya Siva Naresh, Pardeep Duhan, Nihar R. Mohapatra",
+        "title": "Role of Device Dimensions and Layout on the Analog Performance of Gate First HKMG NMOS Transistors",
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "62",
+        "pages": "3792 - 3798",
+        "year": "2015",
+        "url": "https://doi.org/10.1109/TED.2015.2477368"
+      },
+      {
+        "authors": "Pardeep Duhan, Mohit Ganeriwala, V. Ramgopal Rao, Nihar R. Mohapatra",
+        "title": "Anomalous Width Dependence of Gate Current in High-K Metal Gate NMOS Transistors",
+        "venue": "IEEE Electron Device Letters",
+        "volume": "36",
+        "pages": "739 - 741",
+        "year": "2015",
+        "url": "https://doi.org/10.1109/LED.2015.2440445"
+      }
+    ],
+    "conference": [
+      {
+        "authors": "Ayse Sünbül, Tarek Ali, Raik Hoffmann, Ricardo Revello, Yannick Raffel, Pardeep Duhan, David Lehninger, Kati Kuhnel, Matthias Rudolph, Sebastian Oehler, Philipp Schramm, Malte Czernohorsky, Konrad Seidel, Thomas Kämpfe, Lukas M. Eng",
+        "title": "Impact of Temperature on Reliability of MFIS HZO-based Ferroelectric Tunnel Junctions",
+        "venue": "IEEE International Reliability Physics Symposium (IRPS)",
+        "pages": "P11-1-P11-5",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/IRPS48227.2022.9764585"
+      },
+      {
+        "authors": "T. Ali, K. Kuhnel, K. Mertens, M. Czernohorsky, M. Rudolph, P. Duhan, D. Lehninger, R. Hoffmann, P. Steinke, J. Müller, J. Van Houdt, K. Seidel, L. M. Eng",
+        "title": "Effect of Substrate Implant Tuning on the Performance of MFIS Silicon Doped Hafnium Oxide (HSO) FeFET Memory",
+        "venue": "IEEE International Memory Workshop (IMW)",
+        "pages": "1-4",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/IMW48823.2020.9108153"
+      },
+      {
+        "authors": "Dang Khoa, Quang Huy Le, Pardeep Duhan, Defu Wang, Thomas Kämpfe, Matthias Rudolph",
+        "title": "Analysis of hot-carrier degradation in 22nm FDSOI transistors using RF-small signal characteristics",
+        "venue": "German Microwave Conference (GeMiC)",
+        "pages": "244-247",
+        "year": "2020"
+      },
+      {
+        "authors": "J. Franco, B. Kaczer, S. Mukhopadhyay, P. Duhan, P. Weckx, Ph.J. Roussel, T. Chiarella, L.-Å Ragnarsson, L. Trojman, N. Horiguchi, A. Spessot, D. Linten, A. Mocuta",
+        "title": "Statistical model of the NBTI-induced threshold voltage, subthreshold swing, and transconductance degradations in advanced p-FinFETs",
+        "venue": "International Electron Devices Meeting (IEDM)",
+        "pages": "15.3.1-15.3.4",
+        "year": "2016",
+        "url": "https://doi.org/10.1109/IEDM.2016.7838422"
+      },
+      {
+        "authors": "Pardeep Duhan, V. Ramgopal Rao, Nihar R. Mohapatra",
+        "title": "Width and Layout dependence of HC and PBTI induced degradation in HKMG NMOS Transistors",
+        "venue": "IEEE International Reliability Physics Symposium (IRPS)",
+        "pages": "XT-07-1-XT-07-5",
+        "year": "2016",
+        "url": "https://doi.org/10.1109/IRPS.2016.7574649"
+      },
+      {
+        "authors": "Pardeep Duhan, Nihar R. Mohapatra, Sharad Kumar Jain",
+        "title": "Width Dependence of HCI and PBTI in HKMG NMOS Transistors",
+        "venue": "Proceedings of ICMAT and IUMRS",
+        "year": "2015"
+      },
+      {
+        "authors": "Nihar R. Mohapatra, Satya Siva Naresh, Pardeep Duhan",
+        "title": "Analog Performance of Gate-First HKMG NMOS Transistors-Role of Device Dimensions and Layout",
+        "venue": "International Symposium on VLSI Technology, Systems and Applications",
+        "pages": "1-2",
+        "year": "2015",
+        "url": "https://doi.org/10.1109/VLSI-TSA.2015.7117576"
+      },
+      {
+        "authors": "Satya Siva Naresh, Nihar R. Mohapatra, Pardeep Duhan",
+        "title": "Effects of HfO2 and Lanthanum capping Layer Thickness on Narrow Width Behavior of Gate First High-K Metal Gate NMOS Transistors",
+        "venue": "Proceedings of International Conference on Solid State Devices and Materials (SSDM)",
+        "year": "2013",
+        "url": "https://doi.org/10.7567/SSDM.2013.PS-3-3"
+      },
+      {
+        "authors": "V.K.Khanna, P. Duhan",
+        "title": "Modeling the Current-Voltage characteristics & Temporal Drift in Threshold Voltage of ISFET for pH Measurements",
+        "venue": "ISSS National Conference on MEMS, Microsensors, Smart Materials, Structures and Systems",
+        "year": "2007"
+      }
+    ],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [
+    "Assistant Professor Department of Electrical Engineering Indian Institute of Technology Ropar India (March 2020 - Present)",
+    "Technical Staff Fraunhofer IPMS-Center Nanoelectronic Technologies Dresden Germany (May 2018 - Feb 2020)",
+    "Senior Process Integration Engineer GLOBALFOUNDRIES Singapore (May 2017 - March 2018)",
+    "Visiting Scholar Katholieke Universiteit (KU) /IMEC Leuven Belgium (May 2016 - Aug 2016)",
+    "DST INSPIRE Fellow Indian Institute of Technology Bombay India (Jan 2012 - Dec 2016)"
+  ],
+  "researchProjects": [
+    {
+      "title": "Design of Ferroelectric-Integrated Oxide Semiconductor TFTs for Low-Temperature Monolithic 3D Integration for High-performance Dispalys with Built-In Memory and Neuromorphic Sensing",
+      "agency": "Anusandhan National Research Foundation - ARG",
+      "role": "PI",
+      "period": "2026 - 2029",
+      "amount": "102.000"
+    }
+  ],
+  "consultancy": [],
+  "courses": [],
+  "phdSupervised": [],
+  "adminRoles": [],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

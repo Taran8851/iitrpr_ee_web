@@ -1,0 +1,1497 @@
+{
+  "id": "reddy",
+  "studentAchievements": [
+    "Pranav Johri, Research Scholar, under the supervision of C. C. Reddy, GRID-INDIA Power System Award (GIPSA) 2024-25 in the Ph.D./Doctoral category..",
+    "Aritra Das, Research Scholar, under the supervision of C. C. Reddy, GRID-INDIA Power System Award (GIPSA) 2024-25 in the Ph.D./Doctoral category.."
+  ],
+  "photo": "/images/legacy/44ebde54062a.jpg",
+  "name": "C. C. Reddy",
+  "designation": "Professor",
+  "address": "IIT Ropar",
+  "email": "reddy@iitrpr.ac.in",
+  "phone": "9417034192",
+  "scholar": "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=GJ38AocAAAAJ",
+  "website": null,
+  "otherLinks": [],
+  "intro": [
+    "Prof. Reddy did his Bachelor of Engineering in Electrical Engineering from the (Govt) University College of Engineering, Hyderabad, India in 1995. After his BE, he worked as a faculty in Electrical Engineering at JNTU affiliated institutions, Hyderabad. After his ME & Ph.D. from the Indian Institute of Science (respectively in July 2005 and Jan 2008), Prof. Reddy joined, J-Power Systems Corporation, Hitachi, Japan, a joint venture company of Hitachi Cables Ltd. and Sumitomo Electric Company, and served as a Senior R&D Engineer in its Ultra High Voltage (UHV) research lab till 2011. He contributed to the design of the world's first nanocomposite HVDC power cable during this time (250 kV, between Hokkaido and Honshu). Currently, he is working as a Professor at the Indian Institute of Technology Ropar (IIT Ropar since 2011) and Head of the Department, Electrical Engineering. He worked as the Dean of International Relations and Alumni Affairs earlier. He is an Associate Editor of IEEE Transactions on Dielectrics and Electrical Insulation. He is a member of IEC, member of the Bureau of Indian Standards committee on Dielectrics, member of the Board of Studies of several universities in India. Prof. Reddy participated in academic-industry collaborative research in Japan with several universities of Japan (Toyohashi University; Waseda University; Tokyo City University; Numazu Institute of Technology, etc.). He also participated in the deliberations of the technical standards committee on Space Charge Measurements in dielectric materials. Prof. Reddy has published papers in reputed journals and conferences (IEEE/IET/IEEJ), in the fields of Nano-dielectrics, Power Cables (HVDC/AC), Power Transformers, Bushings; Mechanism of Breakdown, Space Charges, and Conduction in dielectric materials. He has guided ten Ph.D. students to their defense and currently guiding twelve Ph.D. students apart from several master's and bachelor students. He had authored a book on “Reliability and Life Estimation of Power Equipment”, with New Age International Publishers. He is working/worked on several projects with private industries like Reliance, Adani, KEI Industries, APAR Industries, Raychem Polymers etc. apart from public industries such as CPWD, CPRI, etc. He has been the Organizing Chair of (IEEE) CATCON 2017, General Chair of IEEE ICIIS 2018 and 2020, General Co-Chair of IEEE ICIIS 2017, 2019 and TPC Chair of CATCON 2020, and International Advisory Member of ISEIM since 2011, being held in Japan. Prof. Reddy has also contributed to the making of the institute by leading on several fronts including technical and non-technical fronts. Starting with faculty-in-charge of the guesthouse, faculty-in-charge of industrial relations, placement cell coordinator, the toughest administrative position \"Associate Dean of Student Affairs\", with independent charge, and Dean of International Relations and Alumni Affairs. His student affairs deanship tenure saw growth of students from 600 to 2600, shifting campus, a phenomenal increase in student activities, largest student festivals in north India, apart from natural calamities like a flood in the campus and the Covid pandemic ( - all requiring huge time and energy, resulting in a double rate of aging personally)."
+  ],
+  "qualifications": [
+    "PhD in Electrical Engineering from (Indian Institute of Science) IISc Bangalore, India",
+    "ME(Master of Engineering) in Electrical Engineering from (Indian Institute of Science) IISc Bangalore, India",
+    "BE from University College of Engineering, Hyderabad"
+  ],
+  "interests": [
+    "The main focus of research is on nanodielectrics for power applications. In addition, ageing, life estimation, power equipment modelling design and development research is being carried out., Latest research on spacecharges in modern ultra resistive dielectrics, external current measurement upto fempto ampere level, DC & AC breakdown tests, measurement of capacitance, loss tangent and characterization of dielectric materials is being promoted in this laboratory., TEN Ph.D. students already defended his thesis. Currently, Twelve research students are working for their thesis in this lab and are at different stages of their research program."
+  ],
+  "briefProfile": [
+    "Electric Power Cable Technology; Mechanism of Conduction and Breakdown in Dielectrics, Space Charges in Dielectrics, Power equipment (Transformers, Machines, HVDC/AC Cables and accessories), Advances in High Voltage Engineering, Nano-composite Dielectrics, Power electronics, Signal processing in HV Engineering"
+  ],
+  "publications": {
+    "journal": [
+      {
+        "authors": "R. Kumar and C. C. Reddy",
+        "title": "Assessment of Electro-Thermal Runaway Dynamics of AC Conductor Sleeves Designed for Medium Voltage Transmission System",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "pages": "8",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/TDEI.2024.3484371"
+      },
+      {
+        "authors": "A. Gupta, C. C. Reddy",
+        "title": "Noise impact on parameter estimation for optimum signal deconvolution",
+        "venue": "IETE Journal of Research, Taylor & Francis",
+        "year": "2024",
+        "url": "https://doi.org/10.1080/03772063.2024.2320831"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma and C. C. Reddy",
+        "title": "Analytical Framework of S-Parameter-Based Efficiency for Secondary-Parallel Compensation WPT System to Authenticate Data Using VNA.",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "72",
+        "pages": "1-10",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TIM.2023.3240224"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma and C. C. Reddy",
+        "title": "A Switched Modular Multi-Coil Array Transmitter Pad With Coil Rectenna Sensors to Improve Lateral Misalignment Tolerance in Wireless Power Charging of Drone Systems",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "volume": "24",
+        "pages": "2010-2023",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TITS.2022.3220793"
+      },
+      {
+        "authors": "A. Das, C. C. Reddy",
+        "title": "An Analytical Approach to Locate Short Circuit Fault in a Cable Using Sweep Frequency Response Analysis",
+        "venue": "IEEE Transactions on Industrial Electronics",
+        "volume": "70",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TIE.2022.3189080"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma, C. C. Reddy",
+        "title": "Analytical Framework of S-Parameter-Based Efficiency for Secondary-Parallel Compensation WPT System to Authenticate Data Using VNA",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "72",
+        "year": "2023",
+        "url": "https://doi.org/ 10.1109/TIM.2023.3240224"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma and C. C. Reddy",
+        "title": "An Unconventional Measurement Technique to Estimate Power Transfer Efficiency in Series–Series Resonant WPT System Using S-Parameters",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "71",
+        "pages": "1-9",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TIM.2022.3181291"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma and C. C. Reddy",
+        "title": "A Multi-Turn Coil Antenna With Nonuniform Clustered Turns Optimized Using Q-Assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems doi:",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "5302-5311",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3146433."
+      },
+      {
+        "authors": "A. Bharadwaj, V. K. Srivastava, A. Sharma and C. C. Reddy",
+        "title": "A Switchable Multicoil Antenna With Booster Coil to Improve Coverage in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "2490-2498",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2021.3137379"
+      },
+      {
+        "authors": "Kumar, A., C. C. Reddy",
+        "title": "Phenomenon in DC lines analogous to proximity effect. 137, 767 (2022).",
+        "venue": "Eur. Phys. J. Plus",
+        "volume": "137",
+        "pages": "767",
+        "year": "2022"
+      },
+      {
+        "authors": "A. Bharadwaj, V. K. Srivastava, A. Sharma, C. C. Reddy",
+        "title": "A Tilted-Orthogonal Receiver Coil Antenna to Improve Misalignment Tolerance in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3209207"
+      },
+      {
+        "authors": "Kumar, A., C. C. Reddy",
+        "title": "Phenomenon in DC lines analogous to proximity effect",
+        "venue": ". Eur. Phys. J. Plus",
+        "year": "2022"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma, C. C. Reddy",
+        "title": "An Unconventional Measurement Technique to Estimate Power Transfer Efficiency in Series?Series Resonant WPT System Using S-Parameters",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "71",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TIM.2022.3181291"
+      },
+      {
+        "authors": "A. J. Thomas, P. Johri, C. C. Reddy",
+        "title": "Breakdown Characteristics of Liquid Silicone Rubber in Needle-Plane Configuration Under Polarity Reversal",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TDEI.2022.3171184"
+      },
+      {
+        "authors": "Bharadwaj, A. Sharma, C. C. Reddy",
+        "title": "\\\"A Multi-Turn Coil Antenna With Nonuniform Clustered Turns Optimized Using Q-Assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3146433"
+      },
+      {
+        "authors": "A. Bharadwaj, V. K. Srivastava, A. Sharma, C. C. Reddy",
+        "title": "A Switchable Multicoil Antenna With Booster Coil to Improve Coverage in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2021.31379"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma and C. C. Reddy",
+        "title": "A Multi-turn Coil Antenna with Non-uniform Clustered Turns Optimized using Q-assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "5302-5311",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3146433"
+      },
+      {
+        "authors": "A. Bharadwaj, V. K. Srivastava, A. Sharma, and C. C. Reddy",
+        "title": "A Switchable Multi-Coil Antenna With Booster Coil to Improve Coverage in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "2490-2498",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2021.3137379"
+      },
+      {
+        "authors": "Sathyamoorthy. D and C. C. Reddy",
+        "title": "Simulation of Electro-thermal Runaway and Thermal Limits of a Loaded HVDC Cable”,, doi:",
+        "venue": "IEEE Transactions on Power Delivery",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TPWRD.2021.3112558"
+      },
+      {
+        "authors": "Avnish K. Upadhyay and C. C. Reddy",
+        "title": "Analytical Model and PEA Experiment Based Study on Identification of Homocharge Conduction, Injection and Diffusion in LDPE",
+        "venue": "IEEJ Transactions on Fundamentals and Materials (A)",
+        "volume": "141",
+        "year": "2021",
+        "url": "https://doi.org/10.1541/ieejfms.141.579"
+      },
+      {
+        "authors": "C. Iyyappan and C. C. Reddy",
+        "title": "Inverse Power Law based Inclusive Life Model for DC Polarity Reversal Stresses, April 2021, doi:",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "28",
+        "pages": "586-593",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TDEI.2020. 009281"
+      },
+      {
+        "authors": "Sathyamoorthy. D, C. C. Reddy",
+        "title": "?Simulation of Electro-thermal Runaway and Thermal Limits of a Loaded HVDC Cable",
+        "venue": "IEEE Transactions on Power Delivery",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TPWRD.2021.3112558"
+      },
+      {
+        "authors": "A. J. Thomas, C. C. Reddy",
+        "title": "Effect of Nonlinear Conduction on Needle Tip-Plane Breakdown Fields under DC Conditions",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "28",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TDEI.2021.009272"
+      },
+      {
+        "authors": "A. K. Upadhyay, P. Johri, C. C. Reddy, A. Sandhu",
+        "title": "Direct Measurement of Accumulated Space Charge Using External Currents",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "70",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TIM.2020.3041381"
+      },
+      {
+        "authors": "C. Iyyappan, C. C. Reddy",
+        "title": "Inverse Power Law based Inclusive Life Model for DC Polarity Reversal Stresses",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "28",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TDEI.2020. 009281"
+      },
+      {
+        "authors": "P. Muppala, C. C. Reddy",
+        "title": "Electric Field and DC Breakdown Voltage of Multi-layer Dielectrics in Parallel-Plane Geometry",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "28",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TDEI.2020.008830"
+      },
+      {
+        "authors": "Avnish K. Upadhyay, C. C. Reddy",
+        "title": "Analytical Model and PEA Experiment Based Study on Identification of Homocharge Conduction, Injection and Diffusion in LDPE",
+        "venue": "IEEJ Transactions on Fundamentals and Materials (A)",
+        "volume": "141",
+        "year": "2021"
+      },
+      {
+        "authors": "Birender Singh Thind, A. J. Thomas and C. C. Reddy",
+        "title": "Effect of Voltage Waveforms of HVDC Converter Transformer on Lifetime Characteristics,\\\" in, doi:",
+        "venue": "IEEE Transactions on Power Delivery",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TPWRD. 2020. 3033447"
+      },
+      {
+        "authors": "A. J. Thomas, I. C and C. C. Reddy",
+        "title": "A Method for Surface Voltage Measurement of an Overhead Insulated Conductor,\\\" in, doi:",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TIM.2020.3021803"
+      },
+      {
+        "authors": "P. Muppala and C. C. Reddy",
+        "title": "Electric Field and DC Breakdown Voltage of Multi-layer Dielectrics in Parallel-Plane Geometry,\\\" in, vol. 28, no. 1, pp., February 2021, doi:.",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "28",
+        "pages": "257-265",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TDEI.2020.008830"
+      },
+      {
+        "authors": "A. K. Upadhyay and C. C. Reddy",
+        "title": "Analytical model for homocharge accumulation in LDPE — role of conduction, injection and diffusion",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "27",
+        "pages": "565-573",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TDEI.2019.008328"
+      },
+      {
+        "authors": "A. K. Upadhyay, C. C. Reddy",
+        "title": "Analytical model for homocharge accumulation in LDPE ? role of conduction, injection and diffusion",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "27",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TDEI.2019.008328"
+      },
+      {
+        "authors": "Ajith John Thomas, Iyyappan C, C. C. Reddy, Uma Shanker",
+        "title": "Simulation on Safety of Human Beings Contacting the Surface of an Overhead Insulated Conductor",
+        "venue": "CIGRE India Journal",
+        "year": "2020"
+      },
+      {
+        "authors": "Dutta, S., Mukhopadhyay, A., Choudhary, C. C. Reddy",
+        "title": "Filtration Behaviour of Polyester Conductive Filter Media on Pulse Jet Test Rig Assisted with Pre-Charger",
+        "venue": "J. Inst. Eng. India Ser. E",
+        "year": "2019"
+      },
+      {
+        "authors": "A. P. S. Tiwana, C. C. Reddy",
+        "title": "On the anomalous charging and discharging currents in LDPE under high electric fields",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "25",
+        "year": "2018"
+      },
+      {
+        "authors": "Dutta, S., Mukhopadhyay, A., Choudhary, A. K. Choudhary, C. C. Reddy",
+        "title": "Response of Conductive and PTFE-Coated Polyester Filters to Cold Fly Ash at Different Dust Charge Levels",
+        "venue": "J. Inst. Eng. India Ser. E",
+        "year": "2018"
+      },
+      {
+        "authors": "A. Gupta, C. C. Reddy",
+        "title": "Analytical Insights Into Parameter Estimation for Wiener Deconvolution",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "66",
+        "year": "2017",
+        "url": "https://doi.org/10.1109/ TIM. 2017. 2709551"
+      },
+      {
+        "authors": "Avnish K. Upadhyay, C. C. Reddy",
+        "title": "mechanism of charge transport in low density polyethylene",
+        "venue": "Journal of Applied Physics",
+        "year": "2017"
+      },
+      {
+        "authors": "A. P. S. Tiwana, C. C. Reddy",
+        "title": "Life estimation using damage equalization method and step-stress breakdown tests",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "23",
+        "year": "2016",
+        "url": "https://doi.org/10.1109/TDEI.2016.7556508"
+      },
+      {
+        "authors": "A. Gupta, C. C. Reddy",
+        "title": "On the estimation of actual space charge using pulsed electro-acoustic system",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "23",
+        "year": "2016",
+        "url": "https://doi.org/10.1109/TDEI.2016.7736873"
+      },
+      {
+        "authors": "J. S. Chahal, C. C. Reddy",
+        "title": "Dependence of space charge dynamics in LDPE on history of voltage application",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "23",
+        "year": "2016",
+        "url": "https://doi.org/10.1109/TDEI.2015.005317"
+      },
+      {
+        "authors": "Upadhyay A K, C. C. Reddy",
+        "title": "Steady-state DC conductivity of low density polyethylene with deep chemical impurity",
+        "venue": "The Journal of CPRI",
+        "volume": "12",
+        "year": "2016"
+      },
+      {
+        "authors": "Rashmi Thakur, Dipayan Das, Apurba Das, C. C. Reddy",
+        "title": "Spatial charge distribution in fibrous dielectrics",
+        "venue": "Journal of Electrostatics",
+        "volume": "76",
+        "year": "2015"
+      },
+      {
+        "authors": "J. S. Chahal, C. C. Reddy",
+        "title": "Modeling and Simulation of Pulsed Electroacoustic Measurement Method",
+        "venue": "IEEE Systems Journal",
+        "volume": "8",
+        "year": "2014",
+        "url": "https://doi.org/10.1109/JSYST.2013.2292452"
+      },
+      {
+        "authors": "C. C. Reddy, Tiwana, A.P.S.; Gupta, A.; Chahal, J.S",
+        "title": "Role of interfacial surface area on the physical phenomena of nanocomposites",
+        "venue": "Micro & Nano Letters, IET",
+        "volume": "8",
+        "year": "2013"
+      },
+      {
+        "authors": "E. Kanegae, K. Ishimoto, T. Tanaka, Y. Ohki, Y. Sekiguchi, Y. Murata, C. C. Reddy",
+        "title": "Space charge distribution in two-layered ldpe/mgo nanocomposites exhibiting superior insulation performance",
+        "venue": "IEEJ Transactions on Fundamentals and Materials",
+        "volume": "130",
+        "year": "2010"
+      },
+      {
+        "authors": "C. C. Reddy",
+        "title": "Theoretical maximum limits on power-handling capacity of hvdc cables",
+        "venue": "IEEE Transactions on Power Delivery",
+        "volume": "24",
+        "year": "2009"
+      },
+      {
+        "authors": "K. Ishimoto, E. Kanegae, Y. Ohki, T. Tanaka, Y. Sekiguchi, Y. Murata, C. C. Reddy",
+        "title": "Superiority of dielectric properties of ldpe/mgo nanocomposites over microcomposites",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "16",
+        "year": "2009"
+      },
+      {
+        "authors": "Y. Hayase, Y. Tanaka, T. Takada, Y. Murata, Y. Sekiguchi, C. C. Reddy",
+        "title": "Space charge suppression effect of nano-size fillers added to polymeric materials",
+        "venue": "Journal of Physics",
+        "volume": "183",
+        "year": "2009"
+      },
+      {
+        "authors": "C. C. Reddy, T. S. Ramu",
+        "title": "Polymer nanocomposites as insulation for hv dc cables - investigations on the thermal breakdown",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "15",
+        "year": "2008"
+      },
+      {
+        "authors": "C. C. Reddy, T. S. Ramu",
+        "title": "On the intrinsic thermal stability in hvdc cables",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "14",
+        "year": "2007"
+      },
+      {
+        "authors": "C. C. Reddy, T. S. Ramu",
+        "title": "Estimation of thermal breakdown voltage of hvdc cables - a theoretical framework",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "14",
+        "year": "2007"
+      },
+      {
+        "authors": "C. C. Reddy, T. S. Ramu",
+        "title": "On the computation of electric field and temperature distribution in hvdc cable insulation",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "volume": "13",
+        "year": "2006"
+      },
+      {
+        "authors": "P. Pandey, C. C. Reddy",
+        "title": "Effect of Inhomogeneous Ageing of Insulation on Electric Field Distribution of a 220kV HVAC in-Service Cable",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "year": "0000",
+        "url": "https://doi.org/10.1109/TDEI.2024.3383412"
+      },
+      {
+        "authors": "P. Johri, C. C. Reddy",
+        "title": "Effect of Eccentricity on Electro-thermal Runaway in the Insulation of Extruded High Voltage DC Cables",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "year": "0000",
+        "url": "https://doi.org/ 10.1109/TDEI.2024.3353168"
+      },
+      {
+        "authors": "A. Das, C. C. Reddy",
+        "title": "A Novel Technique for Estimating the Location of Defect or Inception of Water Treeing in the Semiconducting Screen of a Cable",
+        "venue": "IEEE Transactions on Industrial Electronics",
+        "year": "0000",
+        "url": "https://doi.org/10.1109/TIE.2023.3340216"
+      },
+      {
+        "authors": "S. Dhayalan, C. C. Reddy",
+        "title": "Effect of Thermal Ageing on Space Charge Dynamics in LDPE",
+        "venue": "IEEE Transactions on Dielectrics and Electrical Insulation",
+        "year": "0000",
+        "url": "https://doi.org/10.1109/TDEI.2023.3280147"
+      },
+      {
+        "authors": "P. Johri, C. C. Reddy, K. Chempak",
+        "title": "Electric Field Dynamics in PILC Side of Dry Type MV Heat-shrink Transition Joints",
+        "venue": "IEEE Transactions on Power Delivery",
+        "year": "0000",
+        "url": "https://doi.org/10.1109/TPWRD.2021.3099861"
+      },
+      {
+        "authors": "A. J. Thomas, I. C, C. C. Reddy",
+        "title": "On the Measurement of Surface Voltage of Insulators and Bushings",
+        "venue": "IEEE Transactions on Power Delivery",
+        "year": "0000",
+        "url": "https://doi.org/10.1109/TPWRD.2021.3063346"
+      },
+      {
+        "authors": "Birender Singh Thind, A. J. Thomas, C. C. Reddy",
+        "title": "Effect of Voltage Waveforms of HVDC Converter Transformer on Lifetime Characteristics",
+        "venue": "IEEE Transactions on Power Delivery",
+        "year": "0000",
+        "url": "https://doi.org/10.1109/TPWRD. 2020. 3033447"
+      },
+      {
+        "authors": "A. J. Thomas, I. C, C. C. Reddy",
+        "title": "A Method for Surface Voltage Measurement of an Overhead Insulated Conductor",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "year": "0000",
+        "url": "https://doi.org/10.1109/TIM.2020.3021803"
+      },
+      {
+        "authors": "Jay Kumar Jain,, Sidhant Duggal, Ashish Pathak, J. S. Chahal, C. C. Reddy",
+        "title": "High Gain, Low Noise Amplifier for Pulsed Electro-Acoustic Method of Space Charge Measurements",
+        "venue": "Journal of ISOI",
+        "volume": "12",
+        "year": "0000"
+      }
+    ],
+    "conference": [
+      {
+        "authors": "Azmeera Harshith Kumar, Parimal Sharma, Iyyappan C, C. C. Reddy",
+        "title": "Effect of Polarity Reversal on Space Charge Dynamics of HVDC Cable Insulation at Different Electric Fields",
+        "venue": "2023 International Symposium on Electrical Insulating Materials, ISEIM",
+        "year": "2023"
+      },
+      {
+        "authors": "Parimal Sharma, Harshith Kumar Azmeera, C Iyyappan, C. C. Reddy",
+        "title": "Breakdown in LDPE due to Water Ingression under DC Polarity Reversal Stress",
+        "venue": "2023 IEEE International Symposium on Electrical Insulating Materials (ISEIM)",
+        "year": "2023"
+      },
+      {
+        "authors": "A. Bharadwaj, V. K. Srivastava, C. C. Reddy, and A. Sharma",
+        "title": "Design Methodology of Near-Field Transmitter Coil Antenna for Maximizing Efficiency of the WPT System",
+        "venue": "2023 17th European Conference on Antennas and Propagation (EuCAP)",
+        "pages": "1-5",
+        "year": "2023",
+        "url": "https://doi.org/10.23919/EuCAP57121.2023.10133726"
+      },
+      {
+        "authors": "Aritra Das, C. C. Reddy",
+        "title": "Construction of Physically Realizable Driving Point Impedance Function From Impedance Spectroscopy of the Cable Using Sweep Frequency Response Analysis",
+        "venue": "JICABLE 23",
+        "year": "2023"
+      },
+      {
+        "authors": "A.P.S.Tiwana, C. C. Reddy, H.K.Gupta (DRDO) and P. Angra (DRDO)",
+        "title": "Novel Technique For Generating Desired Delay And Compression In The Output Current Pulse Of Flux Compression Generator (FCG) Simulator",
+        "venue": "National Symposium on High Voltage Energy Storage Capacitors and Applications (HV-ESCA-2023), BARC",
+        "year": "2023"
+      },
+      {
+        "authors": "Azmeera Harshith Kumar, A.P.S.Tiwana, C. C. Reddy, H.K.Gupta (DRDO) and P. Angra (DRDO)",
+        "title": "Derating of a DC Capacitor subjected to Polarity Reversal under FCG Simulator Application",
+        "venue": "National Symposium on High Voltage Energy Storage Capacitors and Applications (HV-ESCA-2023), BARC",
+        "year": "2023"
+      },
+      {
+        "authors": "Parimal Sharma, Iyyappan C, C. C. Reddy",
+        "title": "Effect of Electrode Protrusion on properties of polyethylene as a Dielectric for Capacitors",
+        "venue": "National Symposium on High Voltage Energy Storage Capacitors and Applications (HV-ESCA-2023), BARC",
+        "year": "2023"
+      },
+      {
+        "authors": "Syed Mohammad Anas, C. C. Reddy",
+        "title": "Effect of Cobalt Doping on the electrochemical performance of the Iron Oxide based Supercapacitor",
+        "venue": "National Symposium on High Voltage Energy Storage Capacitors and Applications (HV-ESCA-2023), BARC",
+        "year": "2023"
+      },
+      {
+        "authors": "Mayank Saini, Aritra Das, C. C. Reddy",
+        "title": "Behavioral Study of the Impulse Waveform Superimposed with Sinusoidal Power Frequency in Transmission Line",
+        "venue": "National Symposium on High Voltage Energy Storage Capacitors and Applications (HV-ESCA-2023), BARC",
+        "year": "2023"
+      },
+      {
+        "authors": "Manoj Kumar, Aritra Das, C. C. Reddy",
+        "title": "Estimation of the Impedance of a Distributed Model of a Transmission Line Under a Frequency Sweep",
+        "venue": "National Symposium on High Voltage Energy Storage Capacitors and Applications (HV-ESCA-2023), BARC",
+        "year": "2023"
+      },
+      {
+        "authors": "P. Johri, P. Muppala, A. H. Kumar, C. C. Reddy",
+        "title": "Investigations on the Local Thermal Breakdown in Polymeric Insulation",
+        "venue": "2023 International Symposium on Electrical Insulating Materials (ISEIM)",
+        "year": "2023",
+        "url": "https://doi.org/10.23919/ISEIM60444.2023.10329055"
+      },
+      {
+        "authors": "Iyyappan C, C. C. Reddy",
+        "title": "Effect of Electrometer Internal Circuit Parameters in Interpretation of Conduction Current Transient Characteristics",
+        "venue": "2023 International Symposium on Electrical Insulating Materials, ISEIM",
+        "year": "2023"
+      },
+      {
+        "authors": "Priyesh Kumar Pandey, Azmeera Harshith Kumar, C. C. Reddy",
+        "title": "Estimation of Electric Field Distribution in a 220KV HVAC XLPE Cable under Differential Aging",
+        "venue": "2023 International Symposium on Electrical Insulating Materials, ISEIM",
+        "year": "2023"
+      },
+      {
+        "authors": "A. Gupta, C. C. Reddy",
+        "title": "A Comparative Study of De-convolution Methods for Charge Signal Estimation in PEA Systems",
+        "venue": "7th IEEE International Conference on Recent Advances and Innovations in Engineering (ICRAIE)",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/ICRAIE56454.2022.10054342(Hybrid)"
+      },
+      {
+        "authors": "Parimal Sharma, C. C. Reddy",
+        "title": "A Simulation based Study on Water Tree Growth in Different Insulating Materials in Power Cables",
+        "venue": "2022 11?th International Conference on Cables",
+        "year": "2022"
+      },
+      {
+        "authors": "Kuldeep Meena, Devendra Parmar, Aritra Das, C. C. Reddy",
+        "title": "Estimation of Cable maximum operating temperature using different machine learning algorithms",
+        "venue": "2022 11?th International Conference on Cables",
+        "year": "2022"
+      },
+      {
+        "authors": "Aritra Das, C. C. Reddy",
+        "title": "Investigations on Sheath Voltage and Current During Short-Circuited Condition On a Cross- Bonded Cable",
+        "venue": "10th IEEE Power India International Conference 2022",
+        "year": "2022"
+      },
+      {
+        "authors": "Adarsh Prakash Pandey, Aritra Das, C. C. Reddy",
+        "title": "Transient Over Voltages in Cross-Bonded Power Cables due to Lightning Impulse",
+        "venue": "10th IEEE Power India International Conference 2022",
+        "year": "2022"
+      },
+      {
+        "authors": "C. Iyyappan, C. C. Reddy",
+        "title": "Leakage Current Measurement in LDPE under DC Polarity Reversal Stress",
+        "venue": "2022 IEEE 6th International Conference on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/CATCON56237.2022.10077696"
+      },
+      {
+        "authors": "M. Khadka, P. Johri, C. C. Reddy",
+        "title": "Investigations on the Effect of DC Conductivity on AC Dielectric Behaviour of Polymeric Insulation",
+        "venue": "2022 IEEE 6th International Conference on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/CATCON56237.2022.10077680"
+      },
+      {
+        "authors": "A. Das, C. C. Reddy",
+        "title": "Sheath Voltage and Sheath Current Phenomenon for Different Types of Bonding for HV Power Cable Under Steady State",
+        "venue": "2022 IEEE 6th International Conference on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/CATCON56237.2022.10077653"
+      },
+      {
+        "authors": "P. Muppala, C. C. Reddy",
+        "title": "Effect of Conductivity Coefficients on DC Breakdown Strength of Multilayer Cable",
+        "venue": "2022 IEEE 6th International Conference on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/CATCON56237.2022.10077660"
+      },
+      {
+        "authors": "E. V. Reddy, C. C. Reddy",
+        "title": "On the simulation of partial discharge activity in solid dielectrics using SIMULINK",
+        "venue": "2021 Proceedings of National Conference High Voltage Engineering and Technology (HVET)",
+        "year": "2021"
+      },
+      {
+        "authors": "Aritra Das, C. C. Reddy",
+        "title": "Burn Down phenomenon of covered conductors",
+        "venue": "2021 Proceedings of National Conference High Voltage Engineering and Technology (HVET",
+        "year": "2021"
+      },
+      {
+        "authors": "A. Harshith Kumar, Birender Singh, C. C. Reddy",
+        "title": "Comparative study of DGA based fault diagnosis using ANN and Fuzzy systems",
+        "venue": "2021 Proceedings of National Conference High Voltage Engineering and Technology (HVET)",
+        "year": "2021"
+      },
+      {
+        "authors": "Birender Singh Thind, C. C. Reddy",
+        "title": "Effect of Ripple in DC on Voltage Endurance Coefficient of Cable Insulation Based on Damage Equalization Method",
+        "venue": "98th IEEE Conference on Electrical Insulation and Dielectric Phenomena (IEEE CEIDP 2021)",
+        "year": "2021"
+      },
+      {
+        "authors": "Sathyamoorthy D., Birender Singh,, C. C. Reddy",
+        "title": "Transient Electric and Thermal Fields in an HVDC Cable",
+        "venue": "98th IEEE Conference on Electrical Insulation and Dielectric Phenomena (IEEE CEIDP 2021)",
+        "year": "2021"
+      },
+      {
+        "authors": "A. H. Kumar, Birender Singh, C. C. Reddy",
+        "title": "Improving Condition Monitoring of Transformers based on DGA Analysis using Machine Learning Techniques",
+        "venue": "98th IEEE Conference on Electrical Insulation and Dielectric Phenomena (IEEE CEIDP 2021)",
+        "year": "2021"
+      },
+      {
+        "authors": "P. Johri, C. C. Reddy",
+        "title": "Semi-Empirical Models for Temperature and Electric Field Dependent Complex Permittivity of Solid Dielectrics",
+        "venue": "98th IEEE Conference on Electrical Insulation and Dielectric Phenomena (IEEE CEIDP 2021)",
+        "year": "2021"
+      },
+      {
+        "authors": "Ajith John Thomas, C. C. Reddy",
+        "title": "Investigations on DC Breakdown in Solids under Needle tip Plane Electrode Configuration",
+        "venue": "98th IEEE Conference on Electrical Insulation and Dielectric Phenomena (IEEE CEIDP 2021)",
+        "year": "2021"
+      },
+      {
+        "authors": "Birender Singh, C. C. Reddy",
+        "title": "Life Assessment of the HVDC Converter Transformer Insulation and Cable Insulation under Composite Voltages",
+        "venue": "JICABLE HVDC?21 International Symposium on HVDC Cable Systems",
+        "year": "2021"
+      },
+      {
+        "authors": "Sathyamoorthy Dhayalan, Pranav Johri, C. C. Reddy",
+        "title": "Simulation and Experimental Investigation of Maximum Power Transfer Capability of HVDC Cables",
+        "venue": "JICABLE HVDC?21 International Symposium on HVDC Cable Systems",
+        "year": "2021"
+      },
+      {
+        "authors": "Ajith John Thomas, C. C. Reddy",
+        "title": "Whether the Effect of Long Temporary Overvoltages (TOVs) are Critical to HVDC XLPE insulation ? A Numerical Investigation",
+        "venue": "JICABLE HVDC?21 International Symposium on HVDC Cable Systems",
+        "year": "2021"
+      },
+      {
+        "authors": "Sathyamoorthy Dhayalan, Aritra Das, Pranav Johri, C. C. Reddy",
+        "title": "Estimation of Electric Field and Temperature in HVDC Cables Under Different Environmental Conditions",
+        "venue": "2021 IEEE 16th International Conference on Industrial and Information Systems (ICIIS)",
+        "year": "2021"
+      },
+      {
+        "authors": "Sathyamoorthy Dhayalan, Bibhav Das, Pranav Johri, C. C. Reddy",
+        "title": "Experiment and Simulation of Leakage Current in HVDC Cable under Different Electro-Thermal Stresses",
+        "venue": "2021 IEEE 5th International Conference on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2021"
+      },
+      {
+        "authors": "B. Das, S. Dhayalan, E. V. Reddy, B. Singh Thind, C. C. Reddy",
+        "title": "Analysis of Frequency Response of Transformer with Inter-Turn Short Circuit Fault due to Transients",
+        "venue": "2021 IEEE 5th International Conference on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2021"
+      },
+      {
+        "authors": "S. Dhayalan, A. H. Kumar, P. Johri, C. C. Reddy",
+        "title": "Electro-thermal Dynamics During Load Cycle and Polarity Reversal of HVDC Cables Under Different Soil Conditions",
+        "venue": "2021 International Conference on Electrical, Computer and Energy Technologies (ICECET)",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/ICECET52533.2021.9698421"
+      },
+      {
+        "authors": "G. N. Reddy, Birender Singh, C. C. Reddy",
+        "title": "Effect of Harmonics on AC Breakdown strength of Kraft paper and its thermal limitations",
+        "venue": "2020 Proceedings of National Conference on Recent Trends in High Voltage Engineering and Technology (NCHVET)",
+        "year": "2020"
+      },
+      {
+        "authors": "A. K. Upadhyay, C. C. Reddy",
+        "title": "On the Delineation of Roles of Homocharge Conduction, Injection and Diffusion in LDPE",
+        "venue": "9th International Symposium on Electrical Insulating Materials (ISEIM)",
+        "year": "2020"
+      },
+      {
+        "authors": "A. K. Upadhyay, C. C. Reddy",
+        "title": "On the Temporal Variation of Boundary Fields and Non-uniform Distribution of Homocharges in LDPE",
+        "venue": "9th International Symposium on Electrical Insulating Materials (ISEIM)",
+        "year": "2020"
+      },
+      {
+        "authors": "Birender Singh, C. C. Reddy",
+        "title": "Fast Goertzel Algorithm and RLS-Adaptive Filter Based Reference Current Extraction for Grid-Connected System",
+        "venue": "2020 IEEE PES Innovative Smart Grid Technologies Europe",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/ISGT-Europe47291.2020.9248955"
+      },
+      {
+        "authors": "A. J. Thomas, E. V. Reddy, C. C. Reddy",
+        "title": "Effect of Surface Resistance on the Surface Voltage in an Insulated Overhead Conductor",
+        "venue": "2020 IEEE 15th International Conference on Industrial and Information Systems (ICIIS)",
+        "year": "2020"
+      },
+      {
+        "authors": "Birender Singh, A. H. Kumar, C. C. Reddy",
+        "title": "Investigation on Transformer Oil Parameters Using Support Vector Machine",
+        "venue": "2020 IEEE 15th International Conference on Industrial and Information Systems (ICIIS)",
+        "year": "2020"
+      },
+      {
+        "authors": "Birender Singh, C. C. Reddy",
+        "title": "Comparative Analysis of LMS, Block LMS and RLS Adaptive Control Methods for Shunt Voltage Source Converter",
+        "venue": "2019 IEEE 14th International Conference on Industrial and Information Systems (ICIIS)",
+        "year": "2019"
+      },
+      {
+        "authors": "P. Johri, C. C. Reddy",
+        "title": "Effect of Non-Linear Permittivity on Electric Field in Multi-layer Dielectrics in Cylindrical Geometry",
+        "venue": "2019 IEEE 14th International Conference on Industrial and Information Systems (ICIIS)",
+        "year": "2019"
+      },
+      {
+        "authors": "Aayushi Gupta, A.P.S. Tiwana, C. C. Reddy",
+        "title": "Simulation and Prototyping of Saturable Magnetic Switch for Current Pulse Compression",
+        "venue": "2019 IEEE 4th International Conference on Condition Assessment Techniques in Electrical Systems (CATCON 2019)",
+        "year": "2019"
+      },
+      {
+        "authors": "Ajith John Thomas, C. C. Reddy",
+        "title": "Effect of Step Duration on Breakdown in Needle-Plane Geometry Under DC Step Voltages",
+        "venue": "2019 4th Int. Conf. on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2019"
+      },
+      {
+        "authors": "P. Muppala, C. C. Reddy",
+        "title": "Space Charge and DC Fields of Multilayer Dielectrics in Plane-Parallel Geometry",
+        "venue": "4th Int. Conf. on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2019"
+      },
+      {
+        "authors": "D. Sathyamoorthy, C. C. Reddy",
+        "title": "An Attempt to Estimate DC Endurance Coefficient from Volume Resistivity",
+        "venue": "2019 IEEE 4th International Conference on Condition Assessment Techniques in Electrical Systems (CATCON 2019)",
+        "year": "2019"
+      },
+      {
+        "authors": "G. N. Reddy, Birender Singh, Iyyappan, A. P. S. Tiwana, C. C. Reddy",
+        "title": "Estimation of Endurance Coefficient of Oil Impregnated Kraft Papers using DEM",
+        "venue": "2019 IEEE 4th International Conference on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2019"
+      },
+      {
+        "authors": "S. Arshdeep, Birender Singh, C. C. Reddy",
+        "title": "Experimental Investigations on Remote Measurement of HV Electrode Current",
+        "venue": "2018 IEEE 13th International Conference on Industrial and Information Systems (ICIIS)",
+        "year": "2018"
+      },
+      {
+        "authors": "P. Johri, C. C. Reddy",
+        "title": "Radial Electric Field Distribution in an Aged Paper Insulated AC Cable",
+        "venue": "2018 IEEE 13th International Conference on Industrial and Information Systems (ICIIS)",
+        "year": "2018"
+      },
+      {
+        "authors": "A. K. Upadhyay, C. C. Reddy",
+        "title": "Structural components of Low Density Polyethylene and their role in conduction",
+        "venue": "2018 IEEE 13th International Conference on Industrial and Information Systems (ICIIS)",
+        "year": "2018"
+      },
+      {
+        "authors": "A. Gupta, C. C. Reddy",
+        "title": "Investigations on mustard oil for its suitability as insulating fluid in transformers",
+        "venue": "2017 IEEE 19th International Conference on Dielectric Liquids (ICDL)",
+        "year": "2017"
+      },
+      {
+        "authors": "C. Iyyappan, D. Satyamoorthy, P. Pandey, C. C. Reddy",
+        "title": "Investigation on nanocomposite materials for power cable insulation",
+        "venue": "2017 International Symposium on Electrical Insulating Materials (ISEIM)",
+        "year": "2017"
+      },
+      {
+        "authors": "D. Sathyamoorthy, C. C. Reddy",
+        "title": "Experimental investigations on breakdown in cable insulation",
+        "venue": "2017 International Symposium on Electrical Insulating Materials (ISEIM)",
+        "year": "2017"
+      },
+      {
+        "authors": "P. Muppala, C. C. Reddy",
+        "title": "Electric fields in multi-layer dielectrics under high DC stresses in plane-parallel geometry",
+        "venue": "2017 IEEE Conference on Electrical Insulation and Dielectric Phenomenon (CEIDP)",
+        "year": "2017"
+      },
+      {
+        "authors": "A. K. Upadhyay, C. C. Reddy",
+        "title": "Electric field enhancement in LDPE/MgO nanocomposite materials",
+        "venue": "2017 3rd International Conference on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2017"
+      },
+      {
+        "authors": "Birender Singh, S. Chauhan, C. C. Reddy",
+        "title": "Power loss minimization in electrical power distribution networks by use of hybrid reconfiguration method",
+        "venue": "2017 3rd International Conference on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2017"
+      },
+      {
+        "authors": "P. Muppala, C. C. Reddy",
+        "title": "Electric fields at thermal maximum voltage (DC) in multi-layer dielectrics in plane-parallel geometry",
+        "venue": "2017 3rd International Conference on Condition Assessment Techniques in Electrical Systems (CATCON)",
+        "year": "2017"
+      },
+      {
+        "authors": "A. K. Upadhyay, C. C. Reddy",
+        "title": "Comparative study of famous conductivity models for low density polyethylene",
+        "venue": "2017 IEEE International Conference on Industrial and Information Systems (ICIIS)",
+        "year": "2017"
+      },
+      {
+        "authors": "Tushar Verma, APS Tiwana, C. C. Reddy, Vikas Arora, P Devanand",
+        "title": "Data Analysis to Generate Models Based on Neural Network and Regression forSolar Power Generation Forecasting",
+        "venue": "IEEE-7th International Conference on Intelligent Systems, Modelling and Simulation (ISMS) 2016",
+        "year": "2016"
+      },
+      {
+        "authors": "A. P. S. Tiwana, C. C. Reddy",
+        "title": "Life estimation of LDPE film under stepped-stress voltage application",
+        "venue": "2016 IEEE Conference on Electrical Insulation and Dielectric Phenomena (CEIDP)",
+        "year": "2016"
+      },
+      {
+        "authors": "Himanshu, A. Kashyap, V. Jyani, A. P. S. Tiwana, C. C. Reddy",
+        "title": "Investigations on aging of low density polyethylene under polarity reversals",
+        "venue": "2016 IEEE Conference on Electrical Insulation and Dielectric Phenomena (CEIDP)",
+        "year": "2016"
+      },
+      {
+        "authors": "C. C. Reddy,Chahal, J.S.",
+        "title": "Dynamics of Leakage Current in LDPE Under Different Types of High Field?Application",
+        "venue": "IEEE-ICPADM 2015",
+        "year": "2015"
+      },
+      {
+        "authors": "Chahal, J.S., C. C. Reddy",
+        "title": "Some Investigations on Packet Charge Formation in LDPE",
+        "venue": "IEEE-ICPADM 2015",
+        "year": "2015"
+      },
+      {
+        "authors": "A. Gupta, C. C. Reddy",
+        "title": "On the resolution of raw charge signal and de-convolved signal of a PEA system",
+        "venue": "On the resolution of raw charge signal and de-convolved signal of a PEA system",
+        "year": "2015"
+      },
+      {
+        "authors": "C. C. Reddy, Chahal, J.S.; Gupta, A.; Tiwana, A.P.S",
+        "title": "Role of external and internal parameters on the space charge formation in dielectrics",
+        "venue": "Electrical Insulating Materials (ISEIM), Proceedings of 2014 International Symposium",
+        "year": "2014",
+        "url": "https://doi.org/10.1109/ISEIM.2014.6870730"
+      },
+      {
+        "authors": "Chahal, J.S.,C. C. Reddy, Tiwana, A.P.S.; Gupta, A",
+        "title": "Modelling the effect of amplifier response in pulsed electroacoustic system",
+        "venue": "Electrical Insulating Materials (ISEIM), Proceedings of 2014 International Symposium",
+        "year": "2014",
+        "url": "https://doi.org/10.1109/ISEIM.2014.6870794"
+      },
+      {
+        "authors": "Tiwana, A. P. S., C. C. Reddy",
+        "title": "Experiments on Breakdown Mechanism in Current Carrying PVC Cables under DC Voltage Conditions",
+        "venue": "CIGRE-AORC 2014",
+        "year": "2014"
+      },
+      {
+        "authors": "C. C. Reddy,Tiwana, A. P. S",
+        "title": "Investigations on Electric Field Enhancement in Cable Insulation Under Certain Recommended Test Conditions for HVDC Power Cables",
+        "venue": "CIGRE-AORC 2014",
+        "year": "2014"
+      },
+      {
+        "authors": "A. S. Tiwana, C. C. Reddy",
+        "title": "Some investigations on temperature dependent breakdown of electric cables under no load",
+        "venue": "Condition Assessment Techniques in Electrical Systems (CATCON), 2013 IEEE 1st International Conference",
+        "year": "2013",
+        "url": "https://doi.org/10.1109/CATCON.2013.6737531"
+      },
+      {
+        "authors": "A. S. Tiwana, C. C. Reddy",
+        "title": "\\\"Design and development of microcontroller driven, portable, low-cost HVDC source",
+        "venue": "Signal Processing, Computing and Control (ISPCC), 2013 IEEE International Conference",
+        "year": "2013",
+        "url": "https://doi.org/10.1109/ISPCC.2013.6663468"
+      },
+      {
+        "authors": "A. Gupta, C. C. Reddy",
+        "title": "Sparse deconvolution of space charge signal in PEA method",
+        "venue": "Signal Processing, Computing and Control (ISPCC), 2013 IEEE International Conference",
+        "year": "2013",
+        "url": "https://doi.org/10.1109/ISPCC.2013.6663409"
+      },
+      {
+        "authors": "Harshit, A. Garg, A. Rana, J. S. Chahal, C. C. Reddy, R. Sharma",
+        "title": "Investigations on electric field and switching voltage in planar metal foil switches",
+        "venue": "2014 9th International Conference on Industrial and Information Systems (ICIIS)",
+        "year": "2013",
+        "url": "https://doi.org/10.1109/ICIINFS.2014.7036637"
+      },
+      {
+        "authors": "J. S. Chahal, C. C. Reddy",
+        "title": "Simulation of pulsed electro acoustic method of space charge measurement",
+        "venue": "Properties and Applications of Dielectric Materials (ICPADM), 2012 IEEE 10th International Conference",
+        "year": "2012",
+        "url": "https://doi.org/10.1109/ICPADM.2012.6319011"
+      },
+      {
+        "authors": "C. C. Reddy",
+        "title": "On the thermal breakdown of AC cables and transformer bushings",
+        "venue": "Properties and Applications of Dielectric Materials (ICPADM), 2012 IEEE 10th International Conference",
+        "year": "2012",
+        "url": "https://doi.org/10.1109/ICPADM.2012.6318932"
+      },
+      {
+        "authors": "C. C. Reddy",
+        "title": "Effect of diffusion on space charge formation in dielectrics under steady-state DC conditions",
+        "venue": "Properties and Applications of Dielectric Materials (ICPADM), 2012 IEEE 10th International Conference",
+        "year": "2012",
+        "url": "https://doi.org/10.1109/ICPADM.2012.6318979"
+      },
+      {
+        "authors": "C. C. Reddy",
+        "title": "Conduction and space charges in polymeric dielectrics and nanocomposites",
+        "venue": "2012 IEEE 7th International Conference on Industrial and Information Systems (ICIIS)",
+        "year": "2012",
+        "url": "https://doi.org/10.1109/ICIInfS.2012.6304841"
+      },
+      {
+        "authors": "Etsu Kanegae(Electrical Engineering and Bioscience,Waseda University),Yukitaka Arai(Electrical Engineering and Bioscience,Waseda University),Toshikatsu Tanaka(Electrical Engineering and Bioscience,Waseda University),Yoshimichi Ohki(Electrical Engineering and Bioscience,Waseda University),Yoitsu Sekiguchi(J-Power Systems Corporation),Yoshinao Murata(J-Power Systems Corporation),C. C. Reddy",
+        "title": "Comparison of packet-like space charge behavior among five types of polyethylene",
+        "venue": "National Conference of the Institute of Electrical Engineers",
+        "year": "2011"
+      },
+      {
+        "authors": "Soichi Imazawa(Toyohashi University of Technology), Yoshinobu Murakami(Toyohashi University of Technology), Muneaki Kurimoto(Toyohashi University of Technology),Masayuki Nagao( Toyohashi University of Technology), Yoitsu Sekiguchi(J-Power Systems Corporation), C. C. Reddy, Yoshinao Murata(J-Power Systems Corporation)",
+        "title": "DC Breakdown characteristics of MgO/LDPE nanocomposites influenced by DC pre-stress",
+        "venue": "National Conference of the Institute of Electrical Engineers",
+        "year": "2011"
+      },
+      {
+        "authors": "Arai Yukitaka(Waseda University), Kanegae Etsu(Waseda University), Tanaka Toshikatsu(Waseda University), Ohki Yoshimichi(Waseda University), Inoue Yoshiyuki(J-Power Systems), Murata Yoshinao(J-Power Systems), C. C. Reddy",
+        "title": "Factors Contributing to the Generation of Packet-like Space Charge in Polyethylene",
+        "venue": "Conference on Fundamentals, Materials and Dielectric and Insulating Materials Study Group",
+        "year": "2011"
+      },
+      {
+        "authors": "N. Takamura, Y. Murakami; M. Kurimoto; M. Nagao; Y. Inoue, C. C. Reddy, Y. Murata",
+        "title": "Space charge formation and conduction current in LDPE/MgO nanocomposite under DC ramp field",
+        "venue": "International Conference on Electrical Insulating Materials",
+        "year": "2011",
+        "url": "https://doi.org/10.1109/ISEIM.2011.6826347"
+      },
+      {
+        "authors": "Y. Murakami, S. Imazawa; M. Kurimoto; M. Nagao; Y. Inoue,C. C. Reddy; Y. Murata",
+        "title": "DC breakdown characteristic on LDPE/MgO nanocomposite influenced by DC prestress",
+        "venue": "Electrical Insulation and Dielectric Phenomena (CEIDP), 2011 Annual Report Conference",
+        "year": "2011",
+        "url": "https://doi.org/10.1109/CEIDP.2011.6232664"
+      },
+      {
+        "authors": "Masato Kawano(Toyohashi University of Technology),Soichi Imazawa(Toyohashi University of Technology),Yoshinobu Murakami(Toyohashi University of Technology),Masayuki Nagao( Toyohashi University of Technology),Yoitsu Sekiguchi(J-Power Systems),C. C. Reddy,Yoshinao Murata(J-Power Systems",
+        "title": "Electrical treeing Influenced by the Addition of MgO Nano-filler DPE",
+        "venue": "National Conference of the Institute of Electrical Engineers",
+        "year": "2010"
+      },
+      {
+        "authors": "Soichi Imazawa(Toyohashi University of Technology),Yoshinobu Murakami(Toyohashi University of Technology),Masayuki Nagao(Toyohashi University of Technology),Yoitsu Sekiguchi( J-Power Systems Corporation),C. C. Reddy,Yoshinao Murata(J-Power Systems Corporation)",
+        "title": "Life time Characteristics in MgO/LDPE nanocomposite under constant DC field",
+        "venue": "National Conference of the Institute of Electrical Engineers",
+        "year": "2010"
+      },
+      {
+        "authors": "Kanegae, E.; Ohki, Y.; Tanaka, T.;? ?Sekiguchi, Y.; Murata, Y., C. C. Reddy",
+        "title": "Space charge behavior in multi-layered dielectrics with LDPE and LDPE/MgO nanocomposites",
+        "venue": "International Conference on Solid Dielectrics IEEE",
+        "year": "2010"
+      },
+      {
+        "authors": "Y Murakami1, T Okazaki, M Nagao, Y Sekiguchi, C. C. Reddy, Y Murata",
+        "title": "Space Charge Formation and Conduction Current of MgO/LDPE Nanocomposites",
+        "venue": "Conference on Electrical Insulation and Dielectric Phenomena",
+        "year": "2010"
+      },
+      {
+        "authors": "C. C. Reddy, Yoshinao Murata (J-Power Systems), Yoitsu Sekiguchi (J-Power Systems), Kazutoshi Abe (J-Power Systems)",
+        "title": "Investigations on Hetero Spacecharge in Polymeric Materials until Breakdown ? Excellent Performance of Nanocomposite Materials",
+        "venue": "2009 National Conference of the Institute of Electrical Engineers",
+        "year": "2009"
+      },
+      {
+        "authors": "Yoitsu Sekiguchi (Jay, Power Systems), Yoshinao Murata (Jay, Power Systems), C. C. Reddy",
+        "title": "Electrical Properties of Nanocomposite Material and Application of the Nanocomposite Material for HVDC Cable",
+        "venue": "National Conference of the Institute of Electrical Engineers",
+        "year": "2009"
+      },
+      {
+        "authors": "Etsu Kanegae, Kazuyuki Ishimoto, Toshikatsu Tanaka, Yoshimichi Ohki, Youitsu Sekiguchi, Yoshinao Murata, C. C. Reddy",
+        "title": "Origin of Space Charge Induced at an Interface between LDPE and LDPE/MgO Nanocomposite under Low Electric Field",
+        "venue": "National Conference of the Institute of Electrical Engineers",
+        "year": "2009"
+      },
+      {
+        "authors": "Masato Kawano(Toyohashi University of Technology),Yoshinobu Murakami(Toyohashi University of Technology),Masayuki Nagao(Toyohashi University of Technology),Yoitsu Sekiguchi( J-power Systems Corporation),C. C. Reddy,Yoshinao Murata(J-power Systems Corporation)",
+        "title": "Time-lag to Treeing Breakdown Influenced by the Addition of MgO Nanofiller in LDPE",
+        "venue": "National Conference of the Institute of Electrical Engineers",
+        "year": "2009"
+      },
+      {
+        "authors": "Shunsuke Okubomi (Toyohashi University of Technology), Takayuki Okazaki (Toyohashi University of Technology), Soichi Imazawa (Toyohashi University of Technology), Yoshinobu Murakami (Toyohashi University of Technology), Masayuki Nagao (Toyohashi University of Technology), Hiroyuki Sekiguchi (Jay, Power Systems),C. C. Reddy, Yoshinao Murata (Jay, Power Systems)",
+        "title": "Electric Breakdown and Conduction Current up to Breakdown of MgO/LDPE Nanocomposite under DC Ramp Voltage",
+        "venue": "National Conference of the Institute of Electrical Engineers",
+        "year": "2009"
+      },
+      {
+        "authors": "Etsu Kanegae (Waseda University), Kazuyuki Ishimoto (Waseda University), Toshikatsu Tanaka (Waseda University), Yoshimichi Oki (Waseda University), Yoiitsu Sekiguchi (J-Power Systems), Yoshinao Murata (J-Power Systems), C. C. Reddy",
+        "title": "Causes of Space Charge Formation in LDPE and LDPE/MgO Nanocomposite Two-Layer Dielectrics",
+        "venue": "Annual Meeting of the Basics, Materials and Common Division of the Institute of Electrical Engineers",
+        "year": "2009"
+      },
+      {
+        "authors": "Junichi Yoshida,Takuya Maezawa, Hiroaki Miyake, Yasuhiro Tanaka, Tatsuo Takada, Yoitsu Sekiguchi, Yoshinao Murata,C. C. Reddy",
+        "title": "Relationship between Breakdown and Space Charge Distribution in LDPE and LDPE. MgO at High Temperature",
+        "venue": "National Conference on Materials and Common Division Dielectric and Insulating Materials Study Group",
+        "year": "2009"
+      },
+      {
+        "authors": "Etsu Kanegae(Waseda University),Kazuyuki Ishimoto(Waseda University),Toshikatsu Tanaka(Waseda University),Yoshimichi Ohki(Waseda University),Yoitsu Sekiguchi(J-Power Systems), Yoshinao Murata(J-Power Systems),C. C. Reddy",
+        "title": "Space charge stored in LDPE and LDPE.MgO nanocomposite two-layer dielectrics",
+        "venue": "National Conference on Materials and Common Division Dielectric and Insulating Materials Study Group",
+        "year": "2009"
+      },
+      {
+        "authors": "S. Okazaki, S. Okuzumi, S. Imazawa, Y. Murakami, M. Nagao, Y. Sekiguchi, C. C. Reddy, and Y. Murata",
+        "title": "Electric characteristics of mgo/ldpe nanocomposite up to breakdown under dc ramp voltage",
+        "venue": "Annual Meeting of the Basics, Materials and Common Division of the Institute of Electrical Engineers",
+        "year": "2009"
+      },
+      {
+        "authors": "J. Yoshida, T. Maezawa, H. Miyake, Y. Tanaka, T. Takada, Y. Sekiguchi, Y. Murata, C. C. Reddy",
+        "title": "Space charge accumulation and breakdown in ldpe and ldpe/mgo nano-composite under high dc stress at various temperatures",
+        "venue": "2009 IEEE Conference on Electrical Insulation and Dielectric Phenomena",
+        "year": "2009"
+      },
+      {
+        "authors": "Y. Murakami, T. Okazaki, M. Nagao, Y. Sekiguchi, C. C. Reddy, and Y. Murata",
+        "title": "Space charge formation in low-density polyethylene up to breakdown influenced by addition of mgo nano-filler under dc ramp voltage",
+        "venue": "2009 IEEE Conference on Electrical Insulation and Dielectric Phenomena",
+        "year": "2009"
+      },
+      {
+        "authors": "M. Kawano, Y. Murakami, M. Nagao, Y. Sekiguchi, C. C. Reddy, and Y. Murata",
+        "title": "Treeing breakdown phenomena in mgo/ldpe nanocomposite material",
+        "venue": "2009 IEEE 9th International Conference on the Properties and?Applications?of Dielectric Materials",
+        "year": "2009"
+      },
+      {
+        "authors": "Y. Ohki, K. Ishimoto, E. Kanegae, T. Tanaka, Y. Sekiguchi, Y. Murata, C. C. Reddy",
+        "title": "Suppression of packet-like space charge formation in ldpe by the addition of magnesia nanofillers",
+        "venue": "2009 IEEE 9th International Conference on the Properties and?Applications?of Dielectric Materials",
+        "year": "2009"
+      },
+      {
+        "authors": "C. C. Reddy, Y. Murata, Y. Sekiguchi, K. Abe",
+        "title": "Investigations on Hetero Space charge in Polymeric Materials until Breakdown ? Excellent Performance of Nanocomposite Materials",
+        "venue": "IEEJ Annual Conference -2009",
+        "year": "2009"
+      },
+      {
+        "authors": "M. Nagao, Y. Murakami, T. Okazaki, Y. Tanaka, Y. Ohki, Y. Sekiguchi, Y. Murata, C. C. Reddy, T. Tanaka",
+        "title": "Various characteristics of LDPE/MgO nanocomposites together with application of XLPE/MgO nanocomposite to EHV DC power cables",
+        "year": "2009"
+      },
+      {
+        "authors": "C. C. Reddy, Yoshinao Murata (J-Power Systems), Yoitsu Sekiguchi (J-Power Systems), Kazutoshi Abe (J-Power Systems)",
+        "title": "Volume resistivity of XLPE/MgO nanocomposite insulating materials",
+        "venue": "The Annual Meeting of the Basics, Materials and Common Division of the Institute of Electrical Engineers",
+        "year": "2008"
+      },
+      {
+        "authors": "Kazuyuki Ishimoto, Etsu Kanegae, Toshikatsu Tanaka, Yoshimichi Ohki, Yoitsu Sekiguchi, Yoshinao Murata, C. C. Reddy",
+        "title": "Space charge Behavior of Two-layer Dielectrics with LDPE and LDPE/MgO Nanocomposites - I",
+        "venue": "The Annual Meeting of the Basics, Materials and Common Division of the Institute of Electrical Engineers",
+        "year": "2008"
+      },
+      {
+        "authors": "Kazuyuki Ishimoto, Etsu Kanegae, Toshikatsu Tanaka, Yoshimichi Ohki, Yoitsu Sekiguchi, Yoshinao Murata, C. C. Reddy",
+        "title": "Space charge Behavior of Two-layer Dielectrics with LDPE and LDPE/MgO Nanocomposites - II",
+        "venue": "The Annual Meeting of the Basics, Materials and Common Division of the Institute of Electrical Engineers",
+        "year": "2008"
+      },
+      {
+        "authors": "C. C. Reddy, T. S. Ramu",
+        "title": "On the dc conductivity of hv dc cable insulation - cautions in using the empirical models",
+        "venue": "Conference Record of the 2008 IEEE International Symposium on Electrical Insulation.",
+        "year": "2008"
+      },
+      {
+        "authors": "C. C. Reddy, T. S. Ramu",
+        "title": "Thermal stability in hvdc cables: Whether it is internal or external ?",
+        "venue": "Conference Record of the 2008 IEEE International Symposium on Electrical Insulation",
+        "year": "2008"
+      },
+      {
+        "authors": "K. V. Satyanarayana, C. C. Reddy, T. P. Govindan, M. Mandlik, and T. S. Ramu",
+        "title": "Application of artificial intelligence for the assessment of the status of power transformers",
+        "venue": "Conference Record of the 2008 IEEE International Symposium on Electrical Insulation",
+        "year": "2008"
+      },
+      {
+        "authors": "D. Pandurangaiah, C. C. Reddy, T. P. Govindan, M. Mandlik, and T. S. Ramu",
+        "title": "Estimation of remaining life of power transformers",
+        "venue": "Conference Record of the 2008 IEEE International Symposium on Electrical Insulation",
+        "year": "2008"
+      },
+      {
+        "authors": "C. C. Reddy, M. Gosyowaki, Y. Murata, and Y. Sekiguchi",
+        "title": "Superior thermal breakdown performance of mgo-ldpe nanocomposite materials for hvdc insulation",
+        "venue": "2008 International Symposium on Electrical Insulating Materials (ISEIM 2008)",
+        "year": "2008"
+      },
+      {
+        "authors": "Y. Murata, M. Goshowaki, C. C. Reddy, Y. Sekiguchi, N. Hishinuma, Y. Hayase, Y. Tanaka, and T. Takada",
+        "title": "Investigation of space charge distribution and volume resistivity of xlpe/mgo nanocomposite material under dc voltage application",
+        "venue": "2008 International Symposium on Electrical Insulating Materials (ISEIM 2008)",
+        "year": "2008"
+      },
+      {
+        "authors": "S. Okuzumi, Y. Murakami, M. Nagao, Y. Sekiguchi, C. C. Reddy, and Y. Murata",
+        "title": "DC breakdown strength and conduction current of mgo/ldpe composite influenced by filler size",
+        "venue": "2008 Annual Report Conference on Electrical Insulation and Dielectric Phenomena. IEEE",
+        "year": "2008"
+      },
+      {
+        "authors": "Y. Murakami, T. Okazaki, S. Okuzumi, M. Nagao, Y. Sekiguchi, C. C. Reddy, and Y. Murata",
+        "title": "Temperature dependent space charge formation up to the breakdown under dc ramp voltage in mgo/ldpe nanocomposite",
+        "venue": "2008 International Symposium on Electrical Insulating Materials (ISEIM 2008",
+        "year": "2008"
+      },
+      {
+        "authors": "C. C. Reddy, E. Johnson, and T. S. Ramu",
+        "title": "On the life estimation of oil impregnated paper insulated transformer bushings",
+        "venue": "Electrical Insulation Conference and Electrical Manufacturing Expo. IEEE",
+        "year": "2007"
+      },
+      {
+        "authors": "Ramu T S, C. C. Reddy",
+        "title": "Some aspects of conduction and breakdown in HVDC cables",
+        "venue": "IEEE 6th International Conf. on Electric Charges in Non-conducting Medium",
+        "year": "2006"
+      },
+      {
+        "authors": "C. C. Reddy",
+        "title": "Treeing Breakdown Phenomena in MgO/LDPE Nanocomposite Material, (40th Symposium on Electric & Electronic Ins. Poster)",
+        "year": "0000"
+      },
+      {
+        "authors": "C. C. Reddy",
+        "title": "Treeing Breakdown Phenomena in MgO/LDPE Nanocomposite Material, (40th Symposium on Electric & Electronic Ins. Poster)",
+        "year": "0000"
+      },
+      {
+        "authors": "C. C. Reddy",
+        "title": "Dielectric Properties for LDPE/MgO Nanocomposite Material under AC High Field",
+        "year": "0000"
+      },
+      {
+        "authors": "C. C. Reddy",
+        "title": "Life Time Characteristic in MgO/LDPE Nanocomposite under a constant DC Field (?)",
+        "year": "0000"
+      },
+      {
+        "authors": "Pranav Johri, C. C. Reddy",
+        "title": "Investigation on Transition Joint Materials and Electric Field in Different Layers of Joint Insulation",
+        "venue": "Proceedings of Jicable",
+        "year": "0000"
+      },
+      {
+        "authors": "A.K. Upadhyay, C. C. Reddy",
+        "title": "Role of holes in conduction phenomena of low density polyethylene under high fields and temperatures",
+        "venue": "Proceedings of Jicable",
+        "year": "0000"
+      },
+      {
+        "authors": "Purnabhishek Muppala, Parimal Sharma, C. C. Reddy",
+        "title": "Steady State and Transient Electric Fields until Thermal Limits in a HVDC Multilayer Cable",
+        "venue": "JICABLE 23",
+        "year": "0000"
+      },
+      {
+        "authors": "Azmeera Harshith Kumar, Iyyappan C, Parimal Sharma, C. C. Reddy",
+        "title": "Effect of Polarity Reversal on Breakdown in HVDC Cable Insulation - Space Charge Behavior",
+        "venue": "JICABLE 23",
+        "year": "0000"
+      },
+      {
+        "authors": "Parimal Sharma, C Iyyappan, Harshith Kumar Azmeera, C. C. Reddy",
+        "title": "Effect of Polarity Reversal on Water Tree Growth in Insulating Material of Power Cables",
+        "venue": "JICABLE 23",
+        "year": "0000"
+      },
+      {
+        "authors": "Sathyamoorthy Dhayalan, Pranav Johri, Purnabhishek Muppala, C. C. Reddy",
+        "title": "Experimental investigations on space charge accumulation in thermally aged LDPE and associated breakdown",
+        "venue": "JICABLE 23",
+        "year": "0000"
+      }
+    ],
+    "books": [
+      {
+        "kind": "Book",
+        "title": "Effect of Aerosol Charging on Energy Consumption During Pulse Jet Filtration using Conductive Media, Recent Trends in Traditional and Technical Textiles",
+        "isbn": "978-981-15-9994-1 978-981-15-9995-8",
+        "publisher": "Springe",
+        "year": "2020",
+        "authors": "Arunangshu Mukhopadhyay, Sudev Dutta, A. K. Choudhary, C. C. Reddy"
+      },
+      {
+        "kind": "Book",
+        "title": "Reliability and Life Estimation of Power equipment",
+        "isbn": "978-81-224-2611-3",
+        "publisher": "New Age International Publishers, New Delhi",
+        "year": "2008",
+        "authors": "T. S. Ramu, C. C. Reddy"
+      }
+    ],
+    "patents": [
+      {
+        "kind": "Patent",
+        "title": "Wireless System For High Voltage Electrode Current Measurement",
+        "year": "2019",
+        "authors": "Birender Singh Thind; Arshdeep Singh Sandhu, C. C. Reddy"
+      },
+      {
+        "kind": "Patent",
+        "title": "Dual-mode Antenna With Non-uniform Coil Array For Wireless Power Transmission And Method Thereof",
+        "year": "2021",
+        "authors": "M. Ananth Bharadwaj, Vivek Kumar Srivastava, Ashwani Sharma, C. C. Reddy"
+      },
+      {
+        "kind": "Patent",
+        "title": "System And Method Of Locating A Fault In Power Cable",
+        "year": "2021",
+        "authors": "Aritra Das, C. C. Reddy"
+      },
+      {
+        "kind": "Patent",
+        "title": "Method Of Locating Inception Of Water Treeing In A Power Cable",
+        "year": "2023",
+        "authors": "Aritra Das, C. C. Reddy"
+      },
+      {
+        "kind": "Patent",
+        "title": "System And Method For Determining Breakdown Voltage Of High Voltage Direct Current (HVDC) Cable",
+        "year": "2021",
+        "authors": "Sathyamoorthy Dhayalan, C. C. Reddy"
+      },
+      {
+        "kind": "Patent",
+        "title": "A Novel Face Mask Made of Electret Fibres",
+        "year": "2021",
+        "authors": "Divya (PEC), Azmeera Harshith Kumar, C. C. Reddy, Nishit Sanwal"
+      }
+    ]
+  },
+  "affiliations": [
+    "Research Fellow (after doctoral degree), IISc Bangalore — Jan 2008 to Feb 2008",
+    "Senior R&D Engineer, J-Power Systems Corp. (JPS), Japan / Hitachi, Japan — Feb. 2008 to Dec. 2011",
+    "Assistant Professor, IIT Ropar — Dec. 2011 to Dec. 2015",
+    "Associate Professor, IIT Ropar — Dec. 2015 to Nov. 2021",
+    "Professor, IIT Ropar — since Nov. 2021"
+  ],
+  "researchProjects": [
+    {
+      "title": "Design and Development of Flux compression Generator Simulator",
+      "agency": "Defence Research and Development Organization -TBRL",
+      "role": "PI",
+      "amount": "32.760"
+    },
+    {
+      "title": "Investigation on failure of transition cable joints in Bombay - design, materials and system (Consultancy)",
+      "agency": "Adani Electricity, Mumbai",
+      "role": "PI",
+      "amount": "16.000"
+    },
+    {
+      "title": "Development and Integration of LED Driver for Airfield Lighting System (Consultancy)",
+      "agency": "BEL, Chandigarh",
+      "role": "PI",
+      "amount": "6.200"
+    },
+    {
+      "title": "Surface Voltage Measurement of Overhead Insulated Conductor (Consultancy)",
+      "agency": "APAR Industries, Gujarat",
+      "role": "PI",
+      "amount": "1.500"
+    },
+    {
+      "title": "Motorization of sluice gates for Sutlej River Canal System",
+      "agency": "World Bank",
+      "role": "PI",
+      "amount": "12.000"
+    },
+    {
+      "title": "HVDC Power Cables - Design and Development",
+      "agency": "KEI Industries",
+      "role": "PI",
+      "amount": "23.000"
+    },
+    {
+      "title": "Experimental Investigations on Breakdown Phenomenon in Power Cables",
+      "agency": "Department of Science and Technology",
+      "role": "PI",
+      "amount": "55.000"
+    },
+    {
+      "title": "Investigations on new nanocomposite materials for electrical insulation",
+      "agency": "Central Power Research Institute",
+      "role": "PI",
+      "amount": "65.000"
+    },
+    {
+      "title": "Design Verification and Analysis of Electronic Impact cum Time Delay Sensing Module Circuit",
+      "agency": "Defence Research and Development Organization - TBRL",
+      "role": "PI",
+      "amount": "9.720"
+    },
+    {
+      "title": "Design and Development of Compact Firing Circuit",
+      "agency": "Defence Research and Development Organization - TBRL",
+      "role": "PI",
+      "amount": "9.120"
+    },
+    {
+      "title": "Investigation on transition cable joints",
+      "agency": "Reliance Infrastructure",
+      "role": "PI",
+      "amount": "5.000"
+    },
+    {
+      "title": "Life Estimation of Power Transformers and Bushings",
+      "agency": "CG Ltd",
+      "role": "PI",
+      "amount": "6.000"
+    },
+    {
+      "title": "JPS-Academia Joint Research Project on Nanocomposite Dielectrics",
+      "agency": "JPS, Hitachi, Japan",
+      "role": "PI",
+      "amount": "2000.000"
+    },
+    {
+      "title": "Design and development of 250 kV HVDC Cable for Hokkaido-Honshu Cable Project",
+      "agency": "JPS, Hitachi, Japan",
+      "role": "PI",
+      "amount": "10000.000"
+    },
+    {
+      "title": "Evaluation of 11 kV Earthed HT XLPE Cable Conductor Resistance and High Voltage Performance",
+      "agency": "CPWD",
+      "role": "PI",
+      "amount": "0.220"
+    },
+    {
+      "title": "Evaluation of performance of HT Cables",
+      "agency": "CPWD",
+      "role": "PI",
+      "amount": "1.940"
+    },
+    {
+      "title": "Research and Development of New Equipment for Condition Assessment of Power Cable",
+      "agency": "Central Power Research Institute",
+      "role": "PI",
+      "amount": "184.320"
+    },
+    {
+      "title": "Effect of long term electrical aging on space charge accumulation under step stress and polarity reversals in HVDC cable insulation",
+      "agency": "Department of Science and Technology",
+      "role": "PI",
+      "amount": "47.770"
+    },
+    {
+      "title": "Motorization of main and sluice gates of Sirhind Canal System at Ropar head works.",
+      "agency": "Punjab Govt.",
+      "role": "PI",
+      "period": "2020 - 2021",
+      "amount": "30.000"
+    }
+  ],
+  "consultancy": [
+    {
+      "title": "Development and Integration of LED driver for AIRFIELD Lighting System",
+      "agency": "Bharat Electronics Limited, Panchkula",
+      "period": "2020 - 2021",
+      "amount": "5.000"
+    }
+  ],
+  "courses": [],
+  "phdSupervised": [
+    "Dr. Jaspreet Singh Chahal",
+    "Dr. Alampratap Singh",
+    "Dr. Ashish Gupta",
+    "Dr. Avnish Kumar Upadhyay"
+  ],
+  "adminRoles": [
+    "Faculty-in-charge, Guesthouse, IIT Ropar (till 4/4/2014, for two years)",
+    "Departmental faculty advisor, Placements Cell (Since 2011)",
+    "Member - Departmental purchase committee",
+    "Looked after the EE website voluntarily (Since 2011 to 2018)",
+    "RPEC member PG/PhD coordinator for EED (Since 2012, till 2015)",
+    "Erstwhile member of faculty committee for new campus development (EED)",
+    "Faculty advisor for 2013 batch of EE students",
+    "Member of Standing Committee on Industrial Relations",
+    "Member of Patent Cell",
+    "Member of AC Committee",
+    "Convener INDUSTRY ACADEMIA CONCLAVE 2016",
+    "Member Fire Safety Committee",
+    "Ishan Vikas Yojana Coordinator",
+    "Faculty-in-charge Industrial Relations (2015-2017)",
+    "Associate Dean Student Affairs (2018 - till date)",
+    "Member of new campus development committee",
+    "Invitee of Hostel Management Committee",
+    "Member of Campus Utility Facilities"
+  ],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

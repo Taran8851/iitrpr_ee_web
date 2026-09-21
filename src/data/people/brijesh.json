@@ -1,0 +1,363 @@
+{
+  "id": "brijesh",
+  "studentAchievements": [
+    "Shiv Kumar, Research Scholar, under the supervision of Brijesh Kumbhani, Received IEEE student travel grant for attending IEEE MECOM 2024 conference at ABU DHABI (UAE) from 17-20 November 2024.."
+  ],
+  "photo": "/images/legacy/3204062044a6.jpg",
+  "name": "Brijesh Kumbhani",
+  "designation": "Assistant Professor",
+  "address": "Room No. 217, J C Bose Block",
+  "email": "brijesh@iitrpr.ac.in",
+  "phone": "1881232209",
+  "scholar": null,
+  "website": null,
+  "otherLinks": [],
+  "intro": [],
+  "qualifications": [
+    "PhD",
+    "BE"
+  ],
+  "interests": [
+    "RIS assisted communication systems",
+    "CRAN for vehicular communication"
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [
+      {
+        "authors": "S. Kumar, B. Kumbhani and G. Kaddoum",
+        "title": "Finite Blocklength Analysis of Active RIS-assisted FDTW Communication with Hardware Impairments",
+        "venue": "IEEE Wireless Communications Letters",
+        "year": "2025"
+      },
+      {
+        "authors": "S. Kumar and B. Kumbhani",
+        "title": "Wireless Powered Reconfigurable Intelligent Surface Aided Cognitive NOMA Network with Hardware Impairments: IBL and FBL Analysis",
+        "venue": "IEEE Internet of Things Journal",
+        "volume": "12",
+        "pages": "17473-17486",
+        "year": "2025"
+      },
+      {
+        "authors": "S. Kumar, B. Kumbhani and S. Darshi",
+        "title": "Performance Analysis of STAR-RIS Aided Short-Packet NOMA Network Under Imperfect SIC and CSI",
+        "venue": "IEEE Systems Journal",
+        "volume": "19",
+        "pages": "600-611",
+        "year": "2025"
+      },
+      {
+        "authors": "S. K. Singh, N. Gupta, R. Singh and B. Kumbhani",
+        "title": "THz Hybridization in CRAN-Based Vehicular Networks: Performance and Handoff Implications",
+        "venue": "IEEE Communications Letters",
+        "volume": "29",
+        "pages": "699-703",
+        "year": "2025"
+      },
+      {
+        "authors": "S. Bhattacharjee, B. Kumbhani and S. K. Singh",
+        "title": "Transient Analysis of Electromagnetic Waves on DNG Metamaterial Slab Backed by PEC",
+        "venue": "Physics Letters A",
+        "volume": "552",
+        "year": "2025"
+      },
+      {
+        "authors": "S. Kumar and B. Kumbhani",
+        "title": "Performance Analysis of Active STAR-RIS-assisted NOMA with Hardware Impairments at Finite Blocklength",
+        "venue": "Digital Signal Processing",
+        "volume": "163",
+        "year": "2025"
+      },
+      {
+        "authors": "A. Hari, R. Kumar, B. Kumbhani, S. Darshi, S. Agarwal, J. S. Sahambi, S. Jain, D. Chawla",
+        "title": "Contactless Breathing Monitoring at Home and in the Hospital: Protocol for a Low-Cost Frequency-Modulated Continuous-Wave Radar-Based Device",
+        "venue": "JMIR Research Protocols",
+        "volume": "14",
+        "year": "2025"
+      },
+      {
+        "authors": "S. K. Singh, I. Com?a, R. Trestian, L. V. Çak?r, R. Singh, A. Kaushik, B. Canberk, P. Shah, B. Kumbhani, and S. Darshi",
+        "title": "WIND: a wireless intelligent network digital twin for federated learning and multi-layer optimization",
+        "venue": "IEEE Communications Standards Magazine",
+        "year": "2025"
+      },
+      {
+        "authors": "B. Kumbhani, S. K. Singh, R. Singh, S. Darshi, G. Singh, I. Sharma, E. Leitgeb, B. Eichberger, K. A Shah",
+        "title": "RF FSO integration for hand-off reduction in CRAN assisted vehicular networks",
+        "venue": "Journal of Optics",
+        "year": "2025"
+      },
+      {
+        "authors": "Shiv Kumar, Rohit Singh, Brijesh Kumbhani and Satyam Agarwal",
+        "title": "A New Paradigm for IRS-NOMA Transmission",
+        "venue": "IEEE Transactions on Vehicular Technology",
+        "volume": "73",
+        "pages": "10835-10839",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/TVT.2024.3384433"
+      },
+      {
+        "authors": "S. Bhattacharyya, P. Kumar, S. Darshi, S. Majhi, B. Kumbhani and A. A. Almohammedi",
+        "title": "Hybrid relaying based cross layer MAC protocol using variable beacon for cooperative vehicles",
+        "venue": "IEEE Transactions on Vehicular Technology",
+        "volume": "73",
+        "pages": "258-267",
+        "year": "2024"
+      },
+      {
+        "authors": "J. Dandapat, N. Gupta, S. Agarwal and B. Kumbhani",
+        "title": "Service Time Maximization for Data Collection in Multi-UAV-Aided Networks",
+        "venue": "IEEE Transactions on Intelligent Vehicles",
+        "volume": "9",
+        "pages": "328-337",
+        "year": "2024"
+      },
+      {
+        "authors": "H. K. Sharma, B. Kumbhani",
+        "title": "Secrecy capacity of hybrid FSO-RF communication links",
+        "venue": "Journal of Optics",
+        "volume": "53",
+        "pages": "3677–3682",
+        "year": "2024"
+      },
+      {
+        "authors": "N. Gupta, S. Agarwal, D. Mishra and B. Kumbhani",
+        "title": "Trajectory and Resource Allocation for UAV Replacement to Provide Uninterrupted Service",
+        "venue": "IEEE Transactions on Communications",
+        "volume": "71",
+        "pages": "7288-7302",
+        "year": "2023"
+      },
+      {
+        "authors": "Sameer Kumar Singh, Rohit Singh, Brijesh Kumbhani",
+        "title": "TRASH: Traffic Aware Hybrid-CRAN Scheme for V2I Connectivity Enhancement",
+        "venue": "IEEE Transactions on Vehicular Technology",
+        "volume": "72",
+        "pages": "16929 -16935",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TVT.2023.3295244"
+      },
+      {
+        "authors": "H. K. Sharma, B. Kumbhani",
+        "title": "Secrecy of WSN Data Over Nakagami-m Fading Channels with Selection Combining Diversity",
+        "venue": "Defence Science Journal",
+        "volume": "73",
+        "pages": "722–727",
+        "year": "2023"
+      },
+      {
+        "authors": "H. K. Sharma, B. Kumbhani",
+        "title": "Ergodic secrecy capacity of backscatter communication based automatic toll collection systems",
+        "venue": "S?dhan?",
+        "volume": "48",
+        "pages": "1–4",
+        "year": "2023"
+      },
+      {
+        "authors": "R. Singh and B. Kumbhani",
+        "title": "How to train intelligent reflecting surfaces?",
+        "venue": "IEEE Communications Letters",
+        "volume": "26",
+        "pages": "1923-1927",
+        "year": "2022"
+      },
+      {
+        "authors": "S. Bhattacharjee and B. Kumbhani",
+        "title": "Enhancement of Beam Width and Side Lobe Level Reduction Using PEC Ground Plane in Antenna Array",
+        "venue": "Wireless Personal Communications",
+        "volume": "122",
+        "pages": "2325–2334",
+        "year": "2022"
+      },
+      {
+        "authors": "Sameer Kumar Singh, Rohit Singh, Brijesh Kumbhani",
+        "title": "mm-wave micro-wave integrated Sub-RAN for CRAN performance enhancement",
+        "venue": "IET Communications",
+        "volume": "15",
+        "pages": "1045-1052",
+        "year": "2021",
+        "url": "https://doi.org/0018-9545"
+      },
+      {
+        "authors": "B. Kumbhani, and J. Gaur",
+        "title": "Physical Model Based Method to Generate Channel Coefficients for Nakagami-m Distribution",
+        "venue": "Wireless Personal Communications",
+        "volume": "116",
+        "pages": "3031–3037",
+        "year": "2021"
+      },
+      {
+        "authors": "B. Kumbhani and R. S. Kshetrimayum",
+        "title": "Performance Analysis of MIMO Systems with Antenna Selection over Generalized \\\\kappa-\\\\mu Fading Channels",
+        "venue": "IETE Journal of Research",
+        "volume": "62",
+        "pages": "45-54",
+        "year": "2016"
+      },
+      {
+        "authors": "B. Kumbhani and R. S. Kshetrimayum",
+        "title": "MGF based approximate SER calculation of SM MIMO systems over generalized fading channels",
+        "venue": "Wireless Personal Communications",
+        "volume": "83",
+        "pages": "1903-1913",
+        "year": "2015"
+      },
+      {
+        "authors": "B. Kumbhani and R. S. Kshetrimayum",
+        "title": "Error Performance of Two-hop Decode and Forward Relaying Systems with Source and Relay Transmit Antenna Selection",
+        "venue": "Electronics Letters",
+        "volume": "51",
+        "pages": "530-532",
+        "year": "2015"
+      },
+      {
+        "authors": "B. Kumbhani and R. S. Kshetrimayum",
+        "title": "Analysis of TAS/MRC based MIMO systems over \\\\eta-\\\\mu Fading Channels",
+        "venue": "IETE Technical Review",
+        "volume": "32",
+        "pages": "252-259",
+        "year": "2015"
+      },
+      {
+        "authors": "M. Kulkarni, L. Choudhary, B. Kumbhani and R. S. Kshetrimayum",
+        "title": "Performance analysis comparison of transmit antenna selection with maximal ratio combining and orthogonal space time block codes in equicorrelated Rayleigh fading multiple input multiple output channels",
+        "venue": "IET Communications",
+        "volume": "8",
+        "pages": "1850-1858",
+        "year": "2014"
+      },
+      {
+        "authors": "B. Kumbhani and R. S. Kshetrimayum",
+        "title": "Outage Probability Analysis of Spatial Modulation Systems with Antenna Selection",
+        "venue": "Electronics Letters",
+        "volume": "50",
+        "pages": "125-126",
+        "year": "2014"
+      },
+      {
+        "authors": "B. Kumbhani, L. N. B. Reddy and R. S. Kshetrimayum",
+        "title": "Approximate SER of cooperative communications over generalized ?-? and ?-? fading channels",
+        "venue": "IET Journal of Engineering",
+        "year": "2014",
+        "url": "https://doi.org/10.1049/joe.2013.0156"
+      }
+    ],
+    "conference": [
+      {
+        "authors": "Shiv Kumar and Brijesh Kumbhani",
+        "title": "Performance Analysis of RIS-assisted Full-Duplex Two-Way NOMA using iFBL and FBL Codes",
+        "venue": "IEEE MECOM 2024",
+        "year": "2024"
+      },
+      {
+        "authors": "Shiv Kumar, Rohit Singh and Brijesh Kumbhani",
+        "title": "Polarised decoupling of STAR-RIS assisted dual serve",
+        "venue": "IEEE MECOM 2024",
+        "year": "2024"
+      },
+      {
+        "authors": "Shiv Kumar and Brijesh Kumbhani",
+        "title": "Performance Analysis of Active RIS-assisted Full-Duplex-Two-Way NOMA System under Finite Blocklength with Hardware Impairments",
+        "venue": "IEEE ANTS 2024",
+        "year": "2024"
+      },
+      {
+        "authors": "Dhawal Salwan, Satyam Agarwal, Brijesh Kumbhani, Sam Darshi, Kamesh Namuduri, Sumit Chakravarty and Ashwin Ashok",
+        "title": "Communication Receiver Design for PSK-LFM Joint Sensing and Communication Waveform",
+        "venue": "IEEE ICC 2024 workshops",
+        "pages": "1617-1622",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/ICCWorkshops59551.2024.10615893"
+      },
+      {
+        "authors": "SK Singh, S Bhattacharyya, R Singh, Brijesh Kumbhani, Sam Darshi",
+        "title": "RSMA for Future Generation Multiple Access: Challenges and Opportunities",
+        "venue": "ICIIS 2023",
+        "year": "2023"
+      },
+      {
+        "authors": "Sameer Kumar Singh, Nishant Gupta, Arnav Hari, Rohit Singh, Brijesh Kumbhani",
+        "title": "CoMP Transmission Approach for Seamless Connectivity in Vehicular Network through CRAN Architecture",
+        "venue": "IEEE ANTS 2023",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/ANTS59832.2023.10468911"
+      },
+      {
+        "authors": "Sameer Kumar Singh, Sagnik Bhattacharyya, Rohit Singh, Brijesh Kumbhani, Sam Darshi",
+        "title": "RSMA for Future Generation Multiple Access: Challenges and Opportunties",
+        "venue": "IEEE ICIIS 2023",
+        "pages": "359-364",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/ICIIS58898.2023.10253542"
+      },
+      {
+        "authors": "Sameer Kumar Singh, Rohit Singh, Brijesh Kumbhani",
+        "title": "Integrated RAN to meet the QoS of Modern Wireless Application",
+        "venue": "IEEE ICIIS 2021",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/ICIIS53135.2021.9660644"
+      },
+      {
+        "authors": "Sameer Kumar Singh, Rohit Singh, Brijesh Kumbhani",
+        "title": "The Evolution of radio access network towards open-RAN: Challenges and Opportunties",
+        "venue": "IEEE WCNC 2020 Workshops",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/WCNCW48565.2020.9124820"
+      },
+      {
+        "authors": "Sameer Kumar Singh, Rohit Singh, Brijesh Kumbhani",
+        "title": "A review on cellular network infrastructure evolution: challenges and opportunties",
+        "venue": "IEEE ICIIS 2019",
+        "pages": "163-168",
+        "year": "2019",
+        "url": "https://doi.org/10.1109/ICIIS47346.2019.9063261"
+      }
+    ],
+    "books": [
+      {
+        "kind": "Book",
+        "title": "MIMO Wireless Communications over Generalized Fading Channels",
+        "publisher": "CRC Press",
+        "year": "2017",
+        "authors": "Brijesh Kumbhani and Rakhesh Singh Kshetrimayum"
+      }
+    ],
+    "patents": []
+  },
+  "affiliations": [
+    "SMIEEE",
+    "OMIEICE"
+  ],
+  "researchProjects": [
+    {
+      "title": "Non-contact small form-factor neonatal apnea monitoring device",
+      "agency": "SERB",
+      "role": "PI",
+      "period": "2023 - 2025",
+      "amount": "34.000"
+    },
+    {
+      "title": "Terrestrial Network Offloading for Enhancement of Vehicular Communication through Integration of Microwave with Optical Wireless Communication",
+      "agency": "Indo-Austria International project",
+      "role": "PI",
+      "period": "2022 - 2024",
+      "amount": "4.900"
+    },
+    {
+      "title": "Quality of Service (QoS) improvement through efficient integration of FR-1 and FR-2 in 6G Open RAN",
+      "agency": "TTDF, DoT",
+      "role": "PI",
+      "period": "2025 - 2025",
+      "amount": "73.000"
+    }
+  ],
+  "consultancy": [],
+  "courses": [],
+  "phdSupervised": [],
+  "adminRoles": [],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

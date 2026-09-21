@@ -1,0 +1,255 @@
+{
+  "id": "akumar",
+  "studentAchievements": [],
+  "photo": "/images/legacy/2270e706e503.jpg",
+  "name": "Abhishek Kumar Singh",
+  "designation": "Assistant Professor",
+  "address": "J C Bose Block, Room No. 117, Department of Electrical Engineering Indian Institute of Technology Ropar Rupnagar, Punjab, PIN – 140001, India",
+  "email": "akumar@iitrpr.ac.in",
+  "phone": "2230",
+  "scholar": null,
+  "website": null,
+  "otherLinks": [],
+  "intro": [
+    "I am currently a faculty member in the Department of Electrical Engineering at IIT Ropar and am seeking highly motivated candidates for PhD positions in the broad areas of VLSI DSP systems, FPGA-based system design, and System-on-Chip (SoC) design, along with Hardware Security. The research focus is on efficient algorithm-to-architecture mapping for DSP and emerging workloads, with emphasis on high-performance, energy-efficient, and scalable hardware implementations. This includes the design and optimization of computation architectures for signal processing and AI accelerators, as well as system-level integration in VLSI/SoC platforms and reconfigurable systems. In the domain of hardware security, the work involves the design, analysis, and detection of hardware vulnerabilities, including hardware trojans, with a focus on secure and trustworthy VLSI/SoC architectures. Candidates with additional interest or background in Flexible and Printed Electronics, including thin-film devices and emerging electronic technologies, are also encouraged to apply. Interested applicants are requested to send their CV, and a brief statement of research interests to akumar@iitrpr.ac.in"
+  ],
+  "qualifications": [
+    "Ph.D. (Nov 2020) – Indian Institute of Technology (BHU) Varanasi",
+    "M.Tech (May 2015) – Indian Institute of Technology Delhi",
+    "B.Tech (May 2012) – Baba Saheb Dr. Bhimrao Ambedkar College of Agricultural Engineering and Technology Etawah Uttar Pradesh"
+  ],
+  "interests": [
+    "Algorithm-to-Architecture Mapping for DSP Systems with FPGA-based Prototyping and SoC Design and Efficient Hardware Design",
+    "Hardware Security: Design and Detection of Hardware Trojans in VLSI/SoC Systems with emphasis on Secure and Trustworthy Chip Architectures",
+    "Flexible & Printed Electronics and Circuits",
+    "Design and development of gas sensors optical sensors and advanced device technologies",
+    "Solid-State Electronics: Physics-based Device Simulation TCAD (Technology Computer-Aided Design) Compact modeling"
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [
+      {
+        "authors": "Akash Chaurasiya, Utsav Mishra, Arvind, Abhishek Kumar Singh and Debashis Panda",
+        "title": "Ultra-Fast Humidity Sensor for Breath Monitoring Using Cellulose Nanocrystal Film Derived from Banana Trunk",
+        "venue": "in IEEE Sensors Letters",
+        "volume": "9 (7)",
+        "pages": "4501104",
+        "year": "2025",
+        "url": "https://ieeexplore.ieee.org/document/11021628"
+      },
+      {
+        "authors": "Mukuljeet Singh Mehrolia, Dharmendra Kumar, Ankit Verma and Abhishek Kumar Singh",
+        "title": "Fabrication and Characterization of Self Assembled Low - Voltage Operated OTFT for H2S Gas Sensor for Oil and Gas Industry",
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "71",
+        "pages": "769 - 776",
+        "year": "2024",
+        "url": "https://ieeexplore.ieee.org/document/10336915"
+      },
+      {
+        "authors": "M. S. Mehrolia, A. Verma, N. K. Chourasia, A. Pandey and Abhishek Kumar Singh",
+        "title": "A Proposed Fully- Transparent, Flexible, and Compact Modeled Low-Voltage TFT for Implementation of Full Adder and Subtractor",
+        "venue": "in IEEE Journal on Flexible Electronics",
+        "volume": "3 (11)",
+        "pages": "477 - 483",
+        "year": "2024",
+        "url": "https://ieeexplore.ieee.org/document/10530301"
+      },
+      {
+        "authors": "Mukuljeet Singh Mehrolia, Ankit Verma and Abhishek Kumar Singh",
+        "title": "Comparative Analysis of Compact Modeled of Low-Voltage OTFTs on Flexible and Silicon Substrates for the Implementation of Logic Circuits",
+        "venue": "in IEEE Journal on Flexible Electronics",
+        "volume": "3 (7)",
+        "pages": "341 - 347",
+        "year": "2024",
+        "url": "https://ieeexplore.ieee.org/document/10701505"
+      },
+      {
+        "authors": "Ankita Rawat, Abhishek Kumar Singh; S. Kumar, Gaurav Rajput, R. K Chourasia, N. K. Chourasia",
+        "title": "Highly Sensitive Ti₃C₂Tx/MoSe₂ (2-D/Quasi-2-D) Heterojunction Based Photodetector",
+        "venue": "IEEE Sensors Journal",
+        "volume": "24",
+        "pages": "40641 - 40647",
+        "year": "2024",
+        "url": "https://ieeexplore.ieee.org/document/10713070"
+      },
+      {
+        "authors": "Mukuljeet Singh Mehrolia, Dharmendra Kumar, Ankit Verma and Abhishek Kumar Singh",
+        "title": "Fabrication and Compact Modeling of Low Voltage Flexible Organic TFT Using Self Assembly of Conductive Polymer Channel Over High-k PMMA/SrZrOₓ Dielectric",
+        "venue": "in IEEE Transactions on Electron Devices",
+        "volume": "71",
+        "pages": "6055 - 6060",
+        "year": "2024",
+        "url": "https://ieeexplore.ieee.org/document/10648978"
+      },
+      {
+        "authors": "S. Kumar, V. Gautam, Abhishek Kumar Singh, G. K. Maurya, S. Singh, and P. Kumar",
+        "title": "Liquid Phase Exfoliated 2-D MoS2-Based Broadband Heterojunction Low-Powered Photosensor",
+        "venue": "in IEEE Transactions on Electron Devices",
+        "volume": "70 (3)",
+        "pages": "1149 - 1155",
+        "year": "2023",
+        "url": "https://ieeexplore.ieee.org/document/10035483"
+      },
+      {
+        "authors": "R. Suthar, A. T, H. Dahiya, Abhishek Kumar Singh, G. D. Sharma, and S. Karak",
+        "title": "Role of Exciton Lifetime, Energetic- Offsets, and Disorder in Voltage Loss of Bulk Heterojunction Organic - Solar Cells",
+        "venue": "ACS Applied Materials & Interfaces",
+        "volume": "15",
+        "year": "2023",
+        "url": "https://pubs.acs.org/doi/10.1021/acsami.2c18199"
+      },
+      {
+        "authors": "Hemraj Dahiya, Anupam Agrawal, Ganesh D. Sharma and Abhishek Kumar Singh",
+        "title": "Organic bulk heterojunction enabled with nanocapsules of hydrate vanadium pentaoxide layer for high responsivity self powered photodetector",
+        "venue": "Journal of Semiconductors",
+        "volume": "43",
+        "year": "2022",
+        "url": "https://iopscience.iop.org/article/10.1088/1674-4926/43/9/092302/meta"
+      },
+      {
+        "authors": "Abhishek Kumar Singh, A. Pandey, and P. Chakrabarti",
+        "title": "Fabrication, Characterization, and Application of CuO Nano Wires as Electrode for Ammonia Sensing in Aqueous Environment Using Extended Gate-FET",
+        "venue": "IEEE Sensors Journal",
+        "volume": "21(5)",
+        "pages": "5779 - 5786",
+        "year": "2021",
+        "url": "https://ieeexplore.ieee.org/document/9281376"
+      },
+      {
+        "authors": "Abhishek Kumar Singh, A D D Dwivedi, A Pandey and P Chakrabarti",
+        "title": "Design and implementation of an inverter and its application in ring oscillator circuits using an organic thin film transistor based on an FTM derived channel",
+        "venue": "Semiconductor Science and Technology",
+        "volume": "36",
+        "year": "2021",
+        "url": "https://iopscience.iop.org/article/10.1088/1361-6641/ac274f"
+      },
+      {
+        "authors": "Abhishek Kumar Singh, A. Pandey and P. Chakrabarti",
+        "title": "Poly[2,5-bis(3-tetradecylthiophen-2-yl) thieno [3,2b] thiophene] Organic Polymer Based -Interdigitated Channel Enabled Thin Film Transistor for Detection of Selective Low ppm Ammonia Sensing at 25°C",
+        "venue": "IEEE Sensors Journal",
+        "volume": "20",
+        "pages": "4047-4055",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/JSEN.2019.2963269"
+      },
+      {
+        "authors": "Abhishek Kumar Singh, N. Chourasia, B.N. Pal, A. Pandey and P. Chakrabarti",
+        "title": "A Low Operating Voltage Solution-Processed Dielectric Li2ZnO2 and SnO2 channel based Medium Wave UV-B Phototransistor for Application in Phototherapy",
+        "venue": "in IEEE Transactions on Electron Devices",
+        "volume": "67",
+        "pages": "7",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/TED.2020.2978536"
+      },
+      {
+        "authors": "Abhishek Kumar Singh, A. Pandey, and P. Chakrabarti",
+        "title": "A Green Light Sensitive Au/PBTTT-C14/OTS/SiO2/Si/Ag MOS Capacitor",
+        "venue": "in IEEE Photonics Technology Letters",
+        "volume": "32 (17)",
+        "pages": "04",
+        "year": "2020"
+      },
+      {
+        "authors": "Abhishek Kumar Singh, N. Chourasia, B.N. Pal, A. Pandey and P. Chakrabarti",
+        "title": "A proposed All- ZnO based Thin Film Transistor for UV-B detection",
+        "venue": "in IEEE Photonics Technology Letters",
+        "volume": "32",
+        "pages": "4",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/LPT.2020.3039972"
+      },
+      {
+        "authors": "Nitesh K. Chourasia, Abhishek Kumar Singh, Suyash Rai, Anand Sharma, Anchal Srivastava, P. Chakrabarti",
+        "title": "A Lithography-Free Fabrication of Low-Operating Voltage-Driven, Very Large Channel Length Graphene Field-Effect Transistor With NH3 Sensing Application",
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "67(110)",
+        "pages": "4385 - 4391",
+        "year": "2020",
+        "url": "https://ieeexplore.ieee.org/document/9178480"
+      },
+      {
+        "authors": "Abhishek Kumar Singh, A. Pandey, and P. Chakrabarti",
+        "title": "Fabrication, Modelling and Characterization of Green Light Photosensitive p-channel - Poly[2,5-bis(3-tetradecylthiophen-2-yl) thieno[3,2-b] thiophene] organic semiconductor-based Phototransistors",
+        "venue": "Organic Electronics",
+        "volume": "75",
+        "pages": "105424",
+        "year": "2019",
+        "url": "https://doi.org/10.1016/j.orgel.2019.105424"
+      }
+    ],
+    "conference": [],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [],
+  "researchProjects": [
+    {
+      "title": "A Proposed Colorless, Fully Transparent, and Flexible Organic Thin-Film Transistor for ‘Invisible’ or ‘See-Through’ Electronic Applications",
+      "agency": "Advanced National Research Foundation (ANRF)",
+      "role": "PI",
+      "period": "2022 - 2024",
+      "amount": "28.000"
+    }
+  ],
+  "consultancy": [
+    {
+      "title": "Emergency Locator Transmitter (ELT) Antenna Testing",
+      "agency": "Hindustan Aeronautics Limited (HAL)",
+      "period": "2023 - 2023",
+      "amount": "4.000"
+    }
+  ],
+  "courses": [
+    {
+      "code": "GE108",
+      "title": "Basic Electronics",
+      "ltpsc": "2-2/3-2-13/3-3",
+      "type": "Core",
+      "degree": "B.tech.",
+      "offerings": [
+        "2026 · Semester II"
+      ]
+    },
+    {
+      "code": "EE653",
+      "title": "DIGITAL SIGNAL PROCESSING FOR VLSI",
+      "ltpsc": "3-0-0-6-3",
+      "type": "Elective",
+      "degree": "B.tech.",
+      "offerings": [
+        "2026 · Semester II"
+      ]
+    },
+    {
+      "code": "EE201",
+      "title": "Signals and Systems",
+      "ltpsc": "3-1-0-5-3",
+      "type": "Core",
+      "degree": "B.tech.",
+      "offerings": [
+        "2025 · Semester I"
+      ]
+    }
+  ],
+  "phdSupervised": [
+    "1) Mukuljeet Singh Mehrolia - Research Topic: Process-to-System Level Study of Low-Voltage Thin Film Transistors: Fabrication, Modeling, and Simulation, Date of award: June 2025",
+    "2)Akash Chaurasiya-Research Topic: ENGINEERING SUSTAINABLE LOW-POWER CHEMIRESISTIVE SENSING PLATFORMS FOR WEARABLE BREATH DIAGNOSTICS AND AIR QUALITY MONITORING- Date of Award: 06 Aug 2026"
+  ],
+  "adminRoles": [
+    "Past Administrative & Academic Responsibilities (2021 – 6th August 2025)",
+    "Chairman of the UG Admission Committee 2025 (Dec 2024 – 6th Aug 2025): Led and supervised the undergraduate admission process for the academic year 2025 including policy formulation application scrutiny and final selection.",
+    "Member Secretary Senate Library Committee (Aug 2023 – 6th Aug 2025): Coordinated library policy development digital access enhancement and academic resource planning at the institute level.",
+    "Co-Chairman Institute Transport Committee (2023 – 6th Aug 2025): Procurement of Institute Vehcles, Supervised institutional transportation policies vendor management and logistics for students and staff.",
+    "Convenor of the DPGC Department of EEE (July 2021–Nov 2023): Led curriculum planning academic evaluations and postgraduate policy matters within the Department of Electrical Engineering.",
+    "Faculty Incharge International Students’ Affairs (May 2023 – 6th Aug 2025): Managed international admissions and academic collaborations and provided welfare support for global students.",
+    "Member Grievance Redressal Committee (March 2025 – 6th Aug 2025): Addressed student grievances in alignment with national academic regulations and technical norms.",
+    "Member of the Departmental Placement Coordination Committee (April 2024 – 6th Aug 2025): Coordinated industry outreach placement preparedness and internship facilitation for students.",
+    "Co-Convenor of the Cultural Council (June 2024 – May 2025): Organized institute-level cultural events and initiatives to engage and promote student talent."
+  ],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

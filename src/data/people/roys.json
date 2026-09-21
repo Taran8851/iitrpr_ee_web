@@ -1,0 +1,42 @@
+{
+  "id": "roys",
+  "studentAchievements": [],
+  "photo": "/images/legacy/ce85f2a7971e.jpg",
+  "name": "S. Roy",
+  "designation": "Professor",
+  "address": "",
+  "email": "roys@iitrpr.ac.in",
+  "phone": "9478967746",
+  "scholar": null,
+  "website": null,
+  "otherLinks": [],
+  "intro": [],
+  "qualifications": [
+    "B Eng (Elect) University of Roorkee 1985",
+    "M Eng (Elect) Indian Institute of Science 1987",
+    "Ph D (Elect & Comp) University of Calgary 1991."
+  ],
+  "interests": [
+    "Renewable energy",
+    "Power generation",
+    "Energy systems."
+  ],
+  "briefProfile": [],
+  "publications": {
+    "journal": [],
+    "conference": [],
+    "books": [],
+    "patents": []
+  },
+  "affiliations": [],
+  "researchProjects": [],
+  "consultancy": [],
+  "courses": [],
+  "phdSupervised": [],
+  "adminRoles": [],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}

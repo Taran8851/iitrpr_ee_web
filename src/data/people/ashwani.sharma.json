@@ -1,0 +1,650 @@
+{
+  "id": "ashwani.sharma",
+  "studentAchievements": [
+    "Sundeep Kumar under supervisor Dr.Ashwani Sharma completed PhD",
+    "Shivam Bansal PhD scholar under supervisor Dr.Ashwani Sharma won the Best paper award in IEEE MAC 2025",
+    "Best Paper Award won by Ajay Kumar Rajak,Aditya Gupta,Sundeep Kumar and Dr.Ashwani Sharma: Title; Joint sensing and communication for V2V Localization using Chirp-QPSK Waveform in 6G Networks"
+  ],
+  "photo": "/images/legacy/9f950da019c7.jpg",
+  "name": "Ashwani Sharma",
+  "designation": "Associate Professor",
+  "address": "316, JCB Block, IIT Ropar, Main Campus",
+  "email": "ashwani.sharma@iitrpr.ac.in",
+  "phone": "91-1881-232206",
+  "scholar": "https://scholar.google.com/citations?user=lWIvByAAAAAJ&hl=en",
+  "website": "https://sites.google.com/iitrpr.ac.in/ashwani-sharma/",
+  "otherLinks": [],
+  "intro": [
+    "Ashwani Sharma (Member, IEEE) received the master’s degree in technology and communication systems from ETSIT, Technical University of Madrid (UPM), Madrid, Spain, in 2013, and a Ph.D. degree from the University of Deusto, Bilbao, Spain, in 2015. He has been working as an Assistant Professor at the Indian Institute of Technology Ropar, Rupnagar, India, since July 2018. He was a Visiting Training Fellow at the University of Kent, Canterbury, U.K., from May 2014 to August 2014, and a Junior Research Fellow at the Indian Institute of Technology, New Delhi, India, from 2010 to 2011. His research works have been published in various international journals and conferences such as IEEE TRANSACTIONS AND LETTERS, IET journals, and Wiley letters. His current research interests include exploiting field-forming techniques in antenna design for wireless power transmission, the IoT, and 5G/6G, and Drone antennas and communications, and AI/ML Assisted communications systems."
+  ],
+  "qualifications": [
+    "PhD University of Desuto Bilbao Spain 2015",
+    "Masters ETSIT Technical University of Madrid UPM Spain 2013",
+    "BTech The LNM Institute of Information Technology Jaipur India 2010"
+  ],
+  "interests": [
+    "Antenna Engineering and Communication Systems",
+    "Wireless power and data transfer",
+    "RF Energy Harvesting",
+    "Antenna design for IoT and 5G/B5G",
+    "Near-field forming and its applications",
+    "Static and Dynamic Wireless Charging Solutions for Drones/Electric Vehicles"
+  ],
+  "briefProfile": [
+    "Dr. Ashwani Sharma specializes primarily in Antenna and Microwave Engineering with a focus on Wireless power and data transfer, RF Energy Harvesting, Antenna design for IoT and 5G/B5G, Near-field forming and its applications, Static and Dynamic Wireless Charging Solutions for Drones/Electric Vehicles. Additionally, he has supervised several PhD, Master's, and undergraduate students."
+  ],
+  "publications": {
+    "journal": [
+      {
+        "authors": "S. Kumar, M. Kumar, A. Sharma and I. J. Garcia Zuazola",
+        "title": "Energizing an IoT Sensor Using Regenerative Opposite Fringing Fields From an Embedded Communicating Patch Antenna",
+        "venue": "IEEE Access",
+        "volume": "12",
+        "pages": "47951-47960",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/ACCESS.2024.3382821"
+      },
+      {
+        "authors": "Vikas Kumar Malav; Ashwani Sharma",
+        "title": "Analytical Formulation of Rectenna System Performance and Fully Integrated Design for Polarization Insensitive Wireless Power Transmission",
+        "venue": "IEEE Transactions on Microwave Theory and Techniques",
+        "pages": "1 - 13",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/TMTT.2024.3357255"
+      },
+      {
+        "authors": "Manoj Kumar; Sundeep Kumar; Ashwani Sharma; Vikas Kumar Malav; Parul Rattanpal",
+        "title": "An Orthogonally Polarized Multibeam Rectenna System to Imitate Isotropic DC Pattern for Orientation-Insensitive Microwave Power Delivery",
+        "venue": "IEEE Transactions on Components, Packaging and Manufacturing Technology",
+        "volume": "14",
+        "pages": "659 - 668",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/TCPMT.2024.3360304"
+      },
+      {
+        "authors": "S. Jain, A. Bharadwaj, and A. Sharma",
+        "title": "Spatially Arranged Relay Coils to Improve the Misalignment Tolerance at an Enhanced Transfer Distance",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "72",
+        "pages": "2171 - 2180",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/TAP.2024.3352234"
+      },
+      {
+        "authors": "V. K. Srivastava and A. Sharma",
+        "title": "A Coil Rectenna Array Design to Harvest All H-field Components for Lateral Misalignment Tolerant Wireless Powering of Bio-medical Implant Devices",
+        "venue": "IEEE Journal of Electromagnetics, RF, and Microwaves in Medicine and Biology",
+        "pages": "59 - 67",
+        "year": "2024",
+        "url": "https://doi.org/10.1109/JERM.2024.3351751"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma and C. C. Reddy",
+        "title": "Analytical Framework of S-Parameter-Based Efficiency for Secondary-Parallel Compensation WPT System to Authenticate Data Using VNA.",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "72",
+        "pages": "1-10",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TIM.2023.3240224"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma and C. C. Reddy",
+        "title": "A Switched Modular Multi-Coil Array Transmitter Pad With Coil Rectenna Sensors to Improve Lateral Misalignment Tolerance in Wireless Power Charging of Drone Systems",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "volume": "24",
+        "pages": "2010-2023",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TITS.2022.3220793"
+      },
+      {
+        "authors": "M. Kumar, S. Kumar and A. Sharma",
+        "title": "An Analytical Framework of Multisector Rectenna Array Design for Angular Misalignment Tolerant RF Power Transfer Systems",
+        "venue": "IEEE Transactions on Microwave Theory and Techniques",
+        "volume": "71",
+        "pages": "1835-1847",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TMTT.2022.3222195"
+      },
+      {
+        "authors": "M. Kumar, S. Kumar and A. Sharma",
+        "title": "A Planar Orbicular Rectenna Array System With 3-D Uniform Coverage for Wireless Powering of IoT Nodes",
+        "venue": "IEEE Transactions on Microwave Theory and Techniques",
+        "volume": "71",
+        "pages": "1366-1373",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TMTT.2022.3217073"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma, C. C. Reddy",
+        "title": "Analytical Framework of S-Parameter-Based Efficiency for Secondary-Parallel Compensation WPT System to Authenticate Data Using VNA",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "72",
+        "year": "2023",
+        "url": "https://doi.org/ 10.1109/TIM.2023.3240224"
+      },
+      {
+        "authors": "M. Kumar, S. Kumar, A. S. Bhadauria and A. Sharma",
+        "title": "A Planar Integrated Rectenna Array With 3-D-Spherical DC Coverage for Orientation-Tolerant Wireless-Power-Transfer-Enabled IoT Sensor Nodes",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "71",
+        "pages": "1285-1294",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TAP.2022.3228708"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma and C. R. Chandupatla",
+        "title": "A Switched Modular Multi-Coil Array Transmitter Pad With Coil Rectenna Sensors to Improve Lateral Misalignment Tolerance in Wireless Power Charging of Drone Systems",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "volume": "24",
+        "pages": "2010-2023",
+        "year": "2023",
+        "url": "https://doi.org/10.1109/TITS.2022.3220793."
+      },
+      {
+        "authors": "S. Agarwal, A. Sharma, IJ. Garcia Zuazola, and M. Kumar",
+        "title": "A compact SWB MIMO antenna with 45° clock-wise square patch inclusions for polarization diversity applications",
+        "venue": "International Journal of Microwave and Wireless Technologies",
+        "pages": "1-13",
+        "year": "2022",
+        "url": "https://doi.org/10.1017/S1759078722000435"
+      },
+      {
+        "authors": "S. Agarwal, A. Sharma, IJ. Garcia Zuazola, and Whittow WG",
+        "title": "Three dimensional miniaturized super wideband antenna with filtering capabilities",
+        "venue": "Int J RF Microw Comput Aided Eng",
+        "year": "2022",
+        "url": "https://doi.org/10.1002/mmce.23200"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma and C. C. Reddy",
+        "title": "An Unconventional Measurement Technique to Estimate Power Transfer Efficiency in Series–Series Resonant WPT System Using S-Parameters",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "71",
+        "pages": "1-9",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TIM.2022.3181291"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma and C. C. Reddy",
+        "title": "A Multi-Turn Coil Antenna With Nonuniform Clustered Turns Optimized Using Q-Assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems doi:",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "5302-5311",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3146433."
+      },
+      {
+        "authors": "A. Bharadwaj, V. K. Srivastava, A. Sharma and C. C. Reddy",
+        "title": "A Switchable Multicoil Antenna With Booster Coil to Improve Coverage in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "2490-2498",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2021.3137379"
+      },
+      {
+        "authors": "S. Kumar and A. Sharma",
+        "title": "Switched Beam Array Antenna Optimized for Microwave Powering of 3-D Distributed Nodes in Clustered Wireless Sensor Network",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "11734-11742",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3209744"
+      },
+      {
+        "authors": "S. Kumar, S. Jain and A. Sharma",
+        "title": "A BER-Conscious Synthesis of Switched-Beam Antenna to Maximize Reliable Coverage in WSN Applications",
+        "venue": "IEEE Sensors Journal",
+        "volume": "22",
+        "pages": "3785-3795",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/JSEN.2022.3142137"
+      },
+      {
+        "authors": "S. Kumar, A. Sharma, S. Kalra and M. Kumar",
+        "title": "Communication Quality-Conscious Synthesis of 3-D Coverage Using Switched Multibeam Multi-Sector Array Antenna for V2I Application",
+        "venue": "IEEE Transactions on Vehicular Technology",
+        "volume": "71",
+        "pages": "1631-1642",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TVT.2021.3132304"
+      },
+      {
+        "authors": "A. Bharadwaj, V. K. Srivastava, A. Sharma, C. C. Reddy",
+        "title": "A Tilted-Orthogonal Receiver Coil Antenna to Improve Misalignment Tolerance in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3209207"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma, C. C. Reddy",
+        "title": "An Unconventional Measurement Technique to Estimate Power Transfer Efficiency in Series?Series Resonant WPT System Using S-Parameters",
+        "venue": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "71",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TIM.2022.3181291"
+      },
+      {
+        "authors": "Bharadwaj, A. Sharma, C. C. Reddy",
+        "title": "\\\"A Multi-Turn Coil Antenna With Nonuniform Clustered Turns Optimized Using Q-Assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3146433"
+      },
+      {
+        "authors": "A. Bharadwaj, V. K. Srivastava, A. Sharma, C. C. Reddy",
+        "title": "A Switchable Multicoil Antenna With Booster Coil to Improve Coverage in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2021.31379"
+      },
+      {
+        "authors": "P. Kumar, S. Bhattacharyya, S. Darshi, A. Sharma, A. A. Almohammedi, V. Shepelev, S. Samar",
+        "title": "Drone Assisted Network Coded Cooperation With Energy Harvesting: Strengthening the Lifespan of the Wireless Networks",
+        "venue": "IEEE Access",
+        "volume": "10",
+        "pages": "43055-43070",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/ACCESS.2022.3166516"
+      },
+      {
+        "authors": "A. Bharadwaj, A. Sharma and C. C. Reddy",
+        "title": "A Multi-turn Coil Antenna with Non-uniform Clustered Turns Optimized using Q-assisted MMSE Procedure to Enhance Misalignment Tolerance in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "5302-5311",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3146433"
+      },
+      {
+        "authors": "V. K. Srivastava and A. Sharma",
+        "title": "A Planar Switching Integrated Quadrant Coil Antenna to Form Widespread Switched Polarized H-Field for Misalignment Resilient WPT System",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "10294-10303",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3195554"
+      },
+      {
+        "authors": "V. K. Srivastava and A. Sharma",
+        "title": "A Multicoil Array Transceiver Antenna Design for Touchless Hygienic Artificial Human Interfacing",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "8911-8921",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3177534"
+      },
+      {
+        "authors": "V. K. Srivastava and A. Sharma",
+        "title": "Switched Polarized H-Field Forming Using a Planar Switchable Double-Dumbbell Coil Antenna for Orientation-Oblivion Wireless Power Transfer",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "4234-4242",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2022.3140499"
+      },
+      {
+        "authors": "V. K. Srivastava and A. Sharma",
+        "title": "A Planar Distributed Multicoil Antenna to Generate 3-D Ellipsoidally Polarized HField for Angular Misalignment Tolerant WPT System",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "2969-2978",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2021.3137477"
+      },
+      {
+        "authors": "A. Bharadwaj, V. K. Srivastava, A. Sharma, and C. C. Reddy",
+        "title": "A Switchable Multi-Coil Antenna With Booster Coil to Improve Coverage in WPT Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "70",
+        "pages": "2490-2498",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/TAP.2021.3137379"
+      },
+      {
+        "authors": "S. K. Gupta, S. Kumar and A. Sharma",
+        "title": "A Miniaturized Dual-Resonator-Based High-Capacity Chipless Radio Frequency Identification Tag Sensor",
+        "venue": "IEEE Sensors Letters",
+        "volume": "6",
+        "pages": "1-4",
+        "year": "2022",
+        "url": "https://doi.org/10.1109/LSENS.2022.3218503"
+      },
+      {
+        "authors": "Ignacio J. Garcia Zuazola, Ashwani Sharma, Misha Filip, and William G. Whittow",
+        "title": "Antenna Using a Magnetic-Slab Located in the Principal Magnetic-Field Region Beneath the Patch",
+        "venue": "Progress In Electromagnetics Research C",
+        "volume": "110",
+        "pages": "229-241",
+        "year": "2021",
+        "url": "https://doi.org/10.2528/PIERC21010303"
+      },
+      {
+        "authors": "M. Kumar, A. Sharma, IJ, Garcia Zuazola",
+        "title": "Bendable ultra-high frequency radio-frequency identification tag antenna for retail garments using nonuniform meandered lines",
+        "venue": "Wiley Engineering Reports",
+        "pages": "1-11",
+        "year": "2021",
+        "url": "https://doi.org/doi.org/10.1002/eng2.12420"
+      },
+      {
+        "authors": "V. K. Srivastava and A. Sharma",
+        "title": "Optimized 3-D Polarized H-Field Forming for Orientation-Insensitive Wireless Power Transfer Systems",
+        "venue": "IEEE Transactions on Antennas and Propagation",
+        "volume": "69",
+        "pages": "4999-5007",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/TAP.2021.3060140"
+      },
+      {
+        "authors": "N. K. Chourasia, A. K. Singh, S. Rai, A. Sharma, A. Srivastava, P. Chakrabarti",
+        "title": "Low operating voltage large channel length graphene FET for ambient atmosphere low concentration ammonia gas sensor",
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "67(10)",
+        "year": "2020"
+      },
+      {
+        "authors": "A. Sharma, I. G. Zuazola, R. Martínez, A. Perallos, and J. C. Batchelor",
+        "title": "Channel-based Antenna Synthesis for Improved In-vehicle UWB MB-OFDM Communications",
+        "venue": "IET Microwaves, Antennas & Propagation",
+        "volume": "13",
+        "pages": "1358-1367",
+        "year": "2019",
+        "url": "https://doi.org/10.1049/iet-map.2018.5735"
+      },
+      {
+        "authors": "A. Sharma, G. Singh, D. Bhatnagar, I.J. Garcia Zuazola, and A. Perallos",
+        "title": "Magnetic- field forming using planar multi-coil antenna to generate orthogonal H-field components",
+        "venue": "IEEE Transaction on Antennas Propagation",
+        "pages": "2906 - 2915",
+        "year": "2017",
+        "url": "https://doi.org/10.1109/TAP.2017.2695009"
+      },
+      {
+        "authors": "I.J. Garcia Zuazola, L. Azpilicueta, A. Sharma, H.Landaluce, F.Falcone, I. Angulo, A.Perallos, J.M.H. Elmirghani, and J.C. Batchelor",
+        "title": "Band-pass filter-like antenna validation in an ultra-wideband in-car wireless channel",
+        "venue": "IET Communications",
+        "volume": "9",
+        "pages": "532–540",
+        "year": "2015",
+        "url": "https://doi.org/10.1049/iet-com.2014.0057"
+      },
+      {
+        "authors": "A. Sharma, S. De, H. M. Gupta, and R. Gangopadhyay",
+        "title": "Multiple description transform coded transmission over OFDM broadcast channels",
+        "venue": "Physical Communication",
+        "volume": "12",
+        "pages": "79-92",
+        "year": "2014",
+        "url": "https://doi.org/doi.org/10.1016/j.phycom.2014.05.001"
+      },
+      {
+        "authors": "A. Sharma, I.J. Garcia Zuazola, A. Gupta, A. Perallos, and J.C. Batchelor",
+        "title": "Non- uniformly distributed-turns coil antenna for enhanced H-field in HF RFID",
+        "venue": "IEEE Transaction on Antennas Propagation",
+        "volume": "61",
+        "pages": "4900–4907",
+        "year": "2013",
+        "url": "https://doi.org/10.1109/TAP.2013.2275244"
+      },
+      {
+        "authors": "I.J. Garcia Zuazola, A. Sharma, J.C. Batchelor, I. Angulo, A. Perallos, and J.M.H. Elmirghani",
+        "title": "Radio Frequency IDentification miniature interrogator antenna sprayed over an in-vehicle chassis",
+        "venue": "IET Microwave, Antennas & Propagation",
+        "volume": "6",
+        "pages": "1674–1680",
+        "year": "2012",
+        "url": "https://doi.org/10.1049/iet-map.2012.0307"
+      },
+      {
+        "authors": "S. De, A. Sharma, R. Jantti, and H. D. Cavdar",
+        "title": "Channel Adaptive Stop-and-Wait ARQ Protocols for Short-Range Wireless Links",
+        "venue": "IET Communications",
+        "volume": "6",
+        "pages": "2128 – 2137",
+        "year": "2012",
+        "url": "https://doi.org/10.1049/iet-com.2011.0795"
+      },
+      {
+        "authors": "A. Sharma and S. De",
+        "title": "Exploiting fading dynamics along with AMC for energy-efficient transmission over fading channels",
+        "venue": "IEEE Communication Letters",
+        "volume": "15",
+        "pages": "1218-1220",
+        "year": "2011",
+        "url": "https://doi.org/10.1109/LCOMM.2011.090911.111472"
+      }
+    ],
+    "conference": [
+      {
+        "authors": "A. Bharadwaj, V. K. Srivastava, C. C. Reddy, and A. Sharma",
+        "title": "Design Methodology of Near-Field Transmitter Coil Antenna for Maximizing Efficiency of the WPT System",
+        "venue": "2023 17th European Conference on Antennas and Propagation (EuCAP)",
+        "pages": "1-5",
+        "year": "2023",
+        "url": "https://doi.org/10.23919/EuCAP57121.2023.10133726"
+      },
+      {
+        "authors": "S. Kumar and A. Sharma",
+        "title": "A Polarization Insensitive Circular Rectenna Array System for Microwave Power Transfer and Energy Harvesting Applications",
+        "venue": "European Conference on Antennas and Propagation (EuCAP), Florence, Italy, 2023",
+        "pages": "1-4",
+        "year": "2023",
+        "url": "https://doi.org/10.23919/EuCAP57121.2023.1013315"
+      },
+      {
+        "authors": "V. K. Srivastava, A. Bharadwaj and A. Sharma",
+        "title": "A Planar Distributed Receiver Coil Antenna Array to Encapsulate Vertical and Lateral H-Fields for Drone Wireless Charging",
+        "venue": "European Conference on Antennas and Propagation (EuCAP), Florence, Italy, 2023",
+        "pages": "1-5",
+        "year": "2023",
+        "url": "https://doi.org/10.23919/EuCAP57121.2023.10133370"
+      },
+      {
+        "authors": "S. Jain, M. Kumar and A. Sharma",
+        "title": "A Highly Efficient Compact High Gain RFID Tag Antenna for Millimeter Wave Applications",
+        "venue": "InCAP",
+        "pages": "402-404",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/InCAP52216.2021.9726189"
+      },
+      {
+        "authors": "V. K. Srivastava, S. Kumar and A. Sharma",
+        "title": "3D Polarized Field-Forming for Mitigation of Angular Misalignment Problem in Microwave Power Transfer Systems",
+        "venue": "International Symposium on Antenna Technology and Applied Electromagnetics (ANTEM)",
+        "pages": "1-2",
+        "year": "2021",
+        "url": "https://doi.org/10.1109/ANTEM51107.2021.9518942"
+      },
+      {
+        "authors": "S. Agarwal and A. Sharma",
+        "title": "A Miniaturized Wideband Antenna for Vehicular Communication, WiMAX, and WLAN Applications",
+        "venue": "International Conference on Radar, Antenna, Microwave, Electronics, and Telecommunications (ICRAMET)",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/ICRAMET51080.2020.9298666"
+      },
+      {
+        "authors": "V. K. Srivastava, A. Sharma and A. Bharadwaj",
+        "title": "A Magnetic Resonance Coupling Based Touchless Pad for Human-Computer Interfacing",
+        "venue": "A Magnetic Resonance Coupling Based Touchless Pad for Human-Computer Interfacing",
+        "pages": "601-605",
+        "year": "2020",
+        "url": "https://doi.org/10.1109/ICIIS51140.2020.9342687"
+      },
+      {
+        "authors": "A. Sharma, H. Tandan and P. Goel",
+        "title": "Energy efficient handling of DWT-image transmission over wireless sensor network",
+        "venue": "2017 Fourth International Conference on Image Information Processing (ICIIP)",
+        "pages": "1-5",
+        "year": "2017",
+        "url": "https://doi.org/10.1109/ICIIP.2017.8313689"
+      },
+      {
+        "authors": "A. Sharma, I. J. Garcia Zuazola, John C. Batchelor, Asier Perallos",
+        "title": "Switched Non- uniformly Distributed-Turns Coil Antenna for Dual-band operation",
+        "venue": "9th European Conference on Antennas and Propagation",
+        "year": "2015",
+        "url": "https://doi.org/------------------------------------------------"
+      },
+      {
+        "authors": "A. Sharma, I. J. Garcia Zuazola, John C. Batchelor, Asier Perallos",
+        "title": "Widespread Near- Field with Robust H-field Using NDTC Antennas in Multipurpose Applications‟",
+        "venue": "21st National Conference on Communication",
+        "pages": "1-5",
+        "year": "2015",
+        "url": "https://doi.org/10.1109/NCC.2015.7084872"
+      },
+      {
+        "authors": "A. Sharma, I. J. Garcia Zuazola, John C. Batchelor, Asier Perallos",
+        "title": "Influence of substrate types and reflector proximities over a NDTC antenna",
+        "venue": "Loughborough Antennas and Propagation Conference",
+        "year": "2014",
+        "url": "https://doi.org/10.1109/LAPC.2014.6996417"
+      },
+      {
+        "authors": "A. Sharma, I. J. Garcia Zuazola, Asier Perallos, John C. Batchelor, and Anshu Gupta",
+        "title": "Fabricated Non-uniformly Distributed-Turns Coil",
+        "venue": "IEEE Antennas and Propagation Society International Symposium",
+        "pages": "1536-1537",
+        "year": "2014",
+        "url": "https://doi.org/ 10.1109/APS.2014.6905094"
+      },
+      {
+        "authors": "A. Mammu, A. Sharma, Unai Hernandez-Jayo, and Nekane Sainz",
+        "title": "A Novel Cluster- based Energy Efficient Routing in Wireless Sensor Networks",
+        "venue": "Proc. 27th IEEE AINA, Barcelona, Spain",
+        "pages": "41-47",
+        "year": "2013",
+        "url": "https://doi.org/10.1109/AINA.2013.106"
+      },
+      {
+        "authors": "A. Sharma, A. K. Tiwari",
+        "title": "Lossless video coding using grid-gradient classification",
+        "venue": "Proc. 18th IEEE Int. Conf. on Image Processing",
+        "pages": "2041-2044",
+        "year": "2011",
+        "url": "https://doi.org/------------------------------------------------"
+      },
+      {
+        "authors": "M. Vaishnav, A. Sharma, A. K. Tiwari",
+        "title": "A novel computationally efficient motion compensation method based on pixel by pixel prediction",
+        "venue": "Proc. 21st IEEE Data compression Conf. (DCC)",
+        "pages": "480",
+        "year": "2011",
+        "url": "https://doi.org/10.1109/DCC.2011.83"
+      },
+      {
+        "authors": "D. K. Chobey, A. Sharma, A. K. Tiwari",
+        "title": "A Novel Prediction Model for Lossless Video Compression",
+        "venue": "Proc. 21st IEEE Data Compression Conf. (DCC)",
+        "pages": "452",
+        "year": "2011",
+        "url": "https://doi.org/10.1109/DCC.2011.56"
+      },
+      {
+        "authors": "A. Sharma, B. Panigrahi, and S. De",
+        "title": "Impact of interference on nodal communication range in wireless ad hoc networks",
+        "venue": "Proc. 17th Nat. Conf. Communication (NCC)",
+        "pages": "1-5",
+        "year": "2011",
+        "url": "https://doi.org/10.1109/NCC.2011.5734752"
+      },
+      {
+        "authors": "A. Sharma, S. De, and H. M. Gupta",
+        "title": "Energy-efficient transmission of DWT image over OFDM channels",
+        "venue": "Proc. 3rd Int. Conf. on Communication Systems and Networks",
+        "pages": "1-7",
+        "year": "2011",
+        "url": "https://doi.org/10.1109/COMSNETS.2011.5716514"
+      },
+      {
+        "authors": "A. Sharma, S. De, and H. M. Gupta",
+        "title": "Optimizing MDTC over Feedback-less OFDM Channels",
+        "venue": "IASTED Wireless Communication",
+        "year": "2011",
+        "url": "https://doi.org/10.2316/P.2011.730-031"
+      }
+    ],
+    "books": [],
+    "patents": [
+      {
+        "kind": "Patent",
+        "title": "Dual-mode Antenna With Non-uniform Coil Array For Wireless Power Transmission And Method Thereof",
+        "year": "2021",
+        "authors": "M. Ananth Bharadwaj, Vivek Kumar Srivastava, Ashwani Sharma, C. C. Reddy"
+      }
+    ]
+  },
+  "affiliations": [
+    "IEEE Senior Member"
+  ],
+  "researchProjects": [
+    {
+      "title": "Development of Switched Multi-beam Antennas for Drone and Drone pad for High Communication Range with 3D Coverage Enhancement and Interference Avoidance",
+      "agency": "ARDB, DRDO",
+      "role": "PI",
+      "period": "2024 - 2026",
+      "amount": "26.700"
+    },
+    {
+      "title": "A Triple-purpose Drone-pad System with Integrated Wireless charging and Localization along with High-Range Communication System for Completely Autonomous Drone Operations",
+      "agency": "NMICPS TiHAN Foundation",
+      "role": "PI",
+      "period": "2023 - 2025",
+      "amount": "16.000"
+    },
+    {
+      "title": "Switched multibeam antenna design and Quality-aware synthesis process for wireless coverage enhancement in drone-assisted smart mobility application",
+      "agency": "CRG, SERB-DST",
+      "role": "PI",
+      "period": "2022 - 2025",
+      "amount": "32.000"
+    },
+    {
+      "title": "Design and development of miniaturized cost-effective antennas for Internet of Things and 5G technology",
+      "agency": "ECR, SERB-DST",
+      "role": "PI",
+      "period": "2019 - 2022",
+      "amount": "50.000"
+    },
+    {
+      "title": "IoT Enabled Mobility for Intelligent Transportation Based on 5G Technology",
+      "agency": "ISIRD-I, IIT Ropar",
+      "role": "PI",
+      "period": "2019 - 2022",
+      "amount": "100.000"
+    },
+    {
+      "title": "Smart wireless charging platforms for mobile devices",
+      "agency": "ISIRD-I, IIT Ropar",
+      "role": "PI",
+      "period": "2018 - 2019",
+      "amount": "10.000"
+    },
+    {
+      "title": "Title",
+      "agency": "IIT ROPAR",
+      "role": "PI",
+      "period": "2023 - 2024",
+      "amount": "51.000"
+    }
+  ],
+  "consultancy": [],
+  "courses": [],
+  "phdSupervised": [
+    "Manoj Kumar",
+    "Ananth Bharadwaj",
+    "Vivek Kumar Srivastava"
+  ],
+  "adminRoles": [
+    "Faculty Coordinator for M.Tech in SPCOM"
+  ],
+  "awards": [],
+  "events": [],
+  "visits": [],
+  "outreach": [],
+  "misc": []
+}
