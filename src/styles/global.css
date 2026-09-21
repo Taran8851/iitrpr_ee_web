@@ -44,3 +44,53 @@
   --color-neutral: #1e293b;
   --color-neutral-content: #e2e8f0;
 }
+
+/* ---------- Fonts ---------- */
+@theme {
+  --font-sans: "Noto Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk Variable", "Noto Sans Variable", ui-sans-serif, sans-serif;
+}
+
+/* Dark mode for Tailwind `dark:` variants follows the daisyUI theme attribute */
+@custom-variant dark (&:where([data-theme=voltage-dark], [data-theme=voltage-dark] *));
+
+/* ---------- Shared utilities (use these instead of re-inventing per page) ---------- */
+@utility glass {
+  background-color: color-mix(in oklab, var(--color-base-100) 65%, transparent);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border: 1px solid color-mix(in oklab, var(--color-base-content) 10%, transparent);
+}
+
+/* Glass panel meant to sit on dark imagery (hero, photo cards) */
+@utility glass-dark {
+  background-color: rgb(2 6 23 / 0.45);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border: 1px solid rgb(255 255 255 / 0.12);
+  color: #f8fafc;
+}
+
+/* Photo overlay: dark gradient so text stays readable */
+@utility photo-overlay {
+  background-image: linear-gradient(to top, rgb(2 6 23 / 0.9), rgb(2 6 23 / 0.35) 55%, transparent);
+}
+
+/* Slow "current flow" dash animation for circuit SVG strokes */
+@keyframes current-flow {
+  to { stroke-dashoffset: -200; }
+}
+@utility current-flow {
+  stroke-dasharray: 6 14;
+  animation: current-flow 6s linear infinite;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-base-100 text-base-content font-sans antialiased; }
+  h1, h2, h3, h4 { @apply font-display tracking-tight; }
+  @media (prefers-reduced-motion: reduce) {
+    .current-flow { animation: none; }
+    html { scroll-behavior: auto; }
+  }
+}

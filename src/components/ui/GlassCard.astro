@@ -1,0 +1,20 @@
+---
+/** Glass surface card. `href` makes the whole card a link with hover lift + arrow affordance. */
+import { Icon } from "astro-icon/components";
+interface Props { href?: string; class?: string; dark?: boolean; aos?: string | false }
+const { href, class: cls, dark = false, aos = "fade-up" } = Astro.props;
+const Tag = href ? "a" : "div";
+---
+<Tag
+  href={href}
+  data-aos={aos || undefined}
+  class:list={[
+    "group relative block rounded-2xl p-6 transition duration-300",
+    dark ? "glass-dark" : "glass",
+    href && "hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/10 hover:border-primary/40",
+    cls,
+  ]}
+>
+  <slot />
+  {href && <Icon name="lucide:arrow-up-right" class="absolute right-5 top-5 size-5 opacity-40 transition group-hover:opacity-100 group-hover:text-primary" />}
+</Tag>

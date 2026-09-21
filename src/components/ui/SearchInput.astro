@@ -1,0 +1,10 @@
+---
+/** Search box wired to site.ts filtering. Place inside a [data-filter-root]. */
+import { Icon } from "astro-icon/components";
+interface Props { placeholder?: string; class?: string }
+const { placeholder = "Search…", class: cls } = Astro.props;
+---
+<label class:list={["input input-bordered flex w-full items-center gap-2 md:max-w-sm", cls]}>
+  <Icon name="lucide:search" class="size-4 opacity-60" />
+  <input type="search" data-filter-search placeholder={placeholder} class="grow" aria-label={placeholder} />
+</label>

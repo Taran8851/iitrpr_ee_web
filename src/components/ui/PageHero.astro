@@ -1,0 +1,35 @@
+---
+/**
+ * Inner-page hero: dark navy band with circuit pattern, glow blobs, breadcrumb, title.
+ * Optional `image` shows a photo behind with the dark overlay. Slot = extra content (e.g. stats, search).
+ */
+import CircuitBg from "./CircuitBg.astro";
+interface Props {
+  title: string;
+  eyebrow?: string;
+  lead?: string;
+  image?: string;
+  crumbs?: { label: string; href?: string }[];
+}
+const { title, eyebrow, lead, image, crumbs = [] } = Astro.props;
+---
+<section class="relative isolate overflow-hidden bg-[#0b1629] text-white">
+  {image && <img src={image} alt="" class="absolute inset-0 -z-20 h-full w-full object-cover opacity-40" />}
+  <div class="absolute inset-0 -z-10 photo-overlay"></div>
+  <CircuitBg class="text-cyan-300 opacity-[0.08]" animated />
+  <div aria-hidden="true" class="absolute -right-24 -top-24 -z-10 size-96 rounded-full bg-amber-500/25 blur-[120px]"></div>
+  <div aria-hidden="true" class="absolute -bottom-32 left-10 -z-10 size-96 rounded-full bg-cyan-500/20 blur-[120px]"></div>
+  <div class="mx-auto max-w-7xl px-4 pb-14 pt-12 md:pb-20 md:pt-16">
+    <div class="breadcrumbs mb-6 p-0 text-sm text-white/70">
+      <ul>
+        <li><a href="/">Home</a></li>
+        {crumbs.map((c) => <li>{c.href ? <a href={c.href}>{c.label}</a> : c.label}</li>)}
+        <li class="text-white">{title}</li>
+      </ul>
+    </div>
+    {eyebrow && <p class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-amber-400">{eyebrow}</p>}
+    <h1 class="max-w-4xl text-4xl font-bold md:text-5xl">{title}</h1>
+    {lead && <p class="mt-4 max-w-2xl text-lg text-white/75">{lead}</p>}
+    <slot />
+  </div>
+</section>

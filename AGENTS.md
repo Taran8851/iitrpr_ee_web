@@ -212,3 +212,16 @@ cd legacy-site && python3 -m http.server 8090
 - Animations: AOS attributes only; no hand-rolled IntersectionObserver code.
 - Do not edit files in `legacy-site/` — it is the reference snapshot.
 - Do not commit `node_modules/`, `dist/`, `.astro/`.
+
+## Redesign kit (use these — do not re-invent)
+- Layout: `src/layouts/BaseLayout.astro` (`title`, `description`, `overlayHeader` for a hero under a transparent header).
+- Shell: `src/components/site/{Header,Footer}.astro`, menu data in `src/lib/nav.ts`.
+- UI: `src/components/ui/` — `PageHero`, `Section` (`tint`), `SectionHeading`, `GlassCard` (`href`, `dark`),
+  `StatCard` (count-up), `PersonCard`, `SearchInput`, `EmptyState` (`filter`), `GlowBlobs`, `CircuitBg`.
+- CSS utilities (global.css): `glass`, `glass-dark`, `photo-overlay`, `current-flow`; fonts `font-display` / `font-sans`;
+  Tailwind `dark:` variant follows the `voltage-dark` theme.
+- Behaviour (`src/scripts/site.ts`, loaded once): theme toggle, AOS (`data-aos`), GLightbox (`.glightbox`),
+  count-up (`data-countup`), filtering (`data-filter-root` / `-search` / `-group` / `-select` / `-item` / `-empty` / `-count`).
+- Icons: `astro-icon` with Lucide — `<Icon name="lucide:arrow-right" />`.
+- Page data: JSON in `src/data/<area>/`, imported directly in the page frontmatter.
+- Verify: `npm run build && npm run check:links`.

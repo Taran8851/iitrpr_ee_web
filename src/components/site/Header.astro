@@ -1,0 +1,132 @@
+---
+import { Icon } from "astro-icon/components";
+import { mainNav } from "../../lib/nav";
+
+interface Props {
+  /** Transparent over a dark hero until scrolled (home page). */
+  overlay?: boolean;
+}
+const { overlay = false } = Astro.props;
+const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+const isActive = (href: string) => path === href || path.startsWith(href + "/");
+---
+
+<header
+  data-site-header
+  data-overlay={overlay ? "" : undefined}
+  class:list={[
+    "group/header sticky top-0 z-50 w-full transition-colors duration-300",
+    overlay ? "-mb-[4.5rem]" : "",
+  ]}
+>
+  <div
+    class:list={[
+      "border-b transition-all duration-300",
+      "border-base-content/10 glass",
+      overlay &&
+        "group-[:not([data-scrolled])]/header:border-transparent group-[:not([data-scrolled])]/header:bg-transparent group-[:not([data-scrolled])]/header:backdrop-blur-none group-[:not([data-scrolled])]/header:text-white",
+    ]}
+  >
+    <nav class="navbar mx-auto h-[4.5rem] max-w-7xl px-4" aria-label="Main">
+      <div class="navbar-start gap-3">
+        <a href="/" class="flex items-center gap-3" aria-label="EE IIT Ropar home">
+          <img src="/assets/logo_0_1.png" alt="" class="h-10 w-10 object-contain" width="40" height="40" />
+          <span class="leading-tight">
+            <span class="block font-display text-base font-bold">Electrical Engineering</span>
+            <span class="block text-xs opacity-70">IIT Ropar</span>
+          </span>
+        </a>
+      </div>
+
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal gap-1 px-1 text-sm font-medium">
+          {
+            mainNav.map((item) =>
+              "children" in item ? (
+                <li>
+                  <details class="group/dd">
+                    <summary
+                      class:list={[item.children.some((c) => isActive(c.href)) && "text-primary"]}
+                    >
+                      {item.label}
+                    </summary>
+                    <ul class="glass z-10 w-56 rounded-box p-2 text-base-content shadow-xl">
+                      {item.children.map((c) => (
+                        <li>
+                          <a href={c.href} class:list={[isActive(c.href) && "menu-active"]}>
+                            {c.label}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                </li>
+              ) : (
+                <li>
+                  <a href={item.href} class:list={[isActive(item.href) && "text-primary"]}>
+                    {item.label}
+                  </a>
+                </li>
+              ),
+            )
+          }
+        </ul>
+      </div>
+
+      <div class="navbar-end gap-1">
+        <button class="btn btn-ghost btn-circle" data-theme-toggle aria-label="Toggle dark mode">
+          <Icon name="lucide:sun" class="hidden size-5 [[data-theme=voltage-dark]_&]:block" />
+          <Icon name="lucide:moon" class="size-5 [[data-theme=voltage-dark]_&]:hidden" />
+        </button>
+        <label for="nav-drawer" class="btn btn-ghost btn-circle lg:hidden" aria-label="Open menu">
+          <Icon name="lucide:menu" class="size-6" />
+        </label>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile drawer (glass) -->
+<div class="drawer drawer-end lg:hidden">
+  <input id="nav-drawer" type="checkbox" class="drawer-toggle" />
+  <div class="drawer-side z-[60]">
+    <label for="nav-drawer" aria-label="Close menu" class="drawer-overlay"></label>
+    <div class="glass min-h-full w-80 p-4">
+      <div class="mb-4 flex items-center justify-between">
+        <span class="font-display text-lg font-bold">Menu</span>
+        <label for="nav-drawer" class="btn btn-ghost btn-circle btn-sm" aria-label="Close menu">
+          <Icon name="lucide:x" class="size-5" />
+        </label>
+      </div>
+      <ul class="menu w-full p-0">
+        <li><a href="/">Home</a></li>
+        {
+          mainNav.map((item) =>
+            "children" in item ? (
+              <li>
+                <details open={item.children.some((c) => isActive(c.href))}>
+                  <summary>{item.label}</summary>
+                  <ul>
+                    {item.children.map((c) => (
+                      <li>
+                        <a href={c.href} class:list={[isActive(c.href) && "menu-active"]}>
+                          {c.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              </li>
+            ) : (
+              <li>
+                <a href={item.href} class:list={[isActive(item.href) && "menu-active"]}>
+                  {item.label}
+                </a>
+              </li>
+            ),
+          )
+        }
+      </ul>
+    </div>
+  </div>
+</div>

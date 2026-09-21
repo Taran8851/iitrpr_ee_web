@@ -1,0 +1,15 @@
+---
+/** Two large blurred accent circles behind a section (max 2 per section, per AGENTS.md blur rules).
+ *  Parent needs `relative isolate overflow-hidden`. */
+interface Props { variant?: "top" | "bottom" | "sides" }
+const { variant = "sides" } = Astro.props;
+const pos = {
+  top: ["-top-40 left-1/4", "-top-32 right-1/4"],
+  bottom: ["-bottom-40 left-1/4", "-bottom-32 right-1/4"],
+  sides: ["-top-32 -left-32", "-bottom-40 -right-32"],
+}[variant];
+---
+<div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10">
+  <div class:list={["absolute size-[28rem] rounded-full bg-primary/20 blur-[120px]", pos[0]]}></div>
+  <div class:list={["absolute size-[28rem] rounded-full bg-secondary/20 blur-[120px]", pos[1]]}></div>
+</div>

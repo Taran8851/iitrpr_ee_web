@@ -1,0 +1,13 @@
+---
+/** Eyebrow + heading + optional lead text + optional right-side slot (e.g. "View all" link). */
+interface Props { eyebrow?: string; title: string; lead?: string; center?: boolean }
+const { eyebrow, title, lead, center = false } = Astro.props;
+---
+<div class:list={["mb-10 flex flex-wrap items-end justify-between gap-4", center && "flex-col items-center text-center"]} data-aos="fade-up">
+  <div class:list={["max-w-3xl", center && "mx-auto"]}>
+    {eyebrow && <p class="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-primary">{eyebrow}</p>}
+    <h2 class="text-3xl font-bold md:text-4xl">{title}</h2>
+    {lead && <p class="mt-3 text-base-content/70">{lead}</p>}
+  </div>
+  <slot />
+</div>

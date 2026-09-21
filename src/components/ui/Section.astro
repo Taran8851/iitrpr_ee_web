@@ -1,0 +1,10 @@
+---
+/** Standard page section: max width, vertical rhythm, optional tinted background. */
+interface Props { id?: string; tint?: boolean; class?: string }
+const { id, tint = false, class: cls } = Astro.props;
+---
+<section id={id} class:list={["relative isolate overflow-hidden py-16 md:py-20", tint && "bg-base-200", cls]}>
+  <div class="mx-auto max-w-7xl px-4">
+    <slot />
+  </div>
+</section>

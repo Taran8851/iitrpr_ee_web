@@ -1,0 +1,14 @@
+---
+/** Glass stat tile with count-up number. `value` numeric; non-numeric values render as-is. */
+import { Icon } from "astro-icon/components";
+interface Props { value: number | string; label: string; suffix?: string; prefix?: string; icon?: string; dark?: boolean }
+const { value, label, suffix = "", prefix = "", icon, dark = false } = Astro.props;
+const numeric = typeof value === "number";
+---
+<div class:list={["rounded-2xl p-5", dark ? "glass-dark" : "glass"]} data-aos="fade-up">
+  {icon && <Icon name={icon} class="mb-3 size-6 text-primary" />}
+  <p class="font-display text-3xl font-bold md:text-4xl">
+    {prefix}{numeric ? <span data-countup={value} data-suffix={suffix}>{value}{suffix}</span> : <span>{value}{suffix}</span>}
+  </p>
+  <p class:list={["mt-1 text-sm", dark ? "text-white/70" : "text-base-content/70"]}>{label}</p>
+</div>

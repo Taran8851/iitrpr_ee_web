@@ -1,0 +1,59 @@
+---
+/** Photo card for faculty/staff/team. Optional filter attributes pass through. */
+import { Icon } from "astro-icon/components";
+interface Props {
+  name: string;
+  role?: string;
+  photo?: string;
+  email?: string;
+  phone?: string;
+  room?: string;
+  tags?: string[];
+  href?: string;
+  links?: { label: string; href: string; icon?: string }[];
+  group?: string;
+}
+const { name, role, photo, email, phone, room, tags = [], href, links = [], group } = Astro.props;
+const initials = name.split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).join("");
+---
+<article
+  data-filter-item
+  data-text={[name, role, room, email, ...tags].filter(Boolean).join(" ")}
+  data-group={group}
+  data-aos="fade-up"
+  class="card glass group overflow-hidden rounded-2xl transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/10"
+>
+  <figure class="relative aspect-[4/3] bg-base-300">
+    {photo ? (
+      <img src={photo} alt={name} loading="lazy" class="h-full w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+    ) : (
+      <span class="font-display text-4xl font-bold text-base-content/40">{initials}</span>
+    )}
+  </figure>
+  <div class="card-body gap-2 p-5">
+    <h3 class="card-title text-lg">
+      {href ? <a href={href} class="hover:text-primary after:absolute after:inset-0">{name}</a> : name}
+    </h3>
+    {role && <p class="text-sm font-medium text-primary">{role}</p>}
+    {tags.length > 0 && (
+      <div class="flex flex-wrap gap-1">
+        {tags.slice(0, 4).map((t) => <span class="badge badge-ghost badge-sm">{t}</span>)}
+      </div>
+    )}
+    <ul class="relative z-10 mt-1 space-y-1 text-sm text-base-content/70">
+      {room && <li class="flex gap-2"><Icon name="lucide:map-pin" class="mt-0.5 size-4 shrink-0" />{room}</li>}
+      {email && <li class="flex gap-2"><Icon name="lucide:mail" class="mt-0.5 size-4 shrink-0" /><a class="link-hover break-all" href={`mailto:${email}`}>{email}</a></li>}
+      {phone && <li class="flex gap-2"><Icon name="lucide:phone" class="mt-0.5 size-4 shrink-0" />{phone}</li>}
+    </ul>
+    {links.length > 0 && (
+      <div class="relative z-10 mt-2 flex flex-wrap gap-2">
+        {links.map((l) => (
+          <a href={l.href} target="_blank" rel="noopener" class="btn btn-xs btn-ghost border-base-content/15">
+            {l.icon && <Icon name={l.icon} class="size-3.5" />}{l.label}
+          </a>
+        ))}
+      </div>
+    )}
+    <slot />
+  </div>
+</article>

@@ -1,0 +1,63 @@
+---
+import { Icon } from "astro-icon/components";
+import { contact, footerColumns } from "../../lib/nav";
+import CircuitBg from "../ui/CircuitBg.astro";
+---
+
+<footer class="relative isolate overflow-hidden bg-[#0b1629] text-slate-300">
+  <CircuitBg class="opacity-[0.07]" />
+  <div class="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:grid-cols-2 lg:grid-cols-5">
+    <div class="lg:col-span-2">
+      <div class="flex items-center gap-3">
+        <img src="/assets/logo_0_1.png" alt="" class="h-12 w-12 object-contain" width="48" height="48" />
+        <div>
+          <p class="font-display text-lg font-bold text-white">{contact.name}</p>
+          <p class="text-sm">{contact.institute}</p>
+        </div>
+      </div>
+      <ul class="mt-6 space-y-2 text-sm">
+        <li class="flex gap-2">
+          <Icon name="lucide:map-pin" class="mt-0.5 size-4 shrink-0 text-primary" />
+          <a href={contact.mapUrl} target="_blank" rel="noopener" class="link-hover">{contact.address}</a>
+        </li>
+        <li class="flex gap-2">
+          <Icon name="lucide:mail" class="mt-0.5 size-4 shrink-0 text-primary" />
+          <a href={`mailto:${contact.email}`} class="link-hover">{contact.email}</a>
+        </li>
+        <li class="flex gap-2">
+          <Icon name="lucide:phone" class="mt-0.5 size-4 shrink-0 text-primary" />
+          <a href={`tel:${contact.phone.replace(/[^+\d]/g, "")}`} class="link-hover">{contact.phone}</a>
+        </li>
+      </ul>
+    </div>
+
+    {
+      footerColumns.map((col) => (
+        <div>
+          <h3 class="font-display text-sm font-semibold uppercase tracking-wider text-white">
+            {col.title}
+          </h3>
+          <ul class="mt-4 space-y-2 text-sm">
+            {col.links.map((l) => (
+              <li>
+                <a
+                  href={l.href}
+                  class="link-hover hover:text-primary"
+                  {...(l.external ? { target: "_blank", rel: "noopener" } : {})}
+                >
+                  {l.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+  </div>
+  <div class="border-t border-white/10">
+    <div class="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-5 text-xs sm:flex-row sm:justify-between">
+      <p>© {new Date().getFullYear()} Department of Electrical Engineering, IIT Ropar</p>
+      <p><a href="/team" class="link-hover">Website team</a></p>
+    </div>
+  </div>
+</footer>
