@@ -1,0 +1,660 @@
+{
+  "programs": [
+    {
+      "id": "btech",
+      "short": "B.Tech",
+      "name": "Bachelor of Technology",
+      "icon": "lucide:graduation-cap",
+      "groups": [
+        {
+          "title": "Electrical Engineering Core",
+          "courses": [
+            {
+              "code": "EE201",
+              "title": "Signals and Systems",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "EE203",
+              "title": "Digital Circuits",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "EE204",
+              "title": "Digital Circuits Lab",
+              "type": "core",
+              "ltpsc": "0-0-3-3-1.5"
+            },
+            {
+              "code": "EE205",
+              "title": "Electromechanics",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "EE206",
+              "title": "Electromechanics Lab",
+              "type": "core",
+              "ltpsc": "0-0-3-3-1.5"
+            },
+            {
+              "code": "EE207",
+              "title": "Control Engineering",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "EE208",
+              "title": "Control Engineering Laboratory",
+              "type": "core",
+              "ltpsc": "0-0-3-3/2-1.5"
+            },
+            {
+              "code": "EE209",
+              "title": "Circuit Theory",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "EE301",
+              "title": "Analog Circuits",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "EE302",
+              "title": "Analog Circuits Lab",
+              "type": "core",
+              "ltpsc": "0-0-3-3-1.5"
+            },
+            {
+              "code": "EE303",
+              "title": "Communication Engineering",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "EE304",
+              "title": "Communication Lab",
+              "type": "core",
+              "ltpsc": "0-0-3-1.5-1.5"
+            },
+            {
+              "code": "EE305",
+              "title": "Engineering Electromagnetics",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "EE306",
+              "title": "Electromagnetics Lab",
+              "type": "core",
+              "ltpsc": "0-0-3-1.5-1.5"
+            },
+            {
+              "code": "EE307",
+              "title": "Power Electronics",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "EE308",
+              "title": "Power Electronics Lab",
+              "type": "core",
+              "ltpsc": "0-0-3-1.5-1.5"
+            },
+            {
+              "code": "EE309",
+              "title": "Power Systems",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "EE310",
+              "title": "Power Systems Laboratory",
+              "type": "core",
+              "ltpsc": "0-0-3-1.5-1.5"
+            },
+            {
+              "code": "EEXXX",
+              "title": "Program Elective I",
+              "type": "elective",
+              "ltpsc": "3 credits"
+            }
+          ]
+        },
+        {
+          "title": "Science & Engineering Foundations",
+          "courses": [
+            {
+              "code": "BM101",
+              "title": "Biology for Engineers",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "GE107",
+              "title": "Tinkering Lab",
+              "type": "core",
+              "ltpsc": "0-0-3-3/2-1.5"
+            },
+            {
+              "code": "GE108",
+              "title": "Basic Electronics",
+              "type": "core",
+              "ltpsc": "2-2/3-2-13/3-3"
+            },
+            {
+              "code": "GE109",
+              "title": "Introduction to Engineering Products",
+              "type": "core",
+              "ltpsc": "0-0-2-1-1"
+            },
+            {
+              "code": "GE111",
+              "title": "Introduction to Environmental Science & Engineering",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "MA201",
+              "title": "Differential Equations",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "MA203",
+              "title": "Probability and Stochastic Processes",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            }
+          ]
+        },
+        {
+          "title": "Humanities & Management",
+          "courses": [
+            {
+              "code": "HS104",
+              "title": "Professional Ethics",
+              "type": "core",
+              "ltpsc": "1-1/3-1-13/6-1.5",
+              "description": "Taken by about 50% of students."
+            },
+            {
+              "code": "HS201",
+              "title": "Economics",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "HS202",
+              "title": "Human Geography and Societal Needs",
+              "type": "core",
+              "ltpsc": "1-1/3-4-11/3-3"
+            },
+            {
+              "code": "HS301",
+              "title": "Industrial Management",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3"
+            },
+            {
+              "code": "HSXXX",
+              "title": "English Language / Literature Elective",
+              "type": "elective",
+              "ltpsc": "3 credits",
+              "description": "Taken in the 7th or 8th semester by students who took “English Language Skills” in the 1st semester."
+            }
+          ]
+        },
+        {
+          "title": "Projects & Internship",
+          "courses": [
+            {
+              "code": "CP301",
+              "title": "Development Engineering Project",
+              "type": "core",
+              "ltpsc": "0-0-6-3-3"
+            },
+            {
+              "code": "CP302",
+              "title": "Capstone Project I",
+              "type": "core",
+              "ltpsc": "0-0-6-3-3"
+            },
+            {
+              "code": "CP303",
+              "title": "Capstone Project II",
+              "type": "core",
+              "ltpsc": "0-0-6-3-3"
+            },
+            {
+              "code": "II301",
+              "title": "Industrial Internship and Comprehensive Viva",
+              "type": "core",
+              "ltpsc": "0-0-7-3.5-3.5",
+              "description": "Industrial Internship and Comprehensive Viva Voce: 70% weightage for the 8-week full internship and 30% for a comprehensive viva on programme fundamentals."
+            }
+          ]
+        },
+        {
+          "title": "NSS / NSO",
+          "courses": [
+            {
+              "code": "NOIII",
+              "title": "NSO III",
+              "type": "core",
+              "ltpsc": "0-0-2-1-1",
+              "description": "National Sports Organisation."
+            },
+            {
+              "code": "NOIV",
+              "title": "NSO IV",
+              "type": "core",
+              "ltpsc": "0-0-2-1-1",
+              "description": "National Sports Organisation."
+            },
+            {
+              "code": "NSIII",
+              "title": "NSS III",
+              "type": "core",
+              "ltpsc": "0-0-2-1-1",
+              "description": "National Service Scheme."
+            },
+            {
+              "code": "NSIV",
+              "title": "NSS IV",
+              "type": "core",
+              "ltpsc": "0-0-2-1-1",
+              "description": "National Service Scheme."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mtech",
+      "short": "M.Tech",
+      "name": "Master of Technology",
+      "icon": "lucide:cpu",
+      "groups": [
+        {
+          "title": "Power Engineering",
+          "courses": [
+            {
+              "code": "EE510",
+              "title": "High Voltage Engineering",
+              "type": "core",
+              "ltpsc": "3-1-4-7-5",
+              "semester": "II"
+            },
+            {
+              "code": "EE511",
+              "title": "HV Power Equipment",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3",
+              "semester": "I"
+            },
+            {
+              "code": "EE512",
+              "title": "Stability & Control of Power Systems",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3",
+              "semester": "II"
+            },
+            {
+              "code": "EE513",
+              "title": "Simulation & Analysis of Modern Power Systems",
+              "type": "core",
+              "ltpsc": "3-0-4-8-5"
+            },
+            {
+              "code": "EE514",
+              "title": "Design & Application of Electric Drives",
+              "type": "core",
+              "ltpsc": "3-1-0-5-3",
+              "semester": "II"
+            },
+            {
+              "code": "EE515",
+              "title": "Power Converter Analysis & Design",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE518",
+              "title": "Power Converter Analysis & Design Lab",
+              "type": "core",
+              "ltpsc": "0-0-4-2-2",
+              "semester": "II"
+            },
+            {
+              "code": "EE699",
+              "title": "Project I",
+              "type": "core",
+              "ltpsc": "0-0-30-15-15",
+              "semester": "III"
+            },
+            {
+              "code": "EE799",
+              "title": "Project II",
+              "type": "core",
+              "ltpsc": "0-0-30-15-15",
+              "semester": "IV"
+            },
+            {
+              "code": "EE---",
+              "title": "Department Elective I",
+              "type": "elective",
+              "ltpsc": ""
+            },
+            {
+              "code": "EE601",
+              "title": "Synchrophasor Technology & its Applications in Power Systems",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE605",
+              "title": "Fundamentals of Power System Operation under Restructured Environment",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE606",
+              "title": "Optimization and Control of Power Systems",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE607",
+              "title": "Power System Protection",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE620",
+              "title": "Power Cable Technology",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            }
+          ]
+        },
+        {
+          "title": "Signal Processing and Communication",
+          "courses": [
+            {
+              "code": "EE521",
+              "title": "Analytical Techniques for Communication & Signal Processing",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3",
+              "semester": "I"
+            },
+            {
+              "code": "EE522",
+              "title": "Adaptive Signal Processing",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3",
+              "semester": "II"
+            },
+            {
+              "code": "EE523",
+              "title": "Advanced Digital Communication",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3",
+              "semester": "I"
+            },
+            {
+              "code": "EE524",
+              "title": "Detection and Estimation Theory",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3",
+              "semester": "II"
+            },
+            {
+              "code": "EE525",
+              "title": "Communication & Signal Processing Lab I",
+              "type": "core",
+              "ltpsc": "0-0-3-1.5-1.5",
+              "semester": "I"
+            },
+            {
+              "code": "EE526",
+              "title": "Communication & Signal Processing Lab II",
+              "type": "core",
+              "ltpsc": "0-0-3-1.5-1.5"
+            },
+            {
+              "code": "EE527",
+              "title": "Advanced DSP",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3",
+              "semester": "I"
+            },
+            {
+              "code": "EE625",
+              "title": "Information Theory and Coding Techniques",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE626",
+              "title": "Data Communication and Networking",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE627",
+              "title": "Mobile and Wireless Communication",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE628",
+              "title": "RF Systems for Communication",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE629",
+              "title": "Special Topics in Communication",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE638",
+              "title": "Digital Image Processing",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE639",
+              "title": "Computer Vision",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE640",
+              "title": "Biomedical Signal Processing",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE641",
+              "title": "Special Topics in Signal Processing",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE648",
+              "title": "Standards for Wireless Communication Systems",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            }
+          ]
+        },
+        {
+          "title": "Microelectronics and VLSI Design",
+          "courses": [
+            {
+              "code": "EE530",
+              "title": "VLSI Fabrication Technology",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3",
+              "semester": "II"
+            },
+            {
+              "code": "EE531",
+              "title": "Semiconductor Device Physics & Modelling",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3",
+              "semester": "I"
+            },
+            {
+              "code": "EE532",
+              "title": "Device Simulation Lab",
+              "type": "core",
+              "ltpsc": "0-0-4-2-2",
+              "semester": "II"
+            },
+            {
+              "code": "EE533",
+              "title": "CMOS Analog IC Design",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3",
+              "semester": "I"
+            },
+            {
+              "code": "EE534",
+              "title": "Seminar II",
+              "type": "core",
+              "ltpsc": "0-0-0-3-1",
+              "semester": "II"
+            },
+            {
+              "code": "EE535",
+              "title": "Digital IC Design",
+              "type": "core",
+              "ltpsc": "3-0-0-6-3",
+              "semester": "I"
+            },
+            {
+              "code": "EE537",
+              "title": "Circuit Simulation Lab",
+              "type": "core",
+              "ltpsc": "0-0-4-2-2",
+              "semester": "I"
+            },
+            {
+              "code": "EE539",
+              "title": "Seminar I",
+              "type": "core",
+              "ltpsc": "0-0-0-3-1",
+              "semester": "I"
+            },
+            {
+              "code": "EE650",
+              "title": "CMOS Active Filter Design",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE651",
+              "title": "Biomedical ASIC Design",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE652",
+              "title": "Broadband Communication Circuit Design",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE653",
+              "title": "Digital Signal Processing for VLSI",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE654",
+              "title": "Electronic Packaging",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE655",
+              "title": "Electronic System Design",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE656",
+              "title": "CAD for VLSI Design",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE657",
+              "title": "Mixed Signal IC Design",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE658",
+              "title": "Nanoscale MOSFET and beyond CMOS Devices",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE659",
+              "title": "Radio Frequency Integrated Circuit Design",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE660",
+              "title": "Sensors and Instrumentation",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE662",
+              "title": "Selected Topics in Microelectronics and VLSI Design",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE663",
+              "title": "Frequency Synthesizers, Clock and Data Recovery Circuits",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            },
+            {
+              "code": "EE673",
+              "title": "Deep Learning for Computer Vision",
+              "type": "elective",
+              "ltpsc": "3-0-0-6-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msc",
+      "short": "M.Sc.",
+      "name": "Master of Science",
+      "icon": "lucide:flask-conical",
+      "groups": []
+    },
+    {
+      "id": "phd",
+      "short": "Ph.D.",
+      "name": "Doctor of Philosophy",
+      "icon": "lucide:book-open",
+      "groups": []
+    }
+  ]
+}
