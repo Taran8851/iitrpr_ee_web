@@ -1,0 +1,41 @@
+---
+import { Icon } from "astro-icon/components";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import data from "../data/about/accessibility.json";
+---
+<BaseLayout title="Screen Reader Access" description="Accessibility statement and screen readers for the Department of Electrical Engineering, IIT Ropar website.">
+  <PageHero title="Screen Reader Access" eyebrow="Accessibility" />
+
+  <Section>
+    <div class="mx-auto max-w-4xl">
+      <p class="max-w-prose text-lg leading-relaxed" data-aos="fade-up">{data.statement}</p>
+
+      <h2 class="mt-12 mb-4 font-display text-2xl font-semibold">Screen readers to choose from</h2>
+      <div class="overflow-x-auto rounded-2xl border border-base-content/10 bg-base-100">
+        <table class="table table-zebra">
+          <thead>
+            <tr><th scope="col" class="w-12">#</th><th scope="col">Screen reader</th><th scope="col">Website</th><th scope="col">Licence</th></tr>
+          </thead>
+          <tbody>
+            {data.readers.map((r, i) => (
+              <tr>
+                <td class="text-base-content/60">{i + 1}</td>
+                <td class="font-medium">{r.name}</td>
+                <td>
+                  <a href={r.url} target="_blank" rel="noopener" class="inline-flex items-center gap-1 break-all underline decoration-primary decoration-2 underline-offset-2">
+                    {r.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}
+                    <Icon name="lucide:external-link" class="size-3.5 shrink-0" aria-hidden="true" />
+                    <span class="sr-only">(opens in a new window)</span>
+                  </a>
+                </td>
+                <td><span class:list={["badge badge-sm", r.type === "Free" ? "badge-success badge-outline" : "badge-ghost"]}>{r.type}</span></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </Section>
+</BaseLayout>

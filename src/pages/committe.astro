@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import ContactTable from "../components/about/ContactTable.astro";
+import data from "../data/about/committees.json";
+
+const btech = data.advisors.filter((g) => g.program.startsWith("B.Tech"));
+const mtech = data.advisors.filter((g) => !g.program.startsWith("B.Tech"));
+---
+<BaseLayout title="Committees & Advisors" description="Faculty advisors and departmental committees of the Department of Electrical Engineering, IIT Ropar.">
+  <PageHero
+    title="Committees & Advisors"
+    eyebrow="Academics"
+    crumbs={[{ label: "Academics" }]}
+    lead="Faculty advisors for each batch and the coordinators of departmental committees."
+  />
+
+  <Section>
+    <div role="tablist" aria-label="Committee groups" class="tabs tabs-box flex-wrap gap-1 bg-base-200 p-1.5">
+      <input type="radio" name="committee_tabs" role="tab" class="tab" aria-label="B.Tech. Advisors" checked />
+      <div role="tabpanel" class="tab-content pt-6">
+        <div class="space-y-8">
+          {btech.map((g) => <ContactTable caption={g.program} rows={g.rows} first={{ key: "batch", label: "Batch" }} />)}
+        </div>
+      </div>
+
+      <input type="radio" name="committee_tabs" role="tab" class="tab" aria-label="M.Tech. Advisors" />
+      <div role="tabpanel" class="tab-content pt-6">
+        <div class="space-y-8">
+          {mtech.map((g) => <ContactTable caption={`${g.program} Faculty Advisors`} rows={g.rows} first={{ key: "batch", label: "Batch" }} />)}
+        </div>
+      </div>
+
+      <input type="radio" name="committee_tabs" role="tab" class="tab" aria-label="Committee Members" />
+      <div role="tabpanel" class="tab-content pt-6">
+        <ContactTable caption="Departmental committees" rows={data.committees} first={{ key: "committee", label: "Committee" }} numbered />
+      </div>
+
+      <input type="radio" name="committee_tabs" role="tab" class="tab" aria-label="Purchase Committee" />
+      <div role="tabpanel" class="tab-content pt-6">
+        <ContactTable caption="Department Purchase Committee" rows={data.purchase} numbered />
+      </div>
+    </div>
+  </Section>
+</BaseLayout>

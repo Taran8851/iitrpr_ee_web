@@ -1,0 +1,241 @@
+{
+  "advisors": [
+    {
+      "program": "B.Tech. Electrical Engineering",
+      "rows": [
+        {
+          "batch": "2024",
+          "name": "Dr. Ranjana Sodhi",
+          "email": "rsodhi@iitrpr.ac.in",
+          "phone": "+91-1881-232217"
+        },
+        {
+          "batch": "2023",
+          "name": "Dr. Suman Kumar",
+          "email": "suman@iitrpr.ac.in",
+          "phone": "+91-1881-232225"
+        },
+        {
+          "batch": "2022",
+          "name": "Dr. K. Ramachandra Sekhar",
+          "email": "sekhar@iitrpr.ac.in",
+          "phone": "+91-1881-232215"
+        },
+        {
+          "batch": "2021",
+          "name": "Dr. Pardeep Duhan",
+          "email": "pduhan@iitrpr.ac.in",
+          "phone": "+91-1881-232228"
+        },
+        {
+          "batch": "2020",
+          "name": "Dr. Mahendra Sakare",
+          "email": "mahendra@iitrpr.ac.in",
+          "phone": "+91-1881-232214"
+        },
+        {
+          "batch": "2019",
+          "name": "Dr. Devarshi Mrinal Das",
+          "email": "devarshi.das@iitrpr.ac.in",
+          "phone": "+91-1881-232211"
+        },
+        {
+          "batch": "2018",
+          "name": "Dr. A. V. Ravi Teja",
+          "email": "avraviteja@iitrpr.ac.in",
+          "phone": "+91-1881-232205"
+        },
+        {
+          "batch": "2017",
+          "name": "Dr. K. Ramachandra Sekhar",
+          "email": "sekhar@iitrpr.ac.in",
+          "phone": "+91-1881-232215"
+        },
+        {
+          "batch": "2016",
+          "name": "Dr. Bibhu Prasad Padhy",
+          "email": "bibhu@iitrpr.ac.in",
+          "phone": "+91-1881-232207"
+        },
+        {
+          "batch": "2015",
+          "name": "Dr. Subrahmanyam Murala",
+          "email": "subbumurala@iitrpr.ac.in",
+          "phone": "+91-1881-232224"
+        }
+      ]
+    },
+    {
+      "program": "B.Tech. Artificial Intelligence and Data Engineering (AIDE)",
+      "rows": [
+        {
+          "batch": "2024",
+          "name": "Dr. Satyam Agarwal",
+          "email": "satyam@iitrpr.ac.in",
+          "phone": "+91-1881-232223"
+        },
+        {
+          "batch": "2023",
+          "name": "Prof. J. S. Sahambi",
+          "email": "jsahambi@iitrpr.ac.in",
+          "phone": "+91-1881-232213"
+        }
+      ]
+    },
+    {
+      "program": "B.Tech. Engineering Physics",
+      "rows": [
+        {
+          "batch": "2024",
+          "name": "Dr. Devarshi Mrinal Das",
+          "email": "devarshi.das@iitrpr.ac.in",
+          "phone": "+91-1881-232211"
+        },
+        {
+          "batch": "2023",
+          "name": "Prof. J. S. Sahambi",
+          "email": "jsahambi@iitrpr.ac.in",
+          "phone": "+91-1881-232213"
+        }
+      ]
+    },
+    {
+      "program": "M.Tech.",
+      "rows": [
+        {
+          "batch": "2021 (SPCOM)",
+          "name": "Dr. Sam Darshi",
+          "email": "sam@iitrpr.ac.in",
+          "phone": "+91-1881-232221"
+        },
+        {
+          "batch": "2021 (Power)",
+          "name": "Dr. Kalaiselvi J",
+          "email": "kalaiselvi@iitrpr.ac.in",
+          "phone": "+91-1881-232212"
+        },
+        {
+          "batch": "2021 (M&VLSI)",
+          "name": "Dr. Devarshi Mrinal Das",
+          "email": "devarshi.das@iitrpr.ac.in",
+          "phone": "+91-1881-232211"
+        }
+      ]
+    }
+  ],
+  "committees": [
+    {
+      "committee": "Website Coordinator",
+      "name": "Santosh Kumar Vipparthi",
+      "email": "skvipparthi@iitrpr.ac.in",
+      "phone": "+91-1881-232218"
+    },
+    {
+      "committee": "Visvesvaraya Coordinator",
+      "name": "Mahendra Sakare",
+      "email": "mahendra@iitrpr.ac.in",
+      "phone": "+91-1881-232214"
+    },
+    {
+      "committee": "Placement Coordinator",
+      "name": "Brijesh Kumbhani",
+      "email": "brijesh@iitrpr.ac.in",
+      "phone": "+91-1881-232209"
+    },
+    {
+      "committee": "Ph.D. Coordinator (Power)",
+      "name": "Bibhu Prasad Padhy",
+      "email": "bibhu@iitrpr.ac.in",
+      "phone": "+91-1881-232207"
+    },
+    {
+      "committee": "Ph.D. Coordinator (M&VLSI)",
+      "name": "Devarshi Mrinal Das",
+      "email": "devarshi.das@iitrpr.ac.in",
+      "phone": "+91-1881-232211"
+    },
+    {
+      "committee": "Ph.D. Coordinator (SPCOM)",
+      "name": "Sam Darshi",
+      "email": "sam@iitrpr.ac.in",
+      "phone": "+91-1881-232221"
+    },
+    {
+      "committee": "PCM",
+      "name": "Ashwani Sharma",
+      "email": "ashwani.sharma@iitrpr.ac.in",
+      "phone": "+91-1881-232206"
+    },
+    {
+      "committee": "M.Tech. Coordinator (SPCOM)",
+      "name": "Ashwani Sharma",
+      "email": "ashwani.sharma@iitrpr.ac.in",
+      "phone": "+91-1881-232206"
+    },
+    {
+      "committee": "M.Tech. Coordinator (Power)",
+      "name": "Ranjana Sodhi",
+      "email": "rsodhi@iitrpr.ac.in",
+      "phone": "+91-1881-232217"
+    },
+    {
+      "committee": "M.Tech. Coordinator (M&VLSI)",
+      "name": "Mahendra Sakare",
+      "email": "mahendra@iitrpr.ac.in",
+      "phone": "+91-1881-232214"
+    },
+    {
+      "committee": "Library Member (EED)",
+      "name": "Devarshi Mrinal Das",
+      "email": "devarshi.das@iitrpr.ac.in",
+      "phone": "+91-1881-232211"
+    },
+    {
+      "committee": "International Relations Coordinator",
+      "name": "Brajesh Rawat",
+      "email": "r.brajesh@iitrpr.ac.in",
+      "phone": "+91-1881-232208"
+    },
+    {
+      "committee": "EERSF & IEEE Coordinator",
+      "name": "Satyam Agarwal",
+      "email": "satyam@iitrpr.ac.in",
+      "phone": "+91-1881-232223"
+    },
+    {
+      "committee": "ACUGS",
+      "name": "K. Ramachandra Sekhar",
+      "email": "sekhar@iitrpr.ac.in",
+      "phone": "+91-1881-232215"
+    },
+    {
+      "committee": "ACRPGS",
+      "name": "A. V. Ravi Teja",
+      "email": "avraviteja@iitrpr.ac.in",
+      "phone": "+91-1881-232205"
+    },
+    {
+      "committee": "ACCEOA",
+      "name": "Mahendra Sakare",
+      "email": "mahendra@iitrpr.ac.in",
+      "phone": "+91-1881-232214"
+    }
+  ],
+  "purchase": [
+    {
+      "name": "Ashwani Sharma",
+      "email": "ashwani.sharma@iitrpr.ac.in",
+      "phone": "+91-1881-232206"
+    },
+    {
+      "name": "A. V. Ravi Teja",
+      "email": "avraviteja@iitrpr.ac.in",
+      "phone": "+91-1881-232205"
+    },
+    {
+      "name": "Bibhu Prasad Padhy",
+      "email": "bibhu@iitrpr.ac.in",
+      "phone": "+91-1881-232207"
+    }
+  ]
+}

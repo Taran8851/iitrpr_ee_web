@@ -1,0 +1,51 @@
+---
+import { Icon } from "astro-icon/components";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import SectionHeading from "../components/ui/SectionHeading.astro";
+import StatCard from "../components/ui/StatCard.astro";
+import BarChart from "../components/about/BarChart.astro";
+import data from "../data/about/placements.json";
+
+const outcomeColors = ["bg-primary", "bg-secondary", "bg-accent"];
+---
+<BaseLayout title="Placements" description="Placement highlights of the Department of Electrical Engineering, IIT Ropar.">
+  <PageHero title="Placements" eyebrow="Placement highlights" lead="Where our graduates go — industry, research and entrepreneurship.">
+    <div class="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4">
+      {data.highlights.map((h) => <StatCard dark value={h.value} suffix={h.suffix} label={h.label} icon={h.icon} />)}
+    </div>
+  </PageHero>
+
+  <Section>
+    <SectionHeading eyebrow="Trends" title="Placement statistics">
+      <span class="badge h-auto gap-1 border-warning bg-warning/15 py-1.5 text-base-content">
+        <Icon name="lucide:info" class="size-4" />Illustrative data — official figures to be updated
+      </span>
+    </SectionHeading>
+
+    <div class="grid gap-6 lg:grid-cols-2">
+      {data.charts.map((c, i) => <BarChart title={c.title} series={c.series} unit={c.unit} color={i ? "secondary" : "primary"} />)}
+    </div>
+
+    <figure class="mt-6 rounded-2xl border border-base-content/10 bg-base-100 p-5 md:p-6" data-aos="fade-up">
+      <figcaption class="mb-4 font-display text-lg font-semibold">{data.outcomes.title}</figcaption>
+      <div class="flex h-5 overflow-hidden rounded-full" aria-hidden="true">
+        {data.outcomes.series.map((s, i) => <div class={outcomeColors[i % 3]} style={`width:${s.value}%`}></div>)}
+      </div>
+      <ul class="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+        {data.outcomes.series.map((s, i) => (
+          <li class="flex items-center gap-2">
+            <span class:list={["size-3 rounded-full", outcomeColors[i % 3]]}></span>{s.label}: <strong>{s.value}%</strong>
+          </li>
+        ))}
+      </ul>
+    </figure>
+
+    <p class="mt-6 text-sm text-base-content/70">
+      The year-wise charts above are illustrative placeholders carried over from the previous website and do not
+      represent official placement records. For verified statistics, contact the department placement coordinator
+      (see <a href="/committe" class="underline decoration-primary decoration-2 underline-offset-2">Committees</a>).
+    </p>
+  </Section>
+</BaseLayout>
