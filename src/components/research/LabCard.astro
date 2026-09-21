@@ -1,0 +1,29 @@
+---
+/** Laboratory card for the filterable /lab grid (solid surface — no blur on long lists). */
+import { Icon } from "astro-icon/components";
+import DomainIcon from "./DomainIcon.astro";
+import { domainByKey, type DomainKey } from "./domains";
+interface Props { name: string; room: string; incharge: string; domain: DomainKey }
+const { name, room, incharge, domain } = Astro.props;
+const d = domainByKey[domain];
+---
+<article
+  data-filter-item
+  data-group={domain}
+  data-text={[name, room, incharge, d.title].join(" ")}
+  class="card border border-base-content/10 bg-base-100 transition duration-300 hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/10"
+>
+  <div class="card-body gap-3 p-5">
+    <div class="flex items-start gap-3">
+      <DomainIcon domain={domain} size="sm" />
+      <div>
+        <h3 class="font-display text-base font-semibold leading-snug">{name}</h3>
+        <p class="text-xs text-base-content/60">{d.title}</p>
+      </div>
+    </div>
+    <ul class="space-y-1.5 text-sm text-base-content/75">
+      <li class="flex gap-2"><Icon name="lucide:map-pin" class="mt-0.5 size-4 shrink-0" aria-hidden="true" /><span><span class="sr-only">Location: </span>{room}</span></li>
+      <li class="flex gap-2"><Icon name="lucide:user" class="mt-0.5 size-4 shrink-0" aria-hidden="true" /><span><span class="sr-only">In-charge: </span>{incharge}</span></li>
+    </ul>
+  </div>
+</article>

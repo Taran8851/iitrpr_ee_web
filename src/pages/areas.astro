@@ -1,0 +1,67 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import SectionHeading from "../components/ui/SectionHeading.astro";
+import GlassCard from "../components/ui/GlassCard.astro";
+import GlowBlobs from "../components/ui/GlowBlobs.astro";
+import StatCard from "../components/ui/StatCard.astro";
+import DomainIcon from "../components/research/DomainIcon.astro";
+import ResearchLinks from "../components/research/ResearchLinks.astro";
+import { domains } from "../components/research/domains";
+import areas from "../data/research/areas.json";
+import labs from "../data/research/labs.json";
+
+const totalAreas = domains.reduce((n, d) => n + d.areas.length, 0);
+// Bento placement: first domain is a tall tile, the other two are wide tiles beside it.
+const tile = ["lg:row-span-2", "lg:col-span-2", "lg:col-span-2"];
+---
+<BaseLayout title="Research Areas" description="Research areas of the Department of Electrical Engineering, IIT Ropar — power engineering, signal processing & communication, microelectronics & VLSI.">
+  <PageHero
+    title="Research Areas"
+    eyebrow="Research"
+    lead={areas.intro}
+    crumbs={[{ label: "Research" }]}
+  >
+    <div class="mt-10 grid max-w-2xl grid-cols-3 gap-3 md:gap-4">
+      <StatCard value={domains.length} label="Domains" dark />
+      <StatCard value={totalAreas} label="Research areas" dark />
+      <StatCard value={labs.length} label="Laboratories" dark />
+    </div>
+  </PageHero>
+
+  <Section>
+    <GlowBlobs />
+    <SectionHeading
+      eyebrow="Where we work"
+      title="Three domains, one department"
+      lead="Our research areas grouped by domain. Each area is actively pursued by one or more faculty groups and their labs."
+    />
+    <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+      {domains.map((d, i) => (
+        <GlassCard class:list={["flex flex-col p-6 md:p-8", tile[i]]}>
+          <div class="flex items-start gap-4">
+            <DomainIcon domain={d.key} />
+            <div>
+              <h3 class="font-display text-xl font-bold md:text-2xl">{d.title}</h3>
+              <p class="mt-1 text-sm text-base-content/70">{d.summary}</p>
+            </div>
+          </div>
+          <ul class="mt-6 flex flex-wrap gap-2" aria-label={`${d.title} research areas`}>
+            {d.areas.map((a) => (
+              <li class="badge h-auto border-base-content/15 bg-base-100/60 px-3 py-1.5 text-left text-sm leading-snug">{a}</li>
+            ))}
+          </ul>
+          <a href={`/lab#${d.key}`} class="link link-hover mt-auto inline-flex items-center gap-1 pt-6 text-sm font-medium">
+            {d.short} labs <span aria-hidden="true">→</span>
+          </a>
+        </GlassCard>
+      ))}
+    </div>
+  </Section>
+
+  <Section tint>
+    <SectionHeading eyebrow="Explore" title="More on research" />
+    <ResearchLinks exclude="/areas" />
+  </Section>
+</BaseLayout>

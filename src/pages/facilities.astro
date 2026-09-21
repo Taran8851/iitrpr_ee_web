@@ -1,0 +1,73 @@
+---
+import { Icon } from "astro-icon/components";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import SectionHeading from "../components/ui/SectionHeading.astro";
+import DomainIcon from "../components/research/DomainIcon.astro";
+import ResearchLinks from "../components/research/ResearchLinks.astro";
+import { domainByKey, type DomainKey } from "../components/research/domains";
+import data from "../data/research/facilities.json";
+
+const sections = data.sections as {
+  domain: DomainKey;
+  title: string;
+  labs: { name: string; incharge: string; url?: string }[];
+}[];
+---
+<BaseLayout title="Research Facilities" description="Advanced research facilities and labs of the Department of Electrical Engineering, IIT Ropar.">
+  <PageHero
+    title="Research Facilities"
+    eyebrow="Research"
+    lead={data.intro}
+    crumbs={[{ label: "Research", href: "/areas" }]}
+  >
+    <nav class="mt-8 flex flex-wrap gap-2" aria-label="Jump to domain">
+      {sections.map((s) => (
+        <a href={`#${s.domain}`} class="btn btn-sm glass-dark rounded-full border-white/15 text-white hover:border-amber-400/60">
+          {domainByKey[s.domain].short}
+        </a>
+      ))}
+    </nav>
+  </PageHero>
+
+  {sections.map((s, i) => (
+    <Section id={s.domain} tint={i % 2 === 1}>
+      <div class="mb-8 flex items-center gap-4" data-aos="fade-up">
+        <DomainIcon domain={s.domain} />
+        <div>
+          <h2 class="font-display text-2xl font-bold md:text-3xl">{s.title}</h2>
+          <p class="text-sm text-base-content/70">{s.labs.length} {s.labs.length === 1 ? "lab" : "labs"}</p>
+        </div>
+      </div>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {s.labs.map((l) => (
+          <article class="card border border-base-content/10 bg-base-100 transition duration-300 hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/10" data-aos="fade-up">
+            <div class="card-body gap-3 p-5">
+              <h3 class="font-display text-lg font-semibold leading-snug">{l.name}</h3>
+              <p class="flex gap-2 text-sm text-base-content/75">
+                <Icon name="lucide:user" class="mt-0.5 size-4 shrink-0" aria-hidden="true" />
+                <span><span class="sr-only">Faculty-in-charge: </span>{l.incharge}</span>
+              </p>
+              <div class="card-actions mt-auto pt-2">
+                {l.url ? (
+                  <a href={l.url} target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                    Visit lab website <Icon name="lucide:external-link" class="size-4" aria-hidden="true" />
+                    <span class="sr-only">(opens in a new tab)</span>
+                  </a>
+                ) : (
+                  <span class="text-sm text-base-content/60">Website coming soon</span>
+                )}
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </Section>
+  ))}
+
+  <Section tint={sections.length % 2 === 1}>
+    <SectionHeading eyebrow="Explore" title="More on research" />
+    <ResearchLinks exclude="/facilities" />
+  </Section>
+</BaseLayout>

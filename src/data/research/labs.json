@@ -1,0 +1,31 @@
+[
+  { "domain": "power", "name": "Renewable Power Modulation (RPM) Lab", "room": "Room 211 (Research)", "incharge": "Dr. K. Ramachandra Sekhar" },
+  { "domain": "power", "name": "Electric Drives Lab", "room": "Room 109 (Research)", "incharge": "Dr. A. V. Ravi Teja" },
+  { "domain": "power", "name": "Synchrophasor Measurement & Research Lab", "room": "Room 209 (Research)", "incharge": "Dr. Ranjana Sodhi" },
+  { "domain": "power", "name": "Machine Design & Electric Drives Lab", "room": "Room 308 (Research)", "incharge": "Dr. Saifullah Payami" },
+  { "domain": "power", "name": "Smart Grid Lab", "room": "Room 406 (Research)", "incharge": "Dr. J. Kalaiselvi" },
+  { "domain": "power", "name": "Dielectric Measurement Lab", "room": "Room 409 (Research)", "incharge": "Prof. C. C. Reddy" },
+  { "domain": "power", "name": "High Voltage Lab", "room": "Room 101 (PG)", "incharge": "Prof. C. C. Reddy" },
+  { "domain": "power", "name": "Electromechanics Lab", "room": "Room 102 (UG)", "incharge": "Dr. Saifullah Payami, Dr. A. V. Ravi Teja" },
+  { "domain": "power", "name": "Power Electronics Lab", "room": "Room 104 (UG/PG)", "incharge": "Dr. K. Ramachandra Sekhar" },
+  { "domain": "power", "name": "Control Engineering Lab", "room": "Room 202 (UG)", "incharge": "Prof. S. Roy" },
+  { "domain": "power", "name": "Power System Lab", "room": "Room 203 (UG)", "incharge": "Dr. Ranjana Sodhi, Dr. Bibhu Prasad Padhy" },
+  { "domain": "power", "name": "Basic Electrical Engineering Lab", "room": "Rooms 412 & 413 (UG)", "incharge": "Dr. Saifullah Payami" },
+
+  { "domain": "spc", "name": "Embedded System Laboratory", "room": "Room 207 (Research/PG/UG)", "incharge": "Prof. J. S. Sahambi" },
+  { "domain": "spc", "name": "Antenna & Microwave Lab", "room": "Room 304 (Research)", "incharge": "Dr. Ashwani Sharma" },
+  { "domain": "spc", "name": "Advance Research in Communication Lab", "room": "Room 323 (Research/PG)", "incharge": "Dr. Suman Kumar, Dr. Satyam Agarwal" },
+  { "domain": "spc", "name": "Computer Vision & Pattern Recognition Lab", "room": "Room 405 (Research)", "incharge": "Dr. Subrahmanyam Murala" },
+  { "domain": "spc", "name": "Communication Research Lab", "room": "Room 411 (Research/PG)", "incharge": "Dr. Sam Darshi, Dr. Brijesh Kumbhani" },
+  { "domain": "spc", "name": "Communication Engineering Lab", "room": "Room 301 (UG)", "incharge": "Dr. Suman Kumar" },
+  { "domain": "spc", "name": "Electromagnetics Lab", "room": "Room 303 (UG)", "incharge": "Dr. Ashwani Sharma" },
+
+  { "domain": "vlsi", "name": "VLSI Design Lab", "room": "Room 302 (Research)", "incharge": "Dr. Devarshi Mrinal Das, Dr. Mahendra Sakare" },
+  { "domain": "vlsi", "name": "Nanoelectronic Devices & Sensor Lab", "room": "Room 401 (Research/PG)", "incharge": "Dr. Brajesh Rawat" },
+  { "domain": "vlsi", "name": "Nanoelectronics Research Lab", "room": "Room 402 (Research)", "incharge": "Prof. Rohit Sharma" },
+  { "domain": "vlsi", "name": "Computational Nanoelectronics Lab", "room": "Room 312 (Research/PG)", "incharge": "Dr. Abhishek Sharma" },
+  { "domain": "vlsi", "name": "Nanoelectronic Devices Lab", "room": "Room 403 (Research)", "incharge": "Dr. Pardeep Duhan" },
+  { "domain": "vlsi", "name": "Analog & Digital Electronics Lab", "room": "Room 201", "incharge": "Dr. Devarshi Mrinal Das, Dr. Pardeep Duhan" },
+  { "domain": "vlsi", "name": "Basic Electronics Lab", "room": "Room 313 (UG)", "incharge": "Dr. Mahendra Sakare" },
+  { "domain": "vlsi", "name": "Devices and Circuits Simulation Lab", "room": "Room 311 (PG)", "incharge": "Dr. Devarshi Mrinal Das, Dr. Brajesh Rawat" }
+]

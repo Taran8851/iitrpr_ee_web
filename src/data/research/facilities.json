@@ -1,0 +1,37 @@
+{
+  "intro": "The Department undertakes a continuous process of setting up experimental and computational facilities for taking up research & development and consultancy activities in various fields, as also to produce state-of-the-art research output. There are several advanced research labs available in the Department which ensure the best and accurate research work is obtained from students as well as faculty members.",
+  "sections": [
+    {
+      "domain": "power",
+      "title": "Power Engineering Labs",
+      "labs": [
+        { "name": "Dielectric Measurements Lab", "incharge": "Dr. C C Reddy", "url": "https://www.iitrpr.ac.in/ee/reddy" },
+        { "name": "Electric Drives and Renewable Energy Lab", "incharge": "Dr. A V Ravi Teja", "url": "https://www.iitrpr.ac.in/electrical/avraviteja" },
+        { "name": "Electric Machine Design and Drives Lab", "incharge": "Dr. Saifullah Payami", "url": "https://www.iitrpr.ac.in/ee/saifullah" },
+        { "name": "Renewable Power Modulation Lab", "incharge": "Dr. K Ramachandra Sekhar", "url": "https://sites.google.com/iitrpr.ac.in/lab/home" },
+        { "name": "Smart Grid Lab", "incharge": "Dr. J Kalaiselvi", "url": "https://sites.google.com/iitrpr.ac.in/pearl/home" },
+        { "name": "SYnchrophasor Measurement And Research (SYMAR) Lab", "incharge": "Dr. Ranjana Sodhi", "url": "https://sites.google.com/iitrpr.ac.in/symarlab/" }
+      ]
+    },
+    {
+      "domain": "spc",
+      "title": "Signal Processing and Communications Labs",
+      "labs": [
+        { "name": "AMR Lab: Antenna and Microwave Research Lab", "incharge": "Dr. Ashwani Sharma", "url": "https://sites.google.com/iitrpr.ac.in/ashwani-sharma/" },
+        { "name": "Communication Research Lab", "incharge": "Dr. Sam Darshi & Dr. Brijesh Kumbhani" },
+        { "name": "Computer Vision & Pattern Recognition Lab", "incharge": "Dr. Subrahmanyam Murala and Dr. Santosh K Vipparthi", "url": "https://iitrpr.cvpr.in/" },
+        { "name": "Advance Research in Communications", "incharge": "Dr. Satyam Agarwal", "url": "https://sites.google.com/site/satyamag88" },
+        { "name": "Embedded Systems Lab", "incharge": "Prof. J S Sahambi", "url": "https://www.iitrpr.ac.in/ee/jssahambi" }
+      ]
+    },
+    {
+      "domain": "vlsi",
+      "title": "Microelectronics and VLSI Design Labs",
+      "labs": [
+        { "name": "Computational-Nanoelectronics Lab", "incharge": "Dr. Abhishek Sharma", "url": "https://sites.google.com/iitrpr.ac.in/computational-nanoelectronics/home" },
+        { "name": "Integrated System Design Lab (ISDL)", "incharge": "Dr. Devarshi Das", "url": "https://www.devarshi.in" },
+        { "name": "Nanoelectronics Research Lab", "incharge": "Dr. Rohit Sharma", "url": "https://sites.google.com/site/rysharma/" }
+      ]
+    }
+  ]
+}
