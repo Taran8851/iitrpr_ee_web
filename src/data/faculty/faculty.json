@@ -1,0 +1,727 @@
+[
+  {
+    "id": "reddy",
+    "name": "C. C. Reddy",
+    "designation": "Professor and Head of the Department",
+    "group": "power",
+    "groupLabel": "Power Engineering",
+    "head": true,
+    "photo": "/images/legacy/44ebde54062a.jpg",
+    "education": [
+      "PhD in Electrical Engineering from (Indian Institute of Science) IISc Bangalore, India",
+      "ME(Master of Engineering) in Electrical Engineering from (Indian Institute of Science) IISc Bangalore, India",
+      "BE from University College of Engineering, Hyderabad"
+    ],
+    "interests": [
+      "The main focus of research is on nanodielectrics for power applications. In addition, ageing, life estimation, power equipment modelling design and development research is being carried out.",
+      "Latest research on spacecharges in modern ultra resistive dielectrics, external current measurement upto fempto ampere level, DC & AC breakdown tests, measurement of capacitance, loss tangent and characterization of dielectric materials is being promoted in this laboratory.",
+      "TEN Ph.D. students already defended his thesis. Currently, Twelve research students are working for their thesis in this lab and are at different stages of their research program."
+    ],
+    "keywords": [
+      "Nanodielectrics for power applications",
+      "Ageing & life estimation",
+      "Power equipment modelling",
+      "Space charge in dielectrics",
+      "Dielectric characterization"
+    ],
+    "room": "IIT Ropar",
+    "email": "reddy@iitrpr.ac.in",
+    "phone": "9417034192",
+    "profile": "/people/reddy",
+    "scholar": "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=GJ38AocAAAAJ",
+    "website": "",
+    "otherLinks": []
+  },
+  {
+    "id": "avraviteja",
+    "name": "A. V. Ravi Teja",
+    "designation": "Associate Professor",
+    "group": "power",
+    "groupLabel": "Power Engineering",
+    "head": false,
+    "photo": "/images/legacy/b745ce9e7e22.jpg",
+    "education": [
+      "PhD in Electrical Engineering from IIT Kharagpur, M.Tech in Machine Drives and Power Electronics Specialization from IIT Kharagpur, B.E. in Electrical and Electronics Engineering from Osmania University."
+    ],
+    "interests": [
+      "Switched reluctance motor drives",
+      "BLDC motor drives",
+      "Active cell balancing",
+      "Battery management systems for electric vehicle applications",
+      "Phase and frequency locked loop algorithms for grid connected converters",
+      "Selective harmonic elimination and mitigation technologies",
+      "Bladeless wind turbines"
+    ],
+    "keywords": [
+      "Switched reluctance motor drives",
+      "BLDC motor drives",
+      "Active cell balancing",
+      "Battery management systems for electric vehicle applications",
+      "Phase and frequency locked loop algorithms for grid connected converters",
+      "Selective harmonic elimination and mitigation technologies",
+      "Bladeless wind turbines"
+    ],
+    "room": "Room No 214, Department of Electrical Engineering, J. C. Bose Block, IIT Ropar",
+    "email": "avraviteja@iitrpr.ac.in",
+    "phone": "2205",
+    "profile": "/people/avraviteja",
+    "scholar": "https://scholar.google.co.in/citations?hl=en&user=wp5W3V8AAAAJ&view_op=list_works&sortby=pubdate",
+    "website": "https://sites.google.com/iitrpr.ac.in/edge",
+    "otherLinks": [
+      "https://www.linkedin.com/in/dr-a-v-ravi-teja-386920260/"
+    ]
+  },
+  {
+    "id": "bibhu",
+    "name": "Bibhu Prasad Padhy",
+    "designation": "Associate Professor",
+    "group": "power",
+    "groupLabel": "Power Engineering",
+    "head": false,
+    "photo": "/images/legacy/4d99ee2a1a63.jpg",
+    "education": [
+      "PhD, Electrical Engineering, Indian Institute of Technology Kanpur, India",
+      "M. Tech, Electrical Engineering, Indian Institute of Technology Roorkee, India.",
+      "B.E. in Electrical Engineering, University College of Engineering, Burla, Odisha, India."
+    ],
+    "interests": [
+      "Power system dynamics & stability studies",
+      "Synchrophasor technology & its applications",
+      "State estimation in power systems",
+      "Smart & Micro grids",
+      "Cybersecurity in smart-grid",
+      "Renewable energy integration"
+    ],
+    "keywords": [
+      "Power system dynamics & stability studies",
+      "Synchrophasor technology & its applications",
+      "State estimation in power systems",
+      "Smart & Micro grids",
+      "Cybersecurity in smart-grid",
+      "Renewable energy integration"
+    ],
+    "room": "213, JC BOSE BUILDING, IIT ROPAR,140001",
+    "email": "bibhu@iitrpr.ac.in",
+    "phone": "2207",
+    "profile": "/people/bibhu",
+    "scholar": "https://scholar.google.co.in/citations?user=Oz5tUxkAAAAJ&hl=en",
+    "website": "",
+    "otherLinks": []
+  },
+  {
+    "id": "sekhar",
+    "name": "K. Ramachandra Sekhar",
+    "designation": "Associate Professor",
+    "group": "power",
+    "groupLabel": "Power Engineering",
+    "head": false,
+    "photo": "/images/legacy/f62a04233853.jpg",
+    "education": [
+      "Ph.D"
+    ],
+    "interests": [
+      "Power electronics",
+      "Renewable energy sources",
+      "microgrids",
+      "control systems",
+      "Drives"
+    ],
+    "keywords": [
+      "Power electronics",
+      "Renewable energy sources",
+      "microgrids",
+      "control systems",
+      "Drives"
+    ],
+    "room": "Room No-118, J C Bose building, IIT Ropar",
+    "email": "sekhar@iitrpr.ac.in",
+    "phone": "+91-188-1232215",
+    "profile": "/people/sekhar",
+    "scholar": "https://scholar.google.com/citations?user=mD5FcEMAAAAJ&hl=en",
+    "website": "",
+    "otherLinks": []
+  },
+  {
+    "id": "kalaiselvi",
+    "name": "Kalaiselvi J",
+    "designation": "Associate Professor",
+    "group": "power",
+    "groupLabel": "Power Engineering",
+    "head": false,
+    "photo": "/images/legacy/ab8a9c85dc2b.jpg",
+    "education": [
+      "PhD - IIT Madras"
+    ],
+    "interests": [
+      "Power Electronics and Drives"
+    ],
+    "keywords": [
+      "Power Electronics and Drives"
+    ],
+    "room": "",
+    "email": "kalaiselvi@iitrpr.ac.in",
+    "phone": "",
+    "profile": "/people/kalaiselvi",
+    "scholar": "https://scholar.google.com/citations?user=glyRncsAAAAJ&hl=en",
+    "website": "https://sites.google.com/iitrpr.ac.in/ampe4re",
+    "otherLinks": []
+  },
+  {
+    "id": "rsodhi",
+    "name": "Ranjana Sodhi",
+    "designation": "Associate Professor",
+    "group": "power",
+    "groupLabel": "Power Engineering",
+    "head": false,
+    "photo": "/images/legacy/493826066def.jpg",
+    "education": [
+      "B.Tech., PhD"
+    ],
+    "interests": [
+      "Power Systems",
+      "Smart Grid",
+      "Synchrophasor Technology",
+      "Wide Area Monitoring Systems",
+      "Power Quality",
+      "State Estimation",
+      "Smart Home",
+      "Cyber Security",
+      "Power Markets",
+      "Electric Vehicles"
+    ],
+    "keywords": [
+      "Power Systems",
+      "Smart Grid",
+      "Synchrophasor Technology",
+      "Wide Area Monitoring Systems",
+      "Power Quality",
+      "State Estimation",
+      "Smart Home",
+      "Cyber Security",
+      "Power Markets",
+      "Electric Vehicles"
+    ],
+    "room": "",
+    "email": "rsodhi@iitrpr.ac.in",
+    "phone": "1881232217",
+    "profile": "/people/rsodhi",
+    "scholar": "https://scholar.google.co.in/citations?user=QGjIzxEAAAAJ&hl=en",
+    "website": "https://sites.google.com/iitrpr.ac.in/symarlab/symar-lab",
+    "otherLinks": []
+  },
+  {
+    "id": "roys",
+    "name": "S. Roy",
+    "designation": "Professor",
+    "group": "power",
+    "groupLabel": "Power Engineering",
+    "head": false,
+    "photo": "/images/legacy/ce85f2a7971e.jpg",
+    "education": [
+      "B Eng (Elect) University of Roorkee 1985, M Eng (Elect) Indian Institute of Science 1987, Ph D (Elect & Comp) University of Calgary 1991."
+    ],
+    "interests": [
+      "Renewable energy",
+      "Power generation",
+      "Energy systems"
+    ],
+    "keywords": [
+      "Renewable energy",
+      "Power generation",
+      "Energy systems"
+    ],
+    "room": "",
+    "email": "roys@iitrpr.ac.in",
+    "phone": "9478967746",
+    "profile": "/people/roys",
+    "scholar": "",
+    "website": "",
+    "otherLinks": []
+  },
+  {
+    "id": "saif.payami",
+    "name": "Saifullah Payami",
+    "designation": "Associate Professor",
+    "group": "power",
+    "groupLabel": "Power Engineering",
+    "head": false,
+    "photo": "/images/legacy/0ee22479bbc2.jpg",
+    "education": [
+      "PhD, M.Tech, B.Tech"
+    ],
+    "interests": [
+      "Electric Motor Design",
+      "Electric motor drives (Induction Motor, Switched Reluctance Motor, IPMSM)",
+      "Multi-phase Motor drive",
+      "Fault diagnosis in electric motors",
+      "Fault diagnosis in high frequency transformer"
+    ],
+    "keywords": [
+      "Electric Motor Design",
+      "Electric motor drives (Induction Motor, Switched Reluctance Motor, IPMSM)",
+      "Multi-phase Motor drive",
+      "Fault diagnosis in electric motors",
+      "Fault diagnosis in high frequency transformer"
+    ],
+    "room": "Room 322, JC Bose Block",
+    "email": "saif.payami@iitrpr.ac.in",
+    "phone": "919760609991",
+    "profile": "/people/saif.payami",
+    "scholar": "https://scholar.google.com.sg/citations?user=oL2oEOAAAAAJ&hl=en",
+    "website": "",
+    "otherLinks": []
+  },
+  {
+    "id": "akumar",
+    "name": "Abhishek Kumar Singh",
+    "designation": "Assistant Professor",
+    "group": "vlsi",
+    "groupLabel": "Microelectronics & VLSI Design",
+    "head": false,
+    "photo": "/images/legacy/2270e706e503.jpg",
+    "education": [
+      "Ph.D. (Nov 2020) – Indian Institute of Technology (BHU) Varanasi, M.Tech (May 2015) – Indian Institute of Technology Delhi, B.Tech (May 2012) – Baba Saheb Dr. Bhimrao Ambedkar College of Agricultural Engineering and Technology Etawah Uttar Pradesh"
+    ],
+    "interests": [
+      "Algorithm-to-Architecture Mapping for DSP Systems with FPGA-based Prototyping and SoC Design and Efficient Hardware Design",
+      "Hardware Security: Design and Detection of Hardware Trojans in VLSI/SoC Systems with emphasis on Secure and Trustworthy Chip Architectures",
+      "Flexible & Printed Electronics and Circuits",
+      "Design and development of gas sensors optical sensors and advanced device technologies",
+      "Solid-State Electronics: Physics-based Device Simulation TCAD (Technology Computer-Aided Design) Compact modeling"
+    ],
+    "keywords": [
+      "Algorithm-to-Architecture Mapping for DSP Systems with FPGA-based Prototyping and SoC Design and Efficient Hardware Design",
+      "Hardware Security: Design and Detection of Hardware Trojans in VLSI/SoC Systems with emphasis on Secure and Trustworthy Chip Architectures",
+      "Flexible & Printed Electronics and Circuits",
+      "Design and development of gas sensors optical sensors and advanced device technologies",
+      "Solid-State Electronics: Physics-based Device Simulation TCAD (Technology Computer-Aided Design) Compact modeling"
+    ],
+    "room": "J C Bose Block, Room No. 117, Department of Electrical Engineering Indian Institute of Technology Ropar Rupnagar, Punjab, PIN – 140001, India",
+    "email": "akumar@iitrpr.ac.in",
+    "phone": "2230",
+    "profile": "/people/akumar",
+    "scholar": "",
+    "website": "",
+    "otherLinks": []
+  },
+  {
+    "id": "r.brajesh",
+    "name": "Brajesh Rawat",
+    "designation": "Associate Professor",
+    "group": "vlsi",
+    "groupLabel": "Microelectronics & VLSI Design",
+    "head": false,
+    "photo": "/images/legacy/bf891c1394af.jpg",
+    "education": [
+      "PhD- Indian Institute of Technology Guwahati"
+    ],
+    "interests": [
+      "Modeling and Simulation of 2-D material-based Devices",
+      "Simulation of Multigate MOSFETs for Sub-5nm Technology node",
+      "Fabrication and Simulation of Memristor for Non-volatile memory and Neuromorphic Computing",
+      "Fabrication and Characterization of Gas Sensors using 2-D Materials",
+      "Fabrication of Biosensor Devices for Real-time Human Health Monitoring",
+      "Embedded System Design for Real-time Air Pollutants Monitoring"
+    ],
+    "keywords": [
+      "Modeling and Simulation of 2-D material-based Devices",
+      "Simulation of Multigate MOSFETs for Sub-5nm Technology node",
+      "Fabrication and Simulation of Memristor for Non-volatile memory and Neuromorphic Computing",
+      "Fabrication and Characterization of Gas Sensors using 2-D Materials",
+      "Fabrication of Biosensor Devices for Real-time Human Health Monitoring",
+      "Embedded System Design for Real-time Air Pollutants Monitoring"
+    ],
+    "room": "314, J C Bose Block",
+    "email": "r.brajesh@iitrpr.ac.in",
+    "phone": "+91-1881-232208",
+    "profile": "/people/r.brajesh",
+    "scholar": "https://scholar.google.co.in/citations?user=T1yqvxIAAAAJ&hl=en",
+    "website": "https://sites.google.com/iitrpr.ac.in/brajeshrawat/",
+    "otherLinks": [
+      "https://www.researchgate.net/profile/Brajesh-Rawat"
+    ]
+  },
+  {
+    "id": "devarshi.das",
+    "name": "Devarshi Mrinal Das",
+    "designation": "Assistant Professor",
+    "group": "vlsi",
+    "groupLabel": "Microelectronics & VLSI Design",
+    "head": false,
+    "photo": "/images/legacy/987618020a98.jpg",
+    "education": [
+      "PhD IIT Bombay 2017, M.Tech IIT Delhi 2010"
+    ],
+    "interests": [
+      "Analog & Mixed-Signal IC Design",
+      "Bio-inspired circuits and systems for AI",
+      "Semiconductor qubit readout circuits for QC",
+      "Chip-scale atomic clock ASIC",
+      "EMI immune circuits for 6G ecosystem"
+    ],
+    "keywords": [
+      "Analog & Mixed-Signal IC Design",
+      "Bio-inspired circuits and systems for AI",
+      "Semiconductor qubit readout circuits for QC",
+      "Chip-scale atomic clock ASIC",
+      "EMI immune circuits for 6G ecosystem"
+    ],
+    "room": "212, JC Bose, Main Campus, IIT Ropar",
+    "email": "devarshi.das@iitrpr.ac.in",
+    "phone": "1881232211",
+    "profile": "/people/devarshi.das",
+    "scholar": "https://scholar.google.com/citations?hl=en&user=K6S8aYMAAAAJ&view_op=list_works&sortby=pubdate",
+    "website": "https://www.devarshi.in/",
+    "otherLinks": [
+      "https://vidwan.inflibnet.ac.in/profile/169410",
+      "https://ieeexplore.ieee.org/author/37085355782"
+    ]
+  },
+  {
+    "id": "mahendra",
+    "name": "Mahendra Sakare",
+    "designation": "Assistant Professor",
+    "group": "vlsi",
+    "groupLabel": "Microelectronics & VLSI Design",
+    "head": false,
+    "photo": "/images/legacy/8414b7d33796.jpg",
+    "education": [
+      "Doctor of Philosophy (Ph.D.) Electrical Engineering Indian Institute of Technology Bombay Mumbai India, Master of Technology (M. Tech.) Microelectronics and VLSI SGSITS Indore Madhya Pradesh India, Bachelor of Engineering (B. E.) Electrical Engineering RGPV Bhopal Madhya Pradesh India."
+    ],
+    "interests": [
+      "CMOS analog integrated circuit design",
+      "High speed CMOS integrated circuits and systems",
+      "ASIC for High frequency applications"
+    ],
+    "keywords": [
+      "CMOS analog integrated circuit design",
+      "High speed CMOS integrated circuits and systems",
+      "ASIC for High frequency applications"
+    ],
+    "room": "Office location: Room no. 315, 2nd floor, J C Bose block. Department of Electrical Engineering Indian Institute of Technology Ropar Rupnagar, Punjab - 140001, India",
+    "email": "mahendra@iitrpr.ac.in",
+    "phone": "+91-1881-23-2214",
+    "profile": "/people/mahendra",
+    "scholar": "https://scholar.google.co.in/citations?user=tNQyN5sAAAAJ&hl=en",
+    "website": "https://sites.google.com/a/iitrpr.ac.in/mahendra/home",
+    "otherLinks": [
+      "https://www.linkedin.com/in/mahendra-sakare-238134b/?originalSubdomain=in",
+      "https://www.researchgate.net/profile/Mahendra-Sakare-2"
+    ]
+  },
+  {
+    "id": "pduhan",
+    "name": "Pardeep Duhan",
+    "designation": "Assistant Professor",
+    "group": "vlsi",
+    "groupLabel": "Microelectronics & VLSI Design",
+    "head": false,
+    "photo": "/images/legacy/7cfac4f0c312.jpg",
+    "education": [
+      "Ph.D. Electrical Engineering Indian Institute of Technology Bombay, M.Tech. Microelectronics Panjab University Chandigarh, M.Sc. Electronic Science Kurukshetra University Kurukshetra"
+    ],
+    "interests": [
+      "Semiconductor Devices",
+      "Simulation of Nanodevices",
+      "Ferroelectric Memory Devices",
+      "Thin Film Transistors",
+      "Electrical characterization",
+      "Gate oxide reliability"
+    ],
+    "keywords": [
+      "Semiconductor Devices",
+      "Simulation of Nanodevices",
+      "Ferroelectric Memory Devices",
+      "Thin Film Transistors",
+      "Electrical characterization",
+      "Gate oxide reliability"
+    ],
+    "room": "319, Department of Electrical Engineering, J C Bose Block, IIT Ropar",
+    "email": "pduhan@iitrpr.ac.in",
+    "phone": "+91-1881-232228",
+    "profile": "/people/pduhan",
+    "scholar": "https://scholar.google.com/citations?user=Y9ZKiYYAAAAJ&hl=en",
+    "website": "https://www.iitrpr.ac.in/pduhan/",
+    "otherLinks": []
+  },
+  {
+    "id": "rohit",
+    "name": "Rohit Sharma",
+    "designation": "Professor",
+    "group": "vlsi",
+    "groupLabel": "Microelectronics & VLSI Design",
+    "head": false,
+    "photo": "/images/legacy/523697136b5c.jpg",
+    "education": [],
+    "interests": [],
+    "keywords": [],
+    "room": "Room 321, Department of Electrical Engineering, IIT Ropar, Rupnagar, 140001, Punjab, India",
+    "email": "rohit@iitrpr.ac.in",
+    "phone": "+911881232219",
+    "profile": "/people/rohit",
+    "scholar": "https://scholar.google.com/citations?user=6QT6IE4AAAAJ&hl=en",
+    "website": "https://sites.google.com/site/rysharma/home",
+    "otherLinks": [
+      "https://www.linkedin.com/in/rohit-sharma-9509b5197/"
+    ]
+  },
+  {
+    "id": "ashwani.sharma",
+    "name": "Ashwani Sharma",
+    "designation": "Associate Professor",
+    "group": "spc",
+    "groupLabel": "Signal Processing & Communication",
+    "head": false,
+    "photo": "/images/legacy/9f950da019c7.jpg",
+    "education": [
+      "PhD University of Desuto Bilbao Spain 2015, Masters ETSIT Technical University of Madrid UPM Spain 2013, BTech The LNM Institute of Information Technology Jaipur India 2010"
+    ],
+    "interests": [
+      "Antenna Engineering and Communication Systems",
+      "Wireless power and data transfer",
+      "RF Energy Harvesting",
+      "Antenna design for IoT and 5G/B5G",
+      "Near-field forming and its applications",
+      "Static and Dynamic Wireless Charging Solutions for Drones/Electric Vehicles"
+    ],
+    "keywords": [
+      "Antenna Engineering and Communication Systems",
+      "Wireless power and data transfer",
+      "RF Energy Harvesting",
+      "Antenna design for IoT and 5G/B5G",
+      "Near-field forming and its applications",
+      "Static and Dynamic Wireless Charging Solutions for Drones/Electric Vehicles"
+    ],
+    "room": "316, JCB Block, IIT Ropar, Main Campus",
+    "email": "ashwani.sharma@iitrpr.ac.in",
+    "phone": "91-1881-232206",
+    "profile": "/people/ashwani.sharma",
+    "scholar": "https://scholar.google.com/citations?user=lWIvByAAAAAJ&hl=en",
+    "website": "https://sites.google.com/iitrpr.ac.in/ashwani-sharma/",
+    "otherLinks": []
+  },
+  {
+    "id": "brijesh",
+    "name": "Brijesh Kumbhani",
+    "designation": "Assistant Professor",
+    "group": "spc",
+    "groupLabel": "Signal Processing & Communication",
+    "head": false,
+    "photo": "/images/legacy/3204062044a6.jpg",
+    "education": [
+      "PhD, BE"
+    ],
+    "interests": [
+      "RIS assisted communication systems",
+      "CRAN for vehicular communication"
+    ],
+    "keywords": [
+      "RIS assisted communication systems",
+      "CRAN for vehicular communication"
+    ],
+    "room": "Room No. 217, J C Bose Block",
+    "email": "brijesh@iitrpr.ac.in",
+    "phone": "1881232209",
+    "profile": "/people/brijesh",
+    "scholar": "",
+    "website": "",
+    "otherLinks": []
+  },
+  {
+    "id": "jsahambi",
+    "name": "Jyotindra Singh Sahambi",
+    "designation": "Professor",
+    "group": "spc",
+    "groupLabel": "Signal Processing & Communication",
+    "head": false,
+    "photo": "",
+    "education": [],
+    "interests": [],
+    "keywords": [],
+    "room": "Room 218",
+    "email": "jsahambi@iitrpr.ac.in",
+    "phone": "+91-1881-232213",
+    "profile": "/people/jsahambi",
+    "scholar": "",
+    "website": "",
+    "otherLinks": []
+  },
+  {
+    "id": "sam",
+    "name": "Sam Darshi",
+    "designation": "Associate Professor",
+    "group": "spc",
+    "groupLabel": "Signal Processing & Communication",
+    "head": false,
+    "photo": "/images/legacy/02d92c81cf6e.jpg",
+    "education": [
+      "B.Tech. with honors (M.J.P.R.U.), PhD (IIT Guwahati)"
+    ],
+    "interests": [
+      "Next generation multiple access techniques",
+      "Smart vehicles",
+      "Advanced underwater communication"
+    ],
+    "keywords": [
+      "Next generation multiple access techniques",
+      "Smart vehicles",
+      "Advanced underwater communication"
+    ],
+    "room": "Room No. 215, J C Bose Block, Electrical Engineering Department, IIT Ropar, PUNJAB.",
+    "email": "sam@iitrpr.ac.in",
+    "phone": "01881-23-2215",
+    "profile": "/people/sam",
+    "scholar": "https://scholar.google.com/citations?user=GR9xOH4AAAAJ&hl=en",
+    "website": "https://sites.google.com/a/iitrpr.ac.in/dr-sam-darshi/home?authuser=0",
+    "otherLinks": []
+  },
+  {
+    "id": "skvipparthi",
+    "name": "Santosh Kumar Vipparthi",
+    "designation": "Associate Professor",
+    "group": "spc",
+    "groupLabel": "Signal Processing & Communication",
+    "head": false,
+    "photo": "/images/legacy/e6090a3de5e5.jpg",
+    "education": [
+      "Ph.D, M.Tech (Honors)"
+    ],
+    "interests": [
+      "Computer vision",
+      "Affective Computing",
+      "Deep Learning"
+    ],
+    "keywords": [
+      "Computer vision",
+      "Affective Computing",
+      "Deep Learning"
+    ],
+    "room": "IIT Ropar",
+    "email": "skvipparthi@iitrpr.ac.in",
+    "phone": "9549658135",
+    "profile": "/people/skvipparthi",
+    "scholar": "https://scholar.google.co.in/citations?hl=en&user=JWSfd7YAAAAJ&view_op=list_works&sortby=pubdate",
+    "website": "https://skvipparthi.github.io/",
+    "otherLinks": [
+      "https://visionintelligence.github.io/"
+    ]
+  },
+  {
+    "id": "satyam",
+    "name": "Satyam Agarwal",
+    "designation": "Associate Professor",
+    "group": "spc",
+    "groupLabel": "Signal Processing & Communication",
+    "head": false,
+    "photo": "/images/legacy/d66637bafad1.jpg",
+    "education": [
+      "PhD IIT Delhi 2016, MTech IIT Kanpur 2012, BTech Thapar University 2010"
+    ],
+    "interests": [
+      "Wireless Communications",
+      "6G",
+      "AI/ML in Communications",
+      "Distributed Systems"
+    ],
+    "keywords": [
+      "Wireless Communications",
+      "6G",
+      "AI/ML in Communications",
+      "Distributed Systems"
+    ],
+    "room": "",
+    "email": "satyam@iitrpr.ac.in",
+    "phone": "01881-232223",
+    "profile": "/people/satyam",
+    "scholar": "https://scholar.google.com/citations?user=ceUqwN4AAAAJ&hl=en",
+    "website": "https://sites.google.com/iitrpr.ac.in/satyam",
+    "otherLinks": []
+  },
+  {
+    "id": "subbumurala",
+    "name": "Subrahmanyam Murala",
+    "designation": "Associate Professor",
+    "group": "spc",
+    "groupLabel": "Signal Processing & Communication",
+    "head": false,
+    "photo": "/images/legacy/5eb67f4d8e2b.jpg",
+    "education": [
+      "PhD, M.Tech"
+    ],
+    "interests": [
+      "Computer Vision",
+      "Deep Learning",
+      "Object Detection"
+    ],
+    "keywords": [
+      "Computer Vision",
+      "Deep Learning",
+      "Object Detection"
+    ],
+    "room": "",
+    "email": "subbumurala@iitrpr.ac.in",
+    "phone": "9549658135",
+    "profile": "/people/subbumurala",
+    "scholar": "https://scholar.google.co.in/citations?user=5lGnNQoAAAAJ&hl=en",
+    "website": "",
+    "otherLinks": []
+  },
+  {
+    "id": "suman",
+    "name": "Suman Kumar",
+    "designation": "Associate Professor",
+    "group": "spc",
+    "groupLabel": "Signal Processing & Communication",
+    "head": false,
+    "photo": "/images/legacy/c4d3e8a6cdb5.jpg",
+    "education": [
+      "PhD in Electrical Engineering from IIT Madras"
+    ],
+    "interests": [
+      "Internet of Things",
+      "Low power Wireless Communication"
+    ],
+    "keywords": [
+      "Internet of Things",
+      "Low power Wireless Communication"
+    ],
+    "room": "Room no: 318, J C Bose Block, Main Campus, IIT Ropar",
+    "email": "suman@iitrpr.ac.in",
+    "phone": "8124660891",
+    "profile": "/people/suman",
+    "scholar": "https://scholar.google.com/citations?user=zUAA1f9ajZ4C&hl=en",
+    "website": "",
+    "otherLinks": []
+  },
+  {
+    "id": "raghav.sharma",
+    "name": "Raghav Sharma",
+    "designation": "Inspire Faculty",
+    "group": "fellows",
+    "groupLabel": "Faculty Fellows",
+    "head": false,
+    "photo": "/images/legacy/75e5b72b9a7b.jpg",
+    "education": [
+      "B. Tech in Electronics and Communication (2006-2010), M. Tech in Nanoscience and Technology (2010-2012), Ph.D (with distinction) (2012-2017), IIT Delhi."
+    ],
+    "interests": [
+      "Nanodevices Fabrication",
+      "Topological Quantum Materials",
+      "Spintronics",
+      "RF and microwave applications"
+    ],
+    "keywords": [
+      "Nanodevices Fabrication",
+      "Topological Quantum Materials",
+      "Spintronics",
+      "RF and microwave applications"
+    ],
+    "room": "Room No. 201, JC Bose Block, Department of Electrical engineering",
+    "email": "raghav.sharma@iitrpr.ac.in",
+    "phone": "9650162192",
+    "profile": "/people/raghav.sharma",
+    "scholar": "https://scholar.google.com/citations?user=iNvWAccAAAAJ&hl=en",
+    "website": "https://www.theraghavsharma.info/",
+    "otherLinks": []
+  }
+]
