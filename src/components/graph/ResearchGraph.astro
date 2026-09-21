@@ -32,10 +32,10 @@ const domains = [
         ))}
       </div>
       <label class="label cursor-pointer gap-2 px-1 text-xs text-white/80">
-        <input data-rg-papers type="checkbox" class="toggle toggle-xs toggle-warning" />
+        <input data-rg-papers type="checkbox" class="toggle toggle-xs toggle-warning" checked />
         Papers
       </label>
-      <select data-rg-type class="select select-xs w-28 border-white/15 bg-white/5 text-white" aria-label="Paper type" disabled>
+      <select data-rg-type class="select select-xs w-28 border-white/15 bg-white/5 text-white" aria-label="Paper type">
         <option value="all">All types</option>
         <option value="Journal">Journals</option>
         <option value="Conference">Conferences</option>
@@ -124,7 +124,7 @@ const domains = [
     new Promise((r) => setTimeout(r, 1500)),
   ]);
 
-  const state = { domain: "all", papers: false, type: "all", year: 0, selected: null as N | null, hover: null as N | null };
+  const state = { domain: "all", papers: true, type: "all", year: 0, selected: null as N | null, hover: null as N | null };
 
   function visiblePapers(): GraphPaper[] {
     return data.papers.filter((p) => {
@@ -185,7 +185,7 @@ const domains = [
   const isLit = (id: string) => { const f = focus(); return !f || f.id === id || !!neighbours.get(f.id)?.has(id); };
   const linkLit = (l: L) => { const f = focus(); return !!f && (nid(l.source) === f.id || nid(l.target) === f.id); };
 
-  const radius = (n: N) => (n.kind === "faculty" ? 7 + Math.min(10, Math.sqrt(n.weight) * 1.1) : n.kind === "paper" ? 2.4 : 4);
+  const radius = (n: N) => (n.kind === "faculty" ? 7 + Math.min(10, Math.sqrt(n.weight) * 1.1) : n.kind === "paper" ? 3.2 : 4);
 
   const graph = new ForceGraph<N, L>(el)
     .backgroundColor("rgba(0,0,0,0)")
@@ -286,7 +286,7 @@ const domains = [
       panel.innerHTML = `
         <p class="text-xs font-semibold uppercase tracking-[0.18em] text-primary">Explore</p>
         <h3 class="mt-1 text-2xl font-bold">Who works on what</h3>
-        <p class="mt-2 text-sm text-base-content/70">Professors are linked to the topics of their papers — thicker links mean more papers. Hover to trace a connection, click to see details, turn on <b>Papers</b> to see every publication.</p>
+        <p class="mt-2 text-sm text-base-content/70">Professors are linked to the topics of their papers — thicker links mean more papers. Hover to trace a connection, click to see details, small dots are papers (hover for the title, click for details). Switch off <b>Papers</b> for a cleaner professor–topic view.</p>
         <div class="mt-4 grid grid-cols-3 gap-2 text-center">
           <div class="rounded-xl bg-base-200 p-3"><p class="font-display text-2xl font-bold">${data.faculty.length}</p><p class="text-xs text-base-content/60">Professors</p></div>
           <div class="rounded-xl bg-base-200 p-3"><p class="font-display text-2xl font-bold">${data.topics.length}</p><p class="text-xs text-base-content/60">Topics</p></div>
