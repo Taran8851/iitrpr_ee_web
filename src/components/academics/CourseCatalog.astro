@@ -1,0 +1,66 @@
+---
+/**
+ * Filterable course list for one programme: search + Core/Elective chips + category select,
+ * courses grouped under category headings. Filtering is done by site.ts (data-filter-*);
+ * the small script below only hides category headings whose courses are all filtered out.
+ */
+import SearchInput from "../ui/SearchInput.astro";
+import EmptyState from "../ui/EmptyState.astro";
+import CourseCard from "./CourseCard.astro";
+import type { Program } from "./types";
+interface Props { program: Program }
+const { program } = Astro.props;
+const total = program.groups.reduce((n, g) => n + g.courses.length, 0);
+const chips = [
+  { value: "all", label: "All" },
+  { value: "core", label: "Core" },
+  { value: "elective", label: "Elective" },
+];
+---
+<div data-filter-root data-course-catalog class="space-y-8">
+  <div class="flex flex-col gap-3 rounded-2xl border border-base-content/10 bg-base-200/60 p-4 md:flex-row md:flex-wrap md:items-center">
+    <SearchInput placeholder={`Search ${program.short} courses by code or title…`} />
+    <div class="join" role="group" aria-label="Course type">
+      {chips.map((c) => (
+        <button type="button" data-filter-group={c.value} class:list={["btn btn-sm join-item", c.value === "all" && "btn-active"]}>
+          {c.label}
+        </button>
+      ))}
+    </div>
+    {program.groups.length > 1 && (
+      <select data-filter-select="category" class="select select-sm w-full md:w-auto" aria-label="Category">
+        <option value="all">All categories</option>
+        {program.groups.map((g) => <option value={g.title}>{g.title}</option>)}
+      </select>
+    )}
+    <p class="text-sm text-base-content/70 md:ms-auto" aria-live="polite">
+      Showing <span data-filter-count class="font-semibold text-base-content">{total}</span> of {total}
+    </p>
+  </div>
+
+  {program.groups.map((g) => (
+    <section data-course-group aria-label={g.title}>
+      <h3 class="mb-3 flex items-center gap-3 text-lg font-semibold">
+        <span class="h-5 w-1 rounded-full bg-primary"></span>
+        {g.title}
+        <span class="badge badge-ghost badge-sm">{g.courses.length}</span>
+      </h3>
+      <div class="space-y-2">
+        {g.courses.map((c) => <CourseCard course={c} category={g.title} />)}
+      </div>
+    </section>
+  ))}
+
+  <EmptyState filter message="No courses match your search." />
+</div>
+
+<script>
+  // Hide a category heading when none of its courses are visible (runs after site.ts filtering).
+  const sync = (root: Element) =>
+    root.querySelectorAll<HTMLElement>("[data-course-group]").forEach((g) => {
+      g.hidden = !g.querySelector("[data-filter-item]:not([hidden])");
+    });
+  document.querySelectorAll("[data-course-catalog]").forEach((root) => {
+    ["input", "change", "click"].forEach((ev) => root.addEventListener(ev, () => sync(root)));
+  });
+</script>

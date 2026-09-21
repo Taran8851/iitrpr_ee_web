@@ -1,0 +1,67 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import StatCard from "../components/ui/StatCard.astro";
+import CourseCatalog from "../components/academics/CourseCatalog.astro";
+import { Icon } from "astro-icon/components";
+import data from "../data/academics/courses.json";
+import type { Program } from "../components/academics/types";
+
+const programs = data.programs as Program[];
+const count = (p: Program) => p.groups.reduce((n, g) => n + g.courses.length, 0);
+const listed = programs.filter((p) => count(p) > 0);
+const unlisted = programs.filter((p) => count(p) === 0);
+const total = listed.reduce((n, p) => n + count(p), 0);
+const specialisations = programs.find((p) => p.id === "mtech")?.groups.length ?? 0;
+---
+
+<BaseLayout
+  title="Course Catalogue"
+  description="Courses offered by the Department of Electrical Engineering, IIT Ropar — B.Tech and M.Tech curricula with L-T-P-S-C credits."
+>
+  <PageHero
+    title="Course Catalogue"
+    eyebrow="Academics"
+    lead="Core and elective courses across our programmes — search by code or title, filter by type, and expand a course for details."
+    crumbs={[{ label: "Academics" }]}
+  >
+    <div class="mt-10 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+      <StatCard dark value={total} label="Courses listed" icon="lucide:library" />
+      {listed.map((p) => <StatCard dark value={count(p)} label={`${p.short} courses`} icon={p.icon} />)}
+      {specialisations > 0 && <StatCard dark value={specialisations} label="M.Tech specialisations" icon="lucide:zap" />}
+    </div>
+  </PageHero>
+
+  <Section>
+    <div role="tablist" class="tabs tabs-border" aria-label="Programmes">
+      {listed.map((p, i) => (
+        <>
+          <input
+            type="radio"
+            name="course-program"
+            role="tab"
+            class="tab font-semibold"
+            aria-label={`${p.short} (${count(p)})`}
+            checked={i === 0}
+          />
+          <div role="tabpanel" class="tab-content pt-8">
+            <h2 class="sr-only">{p.name} courses</h2>
+            <CourseCatalog program={p} />
+          </div>
+        </>
+      ))}
+    </div>
+
+    {unlisted.length > 0 && (
+      <div class="mt-10 flex items-start gap-3 rounded-2xl border border-dashed border-base-content/20 p-5 text-sm text-base-content/70">
+        <Icon name="lucide:info" class="mt-0.5 size-5 shrink-0 text-primary" />
+        <p>
+          Course lists for the {unlisted.map((p) => p.name).join(" and ")} programmes are not yet published here.
+          See <a href="/addmissions" class="link link-primary">Admissions</a> or
+          <a href="/contact" class="link link-primary">contact the department office</a>.
+        </p>
+      </div>
+    )}
+  </Section>
+</BaseLayout>

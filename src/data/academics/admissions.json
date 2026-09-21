@@ -1,0 +1,45 @@
+{
+  "intro": "The department offers a Bachelor's programme, a Master of Technology and a Doctoral (Ph.D.) programme to build technical and research excellence in specialised avenues of Electrical Engineering.",
+  "fallback": {
+    "text": "Details will be announced — see institute admissions.",
+    "href": "http://www.iitrpr.ac.in/how-apply",
+    "label": "How to apply"
+  },
+  "programs": [
+    {
+      "id": "btech",
+      "short": "B.Tech",
+      "program": "Bachelor of Technology (B.Tech.)",
+      "icon": "lucide:graduation-cap",
+      "text": "IIT Ropar offers a 4-year B.Tech. programme in Electrical Engineering. Admission is through the IIT Joint Entrance Examination (JEE).",
+      "links": [
+        { "label": "JEE Advanced", "href": "https://www.jeeadv.ac.in/" },
+        { "label": "IIT Ropar", "href": "https://iitrpr.ac.in/" }
+      ]
+    },
+    {
+      "id": "mtech",
+      "short": "M.Tech",
+      "program": "Master of Technology (M.Tech.)",
+      "icon": "lucide:cpu",
+      "text": "",
+      "links": [{ "label": "IIT Ropar", "href": "https://iitrpr.ac.in/" }]
+    },
+    {
+      "id": "ms",
+      "short": "M.S.",
+      "program": "Master of Science (M.S.)",
+      "icon": "lucide:flask-conical",
+      "text": "",
+      "links": []
+    },
+    {
+      "id": "phd",
+      "short": "Ph.D.",
+      "program": "Doctor of Philosophy (Ph.D.)",
+      "icon": "lucide:book-open",
+      "text": "",
+      "links": []
+    }
+  ]
+}
