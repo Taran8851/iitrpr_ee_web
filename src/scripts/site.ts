@@ -68,7 +68,7 @@ function initFilters() {
         const okSearch = !q || text.includes(q);
         const okGroup = group === "all" || groups.includes(group);
         const okSelects = selects.every((s) => {
-          const key = s.dataset.filterSelect!;
+          const key = s.dataset.filterSelect!.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
           return s.value === "all" || item.dataset[key] === s.value;
         });
         const show = okSearch && okGroup && okSelects;
