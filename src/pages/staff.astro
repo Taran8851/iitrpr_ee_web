@@ -1,0 +1,38 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import PersonCard from "../components/ui/PersonCard.astro";
+import SearchInput from "../components/ui/SearchInput.astro";
+import EmptyState from "../components/ui/EmptyState.astro";
+import staff from "../data/people-staff/staff.json";
+---
+<BaseLayout title="Staff" description="Technical and administrative staff of the Department of Electrical Engineering, IIT Ropar.">
+  <PageHero
+    title="Staff"
+    eyebrow="People"
+    lead="The technical and office staff who keep our laboratories, teaching facilities and department office running."
+    crumbs={[{ label: "People" }]}
+  />
+
+  <Section>
+    <div data-filter-root>
+      <div class="mb-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <SearchInput placeholder="Search by name, designation, room or email…" />
+        <p class="text-sm text-base-content/70">
+          Showing <span data-filter-count>{staff.length}</span> of {staff.length} staff members
+        </p>
+      </div>
+
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {staff.map((s) => (
+          <PersonCard name={s.name} role={s.designation} photo={s.photo} room={s.room} email={s.email} phone={s.phone} />
+        ))}
+      </div>
+
+      <div class="mt-6">
+        <EmptyState filter message="No staff member matches your search." />
+      </div>
+    </div>
+  </Section>
+</BaseLayout>

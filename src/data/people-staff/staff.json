@@ -1,0 +1,13 @@
+[
+  { "name": "Kamaljeet Singh", "designation": "Technical Superintendent", "room": "Room 301, EE Department", "email": "kamaljeets@iitrpr.ac.in", "phone": "+91-1881-232202", "photo": "/images/legacy/1b65a7095b0c.jpg" },
+  { "name": "Abhishek Kotnala", "designation": "Junior Technical Superintendent", "room": "Room 211, J C Bose Building", "email": "abhishek.kotnala@iitrpr.ac.in", "phone": "+91-1881-232202", "photo": "/images/legacy/e9532a1f2761.png" },
+  { "name": "Kundan Kumar", "designation": "Assistant", "room": "HoD Office", "email": "office-ee-1@iitrpr.ac.in", "phone": "+91-1881-232202", "photo": "/images/legacy/0d0f7bba1faa.jpg" },
+  { "name": "Dilbag Singh Dhillon", "designation": "Junior Lab Assistant", "room": "Room 101, EE Department", "email": "dilbag.singh@iitrpr.ac.in", "phone": "+91-1881-232202", "photo": "/images/legacy/5eb835282af2.jpg" },
+  { "name": "Ravindra Kumar", "designation": "Senior Lab Assistant", "room": "Room 313, EE Department", "email": "ravindra.kumar@iitrpr.ac.in", "phone": "+91-1881-232202", "photo": "/images/legacy/876c3e6f0eb9.png" },
+  { "name": "Jaspreet Singh", "designation": "Junior Lab Assistant", "room": "Room 413, EE Department", "email": "jaspreet.singh@iitrpr.ac.in", "phone": "+91-1881-232202", "photo": "/images/legacy/3df5c3ed581e.jpg" },
+  { "name": "Rajanikant Lal", "designation": "Junior Lab Assistant", "room": "Room 304, EE Department", "email": "rajanikant.lal@iitrpr.ac.in", "phone": "+91-1881-232202", "photo": "/images/legacy/6e2bccf130e6.jpg" },
+  { "name": "Bandana", "designation": "Office Assistant", "room": "EE Office", "email": "eeoffice2@iitrpr.ac.in", "phone": "+91-1881-232202", "photo": "/images/legacy/7a66d89c64e7.png" },
+  { "name": "Maan Singh", "designation": "Office Attendant", "room": "EE Office", "email": "smaan8505@gmail.com", "phone": "+91-1881-232202", "photo": "/images/legacy/c599d19f4d82.png" },
+  { "name": "Anish Kumar Nadda", "designation": "Junior Lab Assistant", "email": "anish.nadda@iitrpr.ac.in", "phone": "+91-1881-232202", "photo": "/images/legacy/c29642126759.jpg" },
+  { "name": "Gaurav Kumar", "designation": "Junior Lab Assistant", "email": "gaurav@iitrpr.ac.in", "phone": "+91-1881-232202", "photo": "/images/legacy/41f3a7069fe2.png" }
+]

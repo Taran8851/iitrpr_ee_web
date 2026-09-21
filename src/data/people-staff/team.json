@@ -1,0 +1,12 @@
+{
+  "current": [
+    { "name": "Nishant Malhotra", "department": "Electrical Engineering", "batch": "2022", "note": "Third-year student", "photo": "/images/legacy/1721bfabc860.jpg" },
+    { "name": "Manajigari Harshitha", "department": "Electrical Engineering", "batch": "2022", "note": "Third-year student", "photo": "/images/legacy/e686b15e12d3.jpg" },
+    { "name": "Jay Goel", "department": "Electrical Engineering", "batch": "2022", "note": "Third-year student", "photo": "/images/legacy/ed8ce59cf4bb.jpg" },
+    { "name": "Tuteja Trimansingh Parvindersingh", "department": "Engineering Physics", "batch": "2023", "note": "Second-year student", "photo": "/images/legacy/3e83a4d11e6f.jpg" }
+  ],
+  "former": [
+    { "name": "Dishant", "department": "Electrical Engineering", "batch": "2020", "note": "Now at Nuclear Power Corporation of India Limited (NPCIL)", "photo": "/images/legacy/0fd2153c75ee.jpg" },
+    { "name": "Prachi", "department": "Electrical Engineering", "batch": "2020", "note": "Now at Salesforce", "photo": "/images/legacy/5109d16177a7.jpg" }
+  ]
+}

@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/ui/PageHero.astro";
+import Section from "../components/ui/Section.astro";
+import SectionHeading from "../components/ui/SectionHeading.astro";
+import PersonCard from "../components/ui/PersonCard.astro";
+import team from "../data/people-staff/team.json";
+
+type Member = {
+  name: string;
+  department: string;
+  batch: string;
+  note?: string;
+  photo?: string;
+  links?: { label: string; href: string; icon?: string }[];
+};
+const current: Member[] = team.current;
+const former: Member[] = team.former;
+---
+<BaseLayout title="Website Team" description="Students who build and maintain the Department of Electrical Engineering, IIT Ropar website.">
+  <PageHero
+    title="Website Team"
+    eyebrow="People"
+    lead="Students who design, build and maintain the department website."
+    crumbs={[{ label: "People" }]}
+  />
+
+  <Section>
+    <SectionHeading eyebrow="Now" title="Current Team" />
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {current.map((m) => (
+        <PersonCard name={m.name} role={m.department} photo={m.photo} tags={[`Batch ${m.batch}`]} links={m.links}>
+          {m.note && <p class="text-sm text-base-content/70">{m.note}</p>}
+        </PersonCard>
+      ))}
+    </div>
+  </Section>
+
+  <Section tint>
+    <SectionHeading eyebrow="Alumni" title="Former Team Members" />
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {former.map((m) => (
+        <PersonCard name={m.name} role={m.department} photo={m.photo} tags={[`Batch ${m.batch}`]} links={m.links}>
+          {m.note && <p class="text-sm text-base-content/70">{m.note}</p>}
+        </PersonCard>
+      ))}
+    </div>
+  </Section>
+</BaseLayout>
